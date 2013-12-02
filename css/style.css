@@ -56,6 +56,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     border-radius: 4px;
   }
 }
+.breadcrumb {
+	padding: 5px 10px;
+	margin: 10px 0 0 82px;
+}
 footer {
 	padding-top: 40px;
 	padding-bottom: 30px;
@@ -67,7 +71,6 @@ footer {
 	right:0;
 	bottom:0;
 }
-
 
 
 /* Twitter Typeahead

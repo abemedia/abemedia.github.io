@@ -4,10 +4,11 @@
   <body>
   {% include nav-main.html %}
   <div class="container">
+    <div class="breadcrumb pull-right">(+44) 01273 906 909 (Brighton)</div>
     {% include breadcrumbs.html %}
     <div id="main" role="main">
       <div class="row">
-        {% if leftcontent %}
+        {% if page.left %}
         <div class="col-md-{{ page.left.size }}">
           {% capture left %}side-{{ page.left.content }}.html{% endcapture %}
           {% include {{left}} %}
@@ -16,7 +17,7 @@
         <div class="col-md-{{ 12 | minus: page.left.size | minus: page.right.size }}" role="main">
           {{ content }}
         </div>
-        {% if rightcontent %}
+        {% if page.right %}
         <div class="col-md-{{ page.right.size }}">
           {% capture right %}side-{{ page.right.content }}.html{% endcapture %}
           {% include {{right}} %}

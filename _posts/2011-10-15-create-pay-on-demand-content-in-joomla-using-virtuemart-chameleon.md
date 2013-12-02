@@ -34,7 +34,7 @@ alter table jos_vm_product add (
 
 Now that we have our new custom fields in the Virtuemart database we need to be able to edit their contents from within Virtuemart. To do so open administrator/components/com_virtuemart/html/product.product_form.php and around line 233 find:
 
-{% highlight html php %}
+{% highlight html+php %}
    <tr class="row1"> 
       <td width="21%"><div style="text-align:right;font-weight:bold;">
       	<?php echo $VM_LANG->_('PHPSHOP_PRODUCT_FORM_URL') ?>:</div>
@@ -47,7 +47,7 @@ Now that we have our new custom fields in the Virtuemart database we need to be 
 
 Insert the following straight below:
 
-{% highlight html php %}
+{% highlight html+php %}
   <tr class="row2"> 
   	<td width="21%"><div style="text-align:right;font-weight:bold;">
     	<?php echo $VM_LANG->_('PHPSHOP_PRODUCT_PREMIUM_CONTENT') ?>:</div>
@@ -92,7 +92,7 @@ Next insert the premium content where you want it displayed on your product deta
 
 The following example displays how you could use this for a pay-on-demand video site:
 
-{% highlight html php %}
+{% highlight html+php %}
 <video width="640" height="480" controls="controls">
   <source src="/<?php echo (!defined("ALREADY_PURCHASED")) ? $product_premium_teaser : $product_premium_content; ?>.mp4" type="video/mp4" />
   <source src="/<?php echo (!defined("ALREADY_PURCHASED")) ? $product_premium_teaser : $product_premium_content; ?>.ogg" type="video/ogg" />

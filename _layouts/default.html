@@ -1,33 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>{% include header.html %}</head>
-  {% assign leftsize = page.left.size %}
-  {% assign leftcontent = page.left.content %}
-  {% assign rightsize = page.right.size %}
-  {% assign rightcontent = page.right.content %}
-  {% if page.category == 'extensions' or page.category == 'docs'%}
-  {% assign leftsize = 3 %}
-  {% assign leftcontent = 'toc' %}
-  {% endif %}
   <body>
   {% include nav-main.html %}
-  {% if page.lead %}{% include top-lead.html %}{% endif %}
+  {% include breadcrumbs.html %}
   <div class="container">
     <div id="main" role="main">
       <div class="row">
         {% if leftcontent %}
-        <div class="col-md-{{ leftsize }}">
-          {% capture left %}side-{{ leftcontent }}.html{% endcapture %}
+        <div class="col-md-{{ page.left.size }}">
+          {% capture left %}side-{{ page.left.content }}.html{% endcapture %}
           {% include {{left}} %}
         </div>
         {% endif %}
-        <div class="col-md-{{ 12 | minus: leftsize | minus: rightsize }}" role="main">
-          {% include breadcrumbs.html %}
+        <div class="col-md-{{ 12 | minus: page.left.size | minus: page.right.size }}" role="main">
           {{ content }}
         </div>
         {% if rightcontent %}
-        <div class="col-md-{{ rightsize }}">
-          {% capture right %}side-{{ rightcontent }}.html{% endcapture %}
+        <div class="col-md-{{ page.right.size }}">
+          {% capture right %}side-{{ page.right.content }}.html{% endcapture %}
           {% include {{right}} %}
         </div>
         {% endif %}

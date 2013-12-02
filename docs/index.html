@@ -1,0 +1,22 @@
+---
+layout: default
+title: Documentations
+slug: docs
+category: docs
+sitemap:
+    priority: 0.7
+    changefreq: monthly
+    lastmod: 2013-11-09T21:45:00
+---
+<h2 class="page-header">{{page.title}}</h2>
+{% for post in site.pages %}
+  {% if post.category == page.category and post.slug != post.category  %}
+  {% capture itemurl %}{{ post.url | remove:'.html' | remove:'index' }}{% endcapture %}
+<div class="media"><a class="pull-left thumbnail" href="{{ itemurl }}"><img src="{{ post.image }}" alt="" width="90" height="90"></a>
+  <div class="media-body">
+    <h3 class="media-heading"><a href="{{ itemurl }}">{{ post.title }}</a></h3>
+    {{ post.summary | replace: 'URL', itemurl }}
+  </div>
+</div>
+  {% endif %}
+{% endfor %}

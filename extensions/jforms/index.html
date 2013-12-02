@@ -1,0 +1,80 @@
+---
+layout: default
+title: JForms Module
+slug: extensions/jforms
+lead: "Powerful AJAX forms for Joomla."
+category: extensions
+version: "1.6.2"
+image: http://donjoomla.com/images/donjoomla.png
+compat:
+    j25: true
+    j30: true
+sitemap:
+    priority: 0.7
+    changefreq: monthly
+    lastmod: 2013-11-09T21:45:00
+---
+<h2 class="vanish">Description</h2>
+<div class="row">
+  <div class="col-sm-7">
+    <p class="lead">donJoomla JForms Module is a small but powerful extension which builds AJAX forms from XML using Joomla's inbuilt JForm class.</p>
+	<p>It can be used as a basic AJAX contact form, but, being easily extensible with plugins, it could be used as a sign-up form, questionnaire or any form of data collection you can imagine.</p>
+  </div>
+  <div class="col-sm-5">
+    <div class="box">
+      <p class="h3">Features</p>
+	  <ul class="list-unstyled">
+	    <li>Create custom forms using XML</li>
+	    <li>AJAX form submission</li>
+	    <li>Send the form data in customised emails</li>
+	    <li>Extensible with plugins</li>
+	    <li>Uses Joomla! core validation</li>
+	    <li>Supports Bootstrap 2 &amp; 3</li>
+	  </ul>
+    </div>
+  </div>
+</div>
+<h2 class="page-header">Demo</h2>
+<p class="lead">This demo will send you an email. Don't worry, your details won't get stored anywhere.</p>
+<iframe class="demoFrame" src="http://demo.donjoomla.com/jforms-demo?tmpl=frame" style="min-height:437px;"></iframe>
+<h2 class="page-header">Download</h2>
+<p class="lead">If you're planning to use JForms plugins download the full package*. If however you plan to use it only as a contact form, download download the <code>module only</code> version.</p>
+<p><a class="btn btn-success btn-lg" href="{{site.pkg_jforms.dl}}"><span class="glyphicon glyphicon-save"></span> Download Latest Full Package <span class="label label-success">v{{ site.mod_jforms.ver }}</span></a> <a class="btn btn-success btn-lg" href="{{site.mod_jforms.dl}}"><span class="glyphicon glyphicon-save"></span> Download Module Only <span class="label label-success">v{{ site.mod_jforms.ver }}</span></a></p>
+<p>*The <code>JForms Full Package</code> contains the latest version of JForms including all available plugins.</p>
+<h2 class="page-header">Documentation</h2>
+<a class="btn btn-default btn-lg" href="{{ site.url }}/docs/jforms"><span class="glyphicon glyphicon-file"></span> Read Documentation</a>
+<h2 class="page-header">Plugins</h2>
+<div class="alert alert-warning"><b>Important!</b> JForms Plugin Framework needs to be installed &amp; published to use JForms Plugins. <a class="btn btn-warning pull-right" href="{{site.plg_system_jforms.dl}}"><span class="glyphicon glyphicon-save"></span> Download Framework</a> <br>
+If you installed the JForms Full Package you already have this and just need to publish it.</div>
+<div class="media"><a class="pull-left thumbnail" href="{{ site.url }}/extensions/jforms/google-spreadsheets"><img src="{{ site.url }}/images/extensions/jforms_googlespreadsheets.jpg" alt="" width="90" height="90"></a>
+  <div class="media-body">
+    <h3 class="media-heading"><a href="{{ site.url }}/extensions/jforms/google-spreadsheets">Google Spreadsheet Export</a></h3>
+    <p>Save submitted data to a Google Spreadsheet.</p>
+  <a class="btn btn-success" href="{{site.plg_jforms_googlespreadsheet.dl}}"><span class="glyphicon glyphicon-save"></span> Download Google Spreadsheets Plugin <span class="label label-success">v{{site.plg_jforms_googlespreadsheet.ver}}</span></a></div>
+</div>
+<div class="media"><a class="pull-left thumbnail" href="{{ site.url }}/extensions/jforms/your-mailing-list-provider"><img src="{{ site.url }}/images/extensions/jforms_ymlp.png" alt="" width="90" height="90"></a>
+  <div class="media-body">
+    <h3 class="media-heading"><a href="{{ site.url }}/extensions/jforms/your-mailing-list-provider">Your Mailing List Provider</a></h3>
+    <p>Subscribe user to a YMLP mailing list.</p>
+  <a class="btn btn-success" href="{{site.plg_jforms_ymlp.dl}}"><span class="glyphicon glyphicon-save"></span> Download YMLP Plugin <span class="label label-success">v{{site.plg_jforms_ymlp.ver}}</span></a></div>
+</div>
+<h2 class="page-header">Tutorials</h2>
+<ul>
+  {% for post in site.posts %}
+  {% if post.categories contains 'tutorials' and post.tags contains 'jforms' %}
+  <li>
+    <a href='{{post.url}}'>{{post.title}}</a>
+    {{post.excerpt}}
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+<h2 class="page-header">Requirements</h2>
+<ul>
+  <li>Joomla 2.5 or 3.x</li>
+  <li>PHP 5.3+</li>
+  <li>MySQL 5+</li>
+</ul>
+<h2 class="page-header">Copyright and license</h2>
+<p>Copyright 2013 Adam Bouqdib under <a href="{{ site.url }}/license">GNU GPL 2</a></p>
+<p>This product is not affiliated with or endorsed by the Joomla Project. It is not supported or warranted by the Joomla Project or Open Source Matters. The Joomla logo is used under a limited license granted by Open Source Matters the trademark holder in the United States and other countries.</p>

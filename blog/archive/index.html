@@ -1,0 +1,32 @@
+---
+layout: default
+title: Blog Archive
+category: blog
+slug: archive
+sitemap:
+    priority: 0.7
+    changefreq: monthly
+    lastmod: 2013-11-09T05:12:00
+---
+<h1>Blog Archive</h1>
+{% for post in site.posts %}
+  {% unless post.next %}
+    <h2 class="page-header">{{ post.date | date: '%Y' }}</h2>
+  {% else %}
+    {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+    {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+    {% if year != nyear %}
+      {% if forloop.index != 1 %}</ul>{% endif %}
+      <h2 class="page-header">{{ post.date | date: '%Y' }}</h2>
+    {% endif %}
+  {% endunless %}
+		
+  {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
+  {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
+    {% if month != nmonth %}
+      {% if forloop.index != 1 %}</ul>{% endif %}
+      <h3>{{ post.date | date: "%B '%y" }}</h3><ul>
+    {% endif %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  <time>{{ post.date | date: "%e %B %Y" }}</time>
+{% endfor %}

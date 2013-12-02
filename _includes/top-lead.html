@@ -1,0 +1,28 @@
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="item active">
+        <div class="container">
+          <div class="carousel-caption"> 
+            {% if page.category == "extensions" %}
+            <div class="pull-right text-right">
+              <p>Latest release: <span class="label label-success">v{{ page.version }}</span><br>
+                {% if page.compat %}
+                Compatible with: 
+                {% if page.compat.j25 %}
+                <img src="{{ site.url }}/images/compat_25.png" alt="">
+		{% endif %}
+		{% if page.compat.j30 %}
+                <img src="{{ site.url }}/images/compat_30.png" alt="">
+                {% endif %}
+                {% endif %}
+              </p>
+              <a class="btn btn-lg btn-success" href="#Download" role="button">
+                <span class="glyphicon glyphicon-save"></span> Download now</a></div>
+            {% endif %}
+            <h1>{{ page.title }}</h1>
+            <p>{{ page.lead }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

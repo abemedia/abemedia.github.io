@@ -1,0 +1,22 @@
+        <div class="nav-menu">
+          <ul class="nav nav-list">
+            <li{% if page.slug == 'blog' %} class="active"{% endif %}><a href="{{ site.url }}/blog">All</a></li>
+            {% for item in site.categories %}
+            {% unless item[0] == 'blog' %} 
+            <li{% if page.categories contains item[0] or item[0] == page.slug %} class="active"{% endif %}><a href="{{ site.url }}/blog/{{ item[0] }}">{{ item[0] | capitalize }}</a></li>
+            {% endunless %}
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="box">
+          <h3>Archive</h3>
+          <ul class="list-unstyled">
+            {% for post in site.posts %}
+            {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
+            {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
+            {% if month != nmonth %}
+            <li><a href="{{ site.url }}/blog/archive/#{{ post.date | date: "%B'%y" }}">{{ post.date | date: "%B %Y" }}</a></li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+        </div>

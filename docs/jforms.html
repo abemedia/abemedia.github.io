@@ -1,0 +1,108 @@
+---
+layout: default
+title: JForms Documentation
+slug: docs/jforms
+category: docs
+image: http://donjoomla.com/images/donjoomla.png
+summary: '<ul><li><a href="URL#Installation&configuration">Installation &amp; configuration</a></li> <li><a href="URL#UsingJFormsplugins">Using JForms plugins</a></li> <li><a href="URL#Creatingcustomforms">Creating custom forms</a></li></ul>'
+sitemap:
+    priority: 0.7
+    changefreq: monthly
+    lastmod: 2013-11-09T08:34:00
+---
+<h1>{{ page.title }}</h2>
+<div class="alert alert-info"><b>Please note:</b> These docs are a work in progress and do not currently cover all of JForms features.</div>
+<h2 class="page-header">Download JForms</h2>
+<p class="lead">If you're planning to use JForms plugins download the full package. If however you plan to use it only as a contact form, download download the <code>module only</code> version.</p>
+<a class="btn btn-success btn-lg" href="{{ site.pkg_jforms.dl }}"><span class="glyphicon glyphicon-save"></span> Download Full Package <span class="label label-success">v{{ site.pkg_jforms.ver }}</span></a> <a class="btn btn-success btn-lg" href="{{ site.mod_jforms.dl }}"><span class="glyphicon glyphicon-save"></span> Download Module Only <span class="label label-success">v{{ site.mod_jforms.ver }}</span></a> 
+<h2 class="page-header"> Installation &amp; configuration</h2>
+<p>Install the module in Joomla, then open it in the module manager. Publish it to the position and pages you require, then click the options tabs where you will see following settings:</p>
+<h3>Basic Options</h3>
+<p><strong>Form</strong><br>
+  Select a form XML to use for your module. To use your own forms upload them to <code>/modules/mod_jforms/forms/</code>.</p>
+<p><strong>Introduction text</strong><br>
+  Enter text to display above the form</p>
+<p><strong>Thank you message</strong><br>
+  Enter a message which will be displayed after successful form submission.</p>
+<p><strong>Submit button text</strong><br>
+  Enter the text you would like to appear on the submit button.</p>
+<h3>Email Settings</h3>
+<p>Set up and customise the email sent by JForms.</p>
+<p><strong>Send email</strong><br>
+  Choose whether to send the form data via email. If you select no all following settings will be ignored.</p>
+<p><strong>Email destination</strong><br>
+  Enter a valid email address where the form data will be sent to.<br>
+  Whilst you could have the <strong>destination email</strong> static eg. <code>you@example.com</code> it can also be dynamic to be sent to a user entered value.<br>
+  If for example you want to send the email to the user and you have an email form field you could enter <code>{email}</code>.</p>
+<p><strong>Email subject</strong><br>
+  Enter a subject for the email that will be sent. The same goes for the <strong>email subject</strong> as for the email destination so it could be static eg. <code>Website Enquiry</code>, or use form data eg. <code>{subject}</code>.</p>
+<p><strong>Email text</strong><br>
+  This is where you create the template of the email. It supports HTML and just like the destination &amp; subject you can use placeholders for the form data for example <code>{email}</code>. To display all the form data in a list use <code>{fields}</code>.<br>
+  If for example your form fields were name, email, subject &amp; message you could format your email in the following way:</p>
+{% highlight html %}
+<p>You have just received a new message from <strong>{name}</strong> - {email} regarding {subject}</p>
+<p>{message}</p>
+{% endhighlight %}
+<h3>AJAX Settings</h3>
+<p><strong>Use Ajax to send form</strong><br>
+  Select this option to submit the form without reloading the page.</p>
+<p><strong>Custom Functions</strong><br>
+  Execute custom JavaScript functions. To use your own functions upload them to /modules/mod_jforms/functions/.</p>
+<h2 class="page-header">Using JForms plugins</h2>
+<p class="lead"><b>Important!</b> <code>JForms Framework</code> system plugin is required to run JForms plugins.</p>
+<p><img src="{{ site.url }}/images/docs/jforms/publish_framework.jpg" class="img-responsive"></p>
+<p>If you installed the <code>JForms Full Package</code> you already have this and just need to publish it, if not, download it now.</p>
+<p><a class="btn btn-success" href="https://github.com/donJoomla/jforms/releases/download/1.6.1/plg_system_jforms_v1.1.zip"><span class="glyphicon glyphicon-save"></span> Download JForms Framework <span class="label label-success">v1.1</span></a></p>
+<hr>
+<h3>Google Spreadsheets Plugin</h3>
+<p>Install the Google Spreadsheets plugin in Joomla, then configure &amp; publish it in your plugin manager. 
+  You will need to enter your Google username and password.</p>
+<div class="alert alert-danger">
+  <h4>Important information for GMail Users</h4>
+  <p>If you are using GMail (rather than Google Apps) you will get blocked on the first call of the API. 
+    To fix this, open a JForms module in your module manager after setting up the plugin. You will see an error. 
+    Now head over to [gmail.com] and sign in, you should see a notification about access to your account. 
+    Authorise access and you're good to go ;)</p>
+</div>
+<p>Open the JForms module which you wish to use in your module manager, click on the options tab and scroll to the bottom. 
+  You will see a new set of options called "Google Spreadsheets" with the following options:</p>
+<p><strong>Save to spreadsheet</strong><br>
+  Choose whether to send the form data to a Google Spreasheet. If you select no all following settings will be ignored.</p>
+<p><strong>Select spreadsheet</strong><br>
+  Select which spreadsheet to save to form data to.</p>
+<p>Note: Use a blank sheet as all the row headers etc. will be created automatically.</p>
+<hr>
+<h3>YMLP Plugin Instructions</h3>
+<p>Install the plugin in Joomla, then configure &amp; publish it in your plugin manager. 
+  You will need your username and API key from ymlp.com</p>
+<p>Open the JForms module which you wish to use in your module manager, click on the options tab and scroll to the bottom. You will see a new set of options called "Your Mailing List Provider" with the following options:</p>
+<p><strong>Save to mailing list</strong><br>
+  Choose whether to use the YMLP plugin for this form. If you select no all following settings will be ignored.</p>
+<p><strong>Overrule blacklist</strong><br>
+  If you select yes the user will be subscribed, even if he or she previously unsubscribed from your mailing list.</p>
+<p><strong>Select mailing list</strong><br>
+  Choose which mailing list to subscribe the user to.</p>
+<p><strong>Map YMLP fields</strong><br>
+  Map your form fields to the fields in YMLP. Use the field names you specified your form XML for example <code>{email}</code>. 
+  Notice how the name is in squiggly brackets, this tells the plugin to use the data from the form. 
+  To pass a static value to, for example, track where they signed up from, just enter standard text eg. <code>Website Contact Form</code>.</p>
+<h2 class="page-header">Creating custom forms</h2>
+<p>The module builds forms from XML using Joomla's inbuilt JForm class. 
+  Here is an example of a form XML file.</p>
+{% highlight xml %}
+<?xml version="1.0" encoding="UTF-8"?>
+<form>  
+    <fields>  
+        <fieldset addfieldpath="/modules/mod_jforms/elements">  
+            <field name="name" type="text" default="" label="Name" description="Your name" required="true" />  
+            <field name="email" type="email" default="" label="Email" description="Your email address" required="true" validate="email" />  
+            <field name="phone" type="tel" default="" label="Phone" description="Your phone number" validate="tel" />  
+            <field name="message" type="textarea" default="" label="Message" description="Leave a message" required="true" rows="10" />  
+        </fieldset>  
+   </fields>  
+</form>
+{% endhighlight %}
+<p>This would output a form with fields for name, email &amp; message.</p>
+<p>To add extra form fields simply add them within the fieldset tags following the same format.<br>
+  For a list of all the available field types visit <a href="http://docs.joomla.org/Standard_form_field_types">http://docs.joomla.org/Standard_form_field_types</a></p>
+<p>Once you have created your XML file, upload it to <code>/modules/mod_jforms/forms/</code>, then open JForms in the module manager and click on the Options tab. Your newly created form is now available in the form dropdown on the basic options in the module manager.</p>

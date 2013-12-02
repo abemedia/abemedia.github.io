@@ -1,0 +1,29 @@
+---
+layout: home
+title: Search
+slug: search
+sitemap:
+    priority: 0.7
+    changefreq: monthly
+    lastmod: 2013-11-11T10:00:00
+---
+<div id="search_results"><center>Loading...</center></div>
+<script src="//www.google.com/jsapi"></script>
+<script>
+    var pageTitle = document.title;
+    google.load('search', '1', {
+        language: 'en',
+        nocss: true
+    });
+    google.setOnLoadCallback(function () {
+        var searchControl = new google.search.CustomSearchControl('014812861817308790526:-rrfwxely2g');
+        searchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+        searchControl.draw(document.getElementById("search_results"));
+        searchControl.setSearchStartingCallback({}, function () {
+            var q = searchControl.getInputQuery();
+            pushState("{{page.url | remove: '.html'}}?q=" + q);
+            document.title = q + ' ' + pageTitle;
+        })
+        searchControl.execute($.QueryString["q"]);
+    }, true);
+</script>

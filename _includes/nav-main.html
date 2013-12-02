@@ -1,0 +1,35 @@
+<a class="sr-only" href="#main">Skip to main content</a> 
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="navbar">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+      <a class="navbar-brand" href="{{ site.url }}"><img src="{{ site.url }}/images/logo.png" alt=""/> donJoomla</a></div>
+    <nav class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li{% if page.slug == "home" %} class="active"{% endif %}><a href="{{ site.url }}">Home</a>
+        </li>
+        <li{% if page.category == "extensions" %} class="active"{% endif %} class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Extensions <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li{% if page.slug == "extensions/jforms" %} class="active"{% endif %}> <a href="{{ site.url }}/extensions/jforms">JForms</a></li>
+          <li{% if page.slug == "extensions/jforms/google-spreadsheets" %} class="active"{% endif %}> <a href="{{ site.url }}/extensions/jforms/google-spreadsheets">JForms Google Spreadsheets Plugin</a></li> 
+          <li{% if page.slug == "extensions/jforms/your-mailing-list-provider" %} class="active"{% endif %}> <a href="{{ site.url }}/extensions/jforms/your-mailing-list-provider">JForms YMLP Plugin</a></li>
+        </ul>
+        </li>
+        <li{% if page.category == "docs" %} class="active"{% endif %} class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Docs <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li{% if page.slug == "docs/jforms" %} class="active"{% endif %}><a href="{{ site.url }}/docs/jforms">JForms</a></li>
+        </ul>
+        </li>
+        <li{% if post.category == "blog" or page.category == "blog" %} class="active"{% endif %}><a href="{{ site.url }}/blog">Blog</a></li>
+        <li{% if page.slug == "about" %} class="active"{% endif %}><a rel="author" href="{{ site.url }}/about">About</a></li>
+        <!--li{% if page.slug == "contact" %} class="active"{% endif %}><a href="{{ site.url }}/contact">Contact</a></li-->
+      </ul>
+      <form action="{{ site.url }}/search" method="get" class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input class="form-control" type="search" name="q" placeholder="{{post.category}}Search..." autocomplete="off" id="search_control">
+        </div>
+        <button type="submit" class="btn btn-primary" value="Search"><span class="fa fa-search"></span></button>
+      </form>
+    </nav>
+  </div>
+</div>

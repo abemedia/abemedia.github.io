@@ -8,21 +8,19 @@
       <ul class="nav navbar-nav">
         <li{% if page.slug == "home" %} class="active"{% endif %}><a href="{{ site.url }}">Home</a>
         </li>
-        <li{% if page.category == "extensions" %} class="active"{% endif %} class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Extensions <b class="caret"></b></a>
+        <li{% if page.category == "extensions" %} class="active"{% endif %} class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Services <b class="caret"></b></a>
         <ul class="dropdown-menu">
-          <li{% if page.slug == "extensions/jforms" %} class="active"{% endif %}> <a href="{{ site.url }}/extensions/jforms">JForms</a></li>
-          <li{% if page.slug == "extensions/jforms/google-spreadsheets" %} class="active"{% endif %}> <a href="{{ site.url }}/extensions/jforms/google-spreadsheets">JForms Google Spreadsheets Plugin</a></li> 
-          <li{% if page.slug == "extensions/jforms/your-mailing-list-provider" %} class="active"{% endif %}> <a href="{{ site.url }}/extensions/jforms/your-mailing-list-provider">JForms YMLP Plugin</a></li>
+          <li{% if page.slug == "" %} class="active"{% endif %}> <a href="{{ site.url }}/">Web Design &amp; Development</a></li>
+          <li{% if page.slug == "" %} class="active"{% endif %}> <a href="{{ site.url }}/">Ecommerce (Online Shops)</a></li>
+          <li{% if page.slug == "" %} class="active"{% endif %}> <a href="{{ site.url }}/">Content Management Systems</a></li>
+          <li{% if page.slug == "" %} class="active"{% endif %}> <a href="{{ site.url }}/">Online Marketing</a></li>
+          <li{% if page.slug == "" %} class="active"{% endif %}> <a href="{{ site.url }}/">Graphic Design &amp; Branding</a></li>
         </ul>
         </li>
-        <li{% if page.category == "docs" %} class="active"{% endif %} class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Docs <b class="caret"></b></a>
-        <ul class="dropdown-menu">
-          <li{% if page.slug == "docs/jforms" %} class="active"{% endif %}><a href="{{ site.url }}/docs/jforms">JForms</a></li>
-        </ul>
-        </li>
-        <li{% if post.category == "blog" or page.category == "blog" %} class="active"{% endif %}><a href="{{ site.url }}/blog">Blog</a></li>
-        <li{% if page.slug == "about" %} class="active"{% endif %}><a rel="author" href="{{ site.url }}/about">About</a></li>
-        <!--li{% if page.slug == "contact" %} class="active"{% endif %}><a href="{{ site.url }}/contact">Contact</a></li-->
+        <li{% if page.slug == "" %} class="active"{% endif %}> <a href="{{ site.url }}/">Portfolio</a></li>
+        <li{% if page.slug == "" %} class="active"{% endif %}> <a href="{{ site.url }}/">Blog</a></li>
+        <li{% if page.slug == "" %} class="active"{% endif %}> <a href="{{ site.url }}/">About</a></li>
+        <li{% if page.slug == "" %} class="active"{% endif %}> <a href="{{ site.url }}/">Contact</a></li>
       </ul>
       <form action="{{ site.url }}/search" method="get" class="navbar-form navbar-right" role="search">
         <div class="form-group">

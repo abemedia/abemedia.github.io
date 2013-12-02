@@ -17,10 +17,10 @@
           <li{% if page.slug == "" %} class="active"{% endif %}> <a href="{{ site.url }}/">Graphic Design &amp; Branding</a></li>
         </ul>
         </li>
-        <li{% if page.slug == "" %} class="active"{% endif %}> <a href="{{ site.url }}/portfolio.html">Portfolio</a></li>
-        <li{% if page.slug == "" %} class="active"{% endif %}> <a href="{{ site.url }}/blog.html">Blog</a></li>
-        <li{% if page.slug == "" %} class="active"{% endif %}> <a href="{{ site.url }}/about-us.html">About</a></li>
-        <li{% if page.slug == "" %} class="active"{% endif %}> <a href="{{ site.url }}/contact-us.html">Contact</a></li>
+        <li{% if page.slug == "portfolio" %} class="active"{% endif %}> <a href="{{ site.url }}/portfolio.html">Portfolio</a></li>
+        <li{% if page.slug == "blog" %} class="active"{% endif %}> <a href="{{ site.url }}/blog.html">Blog</a></li>
+        <li{% if page.slug == "about-us" %} class="active"{% endif %}> <a href="{{ site.url }}/about-us.html">About</a></li>
+        <li{% if page.slug == "contact-us" %} class="active"{% endif %}> <a href="{{ site.url }}/contact-us.html">Contact</a></li>
       </ul>
       <form action="{{ site.url }}/search" method="get" class="navbar-form navbar-right" role="search">
         <div class="form-group">

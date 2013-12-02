@@ -134,13 +134,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
 	background-color: #23879E;
 }
-#main {
-	background:#f9f9f9;
-	position: relative;
-	padding: 30px;
-	border-top: 5px solid #FF9833;
-	margin-top: -5px;
-}
 .box {
 	background: #fff;
 	padding: 15px;

@@ -1,3 +1,3 @@
-[donjoomla.com](http://donjoomla.com)
+[ABE Media](http://abemedia.co.uk)
 ===================
-donJoomla was created by [ABE Media](http://abemedia.co.uk) to offer the free Joomla! extensions we already use to supercharge our clients' Joomla! websites.
+This is going to be the new web presence of ABE Media

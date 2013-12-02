@@ -34,7 +34,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	background: -moz-linear-gradient(top, rgb(56, 56, 56) 0%, rgb(41, 41, 41) 50%, rgb(188, 113, 38) 50%, rgb(245, 147, 49) 91%, rgb(254, 152, 51) 100%);
 	background: linear-gradient(top, rgb(56, 56, 56) 0%, rgb(41, 41, 41) 50%, rgb(188, 113, 38) 50%, rgb(245, 147, 49) 91%, rgb(254, 152, 51) 100%);
 	background-size:100% 200%;
-	text-shadow: #666 0px 1px 0px;
 	border-right:1px solid #454545;
 }
 .navbar .navbar-nav>li.active>a {

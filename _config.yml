@@ -1,20 +1,5 @@
-name: donJoomla
-description: Free, open-source Joomla! Extensions.
+name: ABE Media
+description: Web Design Brighton | Ecommerce Website Design | Brighton Web Designer
 baseurl: /
-url: http://donjoomla.com
+url: http://abemedia.github.io
 timezone: Europe/London
-mod_jforms:
-    dl: https://github.com/donJoomla/jforms/releases/download/v1.6.2/mod_jforms_162_j25.zip
-    ver: 1.6.2
-pkg_jforms: 
-    dl: https://github.com/donJoomla/jforms/releases/download/v1.6.2/pkg_jforms_full_162_j25.zip
-    ver: 1.6.2
-plg_system_jforms: 
-    dl: https://github.com/donJoomla/jforms/releases/download/v1.6.2/plg_system_jforms_111_j25.zip
-    ver: 1.1.1
-plg_jforms_googlespreadsheet:
-    dl: https://github.com/donJoomla/jforms/releases/download/v1.6.2/plg_jforms_googlespreadsheet_121_j25.zip
-    ver: 1.2.1
-plg_jforms_ymlp: 
-    dl: https://github.com/donJoomla/jforms/releases/download/v1.6.2/plg_jforms_ymlp_111_j25.zip
-    ver: 1.1.1

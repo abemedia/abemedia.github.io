@@ -1,6 +1,6 @@
 html, body {
-	position:relative;
-	min-height:100%;
+	min-height: 100%;
+	position: relative;
 }
 body {
 	color: #5a5a5a;

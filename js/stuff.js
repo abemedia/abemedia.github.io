@@ -3,20 +3,6 @@
 // stuff for the things...
 $.getScript('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.2/js/bootstrap.min.js');
 
-// sticky header
-waypointCallback = function () {
-    $('#main').waypoint(function (direction) {
-        if (direction == 'down') {
-            $('#sidebar').addClass('affix');
-        } else if (direction == 'up') {
-            $('#sidebar').removeClass('affix');
-        }
-    }, {
-        offset: 70
-    });
-}
-$.getScript('//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js', waypointCallback);
-
 // search autocomplete
 typeaheadCallback = function () {
     $('#search_control').typeahead({
@@ -58,17 +44,6 @@ if ($(".toc").length > 0) {
     });
 }
 
-// iframe auto-height
-if ($(".demoFrame").length > 0) {
-    $.getScript('{{ site.url }}/js/iframeheight.min.js', function () {
-        $(".demoFrame").iframeHeight();
-    });
-    /*  should it be like this? I don't know...
-    $(".demoFrame").each(function(index, element) {
-        $(element).iframeHeight();
-    }); */
-}
-
 // jQuery $_GET plugin
 (function ($) {
     $.QueryString = (function (a) {
@@ -92,6 +67,7 @@ function pushState(path) {
     }
 }
 
+/*
 // twitter follow button
 $.getScript('//platform.twitter.com/widgets.js');
 
@@ -106,3 +82,4 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
 $zopim(function() {
     $zopim.livechat.button.show();
 });
+*/

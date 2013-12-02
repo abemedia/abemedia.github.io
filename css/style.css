@@ -28,14 +28,16 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .navbar {
 	border: none;
 }
-.navbar .navbar-nav>li>a {
-	color:#ddd;
-	font-size: 18px;
+.navbar .navbar-nav>li>a, .navbar .navbar-nav>li.active>a {
 	background-image: -webkit-linear-gradient(top, rgb(56, 56, 56) 0%, rgb(41, 41, 41) 50%, rgb(188, 113, 38) 50%, rgb(245, 147, 49) 91%, rgb(254, 152, 51) 100%);
 	background-image: -o-linear-gradient(top, rgb(56, 56, 56) 0%, rgb(41, 41, 41) 50%, rgb(188, 113, 38) 50%, rgb(245, 147, 49) 91%, rgb(254, 152, 51) 100%);
 	background-image: -ms-linear-gradient(top, rgb(56, 56, 56) 0%, rgb(41, 41, 41) 50%, rgb(188, 113, 38) 50%, rgb(245, 147, 49) 91%, rgb(254, 152, 51) 100%);
 	background-image: -moz-linear-gradient(top, rgb(56, 56, 56) 0%, rgb(41, 41, 41) 50%, rgb(188, 113, 38) 50%, rgb(245, 147, 49) 91%, rgb(254, 152, 51) 100%);
 	background-image: linear-gradient(top, rgb(56, 56, 56) 0%, rgb(41, 41, 41) 50%, rgb(188, 113, 38) 50%, rgb(245, 147, 49) 91%, rgb(254, 152, 51) 100%);
+}
+.navbar .navbar-nav>li>a {
+	color:#ddd;
+	font-size: 18px;
 	background-size:100% 200%;
 	border-right:1px solid #454545;
 }
@@ -43,7 +45,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	color:#f93;
 	text-shadow: #6C3806 0px 1px 0px;
 	background-position: 0 2px;
-	background-image: inherit;
 }
 .navbar-inverse .navbar-nav>.dropdown>a .caret {
 	border-top-color: #ddd;

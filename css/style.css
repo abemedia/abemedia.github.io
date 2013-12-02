@@ -59,6 +59,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	color:#fff;
 	text-shadow: #c60 0px 1px 0px;
 }
+.navbar .navbar-nav>li.active:hover>a {
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+}
 .navbar-brand {
 	padding: 0 15px;
 	margin: 0 0 -32px 0;

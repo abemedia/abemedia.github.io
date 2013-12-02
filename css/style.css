@@ -1,5 +1,6 @@
-html {
+html, body {
 	position:relative;
+	min-height:100%;
 }
 body {
 	color: #5a5a5a;

@@ -34,7 +34,7 @@ alter table jos_vm_product add (
 
 Now that we have our new custom fields in the Virtuemart database we need to be able to edit their contents from within Virtuemart. To do so open administrator/components/com_virtuemart/html/product.product_form.php and around line 233 find:
 
-{% highlight php %}
+{% highlight html %}
    <tr class="row1"> 
       <td width="21%"><div style="text-align:right;font-weight:bold;">
       	<?php echo $VM_LANG->_('PHPSHOP_PRODUCT_FORM_URL') ?>:</div>
@@ -47,23 +47,23 @@ Now that we have our new custom fields in the Virtuemart database we need to be 
 
 Insert the following straight below:
 
-{% highlight php %}
-<tr class="row2"> 
+{% highlight html %}
+  <tr class="row2"> 
   	<td width="21%"><div style="text-align:right;font-weight:bold;">
     	<?php echo $VM_LANG->_('PHPSHOP_PRODUCT_PREMIUM_CONTENT') ?>:</div>
   	</td>
   	<td width="79%"> 
     	<input type="text" class="inputbox"  name="product_premium_content" value="<?php $db->sp("product_url"); ?>" size="32" maxlength="255" />
   	</td>
-</tr>
-<tr class="row1"> 
+  </tr>
+  <tr class="row1"> 
   	<td width="21%"><div style="text-align:right;font-weight:bold;">
     	<?php echo $VM_LANG->_('PHPSHOP_PRODUCT_PREMIUM_TEASER') ?>:</div>
   	</td>
   	<td width="79%"> 
     	<input type="text" class="inputbox"  name="product_premium_teaser" value="<?php $db->sp("product_url"); ?>" size="32" maxlength="255" />
   	</td>
-</tr>
+  </tr>
 {% endhighlight %}
 
 

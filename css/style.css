@@ -16,17 +16,6 @@ a:hover {
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: "PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-[name^="Description"] {
-	margin: -100% 0 0;
-	position: absolute;
-}
-.vanish {
-	width: 0;
-	height: 0;
-	overflow: hidden;
-	margin: 0;
-	padding: 0;
-}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -51,38 +40,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .nav .caret, .nav a:hover .caret {
 	border-top-color: #FF9833;
 	border-bottom-color: #FF9833;
-}
-
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-/* Carousel base class */
-.carousel {
-	height: 250px;
-	background: -webkit-linear-gradient(bottom, #0B5567 0%, #23879E 100%);
-	background: -o-linear-gradient(bottom, #0B5567 0%, #23879E 100%);
-	background: -ms-linear-gradient(bottom, #0B5567 0%, #23879E 100%);
-	background: -moz-linear-gradient(bottom, #0B5567 0%, #23879E 100%);
-	background: linear-gradient(to top, #0B5567 0%, #23879E 100%);
-	margin-bottom: -50px;
-}
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  	z-index: 10;
-  	position:static;
-  	text-align:left;
-  	padding-top:50px;
-}
-
-/* Declare heights because of positioning of img element */
-.carousel .item {
-  	height: 200px;
-}
-.carousel-inner > .item > img {
-  	position: absolute;
-  	top: 0;
-  	left: 0;
-  	min-width: 100%;
-  	height: 200px;
 }
 
 
@@ -176,10 +133,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	color: #ffffff;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
 	background-color: #23879E;
-}
-.demoFrame {
-	width:100%;
-	border:none;
 }
 #main {
 	background:#f9f9f9;

@@ -22,7 +22,16 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 .navbar .navbar-nav>li>a {
+	color:#ddd;
 	font-size: 18px;
+	background: -webkit-linear-gradient(top, rgb(56, 56, 56) 0%, rgb(41, 41, 41) 50%, rgb(188, 113, 38) 50%, rgb(245, 147, 49) 91%, rgb(254, 152, 51) 100%);
+	background: -o-linear-gradient(top, rgb(56, 56, 56) 0%, rgb(41, 41, 41) 50%, rgb(188, 113, 38) 50%, rgb(245, 147, 49) 91%, rgb(254, 152, 51) 100%);
+	background: -ms-linear-gradient(top, rgb(56, 56, 56) 0%, rgb(41, 41, 41) 50%, rgb(188, 113, 38) 50%, rgb(245, 147, 49) 91%, rgb(254, 152, 51) 100%);
+	background: -moz-linear-gradient(top, rgb(56, 56, 56) 0%, rgb(41, 41, 41) 50%, rgb(188, 113, 38) 50%, rgb(245, 147, 49) 91%, rgb(254, 152, 51) 100%);
+	background: linear-gradient(top, rgb(56, 56, 56) 0%, rgb(41, 41, 41) 50%, rgb(188, 113, 38) 50%, rgb(245, 147, 49) 91%, rgb(254, 152, 51) 100%);
+	background-size:100% 200%;
+	text-shadow: #666 0px 1px 0px;
+	border-right:1px solid #454545;
 }
 .navbar .navbar-nav>li.active>a {
 	color:#f93;
@@ -31,6 +40,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .nav .caret, .nav a:hover .caret {
 	border-top-color: #FF9833;
 	border-bottom-color: #FF9833;
+}
+.navbar .navbar-nav>li:hover>a {
+	background-position:0 -50px;
+	color:#fff;
+	text-shadow: #c60 0px 1px 0px;
 }
 .navbar-brand {
 	padding: 0 15px;

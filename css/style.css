@@ -25,6 +25,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
+.navbar {
+	border: none;
+}
 .navbar .navbar-nav>li>a {
 	color:#ddd;
 	font-size: 18px;
@@ -45,7 +48,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	border-top-color: #ddd;
 	border-bottom-color: #ddd;
 }
-.nav .caret, .nav a:hover .caret {
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
 	border-top-color: #FF9833;
 	border-bottom-color: #FF9833;
 }

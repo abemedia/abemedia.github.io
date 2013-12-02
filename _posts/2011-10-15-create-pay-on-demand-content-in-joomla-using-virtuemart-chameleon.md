@@ -92,15 +92,15 @@ Next insert the premium content where you want it displayed on your product deta
 
 The following example displays how you could use this for a pay-on-demand video site:
 
-{% highlight php %}
+{% highlight html %}
 <video width="640" height="480" controls="controls">
-<source src="/<?php echo (!defined("ALREADY_PURCHASED")) ? $product_premium_teaser : $product_premium_content; ?>.mp4" type="video/mp4" />
-<source src="/<?php echo (!defined("ALREADY_PURCHASED")) ? $product_premium_teaser : $product_premium_content; ?>.ogg" type="video/ogg" />
-<source src="/<?php echo (!defined("ALREADY_PURCHASED")) ? $product_premium_teaser : $product_premium_content; ?>.webm" type="video/webm" />
-<object data="<?php echo (!defined("ALREADY_PURCHASED")) ? $product_premium_teaser : $product_premium_content; ?>.mp4" width="640" height="480">
-<embed src="/<?php echo (!defined("ALREADY_PURCHASED")) ? $product_premium_teaser : $product_premium_content; ?>.swf" width="640" height="480">
+  <source src="/<?php echo (!defined("ALREADY_PURCHASED")) ? $product_premium_teaser : $product_premium_content; ?>.mp4" type="video/mp4" />
+  <source src="/<?php echo (!defined("ALREADY_PURCHASED")) ? $product_premium_teaser : $product_premium_content; ?>.ogg" type="video/ogg" />
+  <source src="/<?php echo (!defined("ALREADY_PURCHASED")) ? $product_premium_teaser : $product_premium_content; ?>.webm" type="video/webm" />
+  <object data="<?php echo (!defined("ALREADY_PURCHASED")) ? $product_premium_teaser : $product_premium_content; ?>.mp4" width="640" height="480">
+    <embed src="/<?php echo (!defined("ALREADY_PURCHASED")) ? $product_premium_teaser : $product_premium_content; ?>.swf" width="640" height="480">
 Your browser does not support video
-</object> 
+  </object> 
 </video>
 {% endhighlight %}
 

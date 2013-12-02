@@ -28,6 +28,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .navbar {
 	border: none;
 }
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+	border-color: #6C3806;
+}
 .navbar .navbar-nav>li>a, .navbar .navbar-nav>li.active>a {
 	background-image: -webkit-linear-gradient(top, #3c3c3c 0%, #222 50%, rgb(188, 113, 38) 50%, rgb(245, 147, 49) 91%, rgb(254, 152, 51) 100%);
 	background-image: -o-linear-gradient(top, #3c3c3c 0%, #222 50%, rgb(188, 113, 38) 50%, rgb(245, 147, 49) 91%, rgb(254, 152, 51) 100%);
@@ -43,7 +46,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	border-right:1px solid #454545;
 }
 .navbar .navbar-nav>li.active>a {
-	color:#f93;
+	color:#FF9833;
 	text-shadow: #6C3806 0px 1px 0px;
 	background-position: 0 2px;
 }

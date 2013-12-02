@@ -39,6 +39,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .navbar .navbar-nav>li.active>a {
 	color:#f93;
 	text-shadow: #6C3806 0px 1px 0px;
+	background-position: 0 2px;
 }
 .navbar-inverse .navbar-nav>.dropdown>a .caret {
 	border-top-color: #ddd;

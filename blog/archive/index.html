@@ -12,7 +12,7 @@ left:
     content: toc
 ---
 <h1>Blog Archive</h1>
-{% for post in site.posts %}
+{% for post in site.categories.blog %}
   {% unless post.next %}
     <h2 class="page-header">{{ post.date | date: '%Y' }}</h2>
   {% else %}

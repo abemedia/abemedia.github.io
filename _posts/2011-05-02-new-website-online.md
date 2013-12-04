@@ -4,7 +4,7 @@ title: "New website online"
 categories: 
   - Blog
   - Announcements
-image: "/images/blog/abemedia-logo.png"
+image: "/images/blog/abemedia-logo.jpg"
 published: true
 ---
 

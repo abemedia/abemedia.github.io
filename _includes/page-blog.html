@@ -1,9 +1,3 @@
-<h1>Web Design Portfolio <br>
-<small>Websites designed & built by our in-house Brighton web designers</small></h1>
-
-Welcome to our web design portfolio. Below you can find a small selection of the websites we've designed & built for our clients in the past couple of years.
-All of them feature bespoke website designs, are fully content-managed and written in search engine friendly code.
-
 {% for post in site.categories.blog %}
     {% if post.categories contains {{page.slug}} %}
         <div class="box post">

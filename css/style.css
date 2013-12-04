@@ -112,6 +112,20 @@ footer {
 	bottom:0;
 }
 
+/* Blog
+-------------------------------------------------- */
+.post h3 {
+        margin:0 0 15px;
+}
+.post .thumbnail {
+        margin: 0 15px 10px 0;
+}
+.post .post_meta {
+        background:#f3f3f3;
+        padding:10px;
+        margin:15px -15px -15px;
+}
+
 
 /* Twitter Typeahead
 -------------------------------------------------- */

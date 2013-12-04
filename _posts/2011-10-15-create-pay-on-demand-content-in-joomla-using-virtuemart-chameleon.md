@@ -114,7 +114,7 @@ This part is actually suprisingly easy! Just [download ChameleonLite](http://www
 
 Now navigate to Components -> ChameleonLite -> Rules and create a new Rule with the following content:
 
-{% highlight php %}
+{% highlight php startinline %}
 $vm = JomGenius("virtuemart");
 $product_id = $vm->info("product_id");
 if ($product_id > 0) {

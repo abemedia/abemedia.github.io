@@ -77,6 +77,21 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	padding-right: 0;
 }
 
+/* CUSTOMIZE THE NAVLIST
+-------------------------------------------------- */
+.nav-list>li>a {
+	border-bottom: 1px solid #eee;
+	background: -webkit-linear-gradient(left,transparent,transparent 50%,rgba(0,0,0,0.1));
+	background: -moz-linear-gradient(left,transparent,transparent 50%,rgba(0,0,0,0.1));
+	background: -ms-linear-gradient(left,transparent,transparent 50%,rgba(0,0,0,0.1));
+	background: -o-linear-gradient(left,transparent,transparent 50%,rgba(0,0,0,0.1));
+	background-size: 200% 100%;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 

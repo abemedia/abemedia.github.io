@@ -1,14 +1,18 @@
 ---
 layout: portfolio
-title: "Intergalactic Music"
 categories: 
   - Portfolio
-  - Ecommerce
-image: "/images/blog/abemedia-logo.jpg"
-permalink: portfolio/intergalactic-music.html
-link: intergalactic-music.co.uk
-published: true
+  - Social Network
+title: Money Pipe
+link: moneypipe.co.uk
+image: /images/portfolio/moneypipe.co.uk.jpg
+permalink: portfolio/money-pipe.html
+features:
+  - Logo & Branding
+  - Bespoke Website Design
+  - Content Management System (CMS)
+  - Online Billing & Payment System
+  - Currency Converter
 ---
 
-We have finally launched our new site with a fresh website design. 
-As you might have noticed we have stripped out quite a bit of clutter to make our website clearer and simpler to navigate.
+Money Pipe are a shipping & logistics company providing Sea and Air Freight services.

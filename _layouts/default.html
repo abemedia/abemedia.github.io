@@ -10,7 +10,7 @@
       <div class="row">
         {% if page.left %}
         <div class="col-md-{{ page.left.size }}">
-          {% capture left %}side-{{ page.left.content }}.html{% endcapture %}
+          {% capture left %}modules/{{ page.left.content }}.html{% endcapture %}
           {% include {{left}} %}
         </div>
         {% endif %}
@@ -19,7 +19,7 @@
         </div>
         {% if page.right %}
         <div class="col-md-{{ page.right.size }}">
-          {% capture right %}side-{{ page.right.content }}.html{% endcapture %}
+          {% capture right %}modules/{{ page.right.content }}.html{% endcapture %}
           {% include {{right}} %}
         </div>
         {% endif %}

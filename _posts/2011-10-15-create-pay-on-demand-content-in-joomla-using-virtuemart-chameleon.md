@@ -69,13 +69,13 @@ Insert the following straight below:
 
 To include the new fields in Virtuemart's SQL statements when creating or updating products open /administrator/components/com_virtuemart/classes/ps_product.php and find the following command (twice) around line 310 and line 513:
 
-{% highlight php %}
+{% highlight php startinline %}
 $fields = array ( 'vendor_id' => $vendor_id,
 {% endhighlight %}
 
 insert this code below it, making sure you do so for both the add() and update() function
 
-{% highlight php %}
+{% highlight php startinline %}
 'product_premium_content' => vmGet($d,'product_premium_content'),
 'product_premium_teaser' => vmGet($d,'product_premium_teaser'),
 {% endhighlight %}

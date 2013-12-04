@@ -1,5 +1,5 @@
         <div class="box">
-          <h3>Filter Category</h3>
+          <h3 class="box-header">Filter Category</h3>
           <ul class="nav nav-list">
             <li{% if page.slug == 'blog' %} class="active"{% endif %}><a href="{{ site.url }}/blog">All</a></li>
             {% for item in site.categories %}
@@ -10,7 +10,7 @@
           </ul>
         </div>
         <div class="box">
-          <h3>Archive</h3>
+          <h3 class="box-header">Archive</h3>
           <ul class="nav nav-list">
             {% for post in site.posts %}
             {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}

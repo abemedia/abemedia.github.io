@@ -5,7 +5,7 @@ html {
 body {
 	color: #5a5a5a;
 	background: url(../images/bg.jpg) no-repeat fixed center top #f9f9f9;
-	background-size: contain;
+	background-size: 100% auto;
 	margin:50px 0 171px;
 	font-family: "PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 	min-height: 100%;
@@ -137,6 +137,7 @@ div + .box {
 }
 .post .post_meta {
         background:#f3f3f3;
+        background: rgba(243, 243, 243, 0.5);
         padding:10px;
         margin:15px -15px -15px;
 }

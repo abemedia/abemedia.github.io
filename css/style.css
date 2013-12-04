@@ -14,14 +14,14 @@ body {
 	min-height: 100%;
 }
 a {
-	color:#23879E;
+	color:#FF9833;
 	-webkit-transition: all 0.3s ease-in;
 	-moz-transition: all 0.3s ease-in;
 	-o-transition: all 0.3s ease-in;
 	-ms-transition: all 0.3s ease-in;
 }
 a:hover {
-	color:#0B5567;
+	color:#6C3806;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: "PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;

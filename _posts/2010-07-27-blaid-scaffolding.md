@@ -1,14 +1,17 @@
 ---
 layout: portfolio
-title: "Intergalactic Music"
 categories: 
   - Portfolio
-  - Ecommerce
-image: "/images/blog/abemedia-logo.jpg"
-permalink: portfolio/intergalactic-music.html
-link: intergalactic-music.co.uk
-published: true
+  - Content Management Systems
+title: Blaid Scaffolding
+link: blaidscaffolding.com
+image: /images/portfolio/blaidscaffolding.com.jpg
+permalink: portfolio/blaid-scaffolding.html
+features:
+  - Bespoke Website Design
+  - Content Management System (CMS)
+  - Google Maps Integration
+  - Image Gallery & Slideshow
 ---
 
-We have finally launched our new site with a fresh website design. 
-As you might have noticed we have stripped out quite a bit of clutter to make our website clearer and simpler to navigate.
+Blaid Scaffolding are a scaffolding contractor covering the entire south east from Crawley to Dover all the way to Portsmouth.

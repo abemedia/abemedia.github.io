@@ -1,14 +1,18 @@
 ---
 layout: portfolio
-title: "Intergalactic Music"
 categories: 
   - Portfolio
-  - Ecommerce
-image: "/images/blog/abemedia-logo.jpg"
-permalink: portfolio/intergalactic-music.html
-link: intergalactic-music.co.uk
-published: true
+  - Content Management Systems
+title: Orient Office
+link: ooffice.de
+image: /images/portfolio/ooffice.de.jpg
+permalink: portfolio/orient-office.html
+features:
+  - Bespoke Website Design
+  - Content Management System (CMS)
+  - Multi-Language Translation Management
+  - Online Product Catalog / Gallery
 ---
 
-We have finally launched our new site with a fresh website design. 
-As you might have noticed we have stripped out quite a bit of clutter to make our website clearer and simpler to navigate.
+Orient Office Export-Import GmbH specialize in importing and exporting frozen meat products and its related materials with turnover of approximately 10,000 m/t per year.  
+Established 1983 in Schwartbuck, Germany, with offices in Egypt, Brazil & Dubai.

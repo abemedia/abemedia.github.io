@@ -151,6 +151,7 @@ div + .box {
 .box > h3 {
         border-bottom:3px solid #ff9833;
         margin:0 0 15px;
+        padding-bottom:3px;
 }
 
 /* Blog

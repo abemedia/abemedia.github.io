@@ -6,6 +6,7 @@ categories:
   - Ecommerce
 image: "/images/blog/abemedia-logo.jpg"
 permalink: portfolio/intergalactic-music.html
+slug: intergalactic-music
 published: true
 ---
 

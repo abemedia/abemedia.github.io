@@ -4,7 +4,7 @@ title: "Create pay-on-demand content in Joomla! using Virtuemart & Chameleon"
 categories: 
   - Blog
   - Tutorials
-image: "/images/blog/joomla-logo.png"
+image: "/images/blog/joomla-logo.jpg"
 published: true
 ---
 

@@ -5,18 +5,18 @@
   {% capture ino %}0{% endcapture %}
   {% for post in site.categories.portfolio %}
     {% capture ino %}{{ ino | plus:1 }}{% endcapture %}
-      {% capture item %}
-        <li>
-    {{ ino }}
-          <a class="box" href="{{ post.url }}">
-            <img alt="{{ post.title }}" src="{{ post.image }}" class="img-responsive">
-            <span class="title">{{ post.title }}</span>
-            <span class="text-muted">{{ post.link }}</span>
-          </a>
-        </li>
-      {% endcapture %}
+      {% if {{ino}} < "4" %}
+        {% capture item %}
+          <li>
+      {{ ino }}
+            <a class="box" href="{{ post.url }}">
+              <img alt="{{ post.title }}" src="{{ post.image }}" class="img-responsive">
+              <span class="title">{{ post.title }}</span>
+              <span class="text-muted">{{ post.link }}</span>
+            </a>
+          </li>
+        {% endcapture %}
       
-      {% if {{ino}} < "3" %}
         {% if include.params.filter %}
           {% if post.categories contains include.params.filter %}
             {{ item }}

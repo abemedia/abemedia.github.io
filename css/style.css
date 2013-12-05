@@ -55,8 +55,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	color:#ddd;
 	font-size: 18px;
 	background-size:100% 200%;
-	padding-top:25px;
-	padding-bottom:25px;
 }
 .navbar .navbar-nav>li.active>a {
 	color:#FF9833;
@@ -82,10 +80,25 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	box-shadow: none;
 }
 .navbar-brand {
-	padding: 15px 15px;
+	padding: 5px 15px;
 }
 .navbar-right, .navbar-inverse .navbar-collapse {
 	padding-right: 0;
+}
+.navbar .navbar-right a {
+	color:#fff;
+	font-size: 22px;
+	background:none;
+}
+
+@media (min-width: 992px) {
+	.navbar .navbar-nav>li>a, .navbar .navbar-right a {
+		padding-top:25px;
+		padding-bottom:25px;
+	}
+	.navbar-brand {
+		padding: 15px 15px;
+	}
 }
 
 /* CUSTOMIZE THE NAVLIST

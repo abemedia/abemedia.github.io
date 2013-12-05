@@ -27,6 +27,8 @@
         {% endif %}
       </div>
     </div>
+    {{page.bottom}}
+    {{page.bottom[0]}}
     {% if page.bottom %}
       {% if page.bottom.content %}
         {% capture bottom %}modules/{{ page.bottom.content }}.html{% endcapture %}

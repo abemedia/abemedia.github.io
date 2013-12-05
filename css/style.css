@@ -56,6 +56,9 @@ footer {
 #main {
 	margin-top: 20px;
 }
+.grey {
+	background: #eee;
+}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */

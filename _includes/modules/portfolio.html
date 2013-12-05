@@ -7,7 +7,7 @@
     {% capture ino %}{{ ino | plus:1 }}{% endcapture %}
     
       {% capture item %}
-        <li>
+        <li>{{ ino }}
           <a class="box" href="{{ post.url }}">
             <img alt="{{ post.title }}" src="{{ post.image }}" class="img-responsive">
             <span class="title">{{ post.title }}</span>
@@ -16,7 +16,7 @@
         </li>
       {% endcapture %}
       
-      {% if 3 > ino %}
+      {% if ino<3 %}
         {% if include.params.filter %}
           {% if post.categories contains include.params.filter %}
             {{ item }}

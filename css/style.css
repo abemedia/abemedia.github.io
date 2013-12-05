@@ -118,7 +118,7 @@ footer {
 }
 .navbar .navbar-right>li>a {
 	color:#fff;
-	font-size: 22px;
+	font-size: 22px !important;
 	background: none;
 }
 .navbar .navbar-right>li>a>.fa{

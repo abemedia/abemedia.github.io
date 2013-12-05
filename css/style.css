@@ -15,10 +15,10 @@ body {
 }
 a {
 	color:#cc6633;
-	-webkit-transition: all 0.3s ease-in;
-	-moz-transition: all 0.3s ease-in;
-	-o-transition: all 0.3s ease-in;
-	-ms-transition: all 0.3s ease-in;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
 }
 a:hover {
 	color:#A65B11;

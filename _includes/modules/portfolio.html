@@ -5,9 +5,9 @@
   {% capture ino %}1{% endcapture %}
   {% for post in site.categories.portfolio %}
     {% capture ino %}{{ ino | plus:1 }}{% endcapture %}
-    
+    {{ ino }}
       {% capture item %}
-        <li>{{ ino }}
+        <li>
           <a class="box" href="{{ post.url }}">
             <img alt="{{ post.title }}" src="{{ post.image }}" class="img-responsive">
             <span class="title">{{ post.title }}</span>

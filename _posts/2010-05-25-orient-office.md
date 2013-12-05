@@ -8,10 +8,9 @@ link: ooffice.de
 image: /images/portfolio/ooffice.de.jpg
 permalink: portfolio/orient-office.html
 features:
-  - Bespoke Website Design
-  - Content Management System (CMS)
-  - Multi-Language Translation Management
-  - Online Product Catalog / Gallery
+  - web-design
+  - cms
+  - graphic
 ---
 
 Orient Office Export-Import GmbH specialize in importing and exporting frozen meat products and its related materials with turnover of approximately 10,000 m/t per year.  

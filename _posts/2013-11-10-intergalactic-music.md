@@ -8,6 +8,11 @@ image: "/images/blog/abemedia-logo.jpg"
 permalink: portfolio/intergalactic-music.html
 link: intergalactic-music.co.uk
 published: true
+features:
+  - web-design
+  - ecommerce
+  - cms
+  - graphic
 ---
 
 We have finally launched our new site with a fresh website design. 

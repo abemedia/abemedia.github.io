@@ -8,11 +8,9 @@ link: moneypipe.co.uk
 image: /images/portfolio/moneypipe.co.uk.jpg
 permalink: portfolio/money-pipe.html
 features:
-  - Logo & Branding
-  - Bespoke Website Design
-  - Content Management System (CMS)
-  - Online Billing & Payment System
-  - Currency Converter
+  - web-design
+  - cms
+  - graphic
 ---
 
 Money Pipe are a shipping & logistics company providing Sea and Air Freight services.

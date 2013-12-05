@@ -8,11 +8,9 @@ link: huskyevents.com
 image: /images/portfolio/huskyevents.com.jpg
 permalink: portfolio/husky-events.html
 features:
-  - Bespoke Website Design
-  - Content Management System (CMS)
-  - Event Calendar (+ ticket sales)
-  - Image Gallery
-  - Newsletter Integration
+  - web-design
+  - cms
+  - graphic
 ---
 
 One of the south-coasts leading events companies, operating in Brighton, Reading & Southhampton.

@@ -4,6 +4,7 @@
 <ul class="box-list">
   {% assign ino = 0 %}
   {% for post in site.categories.portfolio %}
+    {{ post.categories }}
     {% capture ino %}{{ ino | plus:1 }}{% endcapture %}
     
     {% if ino < 4 %}

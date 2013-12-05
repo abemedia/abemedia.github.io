@@ -141,6 +141,15 @@ footer {
 	right:0;
 	bottom:0;
 }
+.box-list {
+	list-style: none;
+}
+.box-list li {
+	width: 30%;
+	float: left;
+	margin: 0 1.5% 3.5%;
+	
+}
 .box {
         background: #fff;
 	background: rgba(255,255,255,0.5);

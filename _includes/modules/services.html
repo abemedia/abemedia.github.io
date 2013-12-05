@@ -1,20 +1,20 @@
 {{ page.features }}
     <div class="grey">
       <div class="container">
-        <h3>{{ include.params.title }}</h3>
-        <div class="row">
+        <h3 class="title">{{ include.params.title }}</h3>
+        <ul class="box-list box-list-small">
           {% if page.features == nil or page.features contains "web-design" %}
-          <div class="col-md-2">Web Design</div>
+          <li>Web Design</li>
           {% endif %}
           {% if page.features == nil or page.features contains "ecommerce" %}
-          <div class="col-md-2">Ecommerce</div>
+          <li>Ecommerce</li>
           {% endif %}
           {% if page.features == nil or page.features contains "cms" %}
-          <div class="col-md-2">CMS</div>
+          <li>CMS</li>
           {% endif %}
           {% if page.features == nil or page.features contains "graphic" %}
-          <div class="col-md-2">Graphic Design</div>
+          <li>Graphic Design</li>
           {% endif %}
-        </div>
+        </ul>
       </div>
     </div>

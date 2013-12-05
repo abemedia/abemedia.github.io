@@ -3,6 +3,7 @@ layout: default
 title: Portfolio
 category: portfolio
 slug: portfolio
+permalink: portfolio
 sitemap:
     priority: 0.7
     changefreq: monthly

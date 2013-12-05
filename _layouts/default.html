@@ -6,7 +6,7 @@
   <div class="container">
     {% if page.top %}
     {% capture top %}modules/{{ page.top.content }}.html{% endcapture %}
-    {% include {{top}} params="{{ page.top.params }}" %}
+    {% include {{top}} params=page.top.params %}
     {% endif %}
     <div id="main">
       <div class="row">
@@ -29,7 +29,7 @@
     </div>
     {% if page.bottom %}
     {% capture bottom %}modules/{{ page.bottom.content }}.html{% endcapture %}
-    {% include {{bottom}} params={{page.bottom.params}} %}
+    {% include {{bottom}} params=page.bottom.params %}
     {% endif %}
   </div>
   {% include footer.html %}

@@ -5,7 +5,7 @@
   {% capture i %}0{% endcapture %}
   {% for post in site.categories.portfolio %}
     {% capture i %}{{ i | plus:1 }}{% endcapture %}
-    {% if {{i}} < 4 %}
+    {% if i < 4 %}
       {% capture item %}
         <li>
           <a class="box" href="{{ post.url }}">

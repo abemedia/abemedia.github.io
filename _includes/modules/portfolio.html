@@ -1,6 +1,5 @@
 <ul class="box-list">
-  {% capture index %}1{% endcapture %}
-  {% for post in site.categories.portfolio limit:2 %}
+  {% for post in site.categories.portfolio limit:3 %}
     
       <li>
         <a class="box" href="{{ post.url }}">
@@ -9,7 +8,6 @@
           <span class="text-muted">{{ post.link }}</span>
         </a>
       </li>
-      {% capture index %}{{ index | plus:1 }}{% endcapture %}
     
   {% endfor %}
 </ul>

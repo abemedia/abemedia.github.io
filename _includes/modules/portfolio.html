@@ -1,0 +1,14 @@
+<ul class="box-list">
+  {% for post in site.categories.portfolio %}
+    {% if post.categories contains {{page.slug}} and index <= 3 %}
+      {% capture index %}{{ index | plus:1 }}{% endcapture %}
+      <li>
+        <a class="box" href="{{ post.url }}">
+          <img alt="{{ post.title }}" src="{{ post.image }}" class="img-responsive">
+          <span class="title">{{ post.title }}</span>
+          <span class="text-muted">{{ post.link }}</span>
+        </a>
+      </li>
+    {% endif %} 
+  {% endfor %}
+</ul>

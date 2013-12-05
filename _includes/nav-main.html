@@ -6,27 +6,26 @@
       <a class="navbar-brand" href="{{ site.url }}"><img src="{{ site.url }}/images/logo.png" alt=""/></a></div>
     <nav class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li{% if page.slug == "home" %} class="active"{% endif %}><a href="{{ site.url }}">Home</a>
-        </li>
-        <li{% if page.category == "extensions" %} class="active"{% endif %} class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Services <b class="caret"></b></a>
+        <li{% if page.slug == "home" %} class="active"{% endif %}><a href="{{ site.url }}">Home</a></li>
+        <li{% if page.slug == "about-us" %} class="active"{% endif %}> <a href="{{ site.url }}/about">About</a></li>
+        <li{% if page.category == "services" %} class="active"{% endif %} class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
         <ul class="dropdown-menu">
-          <li{% if page.slug == "" %} class="active"{% endif %}> <a href="{{ site.url }}/">Web Design &amp; Development</a></li>
-          <li{% if page.slug == "" %} class="active"{% endif %}> <a href="{{ site.url }}/">Ecommerce (Online Shops)</a></li>
-          <li{% if page.slug == "" %} class="active"{% endif %}> <a href="{{ site.url }}/">Content Management Systems</a></li>
-          <li{% if page.slug == "" %} class="active"{% endif %}> <a href="{{ site.url }}/">Online Marketing</a></li>
-          <li{% if page.slug == "" %} class="active"{% endif %}> <a href="{{ site.url }}/">Graphic Design &amp; Branding</a></li>
+          <li{% if page.slug == "web-design-brighton" %} class="active"{% endif %}> <a href="{{ site.url }}/web-design-brighton">Web Design &amp; Development</a></li>
+          <li{% if page.slug == "ecommerce-web-design" %} class="active"{% endif %}> <a href="{{ site.url }}/ecommerce-web-design">Ecommerce (Online Shops)</a></li>
+          <li{% if page.slug == "content-management-systems-cms" %} class="active"{% endif %}> <a href="{{ site.url }}/content-management-systems-cms">Content Management Systems</a></li>
+          <li{% if page.slug == "online-marketing-brighton" %} class="active"{% endif %}> <a href="{{ site.url }}/online-marketing-brighton">Online Marketing</a></li>
+          <li{% if page.slug == "graphic-design" %} class="active"{% endif %}> <a href="{{ site.url }}/graphic-design">Graphic Design &amp; Branding</a></li>
         </ul>
         </li>
-        <li{% if page.slug == "portfolio" %} class="active"{% endif %}> <a href="{{ site.url }}/portfolio.html">Portfolio</a></li>
-        <li{% if page.slug == "blog" %} class="active"{% endif %}> <a href="{{ site.url }}/blog.html">Blog</a></li>
-        <li{% if page.slug == "about-us" %} class="active"{% endif %}> <a href="{{ site.url }}/about-us.html">About</a></li>
-        <li{% if page.slug == "contact-us" %} class="active"{% endif %}> <a href="{{ site.url }}/contact-us.html">Contact</a></li>
+        <li{% if page.slug == "portfolio" %} class="active"{% endif %}> <a href="{{ site.url }}/portfolio">Portfolio</a></li>
+        <li{% if page.slug == "blog" %} class="active"{% endif %}> <a href="{{ site.url }}/blog">Blog</a></li>
+        <li{% if page.slug == "contact-us" %} class="active"{% endif %}> <a href="{{ site.url }}/contact">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="tel:+441273906909">(+44) 01273 906 909</a></li>
-        <li><a href="https://facebook.com/abemedia"><i class="fa-facebook"></i></a></li>
-        <li><a href="https://twitter.com/abemedia"><i class="fa-twitter"></i></a></li>
-        <li><a href="https://google.com/+abemedia"><i class="fa-google-plus"></i></a></li>
+        <li class="hidden-sm hidden-xs"><a href="tel:01273906909">01273 906 909</a></li>
+        <li class="visible-lg"><a href="https://facebook.com/abemedia" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li class="visible-lg"><a href="https://twitter.com/abemedia" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li class="visible-lg"><a href="https://plus.google.com/111817589436307167014/posts" target="_blank" rel="publisher"><i class="fa fa-google-plus"></i></a></li>
       </ul>
     </nav>
   </div>

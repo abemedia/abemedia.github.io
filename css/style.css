@@ -8,8 +8,7 @@ body {
 	background: url(../images/bg.jpg) no-repeat fixed center top #f9f9f9;
 	background-size: 100% auto;
 	*/
-	background: #f9f9f9;
-	margin:70px 0 171px;
+	margin:50px 0 171px;
 	font-family: "PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 	min-height: 100%;
 }
@@ -34,14 +33,40 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	width: 100%;
 	padding: 0 30px;
 }
+.page-header {
+	margin-top: 0;
+}
+.breadcrumb {
+	padding: 5px 10px;
+	margin: 10px 0 20px 82px;
+	display: inline-block;
+	background: rgba(255,255,255,0.5);
+}
+footer {
+	padding-top: 40px;
+	padding-bottom: 30px;
+	color: #777;
+	border-top: 1px solid #eee;
+	background: #f5f5f5;
+	position: absolute;
+	left:0;
+	right:0;
+	bottom:0;
+}
+#main {
+	margin-top: 20px;
+}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 .navbar {
 	border: none;
 }
-.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
-	border-color: #6C3806;
+.navbar-brand {
+	padding: 10px 15px;
+}
+.navbar-brand img {
+	height:30px;
 }
 .navbar .navbar-nav>li>a, .navbar .navbar-nav>li.active>a {
 	background-image: -webkit-linear-gradient(top, #3c3c3c 0%, #222 50%, rgb(188, 113, 38) 50%, rgb(245, 147, 49) 91%, rgb(254, 152, 51) 100%);
@@ -55,8 +80,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	color:#ddd;
 	font-size: 18px;
 	background-size:100% 200%;
-	padding-top:25px;
-	padding-bottom:25px;
 }
 .navbar .navbar-nav>li.active>a {
 	color:#FF9833;
@@ -71,7 +94,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	border-top-color: #FF9833;
 	border-bottom-color: #FF9833;
 }
-.navbar .navbar-nav>li:hover>a {
+.navbar .navbar-nav>li:hover>a, .nav .open>a {
 	background-position:0 -100%;
 	color:#fff;
 	text-shadow: #c60 0px 1px 0px;
@@ -81,14 +104,52 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
-.navbar-brand {
-	padding: 15px 15px;
+.navbar .navbar-right>li>a {
+	color:#fff;
+	font-size: 22px;
+	background: none;
 }
-.navbar-right, .navbar-inverse .navbar-collapse {
-	padding-right: 0;
+.navbar .navbar-right>li>a>.fa{
+	line-height:20px;
+}
+.navbar .navbar-right>li>a:hover {
+	color:#FF9833;
+	text-shadow: #6C3806 0px 1px 0px;
+}
+@media (min-width: 992px) {
+	body {
+		margin-top: 70px;
+	}
+	.navbar .navbar-nav>li>a, .navbar .navbar-right a {
+		padding-top:25px;
+		padding-bottom:25px;
+	}
+	.navbar-brand {
+		padding: 15px 15px;
+	}
+	.navbar-brand img {
+		height: 40px;
+	}
+	.navbar .dropdown-menu {
+		left: 0;
+		right: 0;
+		position: fixed;
+		top: 70px;
+		border: none;
+		border-radius: 0;
+		background: rgb(254, 152, 51);
+		padding: 5px 30px;
+	}
+	.navbar .dropdown-menu li {
+		width: 20%;
+		float: left;
+	}
+	.navbar .dropdown-menu li a {
+		text-align: center;
+	}
 }
 
-/* CUSTOMIZE THE NAVLIST
+/* Navlist
 -------------------------------------------------- */
 .nav-list>li>a:hover, 
 .nav-list>li>a:focus,
@@ -110,45 +171,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	padding-left: 25px;
 }
 
-/* RESPONSIVE CSS
--------------------------------------------------- */
-@media (min-width: 768px) {
-  .navbar-wrapper {
-    margin-top: 20px;
-  }
-  .navbar-wrapper .container {
-    padding-left:  15px;
-    padding-right: 15px;
-  }
-  .navbar-wrapper .navbar {
-    padding-left:  0;
-    padding-right: 0;
-  }
-  .navbar-wrapper .navbar {
-    border-radius: 4px;
-  }
-}
-.page-header {
-	margin-top: 0;
-}
-.breadcrumb {
-	padding: 5px 10px;
-	margin: 10px 0 20px 82px;
-	display: inline-block;
-	background: rgba(255,255,255,0.5);
-}
-footer {
-	padding-top: 40px;
-	padding-bottom: 30px;
-	color: #777;
-	border-top: 1px solid #eee;
-	background: #f5f5f5;
-	position: absolute;
-	left:0;
-	right:0;
-	bottom:0;
-}
-
 /* Box List
 -------------------------------------------------- */
 .box-list {
@@ -157,10 +179,19 @@ footer {
 	margin: 0 -15px;
 }
 .box-list>li {
-	width: 30%;
+	width: 100%;
 	float: left;
-	margin: 0 15px 30px;
-	
+	padding: 0 15px 30px;
+}
+@media (min-width: 768px) {
+	.box-list>li {
+		width: 50%;
+	}
+}
+@media (min-width: 992px) {
+	.box-list>li {
+		width: 33.33333333333333%;
+	}
 }
 .box-list>li>a>span {
 	display: block;

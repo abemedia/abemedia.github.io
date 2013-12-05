@@ -7,6 +7,10 @@ sitemap:
     priority: 0.7
     changefreq: monthly
     lastmod: 2013-11-09T7:30:00
+bottom: 
+    content: portfolio
+    params:
+        title: Website Design Portfolio
 ---
 
 Our way of thinking has been changed by the internet and effective website design has become an integral part of sustainability in modern business.

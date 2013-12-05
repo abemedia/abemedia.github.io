@@ -5,6 +5,8 @@
 {% elsif page.categories contains "portfolio" %}
 {% capture filter %}{{ page.categories | last }}{% endcapture %}
 {% endif %}
+{{title}}
+{{filter}}
 {% if include.params.title %}
 <h3>{{ include.params.title }}</h3>
 {% endif %}

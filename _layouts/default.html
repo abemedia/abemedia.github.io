@@ -28,8 +28,15 @@
       </div>
     </div>
     {% if page.bottom %}
-    {% capture bottom %}modules/{{ page.bottom.content }}.html{% endcapture %}
-    {% include {{bottom}} params=page.bottom.params %}
+      {% if page.bottom.content %}
+        {% capture bottom %}modules/{{ page.bottom.content }}.html{% endcapture %}
+        {% include {{bottom}} params=page.bottom.params %}
+      {% else %}
+        {% for item in page.bottom %}
+          {% capture bottom %}modules/{{ item.content }}.html{% endcapture %}
+          {% include {{bottom}} params=item.params %}
+        {% endfor %}
+      {% endif %}
     {% endif %}
   </div>
   {% include footer.html %}

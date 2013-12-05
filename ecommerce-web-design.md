@@ -11,6 +11,7 @@ bottom:
     content: portfolio
     params:
         title: Ecommerce Website Design Portfolio
+        filter: ecommerce
 ---
 
 E-commerce offers a great number of advantages as you can reach a global audience, attracting new customers, and greatly reduce your overheads and order processing costs.

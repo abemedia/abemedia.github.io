@@ -88,7 +88,7 @@ footer {
 }
 .navbar .navbar-nav>li>a, .navbar .navbar-right a {
 	color:#ddd;
-	font-size: 18px;
+	font-size: 17px;
 	background-size:100% 200%;
 	text-transform: uppercase;
 }
@@ -137,7 +137,7 @@ footer {
 	.navbar .navbar-nav>li>a, .navbar .navbar-right a {
 		padding-top:25px;
 		padding-bottom:25px;
-		font-size: 17px;
+		font-size: 18px;
 	}
 	.navbar .dropdown-menu {
 		left: 0;

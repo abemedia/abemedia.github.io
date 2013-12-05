@@ -1,7 +1,7 @@
 <ul class="box-list">
   {% capture index %}1{% endcapture %}
-  {% for post in site.categories.portfolio %}
-    {% if index <= 3 %}
+  {% for post in site.categories.portfolio limit:2 %}
+    
       <li>
         <a class="box" href="{{ post.url }}">
           <img alt="{{ post.title }}" src="{{ post.image }}" class="img-responsive">
@@ -10,7 +10,7 @@
         </a>
       </li>
       {% capture index %}{{ index | plus:1 }}{% endcapture %}
-    {% endif %} 
+    
   {% endfor %}
 </ul>
 post.categories contains {{page.filter}} and

@@ -6,9 +6,9 @@
       <a class="navbar-brand" href="{{ site.url }}"><img src="{{ site.url }}/images/logo.png" alt=""/></a></div>
     <nav class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li{% if page.slug == "home" %} class="active"{% endif %}><a href="{{ site.url }}">Home</a>
-        </li>
-        <li{% if page.category == "extensions" %} class="active"{% endif %} class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Services <b class="caret"></b></a>
+        <li{% if page.slug == "home" %} class="active"{% endif %}><a href="{{ site.url }}">Home</a></li>
+        <li{% if page.slug == "about-us" %} class="active"{% endif %}> <a href="{{ site.url }}/about-us.html">About</a></li>
+        <li{% if page.category == "services" %} class="active"{% endif %} class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
         <ul class="dropdown-menu">
           <li{% if page.slug == "" %} class="active"{% endif %}> <a href="{{ site.url }}/">Web Design &amp; Development</a></li>
           <li{% if page.slug == "" %} class="active"{% endif %}> <a href="{{ site.url }}/">Ecommerce (Online Shops)</a></li>
@@ -19,7 +19,6 @@
         </li>
         <li{% if page.slug == "portfolio" %} class="active"{% endif %}> <a href="{{ site.url }}/portfolio.html">Portfolio</a></li>
         <li{% if page.slug == "blog" %} class="active"{% endif %}> <a href="{{ site.url }}/blog.html">Blog</a></li>
-        <li{% if page.slug == "about-us" %} class="active"{% endif %}> <a href="{{ site.url }}/about-us.html">About</a></li>
         <li{% if page.slug == "contact-us" %} class="active"{% endif %}> <a href="{{ site.url }}/contact-us.html">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right visible-lg">

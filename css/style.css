@@ -137,6 +137,8 @@ footer {
 	.navbar .navbar-nav>li>a, .navbar .navbar-right a {
 		padding-top:25px;
 		padding-bottom:25px;
+	}
+	.navbar .navbar-nav>li>a {
 		font-size: 18px;
 	}
 	.navbar .dropdown-menu {

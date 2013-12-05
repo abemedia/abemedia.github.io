@@ -22,12 +22,6 @@
         <li{% if page.slug == "about-us" %} class="active"{% endif %}> <a href="{{ site.url }}/about-us.html">About</a></li>
         <li{% if page.slug == "contact-us" %} class="active"{% endif %}> <a href="{{ site.url }}/contact-us.html">Contact</a></li>
       </ul>
-      <form action="{{ site.url }}/search" method="get" class="navbar-form navbar-right" role="search">
-        <div class="form-group">
-          <input class="form-control" type="search" name="q" placeholder="{{post.category}}Search..." autocomplete="off" id="search_control">
-        </div>
-        <button type="submit" class="btn btn-primary" value="Search"><span class="fa fa-search"></span></button>
-      </form>
     </nav>
   </div>
 </div>

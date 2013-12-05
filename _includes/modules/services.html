@@ -2,16 +2,16 @@
       <div class="container">
         <h3>{{ include.params.title }}</h3>
         <div class="row">
-          {% if page.features == blank or page.features contains "web-design" %}
+          {% if page.features == nil or page.features contains "web-design" %}
           <div class="col-md-2">Web Design</div>
           {% endif %}
-          {% if page.features == blank or page.features contains "ecommerce" %}
+          {% if page.features == nil or page.features contains "ecommerce" %}
           <div class="col-md-2">Ecommerce</div>
           {% endif %}
-          {% if page.features == blank or page.features contains "cms" %}
+          {% if page.features == nil or page.features contains "cms" %}
           <div class="col-md-2">CMS</div>
           {% endif %}
-          {% if page.features == blank or page.features contains "graphic" %}
+          {% if page.features == nil or page.features contains "graphic" %}
           <div class="col-md-2">Graphic Design</div>
           {% endif %}
         </div>

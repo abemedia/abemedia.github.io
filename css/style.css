@@ -30,7 +30,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	color:#cc6633;
 	font-size:16px;
 }
-
+.container {
+	width: 100%;
+	padding: 0 15px;
+}
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 .navbar {
@@ -80,7 +83,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	padding: 0 15px;
 	margin: 0 0 -32px 0;
 }
-.navbar-form.navbar-right, .navbar-inverse .navbar-collapse {
+.navbar-right, .navbar-inverse .navbar-collapse {
 	padding-right: 0;
 }
 

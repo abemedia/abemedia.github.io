@@ -188,7 +188,7 @@ footer {
 	width: 100%;
 	padding: 0 15px;
 	display: inline-block;
-	font-size: inherit;
+	font-size: 14px;
 }
 @media (min-width: 768px) {
 	.box-list>li {

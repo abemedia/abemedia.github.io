@@ -34,6 +34,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	width: 100%;
 	padding: 0 30px;
 }
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 .navbar {
@@ -71,7 +72,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	border-bottom-color: #FF9833;
 }
 .navbar .navbar-nav>li:hover>a {
-	background-position:0 -50px;
+	background-position:0 -100%;
 	color:#fff;
 	text-shadow: #c60 0px 1px 0px;
 }

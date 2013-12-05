@@ -1,9 +1,4 @@
----
-params:
-    title: Other
-    filter: ""
----
-{% assign params = page.params %}
+{% capture params.title %}Other{% endcapture %}
 {% capture params.filter %}{{page.categories | last}}{% endcapture %}
 
 <!DOCTYPE html>

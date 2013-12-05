@@ -220,18 +220,16 @@ footer {
         overflow: hidden;
         zoom: 1;
         display: block;
-        padding-bottom: 15px;
-}
-div.box {
         padding: 15px;
-}
-div + .box {
-        margin-top:30px;
+        margin-bottom:30px;
 }
 .box h3.box-header, .box h1 {
         border-bottom:3px solid #ff9833;
         margin:0 0 15px;
         padding-bottom:3px;
+}
+.folio .box {
+	padding 0 0 15px;
 }
 
 /* Blog

@@ -116,22 +116,6 @@ footer {
 	color:#FF9833;
 	text-shadow: #6C3806 0px 1px 0px;
 }
-.navbar .dropdown-menu {
-	left: 0;
-	right: 0;
-	position: fixed;
-	top: 70px;
-	border: none;
-	border-radius: 0;
-	background: rgb(254, 152, 51);
-}
-.navbar .dropdown-menu li {
-	width: 20%;
-	float: left;
-}
-.navbar .dropdown-menu li a {
-	text-align: center;
-}
 @media (min-width: 992px) {
 	body {
 		margin-top: 70px;
@@ -145,6 +129,23 @@ footer {
 	}
 	.navbar-brand img {
 		height: 40px;
+	}
+	.navbar .dropdown-menu {
+		left: 0;
+		right: 0;
+		position: fixed;
+		top: 70px;
+		border: none;
+		border-radius: 0;
+		background: rgb(254, 152, 51);
+		padding: 5px 30px;
+	}
+	.navbar .dropdown-menu li {
+		width: 20%;
+		float: left;
+	}
+	.navbar .dropdown-menu li a {
+		text-align: center;
 	}
 }
 

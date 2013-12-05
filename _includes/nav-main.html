@@ -7,7 +7,7 @@
     <nav class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li{% if page.slug == "home" %} class="active"{% endif %}><a href="{{ site.url }}">Home</a></li>
-        <li{% if page.slug == "about-us" %} class="active"{% endif %}> <a href="{{ site.url }}/about-us.html">About</a></li>
+        <li{% if page.slug == "about-us" %} class="active"{% endif %}> <a href="{{ site.url }}/about">About</a></li>
         <li{% if page.category == "services" %} class="active"{% endif %} class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
         <ul class="dropdown-menu">
           <li{% if page.slug == "" %} class="active"{% endif %}> <a href="{{ site.url }}/">Web Design &amp; Development</a></li>
@@ -17,9 +17,9 @@
           <li{% if page.slug == "" %} class="active"{% endif %}> <a href="{{ site.url }}/">Graphic Design &amp; Branding</a></li>
         </ul>
         </li>
-        <li{% if page.slug == "portfolio" %} class="active"{% endif %}> <a href="{{ site.url }}/portfolio.html">Portfolio</a></li>
-        <li{% if page.slug == "blog" %} class="active"{% endif %}> <a href="{{ site.url }}/blog.html">Blog</a></li>
-        <li{% if page.slug == "contact-us" %} class="active"{% endif %}> <a href="{{ site.url }}/contact-us.html">Contact</a></li>
+        <li{% if page.slug == "portfolio" %} class="active"{% endif %}> <a href="{{ site.url }}/portfolio">Portfolio</a></li>
+        <li{% if page.slug == "blog" %} class="active"{% endif %}> <a href="{{ site.url }}/blog">Blog</a></li>
+        <li{% if page.slug == "contact-us" %} class="active"{% endif %}> <a href="{{ site.url }}/contact">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li class="hidden-sm hidden-xs"><a href="tel:01273906909">01273 906 909</a></li>

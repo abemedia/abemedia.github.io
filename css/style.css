@@ -26,6 +26,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: "PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 	text-transform: uppercase;
 }
+.module-title {
+	text-align: center;
+	font-size: 32px;
+	margin: 30px 0;
+	font-weight: bold;
+}
 .title {
 	color:#cc6633;
 	font-size:16px;

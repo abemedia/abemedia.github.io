@@ -182,6 +182,7 @@ footer {
 	list-style: none;
 	padding: 0;
 	margin: 0 -15px;
+	display: flex;
 }
 .box-list>li {
 	width: 100%;

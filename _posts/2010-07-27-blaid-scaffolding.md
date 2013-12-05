@@ -5,7 +5,7 @@ categories:
   - Content Management Systems
 title: Blaid Scaffolding
 link: blaidscaffolding.com
-image: /images/portfolio/blaidscaffolding.com.jpg
+image: /images/portfolio/blaidscaffolding.jpg
 permalink: portfolio/blaid-scaffolding.html
 features:
   - web-design

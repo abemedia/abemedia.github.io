@@ -5,7 +5,7 @@ categories:
   - Content Management Systems
 title: "Husky Events"
 link: huskyevents.com
-image: /images/portfolio/huskyevents.com.jpg
+image: /images/portfolio/huskyevents.jpg
 permalink: portfolio/husky-events.html
 features:
   - web-design

@@ -5,7 +5,7 @@ categories:
   - Social Network
 title: Money Pipe
 link: moneypipe.co.uk
-image: /images/portfolio/moneypipe.co.uk.jpg
+image: /images/portfolio/moneypipe.jpg
 permalink: portfolio/money-pipe.html
 features:
   - web-design

@@ -5,7 +5,7 @@ categories:
   - Content Management Systems
 title: "Bioenergetics UK"
 link: bodyflow.uk.com
-image: /images/portfolio/bodyflow.uk.com.jpg
+image: /images/portfolio/bodyflow.jpg
 permalink: portfolio/bioenergetics-uk.html
 features:
   - web-design

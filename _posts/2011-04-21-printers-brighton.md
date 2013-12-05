@@ -5,7 +5,7 @@ categories:
   - Ecommerce
 title: "Printers Brighton"
 link: dsfmanufacturing.co.uk
-image: /images/portfolio/printersbrighton.com.jpg
+image: /images/portfolio/printersbrighton.jpg
 permalink: portfolio/printers-brighton.html
 features:
   - web-design

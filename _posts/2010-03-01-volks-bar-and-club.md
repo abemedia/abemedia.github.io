@@ -5,7 +5,7 @@ categories:
   - Content Management Systems
 title: "Volks Bar & Club"
 link: volksclub.co.uk
-image: /images/portfolio/volksclub.co.uk.jpg
+image: /images/portfolio/volksclub.jpg
 permalink: portfolio/volks-bar-and-club.html
 features:
   - web-design

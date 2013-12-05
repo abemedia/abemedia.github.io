@@ -5,7 +5,7 @@ categories:
   - Ecommerce
 title: "DSF Manufacturing"
 link: dsfmanufacturing.co.uk
-image: /images/portfolio/dsfmanufacturing.co.uk.jpg
+image: /images/portfolio/dsfmanufacturing.jpg
 permalink: portfolio/dsf-manufacturing.html
 features:
   - web-design

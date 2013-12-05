@@ -5,7 +5,7 @@ categories:
   - Content Management Systems
 title: "Synergy Home Technology"
 link: synergytech.co.uk
-image: /images/portfolio/synergytech.co.uk.jpg
+image: /images/portfolio/synergytech.jpg
 permalink: portfolio/synergy-home-technology.html
 features:
   - web-design

@@ -5,7 +5,7 @@ categories:
   - Content Management Systems
 title: Orient Office
 link: ooffice.de
-image: /images/portfolio/ooffice.de.jpg
+image: /images/portfolio/ooffice.jpg
 permalink: portfolio/orient-office.html
 features:
   - web-design

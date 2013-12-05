@@ -1,8 +1,9 @@
 ---
 params:
     title: Other
-    filter: {{page.categories | last}}
+    filter: 
 ---
+{% capture page.params.filter %}{{page.categories | last}}{% endcapture %}
 <!DOCTYPE html>
 <html lang="en">
   <head>{% include header.html %}</head>

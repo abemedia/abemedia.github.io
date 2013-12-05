@@ -7,11 +7,16 @@ sitemap:
     priority: 0.7
     changefreq: monthly
     lastmod: 2013-11-09T7:30:00
-bottom: 
+bottom:     
+-
     content: portfolio
     params:
         title: Ecommerce Website Design Portfolio
         filter: ecommerce
+-
+    content: services
+    params:
+        title: Our Services
 ---
 
 E-commerce offers a great number of advantages as you can reach a global audience, attracting new customers, and greatly reduce your overheads and order processing costs.

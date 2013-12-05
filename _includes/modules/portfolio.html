@@ -4,7 +4,6 @@
 <ul class="box-list">
   {% capture ino %}0{% endcapture %}
   {% for post in site.categories.portfolio %}
-    {% capture ino %}{{ ino | plus:1 }}{% endcapture %}
       {% if {{ino}} < "4" %}
         {% capture item %}
           <li>
@@ -19,9 +18,11 @@
       
         {% if include.params.filter %}
           {% if post.categories contains include.params.filter %}
+            {% capture ino %}{{ ino | plus:1 }}{% endcapture %}
             {{ item }}
           {% endif %}
         {% else %}
+            {% capture ino %}{{ ino | plus:1 }}{% endcapture %}
             {{ item }}
         {% endif %}
       {% endif %}

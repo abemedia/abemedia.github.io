@@ -1,10 +1,10 @@
-{% if params.title %}
-<h3>{{ params.title }}</h3>
+{% if include.params.title %}
+<h3>{{ include.params.title }}</h3>
 {% endif %}
 <ul class="box-list">
   {% for post in site.categories.portfolio limit:3 %}
-    {% if {{params.filter}} %}
-      {% if post.categories contains {{params.filter}} %}
+    {% if {{include.params.filter}} %}
+      {% if post.categories contains {{include.params.filter}} %}
     {% endif %}
       <li>
         <a class="box" href="{{ post.url }}">
@@ -13,7 +13,7 @@
           <span class="text-muted">{{ post.link }}</span>
         </a>
       </li>
-    {% if {{params.filter}} %}
+    {% if {{include.params.filter}} %}
       {% endif %}
     {% endif %}
   {% endfor %}

@@ -131,6 +131,9 @@ footer {
 	body {
 		margin-top: 70px;
 	}
+	.navbar-brand {
+		padding: 20px 15px;
+	}
 	.navbar .navbar-nav>li>a, .navbar .navbar-right a {
 		padding-top:25px;
 		padding-bottom:25px;

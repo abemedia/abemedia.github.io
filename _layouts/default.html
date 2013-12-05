@@ -27,20 +27,18 @@
         {% endif %}
       </div>
     </div>
-    {{page.bottom}}
-    {{page.bottom[0]}}
-    {% if page.bottom %}
-      {% if page.bottom.content %}
-        {% capture bottom %}modules/{{ page.bottom.content }}.html{% endcapture %}
-        {% include {{bottom}} params=page.bottom.params %}
-      {% else %}
-        {% for item in page.bottom %}
-          {% capture bottom %}modules/{{ item.content }}.html{% endcapture %}
-          {% include {{bottom}} params=item.params %}
-        {% endfor %}
-      {% endif %}
-    {% endif %}
   </div>
+  {% if page.bottom %}
+    {% if page.bottom.content %}
+      {% capture bottom %}modules/{{ page.bottom.content }}.html{% endcapture %}
+      {% include {{bottom}} params=page.bottom.params %}
+    {% else %}
+      {% for item in page.bottom %}
+        {% capture bottom %}modules/{{ item.content }}.html{% endcapture %}
+        {% include {{bottom}} params=item.params %}
+      {% endfor %}
+    {% endif %}
+  {% endif %}
   {% include footer.html %}
   </body>
 </html>

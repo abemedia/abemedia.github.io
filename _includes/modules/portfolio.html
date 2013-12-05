@@ -16,7 +16,7 @@
         </li>
       {% endcapture %}
       
-      {% if ino < 4 %}
+      {% if 3 > ino %}
         {% if include.params.filter %}
           {% if post.categories contains include.params.filter %}
             {{ item }}

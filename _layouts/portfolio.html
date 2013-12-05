@@ -1,8 +1,11 @@
 ---
 params:
     title: Other
-    filter: {{page.categories | last}}
+    filter: 
 ---
+{% assign params = page.params %}
+{% capture params.filter %}{{page.categories | last}}{% endcapture %}
+
 <!DOCTYPE html>
 <html lang="en">
   <head>{% include header.html %}</head>
@@ -13,7 +16,7 @@ params:
       <h1 class="page-header">{{ page.title }}</h1>
       {{ content }}
     </div>
-    {% include modules/portfolio.html params=page.params %}
+    {% include modules/portfolio.html params=params %}
   </div>
   {% include footer.html %}
   </body>

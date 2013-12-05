@@ -125,6 +125,13 @@ footer {
 	border-radius: 0;
 	background: rgb(254, 152, 51);
 }
+.navbar .dropdown-menu li {
+	width: 20%;
+	float: left;
+}
+.navbar .dropdown-menu li a {
+	text-align: center;
+}
 @media (min-width: 992px) {
 	body {
 		margin-top: 70px;

@@ -54,7 +54,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	color:#ddd;
 	font-size: 18px;
 	background-size:100% 200%;
-	border-right:1px solid #454545;
+	padding-top:30px;
+	padding-bottom:30px;
 }
 .navbar .navbar-nav>li.active>a {
 	color:#FF9833;

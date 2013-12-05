@@ -26,6 +26,10 @@ a:hover {
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: "PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+.title {
+	color:#cc6633;
+	font-size:16px;
+}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -141,19 +145,21 @@ footer {
 	right:0;
 	bottom:0;
 }
+
 .box-list {
 	list-style: none;
+	padding: 0;
+	margin: 0 -15px;
 }
-.box-list li {
+.box-list>li {
 	width: 30%;
 	float: left;
 	margin: 0 15px 30px;
 	
 }
-.box-list li a span {
+.box-list>li>a>span {
 	display: block;
         padding: 0 15px;
-	
 }
 .box {
         background: #fff;

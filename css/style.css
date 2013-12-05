@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .container {
 	width: 100%;
-	padding: 0 15px;
+	padding: 0 30px;
 }
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -81,7 +81,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .navbar-brand {
 	padding: 0 15px;
-	margin: 0 0 -32px 0;
 }
 .navbar-right, .navbar-inverse .navbar-collapse {
 	padding-right: 0;
@@ -111,7 +110,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-
 @media (min-width: 768px) {
   .navbar-wrapper {
     margin-top: 20px;
@@ -149,6 +147,8 @@ footer {
 	bottom:0;
 }
 
+/* Box List
+-------------------------------------------------- */
 .box-list {
 	list-style: none;
 	padding: 0;

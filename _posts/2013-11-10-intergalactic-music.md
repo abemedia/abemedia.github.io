@@ -7,7 +7,7 @@ categories:
 image: "/images/blog/abemedia-logo.jpg"
 permalink: portfolio/intergalactic-music
 link: intergalactic-music.co.uk
-published: true
+published: false
 features:
   - web-design
   - ecommerce

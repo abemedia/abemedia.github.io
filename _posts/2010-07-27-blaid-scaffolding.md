@@ -6,7 +6,7 @@ categories:
 title: Blaid Scaffolding
 link: blaidscaffolding.com
 image: /images/portfolio/blaidscaffolding.jpg
-permalink: portfolio/blaid-scaffolding.html
+permalink: portfolio/blaid-scaffolding
 features:
   - web-design
   - cms

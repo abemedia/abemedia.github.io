@@ -6,7 +6,7 @@ categories:
 title: Orient Office
 link: ooffice.de
 image: /images/portfolio/ooffice.jpg
-permalink: portfolio/orient-office.html
+permalink: portfolio/orient-office
 features:
   - web-design
   - cms

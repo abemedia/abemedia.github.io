@@ -6,7 +6,7 @@ categories:
 title: "Gold Estates"
 link: gold-estates.com
 image: /images/portfolio/gold-estates.jpg
-permalink: portfolio/gold-estates.html
+permalink: portfolio/gold-estates
 features:
   - web-design
   - cms

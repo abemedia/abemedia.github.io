@@ -6,7 +6,7 @@ categories:
 title: "Synergy Home Technology"
 link: synergytech.co.uk
 image: /images/portfolio/synergytech.jpg
-permalink: portfolio/synergy-home-technology.html
+permalink: portfolio/synergy-home-technology
 features:
   - web-design
   - cms

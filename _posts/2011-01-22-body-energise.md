@@ -6,7 +6,7 @@ categories:
 title: "Body Energise"
 link: bodyenergise.co.uk
 image: /images/portfolio/bodyenergise.jpg
-permalink: portfolio/body-energise.html
+permalink: portfolio/body-energise
 features:
   - web-design
   - ecommerce

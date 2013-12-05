@@ -6,7 +6,7 @@ categories:
 title: "Volks Bar & Club"
 link: volksclub.co.uk
 image: /images/portfolio/volksclub.jpg
-permalink: portfolio/volks-bar-and-club.html
+permalink: portfolio/volks-bar-and-club
 features:
   - web-design
   - cms

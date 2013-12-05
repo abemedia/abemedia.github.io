@@ -6,7 +6,7 @@ categories:
 title: "Husky Events"
 link: huskyevents.com
 image: /images/portfolio/huskyevents.jpg
-permalink: portfolio/husky-events.html
+permalink: portfolio/husky-events
 features:
   - web-design
   - cms

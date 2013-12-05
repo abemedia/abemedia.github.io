@@ -6,7 +6,7 @@ categories:
 title: Money Pipe
 link: moneypipe.co.uk
 image: /images/portfolio/moneypipe.jpg
-permalink: portfolio/money-pipe.html
+permalink: portfolio/money-pipe
 features:
   - web-design
   - cms

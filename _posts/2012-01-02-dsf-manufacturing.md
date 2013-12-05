@@ -6,7 +6,7 @@ categories:
 title: "DSF Manufacturing"
 link: dsfmanufacturing.co.uk
 image: /images/portfolio/dsfmanufacturing.jpg
-permalink: portfolio/dsf-manufacturing.html
+permalink: portfolio/dsf-manufacturing
 features:
   - web-design
   - ecommerce

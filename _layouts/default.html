@@ -4,6 +4,10 @@
   <body>
   {% include nav-main.html %}
   <div class="container">
+    {% if page.top %}
+    {% capture top %}modules/{{ page.top }}.html{% endcapture %}
+    {% include {{top}} %}
+    {% endif %}
     <div id="main">
       <div class="row">
         {% if page.left %}
@@ -23,6 +27,10 @@
         {% endif %}
       </div>
     </div>
+    {% if page.bottom %}
+    {% capture bottom %}modules/{{ page.bottom }}.html{% endcapture %}
+    {% include {{bottom}} %}
+    {% endif %}
   </div>
   {% include footer.html %}
   </body>

@@ -182,12 +182,13 @@ footer {
 	list-style: none;
 	padding: 0;
 	margin: 0 -15px;
-	display: flex;
+	font-size:0;
 }
 .box-list>li {
 	width: 100%;
 	padding: 0 15px;
 	display: inline-block;
+	font-size: inherit;
 }
 @media (min-width: 768px) {
 	.box-list>li {

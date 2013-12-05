@@ -8,9 +8,7 @@
       <h1 class="page-header">{{ page.title }}</h1>
       {{ content }}
     </div>
-    {% assign params.title = "Other" %} 
-    {% assign params.filter = {{page.categories | last}} %} 
-    {% include modules/portfolio.html params=params %}
+    {% include modules/portfolio.html params={"title"=>"Other", "filter"=>{{page.categories | last}}, "count"=>6} %}
   </div>
   {% include footer.html %}
   </body>

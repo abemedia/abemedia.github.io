@@ -135,12 +135,6 @@ footer {
 		padding-top:25px;
 		padding-bottom:25px;
 	}
-	.navbar-brand {
-		padding: 15px 15px;
-	}
-	.navbar-brand img {
-		height: 40px;
-	}
 	.navbar .dropdown-menu {
 		left: 0;
 		right: 0;
@@ -157,6 +151,14 @@ footer {
 	}
 	.navbar .dropdown-menu li a {
 		text-align: center;
+	}
+}
+@media (min-width: 1092px) {
+	.navbar-brand {
+		padding: 15px 15px;
+	}
+	.navbar-brand img {
+		height: 40px;
 	}
 }
 

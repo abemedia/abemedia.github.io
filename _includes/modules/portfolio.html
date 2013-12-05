@@ -3,8 +3,8 @@
 {% endif %}
 <ul class="box-list">
   {% for post in site.categories.portfolio limit:3 %}
-    {% if params.filter %}
-      {% if post.categories contains params.filter %}
+    {% if {{params.filter}} %}
+      {% if post.categories contains {{params.filter}} %}
     {% endif %}
       <li>
         <a class="box" href="{{ post.url }}">
@@ -13,9 +13,8 @@
           <span class="text-muted">{{ post.link }}</span>
         </a>
       </li>
-    {% if params.filter %}
+    {% if {{params.filter}} %}
       {% endif %}
     {% endif %}
   {% endfor %}
 </ul>
-post.categories contains {{page.filter}} and

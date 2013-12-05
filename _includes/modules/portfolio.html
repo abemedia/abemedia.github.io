@@ -5,6 +5,7 @@
   {% capture i %}0{% endcapture %}
   {% for post in site.categories.portfolio %}
     {% capture i %}{{ i | plus:1 }}{% endcapture %}
+    
     {% if i < 4 %}
       {% capture item %}
         <li>
@@ -15,13 +16,16 @@
           </a>
         </li>
       {% endcapture %}
-      {% if {{include.params.filter}} %}
-        {% if post.categories contains {{include.params.filter}} %}
+      
+      {% if include.params.filter %}
+        {% if post.categories contains include.params.filter %}
           {{ item }}
         {% endif %}
       {% else %}
           {{ item }}
       {% endif %}
+      
     {% endif %}
+    
   {% endfor %}
 </ul>

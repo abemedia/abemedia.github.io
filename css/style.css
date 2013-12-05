@@ -24,15 +24,11 @@ a:hover {
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: "PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-transform: uppercase;
 }
 .title {
 	color:#cc6633;
 	font-size:16px;
-}
-h3.title {
-	text-align: center;
-	font-size: 24px;
-	text-transform: uppercase;
 }
 .container {
 	width: 100%;
@@ -88,6 +84,7 @@ footer {
 	color:#ddd;
 	font-size: 18px;
 	background-size:100% 200%;
+	text-transform: uppercase;
 }
 .navbar .navbar-nav>li.active>a {
 	color:#FF9833;

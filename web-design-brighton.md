@@ -7,11 +7,12 @@ sitemap:
     priority: 0.7
     changefreq: monthly
     lastmod: 2013-11-09T7:30:00
-bottom[0]:
+bottom:
+-
     content: portfolio
     params:
         title: Website Design Portfolio
-bottom[1]:
+-
     content: services
     params:
         title: Our Services

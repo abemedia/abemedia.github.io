@@ -8,11 +8,11 @@ sitemap:
     changefreq: monthly
     lastmod: 2013-11-09T7:30:00
 bottom: 
-    0:
+    portfolio:
         content: portfolio
         params:
             title: Website Design Portfolio
-    1:
+    services:
         content: services
         params:
             title: Our Services

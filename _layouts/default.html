@@ -29,7 +29,7 @@
     </div>
     {% if page.bottom %}
     {% capture bottom %}modules/{{ page.bottom.content }}.html{% endcapture %}
-    {% include {{bottom}} params="{{ page.bottom.params }}" %}
+    {% include {{bottom}} params="{{page.bottom.params}}" %}
     {% endif %}
   </div>
   {% include footer.html %}

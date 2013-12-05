@@ -3,11 +3,11 @@
   <head>{% include header.html %}</head>
   <body>
   {% include nav-main.html %}
-  <div class="container">
-    {% if page.top %}
+  {% if page.top %}
     {% capture top %}modules/{{ page.top.content }}.html{% endcapture %}
     {% include {{top}} params=page.top.params %}
-    {% endif %}
+  {% endif %}
+  <div class="container">
     <div id="main">
       <div class="row">
         {% if page.left %}

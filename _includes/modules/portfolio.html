@@ -1,4 +1,10 @@
-{{include.params}}
+{% capture title %}{{ include.params.title }}{% endcapture %}
+{% capture filter %}{{ include.params.filter }}{% endcapture %}
+{% if page.categories contains "services" %}
+{% capture filter %}{{ page.slug }}{% endcapture %}
+{% elsif page.categories contains "portfolio" %}
+{% capture filter %}{{ page.categories | last }}{% endcapture %}
+{% endif %}
 {% if include.params.title %}
 <h3>{{ include.params.title }}</h3>
 {% endif %}
@@ -21,8 +27,8 @@
           </li>
         {% endcapture %}
       
-        {% if include.params.filter %}
-          {% if post.categories contains include.params.filter %}
+        {% if filter %}
+          {% if post.categories contains filter %}
             {% capture i %}{{ i | plus:1 }}{% endcapture %}
             {{ item }}
           {% endif %}

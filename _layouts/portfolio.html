@@ -8,7 +8,15 @@
       <h1 class="page-header">{{ page.title }}</h1>
       {{ content }}
     </div>
-    {% include modules/servies.html features=page.features %}
+    <h3>{{ include.params.title }}</h3>
+    <div class="row">
+      {% if page.features contains "web-design" %}
+      <div class="col-md-2">Web Design</div>
+      {% endif %}
+      {% if page.features contains "ecommerce" %}
+      <div class="col-md-2">Ecommerce</div>
+      {% endif %}
+    </div>
   </div>
   {% include footer.html %}
   </body>

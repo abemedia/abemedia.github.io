@@ -11,7 +11,7 @@ bottom:
     content: portfolio
     params:
         title: CMS Website Design Portfolio
-        filter: cms
+        filter: content management systems
 ---
 
 A dynamic content management system is at the heart of every good website, making it easy to keep your site up-to-date, without any technical knowledge or HTML required.

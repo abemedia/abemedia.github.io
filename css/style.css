@@ -89,6 +89,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	color:#fff;
 	font-size: 22px;
 	background: none;
+	line-height:20px;
 }
 .navbar .navbar-right>li>a:hover {
 	color:#FF9833;

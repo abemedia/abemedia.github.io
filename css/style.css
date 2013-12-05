@@ -161,6 +161,9 @@ footer {
 	display: block;
         padding: 0 15px;
 }
+.box-list>li>a>span.title {
+        padding-top: 15px;
+}
 .box {
         background: #fff;
 	background: rgba(255,255,255,0.5);
@@ -169,6 +172,8 @@ footer {
         border-radius: 4px;
         overflow: hidden;
         zoom: 1;
+        display: block;
+        padding-bottom: 15px;
 }
 div.box {
         padding: 15px;

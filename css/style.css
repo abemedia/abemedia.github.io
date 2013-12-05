@@ -163,10 +163,19 @@ footer {
 	margin: 0 -15px;
 }
 .box-list>li {
-	width: 30%;
+	width: 100%;
 	float: left;
 	margin: 0 15px 30px;
-	
+}
+@media (min-width: 768px) {
+	.box-list>li {
+		width: 50%;
+	}
+}
+@media (min-width: 992px) {
+	.box-list>li {
+		width: 33.33333333333333%;
+	}
 }
 .box-list>li>a>span {
 	display: block;

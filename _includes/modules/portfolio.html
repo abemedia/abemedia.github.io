@@ -11,7 +11,7 @@
     {% capture i %}0{% endcapture %}
     {% for post in site.categories.portfolio %}
         {% if {{i}} < {{count}} %}
-          {% if include.params.filter == blank or post.categories contains include.params.filter %}
+          {% if include.params.filter == nil or post.categories contains include.params.filter %}
             {% capture i %}{{ i | plus:1 }}{% endcapture %}
             <li>
               <a class="box" href="{{ post.url }}">

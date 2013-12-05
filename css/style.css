@@ -237,6 +237,8 @@ footer {
 }
 .folio .box {
 	padding: 0 0 15px;
+        background:#f3f3f3;
+        background: rgba(243, 243, 243, 0.5);
 }
 
 /* Blog

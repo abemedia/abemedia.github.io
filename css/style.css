@@ -182,12 +182,12 @@ footer {
 	list-style: none;
 	padding: 0;
 	margin: 0 -15px;
-	display: inline-block;
+	text-align: center;
 }
 .box-list>li {
 	width: 100%;
 	padding: 0 15px;
-	float: left;
+	display: inline-block;
 }
 @media (min-width: 768px) {
 	.box-list>li {

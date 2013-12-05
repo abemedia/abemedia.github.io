@@ -54,6 +54,9 @@ footer {
 	right:0;
 	bottom:0;
 }
+#main {
+	margin-top: 20px;
+}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -134,7 +137,7 @@ footer {
 	}
 }
 
-/* CUSTOMIZE THE NAVLIST
+/* Navlist
 -------------------------------------------------- */
 .nav-list>li>a:hover, 
 .nav-list>li>a:focus,

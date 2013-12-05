@@ -4,10 +4,9 @@
 <ul class="box-list">
   {% capture ino %}0{% endcapture %}
   {% for post in site.categories.portfolio %}
-      {% if {{ino}} < "3" %}
+      {% if {{i}} < "3" %}
         {% capture item %}
           <li>
-      {{ ino }}
             <a class="box" href="{{ post.url }}">
               <img alt="{{ post.title }}" src="{{ post.image }}" class="img-responsive">
               <span class="title">{{ post.title }}</span>
@@ -18,11 +17,11 @@
       
         {% if include.params.filter %}
           {% if post.categories contains include.params.filter %}
-            {% capture ino %}{{ ino | plus:1 }}{% endcapture %}
+            {% capture i %}{{ i | plus:1 }}{% endcapture %}
             {{ item }}
           {% endif %}
         {% else %}
-            {% capture ino %}{{ ino | plus:1 }}{% endcapture %}
+            {% capture i %}{{ i | plus:1 }}{% endcapture %}
             {{ item }}
         {% endif %}
       {% endif %}

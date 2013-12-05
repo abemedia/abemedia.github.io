@@ -9,7 +9,7 @@ body {
 	background-size: 100% auto;
 	*/
 	background: #f9f9f9;
-	margin:70px 0 171px;
+	margin:50px 0 171px;
 	font-family: "PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 	min-height: 100%;
 }
@@ -33,6 +33,26 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .container {
 	width: 100%;
 	padding: 0 30px;
+}
+.page-header {
+	margin-top: 0;
+}
+.breadcrumb {
+	padding: 5px 10px;
+	margin: 10px 0 20px 82px;
+	display: inline-block;
+	background: rgba(255,255,255,0.5);
+}
+footer {
+	padding-top: 40px;
+	padding-bottom: 30px;
+	color: #777;
+	border-top: 1px solid #eee;
+	background: #f5f5f5;
+	position: absolute;
+	left:0;
+	right:0;
+	bottom:0;
 }
 
 /* CUSTOMIZE THE NAVBAR
@@ -99,6 +119,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 @media (min-width: 992px) {
+	body {
+		margin-top: 70px;
+	}
 	.navbar .navbar-nav>li>a, .navbar .navbar-right a {
 		padding-top:25px;
 		padding-bottom:25px;
@@ -131,45 +154,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .nav-list>li>a:focus {
 	background-position: 100% 100%;
 	padding-left: 25px;
-}
-
-/* RESPONSIVE CSS
--------------------------------------------------- */
-@media (min-width: 768px) {
-  .navbar-wrapper {
-    margin-top: 20px;
-  }
-  .navbar-wrapper .container {
-    padding-left:  15px;
-    padding-right: 15px;
-  }
-  .navbar-wrapper .navbar {
-    padding-left:  0;
-    padding-right: 0;
-  }
-  .navbar-wrapper .navbar {
-    border-radius: 4px;
-  }
-}
-.page-header {
-	margin-top: 0;
-}
-.breadcrumb {
-	padding: 5px 10px;
-	margin: 10px 0 20px 82px;
-	display: inline-block;
-	background: rgba(255,255,255,0.5);
-}
-footer {
-	padding-top: 40px;
-	padding-bottom: 30px;
-	color: #777;
-	border-top: 1px solid #eee;
-	background: #f5f5f5;
-	position: absolute;
-	left:0;
-	right:0;
-	bottom:0;
 }
 
 /* Box List

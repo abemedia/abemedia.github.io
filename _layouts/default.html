@@ -5,8 +5,8 @@
   {% include nav-main.html %}
   <div class="container">
     {% if page.top %}
-    {% capture top %}modules/{{ page.top }}.html{% endcapture %}
-    {% include {{top}} %}
+    {% capture top %}modules/{{ page.top.content }}.html{% endcapture %}
+    {% include {{top}} params="{{ page.top.params }}" %}
     {% endif %}
     <div id="main">
       <div class="row">
@@ -28,8 +28,8 @@
       </div>
     </div>
     {% if page.bottom %}
-    {% capture bottom %}modules/{{ page.bottom }}.html{% endcapture %}
-    {% include {{bottom}} %}
+    {% capture bottom %}modules/{{ page.bottom.content }}.html{% endcapture %}
+    {% include {{bottom}} params="{{ page.bottom.params }}" %}
     {% endif %}
   </div>
   {% include footer.html %}

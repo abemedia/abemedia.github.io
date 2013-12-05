@@ -91,6 +91,7 @@ footer {
 	font-size: 16px;
 	background-size:100% 200%;
 	text-transform: uppercase;
+	padding:15px 10px;
 }
 .navbar .navbar-nav>li.active>a {
 	color:#FF9833;
@@ -135,8 +136,7 @@ footer {
 		padding: 20px 15px;
 	}
 	.navbar .navbar-nav>li>a, .navbar .navbar-right a {
-		padding-top:25px;
-		padding-bottom:25px;
+		padding:25px 15px;
 	}
 	.navbar .navbar-nav>li>a {
 		font-size: 18px;

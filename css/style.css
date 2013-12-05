@@ -85,13 +85,14 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .navbar-brand img {
 	height:30px;
 }
-.navbar-right, .navbar-inverse .navbar-collapse {
-	padding-right: 0;
-}
-.navbar .navbar-right a {
+.navbar .navbar-right>li>a {
 	color:#fff;
 	font-size: 22px;
-	background:none;
+	background: none;
+}
+.navbar .navbar-right>li>a:hover {
+	color:#FF9833;
+	text-shadow: #6C3806 0px 1px 0px;
 }
 
 @media (min-width: 992px) {

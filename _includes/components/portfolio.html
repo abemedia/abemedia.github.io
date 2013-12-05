@@ -3,7 +3,7 @@
     {% if post.categories contains {{page.slug}} %}
       <li>
         <a class="box" href="{{ post.url }}">
-          <img alt="{{ post.title }}" src="{{ post.image }}" width="120">
+          <img alt="{{ post.title }}" src="{{ post.image }}" class="img-responsive">
           <span class="title">{{ post.title }}</span>
           <span class="text-muted">{{ post.link }}</span>
         </a>

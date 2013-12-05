@@ -165,7 +165,7 @@ footer {
 .box-list>li {
 	width: 100%;
 	float: left;
-	margin: 0 15px 30px;
+	padding: 0 15px 30px;
 }
 @media (min-width: 768px) {
 	.box-list>li {

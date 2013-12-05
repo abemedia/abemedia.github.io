@@ -2,7 +2,7 @@
 <h3>{{ include.params.title }}</h3>
 {% endif %}
 <ul class="box-list">
-  {% capture ino %}1{% endcapture %}
+  {% capture ino %}0{% endcapture %}
   {% for post in site.categories.portfolio %}
     {% capture ino %}{{ ino | plus:1 }}{% endcapture %}
     {{ ino }}
@@ -16,7 +16,7 @@
         </li>
       {% endcapture %}
       
-      {% if ino<3 %}
+      {% if {{ino}} < 3 %}
         {% if include.params.filter %}
           {% if post.categories contains include.params.filter %}
             {{ item }}

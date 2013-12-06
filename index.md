@@ -17,6 +17,7 @@ bottom:
     content: services
     params:
         title: Our Services
+        desc: true
 ---
 <h1>Web Design, Development &amp; Consultation<br>
 <small>Brighton web designers specialising in e-commerce &amp; content management systems</small></h1>

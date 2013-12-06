@@ -23,7 +23,5 @@ bottom:
 <p class="lead">We're a small, yet highly innovative web design and development company based in Brighton &amp; Hove, East Sussex.<br>
 Since its incorporation in 2005, ABE Media have been at the forefront of new technology, shaping the future of web design with each and every project.</p>
 
-<blockquote>
-  <p>The website looks amazing. Thank you so much.</p>
-  <small>Heather Hilder-Darling <cite title="Callaways Estate Agents">Callaways Estate Agents</cite></small>
-</blockquote>
+> The website looks amazing. Thank you so much.  
+Heather Hilder-Darling <cite title="Callaways Estate Agents">Callaways Estate Agents

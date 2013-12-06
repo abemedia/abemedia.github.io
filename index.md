@@ -24,4 +24,4 @@ bottom:
 Since its incorporation in 2005, ABE Media have been at the forefront of new technology, shaping the future of web design with each and every project.</p>
 
 > The website looks amazing. Thank you so much.  
-Heather Hilder-Darling <cite title="Callaways Estate Agents">Callaways Estate Agents
+**Heather Hilder-Darling** Callaways Estate Agents

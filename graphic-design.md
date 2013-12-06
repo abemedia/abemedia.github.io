@@ -12,7 +12,7 @@ bottom:
     content: portfolio
     params:
         title: Graphic Design Portfolio
-        filter: graphic-design
+        filter: graphic
 -
     content: services
     params:

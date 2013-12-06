@@ -9,6 +9,11 @@ sitemap:
     lastmod: 2013-11-09T7:30:00
 bottom: 
 -
+    content: portfolio
+    params:
+        title: Graphic Design Portfolio
+        filter: graphic
+-
     content: services
     params:
         title: Our Services

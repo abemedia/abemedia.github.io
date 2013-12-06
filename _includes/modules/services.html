@@ -6,7 +6,7 @@
           {% if page.features == nil or page.features contains {{item.alias}} %}
           <li><a class="box" href="{{ site.url }}/{{ item.url }}">
             <img src="{{ item.image }}">
-            <span class="h3">{{ item.title }}</span>
+            <span class="h4">{{ item.title }}</span>
             {% if include.params.desc %}<span class="text-muted">{{ item.desc }}</span>{% endif %}
             </a>
           {% endif %}

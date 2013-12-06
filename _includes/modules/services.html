@@ -7,7 +7,7 @@
           <li><a class="box" href="{{ site.url }}/{{ item.url }}">
             <img src="{{ item.image }}">
             <h3>{{ item.title }}</h3>
-            {% if include.params.desc %}{{ item.desc }}{% endif %}
+            {% if include.params.desc %}<p class="text-muted">{{ item.desc }}</p>{% endif %}
             </a>
           {% endif %}
           {% endfor %}

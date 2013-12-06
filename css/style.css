@@ -221,7 +221,6 @@ footer {
 }
 .box-list>li>a>span {
 	display: block;
-        padding: 0 15px;
 }
 .box-list>li>a>span.title {
         padding-top: 15px;
@@ -235,12 +234,12 @@ footer {
         overflow: hidden;
         zoom: 1;
         display: block;
-        padding: 15px 0;
+        padding: 15px;
         margin-bottom:30px;
 }
 a.box:hover {
-        -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
         text-decoration: none;
 }
 .box h3.box-header, .box h1 {

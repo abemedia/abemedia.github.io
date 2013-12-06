@@ -1,5 +1,5 @@
 ---
-services:
+items:
 -
     title: Web Design
     alias: web-design
@@ -35,14 +35,12 @@ services:
       <div class="container">
         <h3 class="module-title">{{ include.params.title }}</h3>
         <ul class="box-list box-list-small">
-          {% for item as page.services %}
+          {% for item as page.items %}
           {% if page.features == nil or page.features contains {{item.alias}} %}
           <li><a class="box" href="{{ site.url }}/{{ item.url }}">
             <img src="{{ item.image }}">
             <h3>{{ item.title }}</h3>
-              {% if include.params.desc %}
-              {{ item.desc }}
-              {% endif %}
+            {% if include.params.desc %}{{ item.desc }}{% endif %}
             </a>
           {% endif %}
           {% endfor %}

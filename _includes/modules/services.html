@@ -3,16 +3,40 @@
         <h3 class="module-title">{{ include.params.title }}</h3>
         <ul class="box-list box-list-small">
           {% if page.features == nil or page.features contains "web-design" %}
-          <li><a class="box" href="{{ site.url }}/web-design-brighton"><img src="/images/services/mouse.png"><span class="title">Web Design</span></a>
+          <li><a class="box" href="{{ site.url }}/web-design-brighton">
+            <img src="/images/services/mouse.png">
+            <span class="title">Web Design</span>
+              {% if include.params.desc %}
+              We offer professional, innovative web design &amp; development which is accessible, web standards compliant and SEO friendly.
+              {% endif %}
+            </a>
           {% endif %}
           {% if page.features == nil or page.features contains "ecommerce" %}
-          <li><a class="box" href="{{ site.url }}/ecommerce-web-design"><img src="/images/services/cart.png"><span class="title">Ecommerce</span></a>
+          <li><a class="box" href="{{ site.url }}/ecommerce-web-design">
+            <img src="/images/services/cart.png">
+            <span class="title">Ecommerce</span>
+              {% if include.params.desc %}
+              No two online businesses are the same; that's why our online shops are fully customized to support your specific e-commerce strategy.
+              {% endif %}
+            </a>
           {% endif %}
           {% if page.features == nil or page.features contains "cms" %}
-          <li><a class="box" href="{{ site.url }}/content-management-systems-cms"><img src="/images/services/blocks.png"><span class="title">CMS</span></a>
+          <li><a class="box" href="{{ site.url }}/content-management-systems-cms">
+            <img src="/images/services/blocks.png">
+            <span class="title">CMS</span>
+              {% if include.params.desc %}
+              Our CMS solutions are designed to simplify the publication of your content to your website without requiring any technical knowledge of HTML.
+              {% endif %}
+            </a>
           {% endif %}
           {% if page.features == nil or page.features contains "graphic" %}
-          <li><a class="box" href="{{ site.url }}/graphic-design"><img src="/images/services/pencil.png"><span class="title">Graphic Design</span></a>
+          <li><a class="box" href="{{ site.url }}/graphic-design">
+          <img src="/images/services/pencil.png">
+          <span class="title">Graphic Design</span>
+              {% if include.params.desc %}
+              From simple logos and promotional material such as leaflets &amp; business cards to full brand identities.<br>We love graphic design!
+              {% endif %}
+          </a>
           {% endif %}
         </ul>
       </div>

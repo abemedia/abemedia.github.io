@@ -3,29 +3,6 @@
 // stuff for the things...
 $.getScript('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.2/js/bootstrap.min.js');
 
-// search autocomplete
-typeaheadCallback = function () {
-    $('#search_control').typeahead({
-        prefetch: "{{ site.url }}/search.json",
-        remote: {
-            url: "http://clients1.google.com/complete/search?q=%QUERY&hl=en&client=partner&source=gcsc&partnerid={014812861817308790526:-rrfwxely2g}&ds=cse&nocache=" + Math.random().toString(),
-            dataType: 'jsonp',
-            filter: function (resp) {
-                return $.map(resp[1], function (item) {
-                    return {
-                        value: item,
-                        tokens: item
-                    };
-                });
-            }
-        }
-    })
-        .on('typeahead:selected', function (e) {
-        e.target.form.submit();
-    });
-}
-$.getScript('//cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.9.3/typeahead.min.js', typeaheadCallback);
-
 // tocify
 if ($(".toc").length > 0) {
     var tocCallback = function () {
@@ -44,28 +21,44 @@ if ($(".toc").length > 0) {
     });
 }
 
-// jQuery $_GET plugin
-(function ($) {
-    $.QueryString = (function (a) {
-        if (a == "") return {};
-        var b = {};
-        for (var i = 0; i < a.length; ++i) {
-            var p = a[i].split('=');
-            if (p.length != 2) continue;
-            b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
+// equal heights
+equalheight = function(container){
+    
+    var currentTallest = 0,
+        currentRowStart = 0,
+        rowDivs = new Array(),
+        $el,
+        topPosition = 0;
+    
+    $(container).each(function() {
+        $el = $(this);
+        $($el).height('auto')
+        topPostion = $el.position().top;
+    
+        if (currentRowStart != topPostion) {
+            for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {
+                rowDivs[currentDiv].height(currentTallest);
+            }
+            rowDivs.length = 0; // empty the array
+            currentRowStart = topPostion;
+            currentTallest = $el.height();
+            rowDivs.push($el);
+        } else {
+            rowDivs.push($el);
+            currentTallest = (currentTallest < $el.height()) ? ($el.height()) : (currentTallest);
         }
-        return b;
-    })(window.location.search.substr(1).split('&'))
-})(jQuery);
-
-// change search urls
-function pushState(path) {
-    if (typeof (window.history.pushState) == 'function') {
-        window.history.pushState(null, path, path);
-    } else {
-        window.location.hash = '#!' + path;
-    }
+        for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {
+            rowDivs[currentDiv].height(currentTallest);
+        }
+    });
 }
+
+$(window).load(function() {
+    equalheight('.box-list-small .box');
+});
+$(window).resize(function(){
+    equalheight('.box-list-small .box');
+});
 
 /*
 // twitter follow button

@@ -37,7 +37,8 @@ $(window).load(function() {
    equalHeight($(".box-list-small .box"));
 });
 $(window).resize(function(){
-   equalHeight($(".box-list-small .box"));
+    $(".box-list-small .box").height("auto");
+   //equalHeight($(".box-list-small .box"));
 });
 
 /*

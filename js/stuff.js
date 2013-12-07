@@ -23,14 +23,14 @@ if ($(".toc").length > 0) {
 
 // equal heights
 $.fn.equalHeight = function() {
+    this.height('auto');
     return this.height( Math.max.apply(this, $.map( this , function(e){ return $(e).height() }) ) );
 }
 $(window).load(function() {
-    $('.box-list-small .box').equalHeight;
+    $('.box-list-small .box').equalHeight();
 });
 $(window).resize(function(){
-    $('.box-list-small .box').height('auto');
-    $('.box-list-small .box').equalHeight;
+    $('.box-list-small .box').equalHeight();
 });
 
 /*

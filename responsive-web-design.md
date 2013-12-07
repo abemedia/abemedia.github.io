@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Responsive Web Design
+title: Mobile & Responsive Web Design
 slug: responsive-web-design
 lead: Dedicated mobile sites and responsive web design for mobile phones &amp; tablets.
 sitemap:

@@ -107,6 +107,10 @@ footer {
 	border-top-color: #FF9833;
 	border-bottom-color: #FF9833;
 }
+.nav a:hover .caret {
+	border-top-color: #fff;
+	border-bottom-color: #fff;
+}
 .navbar .navbar-nav>li:hover>a, .nav .open>a {
 	background-position:0 -100%;
 	color:#fff;

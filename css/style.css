@@ -253,7 +253,7 @@ a.box:hover {
         margin:0 0 15px;
         padding-bottom:3px;
 }
-.folio .box {
+.folio .box, .folio .box:hover {
 	padding: 0 0 15px;
         background:#eee;
 }

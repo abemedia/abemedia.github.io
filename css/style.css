@@ -244,6 +244,8 @@ footer {
 	padding: 0;
 	margin: 0 -15px;
 	text-align: center;
+	overflow: hidden;
+	zoom: 1;
 }
 .box-list>li {
 	width: 100%;

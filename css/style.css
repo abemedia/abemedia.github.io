@@ -157,6 +157,9 @@ footer {
 	.navbar .dropdown-menu li a {
 		text-align: center;
 	}
+	.navbar .dropdown-menu li a img {
+		margin: 10px auto;
+	}
 }
 @media (min-width: 992px) {
 	body {

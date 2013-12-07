@@ -158,7 +158,7 @@ footer {
 		text-align: center;
 		color: #fff;
 		text-transform: uppercase;
-		font-size: 18px;
+		font-size: 16px;
 	}
 	.navbar .dropdown-menu li a img {
 		margin: 10px auto;
@@ -190,6 +190,9 @@ footer {
 	}
 	.navbar-brand img {
 		height: 40px;
+	}
+	.navbar .dropdown-menu li a {
+		font-size: 18px;
 	}
 }
 

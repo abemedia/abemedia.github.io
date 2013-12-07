@@ -153,14 +153,16 @@ footer {
 	.navbar .dropdown-menu li {
 		width: 20%;
 		float: left;
+		padding: 10px 0;
 	}
 	.navbar .dropdown-menu li a {
 		text-align: center;
 		color: #fff;
 		text-transform: uppercase;
+		padding: 10px;
 	}
 	.navbar .dropdown-menu li a img {
-		margin: 10px auto;
+		margin: 0 auto 10px;
 	}
 }
 @media (min-width: 992px) {

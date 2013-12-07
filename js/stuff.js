@@ -3,29 +3,6 @@
 // stuff for the things...
 $.getScript('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.2/js/bootstrap.min.js');
 
-// search autocomplete
-typeaheadCallback = function () {
-    $('#search_control').typeahead({
-        prefetch: "{{ site.url }}/search.json",
-        remote: {
-            url: "http://clients1.google.com/complete/search?q=%QUERY&hl=en&client=partner&source=gcsc&partnerid={014812861817308790526:-rrfwxely2g}&ds=cse&nocache=" + Math.random().toString(),
-            dataType: 'jsonp',
-            filter: function (resp) {
-                return $.map(resp[1], function (item) {
-                    return {
-                        value: item,
-                        tokens: item
-                    };
-                });
-            }
-        }
-    })
-        .on('typeahead:selected', function (e) {
-        e.target.form.submit();
-    });
-}
-$.getScript('//cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.9.3/typeahead.min.js', typeaheadCallback);
-
 // tocify
 if ($(".toc").length > 0) {
     var tocCallback = function () {
@@ -44,28 +21,11 @@ if ($(".toc").length > 0) {
     });
 }
 
-// jQuery $_GET plugin
-(function ($) {
-    $.QueryString = (function (a) {
-        if (a == "") return {};
-        var b = {};
-        for (var i = 0; i < a.length; ++i) {
-            var p = a[i].split('=');
-            if (p.length != 2) continue;
-            b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
-        }
-        return b;
-    })(window.location.search.substr(1).split('&'))
-})(jQuery);
-
-// change search urls
-function pushState(path) {
-    if (typeof (window.history.pushState) == 'function') {
-        window.history.pushState(null, path, path);
-    } else {
-        window.location.hash = '#!' + path;
-    }
+// equal heights
+$.fn.setAllToMaxHeight = function(){
+    return this.height( Math.max.apply(this, $.map( this , function(e){ return $(e).height() }) ) );
 }
+if ($(".box-list-small").length > 0) { $(".box-list-small .box").setAllToMaxHeight(); }
 
 /*
 // twitter follow button

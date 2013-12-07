@@ -17,6 +17,12 @@
     image: /images/services/blocks.png
     desc: "Our CMS solutions are designed to simplify the publication of your content to your website without requiring any technical knowledge of HTML."
 -
+    title: Mobile Web Design
+    alias: mobile
+    url: responsive-web-design
+    image: /images/services/pencil.png
+    desc: "Dedicated mobile sites &amp; responsive websites for mobile phones &amp; tablets."
+-
     title: Graphic Design
     alias: graphic
     url: graphic-design

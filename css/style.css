@@ -163,6 +163,9 @@ footer {
 	.navbar .dropdown-menu li a {
 		text-align: center;
 	}
+	.navbar-collapse .navbar-nav.navbar-right:last-child {
+		margin-right: -30px;
+	}
 }
 @media (min-width: 1092px) {
 	.navbar-brand {

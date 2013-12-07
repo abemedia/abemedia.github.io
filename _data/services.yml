@@ -11,11 +11,11 @@
     image: /images/services/cart.png
     desc: "No two online businesses are the same; that's why our online shops are fully customized to support your specific ecommerce strategy."
 -
-    title: Content Management
+    title: CMS
     alias: cms
     url: content-management-systems-cms
     image: /images/services/blocks.png
-    desc: "Our CMS solutions are designed to simplify the publication of your content to your website without requiring any technical knowledge of HTML."
+    desc: "Our CMS solutions are designed to simplify the publication of your content to your website without requiring any technical knowledge."
 -
     title: Mobile Web Design
     alias: mobile

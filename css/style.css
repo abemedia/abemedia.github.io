@@ -148,21 +148,21 @@ footer {
 		border: none;
 		border-radius: 0;
 		background: rgb(254, 152, 51);
-		padding: 5px 30px;
+		padding: 15px 30px;
 	}
 	.navbar .dropdown-menu li {
 		width: 20%;
 		float: left;
-		padding: 10px 0;
 	}
 	.navbar .dropdown-menu li a {
 		text-align: center;
 		color: #fff;
 		text-transform: uppercase;
-		padding: 10px;
+		padding: 10px 0;
 	}
 	.navbar .dropdown-menu li a img {
 		margin: 0 auto 10px;
+		max-width: 65%;
 	}
 }
 @media (min-width: 992px) {

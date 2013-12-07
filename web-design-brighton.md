@@ -1,5 +1,6 @@
 ---
 layout: default
+category: services
 title: Web Design & Development
 slug: web-design
 lead: Creating a balance between creativity and functionality

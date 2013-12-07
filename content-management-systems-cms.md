@@ -1,5 +1,6 @@
 ---
 layout: default
+category: services
 title: Content Management Systems
 slug: content-management-systems-cms
 lead: Flexible out-of-the-box solutions & bespoke CMS development

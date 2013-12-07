@@ -10,7 +10,7 @@ permalink: portfolio/volks-bar-and-club
 features:
   - web-design
   - cms
-  - graphic
+  - mobile
 ---
 
 The Volks is located on Brighton Seafront and has been leading the way in new and underground club nights in Brighton for over 10 years. They needed a website which was simple to manage and on which their guests could easily check current events, even on their mobile phone.

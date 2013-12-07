@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Web Design & Development
+category: services
+title: Ecommerce Website Design Brighton
 slug: ecommerce-web-design
 lead: Easy to manage, secure payments...
 sitemap:
@@ -19,9 +20,9 @@ bottom:
         title: Our Services
 ---
 
-E-commerce offers a great number of advantages as you can reach a global audience, attracting new customers, and greatly reduce your overheads and order processing costs.
+Ecommerce offers a great number of advantages as you can reach a global audience, attracting new customers, and greatly reduce your overheads and order processing costs.
 
-Our e-commerce solutions are fast, secure and easy to manage with clients ranging from small merchandise shops with less than 20 products to large sites with thousands of products.
+Our ecommerce solutions are fast, secure and easy to manage with clients ranging from small merchandise shops with less than 20 products to large sites with thousands of products.
 
 - user-friendly interface 
 - advanced stock control 

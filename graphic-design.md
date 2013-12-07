@@ -1,5 +1,6 @@
 ---
 layout: default
+category: services
 title: Graphic Design 
 slug: graphic-design
 lead: Brighton based graphic designers specialising in web & print
@@ -8,6 +9,11 @@ sitemap:
     changefreq: monthly
     lastmod: 2013-11-09T7:30:00
 bottom: 
+-
+    content: portfolio
+    params:
+        title: Graphic Design Portfolio
+        filter: graphic
 -
     content: services
     params:

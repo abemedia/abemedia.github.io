@@ -9,17 +9,16 @@
         <li{% if page.slug == "home" %} class="active"{% endif %}><a href="{{ site.url }}">Home</a></li>
         <li{% if page.slug == "about" %} class="active"{% endif %}> <a href="{{ site.url }}/about">About</a></li>
         <li{% if page.category == "services" %} class="active"{% endif %} class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
-        <ul class="dropdown-menu">
-          <li{% if page.slug == "web-design-brighton" %} class="active"{% endif %}> <a href="{{ site.url }}/web-design-brighton">Web Design &amp; Development</a></li>
-          <li{% if page.slug == "ecommerce-web-design" %} class="active"{% endif %}> <a href="{{ site.url }}/ecommerce-web-design">Ecommerce (Online Shops)</a></li>
-          <li{% if page.slug == "content-management-systems-cms" %} class="active"{% endif %}> <a href="{{ site.url }}/content-management-systems-cms">Content Management Systems</a></li>
-          <li{% if page.slug == "online-marketing-brighton" %} class="active"{% endif %}> <a href="{{ site.url }}/online-marketing-brighton">Online Marketing</a></li>
-          <li{% if page.slug == "graphic-design" %} class="active"{% endif %}> <a href="{{ site.url }}/graphic-design">Graphic Design &amp; Branding</a></li>
+          <ul class="dropdown-menu">
+            {% for item in site.data.services %}
+            <li{% if page.slug == {{item.url}} %} class="active"{% endif %}><a href="{{ site.url }}/{{ item.url }}">
+              <img class="hidden-xs img-responsive" src="{{ item.image }}">{{ item.title }}</a></li>
+            {% endfor %}
         </ul>
         </li>
-        <li{% if page.slug == "portfolio" %} class="active"{% endif %}> <a href="{{ site.url }}/portfolio">Portfolio</a></li>
-        <li{% if page.slug == "blog" %} class="active"{% endif %}> <a href="{{ site.url }}/blog">Blog</a></li>
-        <li{% if page.slug == "contact-us" %} class="active"{% endif %}> <a href="{{ site.url }}/contact">Contact</a></li>
+        <li{% if page.slug == "portfolio" or page.categories contains "portfolio" %} class="active"{% endif %}> <a href="{{ site.url }}/portfolio">Portfolio</a></li>
+        <li{% if page.slug == "blog" or page.categories contains "blog" %} class="active"{% endif %}> <a href="{{ site.url }}/blog">Blog</a></li>
+        <li{% if page.slug == "contact" %} class="active"{% endif %}> <a href="{{ site.url }}/contact">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li class="hidden-sm hidden-xs"><a href="tel:01273906909">01273 906 909</a></li>

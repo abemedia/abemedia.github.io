@@ -23,7 +23,6 @@ if ($(".toc").length > 0) {
 
 // equal heights
 function equalHeight(group) {
-   group.height("auto");
    tallest = 0;
    group.each(function() {
       thisHeight = $(this).height();
@@ -38,7 +37,7 @@ $(window).load(function() {
 });
 $(window).resize(function(){
     $(".box-list-small .box").height("auto");
-   //equalHeight($(".box-list-small .box"));
+    equalHeight($(".box-list-small .box"));
 });
 
 /*

@@ -162,7 +162,7 @@ footer {
 	        border-radius: 4px;
 	}
 	.navbar .dropdown-menu li.active a,
-	.navbar .dropdown-menu li.active a:hover,
+	.navbar .dropdown-menu:hover li.active a:hover,
 	.navbar .dropdown-menu li a:hover {
 		background: rgba(255,255,255,0.2);
 	        -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);

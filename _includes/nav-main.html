@@ -8,7 +8,7 @@
       <ul class="nav navbar-nav">
         <li{% if page.slug == "home" %} class="active"{% endif %}><a href="{{ site.url }}">Home</a></li>
         <li{% if page.slug == "about" %} class="active"{% endif %}> <a href="{{ site.url }}/about">About</a></li>
-        <li{% if page.slug == "portfolio" or page.categories contains "services" %} class="active"{% endif %} class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
+        <li{% if page.slug == "services" or page.categories contains "services" %} class="active"{% endif %} class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
           <ul class="dropdown-menu">
             {% for item in site.data.services %}
             <li{% if page.slug == "{{ item.url }}" %} class="active"{% endif %}> <a href="{{ site.url }}/{{ item.url }}">{{ item.title }}</a></li>

@@ -12,7 +12,7 @@ bottom:
     content: portfolio
     params:
         title: Ecommerce Website Design Portfolio
-        filter: ecommerce
+        filter: mobile
 -
     content: services
     params:

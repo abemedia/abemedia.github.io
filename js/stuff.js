@@ -23,22 +23,21 @@ if ($(".toc").length > 0) {
 
 // equal heights
 function equalHeight(group) {
+    group.height("auto");
     tallest = 0;
-    group.each(function() {
+    group.each(function () {
         thisHeight = $(this).height();
-        if(thisHeight > tallest) {
+        if (thisHeight > tallest) {
             tallest = thisHeight;
         }
     });
     group.height(tallest);
 }
-$(window).load(function() {
+$(document).ready(function () {
     equalHeight($(".box-list-small .box"));
 });
-$(window).resize(function(){
-    $(".box-list-small .box").animate({"height": "auto"}, function() {
-        equalHeight($(".box-list-small .box"));
-    })
+$(window).resize(function () {
+    equalHeight($(".box-list-small .box"));
 });
 
 /*

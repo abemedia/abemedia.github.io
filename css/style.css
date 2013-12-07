@@ -25,6 +25,7 @@ a:hover {
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: "PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 	text-transform: uppercase;
+	font-weight: bold;
 }
 .module-title {
 	text-align: center;
@@ -160,6 +161,7 @@ footer {
 		text-transform: uppercase;
 		padding: 10px 0;
 	        border-radius: 4px;
+		font-weight: bold;
 	}
 	.navbar .dropdown-menu li.active a,
 	.navbar .dropdown-menu:hover li.active a:hover,
@@ -267,9 +269,6 @@ footer {
 .box-list>li>a>span {
 	display: block;
 }
-.box-list>li>a>span.title {
-        padding-top: 15px;
-}
 .box {
         background: #fff;
 	background: rgba(255,255,255,0.5);
@@ -302,6 +301,7 @@ a.box:hover {
 }
 .folio .box img {
 	width: 100%;
+        margin-bottom: 15px;
 }
 
 /* Blog

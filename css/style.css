@@ -158,7 +158,6 @@ footer {
 		text-align: center;
 		color: #fff;
 		text-transform: uppercase;
-		font-size: 16px;
 	}
 	.navbar .dropdown-menu li a img {
 		margin: 10px auto;
@@ -182,6 +181,9 @@ footer {
 	}
 	.navbar .dropdown-menu {
 		top: 70px;
+	}
+	.navbar .dropdown-menu li a {
+		font-size: 16px;
 	}
 }
 @media (min-width: 1092px) {

@@ -102,6 +102,7 @@ footer {
 	border-top-color: #ddd;
 	border-bottom-color: #ddd;
 }
+.nav .caret,
 .navbar-inverse .navbar-nav>.dropdown.active>a .caret {
 	border-top-color: #FF9833;
 	border-bottom-color: #FF9833;

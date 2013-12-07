@@ -22,15 +22,22 @@ if ($(".toc").length > 0) {
 }
 
 // equal heights
-$.fn.equalHeight = function() {
-    return this.height( Math.max.apply(this, $.map( this , function(e){ return $(e).height() }) ) );
+function equalHeight(group) {
+   group.height("auto");
+   tallest = 0;
+   group.each(function() {
+      thisHeight = $(this).height();
+      if(thisHeight > tallest) {
+         tallest = thisHeight;
+      }
+   });
+   group.height(tallest);
 }
 $(window).load(function() {
-    $('.box-list-small .box').equalHeight();
+   equalHeight($(".box-list-small .box"));
 });
 $(window).resize(function(){
-    $('.box-list-small .box').height('auto');
-    $('.box-list-small .box').equalHeight();
+   equalHeight($(".box-list-small .box"));
 });
 
 /*

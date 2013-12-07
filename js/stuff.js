@@ -22,42 +22,15 @@ if ($(".toc").length > 0) {
 }
 
 // equal heights
-equalheight = function(container){
-    
-    var currentTallest = 0,
-        currentRowStart = 0,
-        rowDivs = new Array(),
-        $el,
-        topPosition = 0;
-    
-    $(container).each(function() {
-        $el = $(this);
-        $($el).height('auto')
-        topPostion = $el.position().top;
-    
-        if (currentRowStart != topPostion) {
-            for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {
-                rowDivs[currentDiv].height(currentTallest);
-            }
-            rowDivs.length = 0; // empty the array
-            currentRowStart = topPostion;
-            currentTallest = $el.height();
-            rowDivs.push($el);
-        } else {
-            rowDivs.push($el);
-            currentTallest = (currentTallest < $el.height()) ? ($el.height()) : (currentTallest);
-        }
-        for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {
-            rowDivs[currentDiv].height(currentTallest);
-        }
-    });
+$.fn.equalHeight = function() {
+    return this.height( Math.max.apply(this, $.map( this , function(e){ return $(e).height() }) ) );
 }
-
 $(window).load(function() {
-    equalheight('.box-list-small .box');
+    $('.box-list-small .box').equalHeight;
 });
 $(window).resize(function(){
-    equalheight('.box-list-small .box');
+    $('.box-list-small .box').height('auto');
+    $('.box-list-small .box').equalHeight;
 });
 
 /*

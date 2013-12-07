@@ -1,5 +1,6 @@
 ---
 layout: default
+category: services
 title: Web Design & Development
 slug: ecommerce-web-design
 lead: Easy to manage, secure payments...

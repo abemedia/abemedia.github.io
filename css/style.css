@@ -260,6 +260,9 @@ a.box:hover {
 	padding: 0 0 15px;
         background:#eee;
 }
+.folio .box img {
+	width: 100%;
+}
 
 /* Blog
 -------------------------------------------------- */

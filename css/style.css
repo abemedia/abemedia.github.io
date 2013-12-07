@@ -244,8 +244,6 @@ footer {
 	padding: 0;
 	margin: 0 -15px;
 	text-align: center;
-	overflow: hidden;
-	zoom: 1;
 }
 .box-list>li {
 	width: 100%;
@@ -280,6 +278,8 @@ footer {
         display: block;
         padding: 15px;
         margin-bottom:30px;
+	overflow: hidden;
+	zoom: 1;
 }
 a.box:hover {
 	background: rgba(255,255,255,0.75);

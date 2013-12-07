@@ -156,6 +156,8 @@ footer {
 	}
 	.navbar .dropdown-menu li a {
 		text-align: center;
+		color: #fff;
+		text-transform: uppercase;
 	}
 	.navbar .dropdown-menu li a img {
 		margin: 10px auto;

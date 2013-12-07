@@ -144,7 +144,7 @@ footer {
 		left: 0;
 		right: 0;
 		position: fixed;
-		top: 70px;
+		top: 50px;
 		border: none;
 		border-radius: 0;
 		background: rgb(254, 152, 51);
@@ -179,6 +179,9 @@ footer {
 	}
 	.navbar-collapse .navbar-nav.navbar-right:last-child {
 		margin-right: -30px;
+	}
+	.navbar .dropdown-menu {
+		top: 70px;
 	}
 }
 @media (min-width: 1092px) {

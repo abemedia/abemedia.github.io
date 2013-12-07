@@ -16,7 +16,7 @@
         </ul>
         </li>
         <li{% if page.slug == "portfolio" or page.categories contains "portfolio" %} class="active"{% endif %}> <a href="{{ site.url }}/portfolio">Portfolio</a></li>
-        <li{% if page.slug == "blog" %} class="active"{% endif %}> <a href="{{ site.url }}/blog">Blog</a></li>
+        <li{% if page.slug == "blog" or page.categories contains "blog" %} class="active"{% endif %}> <a href="{{ site.url }}/blog">Blog</a></li>
         <li{% if page.slug == "contact" %} class="active"{% endif %}> <a href="{{ site.url }}/contact">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">

@@ -2,7 +2,7 @@
     title: Web Development
     alias: web-design
     url: web-design-brighton
-    image: /images/services/mouse.png
+    image: /images/services/console.png
     desc: "We offer professional, innovative web design &amp; development which is accessible, web standards compliant and SEO friendly."
 -
     title: Ecommerce
@@ -20,7 +20,7 @@
     title: Mobile Web Design
     alias: mobile
     url: responsive-web-design
-    image: /images/services/redesign.png
+    image: /images/services/mobile.png
     desc: "Dedicated mobile sites and responsive web design for mobile phones &amp; tablets. Never miss out on a sale, regardless of the users' device."
 -
     title: Graphic Design

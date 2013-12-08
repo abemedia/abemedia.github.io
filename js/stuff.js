@@ -21,11 +21,11 @@ if ($(".toc").length > 0) {
 
 // equal heights
 function equalHeight(group) {
-    group.css("height", "");
+    //group.css("height", "");
     tallest = 0;
     group.each(function () {
-        //$(this).height("auto");
-        thisHeight = $(this).height();
+        $(this).css("height", "auto");
+        thisHeight = $(this).innerHeight();
         if (thisHeight > tallest) {
             tallest = thisHeight;
         }

@@ -31,7 +31,7 @@ function equalHeight(group) {
         }
     });
     console.log(tallest);
-    group.height(tallest);
+    group.css("height", tallest + 'px');
 }
 $(document).ready(function () {
     equalHeight($(".box-list-small .box"));

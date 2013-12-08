@@ -21,12 +21,12 @@ if ($(".toc").length > 0) {
     });
 }
 
-/*
 // equal heights
 function equalHeight(group) {
-    group.height("auto");
+    //group.height("auto");
     tallest = 0;
     group.each(function () {
+        $(this).height("auto");
         thisHeight = $(this).height();
         if (thisHeight > tallest) {
             tallest = thisHeight;
@@ -39,8 +39,8 @@ $(document).ready(function () {
 });
 $(window).resize(function () {
     equalHeight($(".box-list-small .box"));
-});*/
-
+});
+/*
 $.fn.eqHeights = function(options) {
 
     var defaults = {  
@@ -99,14 +99,11 @@ $(window).load(function() {
 
 //$('[class*="eq-"]').eqHeights();
   $('.box-list-small li').eqHeights({parentSelector:'.box-list-small'});
-/*$('.foo2 [class*="eq-"]').eqHeights();*/
+/*$('.foo2 [class*="eq-"]').eqHeights();
 
   }); 
-
+*/
 /*
-// twitter follow button
-$.getScript('//platform.twitter.com/widgets.js');
-
 
 // zopim chat
 window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=

@@ -1,5 +1,3 @@
----
----
 // stuff for the things...
 $.getScript('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.2/js/bootstrap.min.js');
 

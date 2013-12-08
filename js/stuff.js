@@ -23,10 +23,10 @@ if ($(".toc").length > 0) {
 
 // equal heights
 function equalHeight(group) {
-    //group.height("auto");
+    group.height("auto");
     tallest = 0;
     group.each(function () {
-        $(this).height("auto");
+        //$(this).height("auto");
         thisHeight = $(this).height();
         if (thisHeight > tallest) {
             tallest = thisHeight;
@@ -35,10 +35,10 @@ function equalHeight(group) {
     group.height(tallest);
 }
 $(document).ready(function () {
-    equalHeight($(".box-list-small .box"));
+    equalHeight($(".box-list-small h4"));
 });
 $(window).resize(function () {
-    equalHeight($(".box-list-small .box"));
+    equalHeight($(".box-list-small h4"));
 });
 /*
 $.fn.eqHeights = function(options) {

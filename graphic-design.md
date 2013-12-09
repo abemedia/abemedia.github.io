@@ -11,13 +11,12 @@ sitemap:
 bottom: 
 -
     content: portfolio
+    title: Graphic Design Portfolio
     params:
-        title: Graphic Design Portfolio
         filter: graphic
 -
     content: services
-    params:
-        title: Our Services
+    title: Our Services
 ---
 
 Though orginally coming from a web design background, ABE Media are experts in graphic design and branding, regardless if its for the web or for print.

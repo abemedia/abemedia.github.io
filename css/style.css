@@ -258,7 +258,7 @@ footer a:hover {
 		background-size: 100% auto;
 	}
 }
-.carousel-indicators {
+.carousel-indicators li {
 	border: none;
 	background-color: #333;
 	width: 12px;

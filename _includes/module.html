@@ -4,14 +4,14 @@
       {% if include.module.title %}
       <h3 class="module-title">{{ include.module.title }}</h3>
       {% endif %}
-      {% capture module %}modules/{{ include.module.content }}.html{% endcapture %}
+      {% capture module %}modules/{{ include.module.type }}.html{% endcapture %}
       {% include {{module}} params=include.module.params %}
     {% else %}
       {% for item in include.module %}
         {% if item.title %}
         <h3 class="module-title">{{ item.title }}</h3>
         {% endif %}
-        {% capture module %}modules/{{ item.params.type }}.html{% endcapture %}
+        {% capture module %}modules/{{ item.type }}.html{% endcapture %}
         {% include {{module}} params=item.params %}
       {% endfor %}
     {% endif %}

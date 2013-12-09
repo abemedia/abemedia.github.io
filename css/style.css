@@ -234,6 +234,9 @@ footer a:hover {
 #carousel .media .pull-left {
 	margin-right: 15px;
 }
+#carousel .item {
+	padding: 20px 0;
+}
 @media (min-width:992px) {
 	#carousel .item h1, #carousel .item .h1 {
 		font-size: 60px;

@@ -2,7 +2,7 @@
   <div class="{{ include.module.content }}">
     {% if include.module.type %}
       {% if include.module.title %}
-      <h3 class="module-title">{{ include.params.title }}</h3>
+      <h3 class="module-title">{{ include.module.title }}</h3>
       {% endif %}
       {% capture module %}modules/{{ include.module.content }}.html{% endcapture %}
       {% include {{module}} params=include.module.params %}

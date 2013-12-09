@@ -8,10 +8,7 @@ sitemap:
     changefreq: monthly
     lastmod: 2013-11-09T7:30:00
 top:
-    content: banner
-    params:
-        title: "<span>ABE</span>MEDIA Web Design, Development &amp; Consultation"
-        lead: Turning dreams into code since 2005
+    content: carousel
 bottom: 
 -
     content: portfolio

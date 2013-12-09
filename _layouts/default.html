@@ -3,13 +3,13 @@
   <head>{% include header.html %}</head>
   <body>
   {% include nav-main.html %}
-  {% include module.html module=page.top %}
+  {% if page.top %}{% include module.html module=page.top %}{% endif %}
   <div class="container">
     <div id="main">
       <div class="row">
         {% if page.left %}
         <div class="col-md-{{ page.left.size }}">
-          {% include module.html module=page.left %}
+          {% if page.left %}{% include module.html module=page.left %}{% endif %}
         </div>
         {% endif %}
         <div class="col-md-{{ 12 | minus: page.left.size | minus: page.right.size }}" role="main">
@@ -17,13 +17,13 @@
         </div>
         {% if page.right %}
         <div class="col-md-{{ page.right.size }}">
-          {% include module.html module=page.right %}
+          {% if page.right %}{% include module.html module=page.right %}{% endif %}
         </div>
         {% endif %}
       </div>
     </div>
   </div>
-  {% include module.html module=page.bottom %}
+  {% if page.bottom %}{% include module.html module=page.bottom %}{% endif %}
   {% include footer.html %}
   </body>
 </html>

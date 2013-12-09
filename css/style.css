@@ -55,7 +55,7 @@ footer {
 	padding-bottom: 30px;
 	color: #fff;
 	border-top: 1px solid #eee;
-	background: #3c3c3c;
+	background: #333;
 	position: absolute;
 	left:0;
 	right:0;
@@ -65,7 +65,7 @@ footer a {
 	color: #fff;
 }
 footer a:hover {
-	color:#cc6633;
+	color:#FF9833;
 }
 #main {
 	margin-top: 20px;

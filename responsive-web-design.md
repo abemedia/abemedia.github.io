@@ -11,13 +11,12 @@ sitemap:
 bottom:     
 -
     content: portfolio
+    title: Responsive Website Design Portfolio
     params:
-        title: Responsive Website Design Portfolio
         filter: mobile
 -
     content: services
-    params:
-        title: Our Services
+    title: Our Services
 ---
 
 Dedicated mobile sites and responsive web design for mobile phones & tablets. Never miss out on a sale, regardless of the users' device.

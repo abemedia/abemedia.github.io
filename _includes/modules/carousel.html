@@ -2,7 +2,7 @@
     <ol class="carousel-indicators">
       {% capture i %}0{% endcapture %}
       {% for item in site.data.slide %}
-      <li data-target="#carousel" data-slide-to="{{i}}" class="{% if {{i}} == 0 %}active{% endif %}"></li>
+      <li data-target="#carousel" data-slide-to="{{i}}" class="{% if {{i}} == "0" %}active{% endif %}"></li>
       {% capture i %}{{ i | plus:1 }}{% endcapture %}
       {% endfor %}
     </ol>

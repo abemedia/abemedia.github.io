@@ -10,12 +10,12 @@ sitemap:
     lastmod: 2013-11-09T7:30:00
 bottom: 
 -
-    content: portfolio
+    type: portfolio
     title: Graphic Design Portfolio
     params:
         filter: graphic
 -
-    content: services
+    type: services
     title: Our Services
 ---
 

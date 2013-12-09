@@ -13,8 +13,7 @@
       {% if {{i}} < {{count}} and post.testimonial %}
     <div class="col-md-6">
       <blockquote>
-        <p>{{ post.testimonial }}</p>
-        <small>{{ post.client }}</small>
+        <p>{{ post.testimonial }}<small>{{ post.client }} - {{ post.title }}</small></p>
       </blockquote>
     </div>
         {% capture i %}{{ i | plus:1 }}{% endcapture %}

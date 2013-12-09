@@ -21,20 +21,20 @@ if ($(".toc").length > 0) {
 
 // equal heights
 $(window).resize( function() {
-
     var $column = $('.box-list-small li'),
         maxHeight = 0;
-
     $column.each( function() {
         $(this).removeAttr('style');
         if($(this).height() > maxHeight) {
             maxHeight = $(this).height();
         } 
     });
-
     $column.height(maxHeight);
+});
 
-}).trigger('resize');
+$(document).ready( function() {
+    $(window).trigger('resize');
+});
 
 /*
 

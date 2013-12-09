@@ -12,11 +12,13 @@ bottom:
 -
     type: portfolio
     title: CMS Website Design Portfolio
+    class: container grey
     params:
         filter: content management systems
 -
     type: services
     title: Our Services
+    class: container grey
 ---
 
 A dynamic content management system is at the heart of every good website, making it easy to keep your site up-to-date, without any technical knowledge or HTML required.

@@ -249,6 +249,10 @@ footer {
 	width: 100%;
 	padding: 0 15px;
 	display: inline-block;
+	margin-bottom:30px;
+}
+.box-list>li>.box {
+	height: 100%;
 }
 @media (min-width: 768px) {
 	.box-list>li {
@@ -270,51 +274,53 @@ footer {
 	display: block;
 }
 .box {
-        background: #fff;
+	background: #fff;
 	background: rgba(255,255,255,0.5);
-        -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-        border-radius: 4px;
-        display: block;
-        padding: 15px;
-        margin-bottom:30px;
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+	display: block;
+	padding: 15px;
 	overflow: hidden;
 	zoom: 1;
 }
+div.box {
+	margin-bottom:30px;
+}
 a.box:hover {
 	background: rgba(255,255,255,0.75);
-        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-        text-decoration: none;
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	text-decoration: none;
 }
 .box h3.box-header, .box h1 {
-        border-bottom:3px solid #ff9833;
-        margin:0 0 15px;
-        padding-bottom:3px;
+	border-bottom:3px solid #ff9833;
+	margin:0 0 15px;
+	padding-bottom:3px;
 }
 .folio {
 	margin-bottom: -30px;
 }
 .folio .box, .folio .box:hover {
 	padding: 0 0 15px;
-        background:#eee;
+	background:#eee;
 }
 .folio .box img {
 	width: 100%;
-        margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 /* Blog
 -------------------------------------------------- */
 .post h3 {
-        margin:0 0 15px;
+	margin:0 0 15px;
 }
 .post .thumbnail {
-        margin: 0 15px 10px 0;
+	margin: 0 15px 10px 0;
 }
 .post .post_meta {
-        background:#f3f3f3;
-        background: rgba(243, 243, 243, 0.5);
-        padding:10px 15px;
-        margin:15px -15px -15px;
+	background:#f3f3f3;
+	background: rgba(243, 243, 243, 0.5);
+	padding:10px 15px;
+	margin:15px -15px -15px;
 }

@@ -1,5 +1,3 @@
----
----
 // stuff for the things...
 $.getScript('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.2/js/bootstrap.min.js');
 
@@ -15,35 +13,28 @@ if ($(".toc").length > 0) {
             trigger: "hover"
         });
     };
-
     $.getScript('//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js', function () {
         $.getScript('//cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.7.0/jquery.tocify.min.js', tocCallback);
     });
 }
 
 // equal heights
-function equalHeight(group) {
-   group.height("auto");
-   tallest = 0;
-   group.each(function() {
-      thisHeight = $(this).height();
-      if(thisHeight > tallest) {
-         tallest = thisHeight;
-      }
-   });
-   group.height(tallest);
-}
-$(window).load(function() {
-   equalHeight($(".box-list-small .box"));
+$(window).resize( function() {
+    var $column = $('.box-list-small li'),
+        maxHeight = 0;
+    $column.each( function() {
+        $(this).removeAttr('style');
+        if($(this).height() > maxHeight) {
+            maxHeight = $(this).height();
+        } 
+    });
+    $column.height(maxHeight);
 });
-$(window).resize(function(){
-   equalHeight($(".box-list-small .box"));
+$(document).ready( function() {
+    $(window).trigger('resize');
 });
 
 /*
-// twitter follow button
-$.getScript('//platform.twitter.com/widgets.js');
-
 
 // zopim chat
 window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=

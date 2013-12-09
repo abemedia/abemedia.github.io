@@ -10,13 +10,13 @@ sitemap:
     lastmod: 2013-11-09T7:30:00
 bottom: 
 -
-    content: portfolio
-    type: CMS Website Design Portfolio
+    type: portfolio
+    title: CMS Website Design Portfolio
     params:
         filter: content management systems
 -
     content: services
-    type: Our Services
+    title: Our Services
 ---
 
 A dynamic content management system is at the heart of every good website, making it easy to keep your site up-to-date, without any technical knowledge or HTML required.

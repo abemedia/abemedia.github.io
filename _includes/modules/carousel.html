@@ -1,4 +1,4 @@
-  <div id="carousel" class="carousel slide" data-ride="carousel">
+  <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="7000">
     <ol class="carousel-indicators">
       {% capture i %}0{% endcapture %}
       {% for item in site.data.slide %}
@@ -12,10 +12,10 @@
       <div class="item {% if {{i}} == "0" %}active{% endif %}">
         <div class="container">
           <div class="row">
-            <div class="col-sm-2">
-              <img src="{{ item.image }}" alt="{{ item.title }}">
+            <div class="col-sm-2"><br>
+              <img src="{{ item.icon }}" alt="{{ item.title }}">
             </div>
-            <div class="col-sm-5">
+            <div class="col-sm-5"><br>
               <h1>{{ item.title }}</h1>
               <p>{{ item.desc }}</p>
               <p><a class="btn btn-lg btn-primary" href="{{ item.url }}" role="button">Read More</a></p>
@@ -23,7 +23,7 @@
             <div class="col-sm-5">
               <div class="device-mockup macbook">
                 <div class="device">
-                  <div class="screen"><img src="/images/portfolio/huskyevents.jpg" class="img-responsive"></div>
+                  <div class="screen"><img src="{{ item.image }}" class="img-responsive"></div>
                 </div>
               </div>
             </div>

@@ -258,6 +258,15 @@ footer a:hover {
 		background-size: 100% auto;
 	}
 }
+.carousel-indicators {
+	border: none;
+	background-color: #333;
+	width: 12px;
+	height: 12px;
+}
+.carousel-indicators .active {
+	background-color: #F59331;
+}
 
 /* Navlist
 -------------------------------------------------- */

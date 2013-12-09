@@ -11,6 +11,7 @@ top:
     content: banner
     params:
         title: Web Design, Development &amp; Consultation
+        lead: Turning dreams into code since 2005
 bottom: 
 -
     content: portfolio

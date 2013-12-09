@@ -1,6 +1,3 @@
-    <div class="grey">
-      <div class="container">
-        <h3 class="module-title">{{ include.params.title }}</h3>
         <ul class="box-list box-list-small">
           {% for item in site.data.services %}
           {% if page.features == nil or page.features contains {{item.alias}} %}
@@ -12,5 +9,3 @@
           {% endif %}
           {% endfor %}
         </ul>
-      </div>
-    </div>

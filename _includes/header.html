@@ -11,9 +11,9 @@
     {% endif %}
     
     {% if page.image %}
-      {% capture image %}{{ page.image }}{% endcapture %}
+      {% capture image %}{{ site.url }}{{ page.image }}{% endcapture %}
     {% else %}
-      {% capture image %}{{ site.image }}{% endcapture %}
+      {% capture image %}{{ site.url }}{{ site.image }}{% endcapture %}
     {% endif %}
     
     <meta charset="utf-8">

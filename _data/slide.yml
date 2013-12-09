@@ -1,0 +1,30 @@
+-
+    title: Web Development
+    alias: web-design
+    url: web-design-brighton
+    image: /images/services/web-development.png
+    desc: "We offer professional, innovative web design &amp; development which is accessible, web standards compliant and SEO friendly."
+-
+    title: Ecommerce
+    alias: ecommerce
+    url: ecommerce-web-design
+    image: /images/services/ecommerce.png
+    desc: "No two online businesses are the same; that's why our online shops are fully customized to support your specific ecommerce strategy."
+-
+    title: CMS
+    alias: cms
+    url: content-management-systems-cms
+    image: /images/services/joomla-development.png
+    desc: "Our CMS solutions are designed to simplify the publication of your content to your website without requiring any technical knowledge."
+-
+    title: Mobile Web Design
+    alias: mobile
+    url: responsive-web-design
+    image: /images/services/mobile-websites.png
+    desc: "Dedicated mobile sites and responsive web design for mobile phones &amp; tablets. Never miss out on a sale, regardless of the users' device."
+-
+    title: Graphic Design
+    alias: graphic
+    url: graphic-design
+    image: /images/services/graphic-design.png
+    desc: "From simple logos and promotional material such as leaflets &amp; business cards to full brand identities.<br>We love graphic design!"

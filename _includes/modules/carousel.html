@@ -1,15 +1,15 @@
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <div id="carousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       {% capture i %}0{% endcapture %}
       {% for item in site.data.services %}
-      <li data-target="#carousel" data-slide-to="{{ i }}" class="{% if i == 0 %}active{% endif %}"></li>
+      <li data-target="#carousel" data-slide-to="{{i}}" class="{% if {{i}} == 0 %}active{% endif %}"></li>
       {% capture i %}{{ i | plus:1 }}{% endcapture %}
       {% endfor %}
     </ol>
     <div class="carousel-inner">
       {% capture i %}0{% endcapture %}
       {% for item in site.data.services %}
-      <div class="item {% if i == 0 %}active{% endif %}"> <img data-src="{{ item.image }}" alt="{{ item.title }}">
+      <div class="item {% if {{i}} == "0" %}active{% endif %}"> <img data-src="{{ item.image }}" alt="{{ item.title }}">
         <div class="container">
           <div class="carousel-caption">
             <h1>{{ item.title }}</h1>

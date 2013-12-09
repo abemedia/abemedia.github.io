@@ -17,6 +17,25 @@ $(window).load(function() {
     $(window).trigger('resize');
 });
 
+
+// tocify
+if ($(".toc").length > 0) {
+    var tocCallback = function () {
+        var toc = $("#sidebar.toc").tocify({
+            selectors: "h2, h3",
+            scrollTo: 50,
+            highlightOffset: 50
+        }).data("toc-tocify");
+        $(".optionName").popover({
+            trigger: "hover"
+        });
+    };
+
+    $.getScript('//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js', function () {
+        $.getScript('//cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.7.0/jquery.tocify.min.js', tocCallback);
+    });
+}
+
 /*
 // zopim chat
 window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=

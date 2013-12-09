@@ -12,17 +12,17 @@
       <div class="item {% if {{i}} == "0" %}active{% endif %}">
         <div class="container">
           <div class="row">
-            <div class="col-md-7"><br>
+            <div class="col-sm-7"><br>
               <div class="media">
-                <a class="pull-left" href=""><img src="{{ item.icon }}" alt="{{ item.title }}"></a>
+                <a class="pull-left hidden-xs" href="{{ site.url }}/{{ item.url }}"><img src="{{ item.icon }}" alt="{{ item.title }}"></a>
                 <div class="media-body">
                   {% if {{i}} == "0" %}<h1>{% else %}<div class="h1">{% endif %}{{ item.title }}{% if {{i}} == "0" %}</h1>{% else %}</div>{% endif %}
                   <p>{{ item.desc }}</p>
-                  <p><a class="btn btn-lg btn-primary" href="{{ item.url }}" role="button">Read More</a></p>
+                  <p><a class="btn btn-lg btn-primary" href="{{ site.url }}/{{ item.url }}" role="button">Read More</a></p>
                 </div>
               </div>
             </div>
-            <div class="col-md-5">
+            <div class="col-sm-5 hidden-xs">
               <div class="device-mockup macbook">
                 <div class="device">
                   <div class="screen"><img src="{{ item.image }}" class="img-responsive"></div>

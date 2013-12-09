@@ -15,7 +15,7 @@ bottom:
     params:
         filter: content management systems
 -
-    content: services
+    type: services
     title: Our Services
 ---
 

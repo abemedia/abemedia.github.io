@@ -7,22 +7,21 @@ sitemap:
     changefreq: monthly
     lastmod: 2013-11-09T7:30:00
 top:
-    content: carousel
+    type: carousel
 bottom: 
 -
-    content: services
+    type: services
+    title: Our Services
     params:
-        title: Our Services
         desc: true
         class: grey
 -
-    content: portfolio
-    params:
-        title: Featured Projects
+    type: portfolio
+    title: Featured Projects
 -
-    content: testimonials
+    type: testimonials
+    title: What our clients say
     params:
-        title: What our clients say
         class: grey
 ---
 <h2>Brighton web designers specialising in e-commerce &amp; content management systems</h2>

@@ -26,31 +26,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	text-transform: uppercase;
 	font-weight: bold;
 }
-#carousel {
-	background: url(../images/bg.jpg) no-repeat center top #f9f9f9;
-	text-shadow: #fff 1px 1px 0px;
-	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-#carousel .item {
-	padding: 30px 50px;
-}
-#carousel .item h1, #carousel .item .h1 {
-	margin: 0 0 15px;
-}
-#carousel .media .pull-left{
-	margin-right: 15px;
-}
-@media (max-width: 768px){
-	#carousel .media .pull-left{
-		display: none;
-	}
-}
-@media (min-width:1920px){
-	#carousel {
-		background-size: 100% auto;
-	}
-}
 .module-title {
 	text-align: center;
 	font-size: 32px;
@@ -242,6 +217,34 @@ footer a:hover {
 	}
 	.navbar .dropdown-menu li a {
 		font-size: 18px;
+	}
+}
+
+/* Carousel
+-------------------------------------------------- */
+#carousel {
+	background: url(../images/bg.jpg) no-repeat center top #f9f9f9;
+	text-shadow: #fff 1px 1px 0px;
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+#carousel .item h1, #carousel .item .h1 {
+	margin: 0 0 15px;
+}
+#carousel .media .pull-left {
+	margin-right: 15px;
+}
+@media (min-width:992px) {
+	#carousel .media .pull-left {
+		margin-right: 25px;
+	}
+	#carousel .item {
+		padding: 30px 50px;
+	}
+}
+@media (min-width:1920px) {
+	#carousel {
+		background-size: 100% auto;
 	}
 }
 

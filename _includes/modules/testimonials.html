@@ -5,13 +5,13 @@
   {% if include.params.count %}
   {% capture count %}{{ include.params.count }}{% endcapture %}
   {% else %}
-  {% capture count %}3{% endcapture %}
+  {% capture count %}2{% endcapture %}
   {% endif %}
   <div class="row">
     {% capture i %}0{% endcapture %}
     {% for post in site.categories.portfolio %}
       {% if {{i}} < {{count}} and post.testimonial %}
-    <div class="col-md-3">
+    <div class="col-md-6">
       <blockquote>
         {{ post.testimonial }}
         <small>{{ post.client }}</small>

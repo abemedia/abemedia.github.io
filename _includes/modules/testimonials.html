@@ -1,0 +1,24 @@
+<div class="container">
+  {% if include.params.title %}
+  <h3 class="module-title">{{ include.params.title }}</h3>
+  {% endif %}
+  {% if include.params.count %}
+  {% capture count %}{{ include.params.count }}{% endcapture %}
+  {% else %}
+  {% capture count %}3{% endcapture %}
+  {% endif %}
+  <div class="row">
+    {% capture i %}0{% endcapture %}
+    {% for post in site.categories.portfolio %}
+      {% if {{i}} < {{count}} and post.testimonial %}
+    <div class="col-md-3">
+      <blockquote>
+        {{ post.testimonial }}
+        <small>{{ post.client }}</small>
+      </blockquote>
+    </div>
+        {% capture i %}{{ i | plus:1 }}{% endcapture %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>

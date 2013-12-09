@@ -18,6 +18,7 @@ bottom:
 -
     type: portfolio
     title: Featured Projects
+    class: container
 -
     type: testimonials
     title: What our clients say

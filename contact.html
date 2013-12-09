@@ -9,11 +9,11 @@ slug: contact
   <div class="row">
     <div class="form-group col-sm-6">
       <label for="name">Name *</label>
-      <input type="name" class="form-control" name="name" required>
+      <input type="text" class="form-control" name="name" required>
     </div>
     <div class="form-group col-sm-6">
       <label for="company">Company</label>
-      <input type="company" class="form-control" name="company">
+      <input type="text" class="form-control" name="company">
     </div>
   </div>
   <div class="row">
@@ -22,8 +22,8 @@ slug: contact
       <input type="email" class="form-control" name="email" required>
     </div>
     <div class="form-group col-sm-6">
-      <label for="password">Telephone</label>
-      <input type="password" class="form-control" name="telephone">
+      <label for="telephone">Telephone</label>
+      <input type="tel" class="form-control" name="telephone">
     </div>
   </div>
   <div class="row">
@@ -33,5 +33,5 @@ slug: contact
     </div>
   </div>
   <button type="submit" class="btn btn-primary btn-lg">Submit</button>
-  <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
+  <input type='hidden' name='redirect_to' value='{{ site.url }}thanks' />
 </form>

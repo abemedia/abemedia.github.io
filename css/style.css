@@ -13,7 +13,7 @@ body {
 	min-height: 100%;
 }
 a {
-	color:#FF9833;
+	color:#F59331;
 	-webkit-transition: all 0.25s ease-in;
 	-moz-transition: all 0.25s ease-in;
 	-o-transition: all 0.25s ease-in;
@@ -23,7 +23,7 @@ a:hover {
 	color:#CC6733;
 }
 a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
-	border-color: #FF9833;
+	border-color: #F59331;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: "PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-weight: bold;
 }
 .title {
-	color:#CC6733;
+	color:#F59331;
 	font-size:16px;
 }
 .container {

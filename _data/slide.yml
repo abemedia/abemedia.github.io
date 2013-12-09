@@ -4,21 +4,21 @@
     url: web-design-brighton
     icon: /images/services/web-development.png
     image: /images/portfolio/dsfmanufacturing.jpg
-    desc: "From simple brochure-style websites to bespoke database-driven systems ABE Media deliver functional, eye-catching web design."
+    desc: "From simple brochure-sites to bespoke database-driven systems ABE Media deliver functional, eye-catching web design and turn your dreams into code."
 -
     title: Ecommerce
     alias: ecommerce
     url: ecommerce-web-design
     icon: /images/services/ecommerce.png
     image: /images/portfolio/dsfmanufacturing.jpg
-    desc: "ABE Media's online shops are customer-friendly, fast &amp; secure to ."
+    desc: "ABE Media's online shops are customer-friendly, fast &amp; secure to help you take advantage of exciting new business opportunities in an ever-growing market.."
 -
     title: CMS Websites
     alias: cms
     url: content-management-systems-cms
     icon: /images/services/joomla-development.png
     image: /images/portfolio/dsfmanufacturing.jpg
-    desc: "Flexible out-of-the-box solutions &amp; bespoke CMS development. ABE Media are experts at developing innovative with Joomla."
+    desc: "From flexible out-of-the-box solutions to bespoke CMS development, ABE Media are experts at creating innovative, content-driven websites with the popular Joomla CMS."
 -
     title: Mobile Websites
     alias: mobile

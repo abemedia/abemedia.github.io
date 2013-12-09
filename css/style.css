@@ -26,12 +26,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	text-transform: uppercase;
 	font-weight: bold;
 }
-.banner {
+#carousel {
 	background: url(../images/bg.jpg) no-repeat center top #f9f9f9;
 	text-shadow: #fff 1px 1px 0px;
+	height: 300px;
 }
 @media (min-width:1920px){
-	.banner {
+	#carousel {
 		background-size: 100% auto;
 	}
 }

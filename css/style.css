@@ -74,7 +74,7 @@ footer a:hover {
 	margin-top: 20px;
 }
 .grey {
-	background: #eee;
+	background: #f3f3f3;
 	margin-top: 30px;
 }
 
@@ -312,7 +312,7 @@ a.box:hover {
 }
 .folio .box, .folio .box:hover {
 	padding: 0 0 15px;
-	background:#eee;
+	background:#f3f3f3;
 }
 .folio .box img {
 	width: 100%;

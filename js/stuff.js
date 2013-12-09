@@ -1,23 +1,6 @@
 // stuff for the things...
 $.getScript('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.2/js/bootstrap.min.js');
 
-// tocify
-if ($(".toc").length > 0) {
-    var tocCallback = function () {
-        var toc = $("#sidebar.toc").tocify({
-            selectors: "h2, h3",
-            scrollTo: 50,
-            highlightOffset: 50
-        }).data("toc-tocify");
-        $(".optionName").popover({
-            trigger: "hover"
-        });
-    };
-    $.getScript('//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js', function () {
-        $.getScript('//cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.7.0/jquery.tocify.min.js', tocCallback);
-    });
-}
-
 // equal heights
 $(window).resize( function() {
     var $column = $('.box-list-small li'),
@@ -35,7 +18,6 @@ $(document).ready( function() {
 });
 
 /*
-
 // zopim chat
 window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
 d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.

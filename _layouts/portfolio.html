@@ -1,16 +1,11 @@
 ---
-params:
-    title: Services Provided
+layout: default
+bottom:
+    content: services
+    params:
+        title: Services Provided
 ---
-<!DOCTYPE html>
-<html lang="en">
-  <head>{% include header.html %}
-    <link href="{{ site.url }}/css/device-mockups.css" rel="stylesheet">
-  </head>
-  <body>
-  {% include nav-main.html %}
-  <div class="container">
-    <div id="main" role="main">
+<link href="{{ site.url }}/css/device-mockups.css" rel="stylesheet">
       <div class="row">
         <div class="col-sm-5">
           <h1>{{ page.title }}</h1>
@@ -28,10 +23,3 @@ params:
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-  {% include modules/services.html params=page.params %}
-  {% include footer.html %}
-  </body>
-</html>

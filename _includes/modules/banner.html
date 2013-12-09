@@ -1,5 +1,7 @@
-  <div class="banner">
-    <h1>{{ include.params.title }}
-    {% if include.params.subtitle %}<br><small>{{ include.params.subtitle }}</small>{% endif %}</h1>
-    {% if include.params.lead %}<p class="lead">{{ include.params.lead }}</p>{% endif %}
+  <div class="jumbotron banner">
+    <div class="container">
+      <h1>{{ include.params.title }}
+      {% if include.params.subtitle %}<br><small>{{ include.params.subtitle }}</small>{% endif %}</h1>
+      {% if include.params.lead %}<p class="lead">{{ include.params.lead }}</p>{% endif %}
+    </div>
   </div>

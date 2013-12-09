@@ -12,11 +12,13 @@ bottom:
 -
     type: portfolio
     title: Graphic Design Portfolio
+    class: container
     params:
         filter: graphic
 -
     type: services
     title: Our Services
+    class: container grey
 ---
 
 Though orginally coming from a web design background, ABE Media are experts in graphic design and branding, regardless if its for the web or for print.

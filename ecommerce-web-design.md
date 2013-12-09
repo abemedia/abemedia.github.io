@@ -12,7 +12,7 @@ bottom:
 -
     type: portfolio
     title: Ecommerce Website Design Portfolio
-    class: container grey
+    class: container
     params:
         filter: ecommerce
 -

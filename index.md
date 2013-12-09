@@ -10,7 +10,7 @@ sitemap:
 top:
     content: banner
     params:
-        title: Web Design, Development &amp; Consultation
+        title: "<span>ABE</span>MEDIA Web Design, Development &amp; Consultation"
         lead: Turning dreams into code since 2005
 bottom: 
 -

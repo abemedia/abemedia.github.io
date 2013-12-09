@@ -19,7 +19,7 @@
         </li>
         <li{% if page.slug == "portfolio" or page.categories contains "portfolio" %} class="active"{% endif %}> <a href="{{ site.url }}/portfolio">Portfolio</a></li>
         <li{% if page.slug == "blog" or page.categories contains "blog" %} class="active"{% endif %}> <a href="{{ site.url }}/blog">Blog</a></li>
-        <li{% if page.slug == "contact" %} class="active"{% endif %}> <a href="{{ site.url }}/contact">Contact</a></li>
+        <li{% if page.id == "contact" %} class="active"{% endif %}> <a href="{{ site.url }}/contact">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li class="hidden-sm hidden-xs"><a href="tel:01273906909">01273 906 909</a></li>

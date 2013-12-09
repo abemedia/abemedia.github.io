@@ -31,7 +31,6 @@ $(window).resize( function() {
     });
     $column.height(maxHeight);
 });
-
 $(document).ready( function() {
     $(window).trigger('resize');
 });

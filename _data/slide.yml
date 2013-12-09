@@ -4,32 +4,32 @@
     url: web-design-brighton
     icon: /images/services/web-development.png
     image: /images/portfolio/dsfmanufacturing.jpg
-    desc: "We offer professional, innovative web design &amp; development which is accessible, web standards compliant and SEO friendly."
+    desc: "From simple brochure-style websites to complex content management systems."
 -
     title: Ecommerce
     alias: ecommerce
     url: ecommerce-web-design
     icon: /images/services/ecommerce.png
     image: /images/portfolio/dsfmanufacturing.jpg
-    desc: "No two online businesses are the same; that's why our online shops are fully customized to support your specific ecommerce strategy."
+    desc: "Reliable, fast &amp; secure web shops to make money selling your products online."
 -
     title: CMS Websites
     alias: cms
     url: content-management-systems-cms
     icon: /images/services/joomla-development.png
     image: /images/portfolio/dsfmanufacturing.jpg
-    desc: "Our CMS solutions are designed to simplify the publication of your content to your website without requiring any technical knowledge."
+    desc: "Flexible out-of-the-box solutions &amp; bespoke CMS development with Joomla."
 -
     title: Mobile Websites
     alias: mobile
     url: responsive-web-design
     icon: /images/services/mobile-websites.png
     image: /images/portfolio/dsfmanufacturing.jpg
-    desc: "Dedicated mobile sites and responsive web design for mobile phones &amp; tablets. Never miss out on a sale, regardless of the users' device."
+    desc: "Dedicated mobile sites and responsive web design for mobile phones &amp; tablets."
 -
     title: Graphic Design
     alias: graphic
     url: graphic-design
     icon: /images/services/graphic-design.png
     image: /images/portfolio/dsfmanufacturing.jpg
-    desc: "From simple logos and promotional material such as leaflets &amp; business cards to full brand identities. We love graphic design!"
+    desc: "From simple logos &amp; promotional material to packaging and full corporate identity."

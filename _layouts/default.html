@@ -10,12 +10,12 @@
   <div class="container">
     <div id="main">
       <div class="row">
-        {% if page.left.content %}
+        {% unless page.left.content == nil %}
         <div class="col-md-{{ page.left.size }}">
           {% capture left %}modules/{{ page.left.content }}.html{% endcapture %}
           {% include {{left}} params=page.left.params %}
         </div>
-        {% endif %}
+        {% endunless %}
         <div class="col-md-{{ 12 | minus: page.left.size | minus: page.right.size }}" role="main">
           {{ content }}
         </div>

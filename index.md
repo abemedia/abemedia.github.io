@@ -11,8 +11,7 @@ bottom:
 -
     content: portfolio
     params:
-        title: Website Design Portfolio
-        count: 6
+        title: Featured Projects
 -
     content: services
     params:

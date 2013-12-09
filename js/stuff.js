@@ -13,7 +13,6 @@ if ($(".toc").length > 0) {
             trigger: "hover"
         });
     };
-
     $.getScript('//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js', function () {
         $.getScript('//cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.7.0/jquery.tocify.min.js', tocCallback);
     });

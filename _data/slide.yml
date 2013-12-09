@@ -1,34 +1,29 @@
 -
     title: Web Design
-    alias: web-design
     url: web-design-brighton
     icon: /images/services/web-development.png
     image: /images/portfolio/huskyevents.jpg
     desc: "From simple brochure-sites to bespoke database-driven web applications, we work closely with you to deliver functional, eye-catching web design that enhances your online presence."
 -
     title: Ecommerce
-    alias: ecommerce
     url: ecommerce-web-design
     icon: /images/services/ecommerce.png
     image: /images/portfolio/dsfmanufacturing.jpg
     desc: "Start selling online fast with our customer-friendly, reliable &amp; secure ecommerce solutions and take advantage of exciting new business opportunities in an ever-growing market."
 -
     title: CMS Websites
-    alias: cms
     url: content-management-systems-cms
     icon: /images/services/joomla-development.png
     image: /images/portfolio/huskyevents.jpg
     desc: "From flexible out-of-the-box solutions to bespoke content management systems, ABE Media are experts at developing innovative, content-driven websites with the popular Joomla CMS."
 -
     title: Mobile Sites
-    alias: mobile
     url: responsive-web-design
     icon: /images/services/mobile-websites.png
     image: /images/portfolio/dsfmanufacturing.jpg
     desc: "In the UK alone around 8 million people surf the internet on their smart-phones every day. Don't miss out on any customers, regardless of what device they are using to browse the web."
 -
     title: Graphic Design
-    alias: graphic
     url: graphic-design
     icon: /images/services/graphic-design.png
     image: /images/portfolio/dsfmanufacturing.jpg

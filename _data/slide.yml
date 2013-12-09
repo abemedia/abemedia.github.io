@@ -1,5 +1,5 @@
 -
-    title: Web Development
+    title: Web Design
     alias: web-design
     url: web-design-brighton
     icon: /images/services/web-development.png
@@ -13,14 +13,14 @@
     image: /images/portfolio/dsfmanufacturing.jpg
     desc: "No two online businesses are the same; that's why our online shops are fully customized to support your specific ecommerce strategy."
 -
-    title: CMS
+    title: CMS Websites
     alias: cms
     url: content-management-systems-cms
     icon: /images/services/joomla-development.png
     image: /images/portfolio/dsfmanufacturing.jpg
     desc: "Our CMS solutions are designed to simplify the publication of your content to your website without requiring any technical knowledge."
 -
-    title: Mobile Web Design
+    title: Mobile Websites
     alias: mobile
     url: responsive-web-design
     icon: /images/services/mobile-websites.png

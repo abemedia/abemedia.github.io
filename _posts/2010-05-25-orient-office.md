@@ -10,6 +10,8 @@ permalink: portfolio/orient-office
 features:
   - web-design
   - cms
+testimonial: "Very slick design. Superb..."
+client: Jassir Qushta
 ---
 
 Orient Office Export-Import GmbH specialize in importing and exporting frozen meat products and its related materials with turnover of approximately 10,000 m/t per year.  

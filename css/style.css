@@ -28,8 +28,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .banner {
 	background: url(../images/bg.jpg) no-repeat center top #f9f9f9;
-	background-size: 100% auto;
 	text-shadow: #fff 1px 1px 0px;
+}
+@media (min-width:1920px){
+	.banner {
+		background-size: 100% auto;
+	}
 }
 .module-title {
 	text-align: center;

@@ -1,8 +1,7 @@
 ---
 layout: default
-title: ABE Media
+title: ABE Media Web Design &middot; Website Design &amp; Development
 slug: home
-lead: "Web Design, Development & Consultation"
 sitemap:
     priority: 0.7
     changefreq: monthly

@@ -17,8 +17,8 @@
                 <a class="pull-left hidden-xs" href="{{ site.url }}/{{ item.url }}"><img src="{{ item.icon }}" alt="{{ item.title }}"></a>
                 <div class="media-body">
                   {% if {{i}} == "0" %}<h1>{% else %}<div class="h1">{% endif %}{{ item.title }}{% if {{i}} == "0" %}</h1>{% else %}</div>{% endif %}
-                  <p>{{ item.desc }}</p>
-                  <p><a class="btn btn-lg btn-primary" href="{{ site.url }}/{{ item.url }}" role="button">Read More</a></p>
+                  <p class="lead">{{ item.desc }}</p>
+                  <p><a class="btn btn-lg btn-primary" href="{{ site.url }}/{{ item.url }}" role="button">Read More</a></p><br>
                 </div>
               </div>
             </div>

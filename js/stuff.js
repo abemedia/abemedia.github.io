@@ -2,7 +2,7 @@
 $.getScript('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.2/js/bootstrap.min.js');
 
 // equal heights
-$(window).resize( function() {
+$(window).resize(function() {
     var $column = $('.box-list-small li'),
         maxHeight = 0;
     $column.each( function() {
@@ -13,7 +13,7 @@ $(window).resize( function() {
     });
     $column.height(maxHeight);
 });
-$(document).ready( function() {
+$(window).load(function() {
     $(window).trigger('resize');
 });
 

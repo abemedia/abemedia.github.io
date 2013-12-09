@@ -55,11 +55,11 @@ slug: contact
     </div>
   </div>
 </div>
-<script>
-if(window.location.hash == "sent") {
-    var ele = getElementById("emailSent");
-    var cls = "hidden";
-    var reg = new RegExp('(\\s|^)'+cls+'(\\s|$)');
-    ele.className=ele.className.replace(reg,' ');
-}
+<script type="text/javascript">
+    function showSent() {
+        if(window.location.hash == "sent") {
+            $("#emailSent").removeClass("hidden");
+        }
+    }
+    window.onload = showSent;
 </script>

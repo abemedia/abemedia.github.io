@@ -3,26 +3,26 @@
   <head>{% include header.html %}</head>
   <body>
   {% include nav-main.html %}
-  {% if page.top %}
+  {% if page.top.content %}
     {% capture top %}modules/{{ page.top.content }}.html{% endcapture %}
     {% include {{top}} params=page.top.params %}
   {% endif %}
   <div class="container">
     <div id="main">
       <div class="row">
-        {% if page.left %}
+        {% if page.left.content %}
         <div class="col-md-{{ page.left.size }}">
           {% capture left %}modules/{{ page.left.content }}.html{% endcapture %}
-          {% include {{left}} %}
+          {% include {{left}} params=page.left.params %}
         </div>
         {% endif %}
         <div class="col-md-{{ 12 | minus: page.left.size | minus: page.right.size }}" role="main">
           {{ content }}
         </div>
-        {% if page.right %}
+        {% if page.right.content %}
         <div class="col-md-{{ page.right.size }}">
           {% capture right %}modules/{{ page.right.content }}.html{% endcapture %}
-          {% include {{right}} %}
+          {% include {{right}} params=page.right.params %}
         </div>
         {% endif %}
       </div>

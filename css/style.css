@@ -13,17 +13,17 @@ body {
 	min-height: 100%;
 }
 a {
-	color:#cc6633;
+	color:#FF9833;
 	-webkit-transition: all 0.25s ease-in;
 	-moz-transition: all 0.25s ease-in;
 	-o-transition: all 0.25s ease-in;
 	-ms-transition: all 0.25s ease-in;
 }
 a:hover {
-	color:#A65B11;
+	color:#CC6733;
 }
 a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
-	border-color: #cc6633;
+	border-color: #FF9833;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: "PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-weight: bold;
 }
 .title {
-	color:#cc6633;
+	color:#CC6733;
 	font-size:16px;
 }
 .container {

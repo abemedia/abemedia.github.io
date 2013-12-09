@@ -1,20 +1,43 @@
+    {% if page.title == site.name %}
+      {% capture title %}{{ page.title }}{% endcapture %}
+    {% else %}
+      {% capture title %}{{ page.title }} &middot; {{ site.name }}{% endcapture %}
+    {% endif %}
+    
+    {% if page.description %}
+      {% capture description %}{{ page.description }}{% endcapture %}
+    {% else %}
+      {% capture description %}{{ site.description }}{% endcapture %}
+    {% endunless %}
+    
+    {% if page.image %}
+      {% capture image %}{{ page.image }}{% endcapture %}
+    {% else %}
+      {% capture image %}{{ site.image }}{% endcapture %}
+    {% endunless %}
+    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    {% unless page.image == null %}
-    <meta property="og:image" content="{{ page.image }}" />
-    {% else %}
-    <meta property="og:image" content="{{ site.url }}/images/donjoomla.png" />
-    {% endunless %}
-    <title>  
-    {% if page.title == "ABE Media" %}
-      {{ page.title }} &middot; Web Design &amp; Development
-    {% else %}
-      {{ page.title }} &middot; ABE Media &middot; Web Design &amp; Development
-    {% endif %}
-    </title>
+    
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ description }}">
+    <meta name="author" content="Adam Bouqdib">
+    <link rel="canonical" href="{{ page.url | remove:"index" | remove:".html" }}" />
+    
+	<meta property="og:title" content="{{ title }}" />
+	<meta property="og:description" content="{{ description }}" />
+    <meta property="og:image" content="{{ image }}" />
+	<meta property="og:type" content="website" />
+    <meta property="og:site_name" content="{{ site.title }}"/>
+    <meta property="og:locale" content="{{ site.locale }}"/>
+	<meta property="og:url" content="{{ page.url | remove:"index" | remove:".html" }}" />
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@abemedia"/>
+    <meta name="twitter:domain" content="{{ site.url }}"/>
+    <meta name="twitter:creator" content="@abemedia"/>
+    
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap-theme.min.css">
     <link href="{{ site.url }}/css/pygments-manni.css" type="text/css" rel="stylesheet" />

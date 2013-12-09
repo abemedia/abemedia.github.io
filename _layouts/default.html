@@ -3,26 +3,47 @@
   <head>{% include header.html %}</head>
   <body>
   {% include nav-main.html %}
-  {% if page.top.content %}
-    {% capture top %}modules/{{ page.top.content }}.html{% endcapture %}
-    {% include {{top}} params=page.top.params %}
+  {% if page.top %}
+    {% if page.top.content %}
+      {% capture top %}modules/{{ page.top.content }}.html{% endcapture %}
+      {% include {{top}} params=page.top.params %}
+    {% else %}
+      {% for item in page.top %}
+        {% capture top %}modules/{{ item.content }}.html{% endcapture %}
+        {% include {{top}} params=item.params %}
+      {% endfor %}
+    {% endif %}
   {% endif %}
   <div class="container">
     <div id="main">
       <div class="row">
-        {% unless page.left.content == nil %}
+        {% if page.left %}
         <div class="col-md-{{ page.left.size }}">
-          {% capture left %}modules/{{ page.left.content }}.html{% endcapture %}
-          {% include {{left}} params=page.left.params %}
+          {% if page.left.content %}
+            {% capture left %}modules/{{ page.left.content }}.html{% endcapture %}
+            {% include {{left}} params=page.left.params %}
+          {% else %}
+            {% for item in page.left %}
+              {% capture left %}modules/{{ item.content }}.html{% endcapture %}
+              {% include {{left}} params=item.params %}
+            {% endfor %}
+          {% endif %}
         </div>
-        {% endunless %}
+        {% endif %}
         <div class="col-md-{{ 12 | minus: page.left.size | minus: page.right.size }}" role="main">
           {{ content }}
         </div>
         {% if page.right.content %}
         <div class="col-md-{{ page.right.size }}">
-          {% capture right %}modules/{{ page.right.content }}.html{% endcapture %}
-          {% include {{right}} params=page.right.params %}
+          {% if page.right.content %}
+            {% capture right %}modules/{{ page.right.content }}.html{% endcapture %}
+            {% include {{right}} params=page.right.params %}
+          {% else %}
+            {% for item in page.right %}
+              {% capture right %}modules/{{ item.content }}.html{% endcapture %}
+              {% include {{right}} params=item.params %}
+            {% endfor %}
+          {% endif %}
         </div>
         {% endif %}
       </div>

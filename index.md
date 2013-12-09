@@ -17,11 +17,16 @@ bottom:
     params:
         title: Our Services
         desc: true
+-
+    content: testimonials
+    params:
+        title: What our clients say
 ---
 <h1>Web Design, Development &amp; Consultation<br>
 <small>Brighton web designers specialising in e-commerce &amp; content management systems</small></h1>
 <p class="lead">We're a small, yet highly innovative web design and development company based in Brighton &amp; Hove, East Sussex.<br>
 Since its incorporation in 2005, ABE Media have been at the forefront of new technology, shaping the future of web design with each and every project.</p>
-
+<!--
 > The website looks amazing. Thank you so much.  
 > <small>Heather Hilder-Darling Callaways Estate Agents</small>
+-->

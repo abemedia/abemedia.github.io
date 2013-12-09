@@ -235,11 +235,19 @@ footer a:hover {
 	margin-right: 15px;
 }
 @media (min-width:992px) {
+	#carousel .item h1, #carousel .item .h1 {
+		font-size: 60px;
+	}
 	#carousel .media .pull-left {
 		margin-right: 25px;
 	}
 	#carousel .item {
 		padding: 30px 50px;
+	}
+}
+@media (min-width:1200px) {
+	#carousel .item h1, #carousel .item .h1 {
+		font-size: 72px;
 	}
 }
 @media (min-width:1920px) {

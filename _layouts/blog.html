@@ -1,0 +1,27 @@
+---
+layout: default
+right:
+    size: 4
+    type: blog-side
+---
+{% for post in site.categories.blog %}
+    {% if post.categories contains {{page.slug}} %}
+        <div class="box post">
+          <div class="media">
+            <h3><a href="{{ post.url | remove:".html" }}">{{ post.title }}</a></h3>
+            <a class="pull-left thumbnail" href="{{ post.url | remove:".html" }}"><img alt="{{ post.title }}" src="{{ post.image }}" width="120"></a>
+            <div class="media-body"> {{ post.excerpt }} </div>
+          </div>
+          <div class="post_meta">Written by <a href="{{ site.url }}/about">Adam Bouqdib</a> in <a href="{{ site.url }}/{{ post.categories | join: "/" }}">{{ post.categories | last | capitalize }}</a> &middot; {{ post.date | date: "%A, %-d %B %Y" }} <a class="pull-right" href="{{ post.url | remove:".html" }}#disqus_thread"></a></div>
+        </div>
+    {% endif %} 
+{% endfor %}
+<script>
+    var disqus_shortname = 'abemedia';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>

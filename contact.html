@@ -3,7 +3,7 @@ layout: default
 title: Contact Us
 slug: contact
 ---
-<form class="form-horizontal" role="form" action="http://getsimpleform.com/messages?form_api_token=ee510e56c0373993fbbab9e006eaab76" method="post">
+<form role="form" action="http://getsimpleform.com/messages?form_api_token=ee510e56c0373993fbbab9e006eaab76" method="post">
   <div class="row">
     <div class="form-group col-sm-6">
       <label for="name">Name *</label>
@@ -29,6 +29,7 @@ slug: contact
       <label for="message">Message *</label>
       <textarea name="message" class="form-control" required></textarea>
     </div>
-  <button type="submit" class="btn btn-default">Submit</button>
+  </div>
+  <button type="submit" class="btn btn-primary btn-lg">Submit</button>
   <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
 </form>

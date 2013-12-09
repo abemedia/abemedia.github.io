@@ -10,12 +10,12 @@ sitemap:
     lastmod: 2013-11-09T7:30:00
 bottom:     
 -
-    content: portfolio
+    type: portfolio
     title: Responsive Website Design Portfolio
     params:
         filter: mobile
 -
-    content: services
+    type: services
     title: Our Services
 ---
 

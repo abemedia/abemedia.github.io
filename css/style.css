@@ -106,7 +106,7 @@ footer a:hover {
 }
 .navbar .navbar-nav>li.active>a {
 	color:#F59331;
-	text-shadow: #BC7126 0px 1px 0px;
+	text-shadow: #673605 0px 1px 0px;
 	background-position: 0 2px;
 }
 .navbar .navbar-nav>li>a:hover,

@@ -59,6 +59,7 @@ slug: contact
     function showSent() {
         if(window.location.hash) {
             $("#emailSent").removeClass("hidden");
+            $("form button, form input, form textarea").attr("disabled", true);
         }
     }
     window.onload = showSent;

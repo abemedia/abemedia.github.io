@@ -12,12 +12,12 @@
       <div class="item {% if {{i}} == "0" %}active{% endif %}">
         <div class="container">
           <div class="row">
-            <div class="col-sm-7"><br>
+            <div class="col-lg-7 col-md-6 col-sm-5"><br>
               {% if {{i}} == "0" %}<h1>{% else %}<div class="h1">{% endif %}{{ item.title }}{% if {{i}} == "0" %}</h1>{% else %}</div>{% endif %}
               <p class="lead">{{ item.desc }}</p>
               <p><a class="btn btn-lg btn-primary" href="{{ site.url }}/{{ item.url }}" role="button">Read More</a></p>
             </div>
-            <div class="col-sm-5 hidden-xs">
+            <div class="col-lg-5 col-md-6 col-sm-7 hidden-xs">
               <div class="device-mockup macbook">
                 <div class="device">
                   <div class="screen"><img src="{{ item.image }}" class="img-responsive"></div>

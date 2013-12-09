@@ -1,6 +1,7 @@
 name: "ABE Media &middot; Web Design &amp; Development"
-description: Web Design Brighton | Ecommerce Website Design | Brighton Web Designer
+description: "We're a small, yet highly innovative web design and development company based in Brighton & Hove, East Sussex. Since its incorporation in 2005, ABE Media have been at the forefront of new technology, shaping the future of web design with each and every project."
 baseurl: /
 url: http://abemedia.github.io
 timezone: Europe/London
-paginate: 9
+image: /images/donjoomla.png
+locale: en_GB

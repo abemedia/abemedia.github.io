@@ -1,9 +1,5 @@
-<div class="container">
-  {% if include.params.title %}
-  <h3 class="module-title">{{ include.params.title }}</h3>
-  {% endif %}
-  {% if include.params.count %}
-  {% capture count %}{{ include.params.count }}{% endcapture %}
+  {% if include.module.count %}
+  {% capture count %}{{ include.module.count }}{% endcapture %}
   {% else %}
   {% capture count %}3{% endcapture %}
   {% endif %}
@@ -11,7 +7,7 @@
     {% capture i %}0{% endcapture %}
     {% for post in site.categories.portfolio %}
         {% if {{i}} < {{count}} %}
-          {% if include.params.filter == nil or post.features contains include.params.filter %}
+          {% if include.module.filter == nil or post.features contains include.module.filter %}
             {% capture i %}{{ i | plus:1 }}{% endcapture %}
             <li><a class="box" href="{{ post.url }}">
               <img alt="{{ post.title }}" src="{{ post.image }}" class="img-responsive">
@@ -21,4 +17,3 @@
         {% endif %}
     {% endfor %}
   </ul>
-</div>

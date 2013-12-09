@@ -9,7 +9,7 @@
     <div class="carousel-inner">
       {% capture i %}0{% endcapture %}
       {% for item in site.data.services %}
-      <div class="item {% if {{i}} == "0" %}active{% endif %}"> <img data-src="{{ item.image }}" alt="{{ item.title }}">
+      <div class="item {% if {{i}} == "0" %}active{% endif %}"> <img src="{{ item.image }}" alt="{{ item.title }}" class="pull-right">
         <div class="container">
           <div class="carousel-caption">
             <h1>{{ item.title }}</h1>

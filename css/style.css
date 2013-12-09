@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-weight: bold;
 }
 .banner {
-	background: url(../images/bg.jpg) no-repeat fixed center top #f9f9f9;
+	background: url(../images/bg.jpg) no-repeat center top #f9f9f9;
 	background-size: 100% auto;
 	padding: 30px;
 	text-shadow: #fff 1px 1px 0px;

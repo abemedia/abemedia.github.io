@@ -1,21 +1,9 @@
-    {% if page.title == site.name %}
-      {% capture title %}{{ page.title }}{% endcapture %}
-    {% else %}
-      {% capture title %}{{ page.title }} &middot; {{ site.name }}{% endcapture %}
-    {% endif %}
-    
-    {% if page.description %}
-      {% capture description %}{{ page.description }}{% endcapture %}
-    {% else %}
-      {% capture description %}{{ site.description }}{% endcapture %}
-    {% endif %}
-    
-    {% if page.image %}
-      {% capture image %}{{ site.url }}{{ page.image }}{% endcapture %}
-    {% else %}
-      {% capture image %}{{ site.url }}{{ site.image }}{% endcapture %}
-    {% endif %}
-    
+    {% if page.title == site.name %}{% capture title %}{{ site.title }}{% endcapture %}
+    {% else %}{% capture title %}{{ page.title }} &middot; {{ site.title }}{% endcapture %}{% endif %}
+    {% if page.description %}{% capture description %}{{ page.description }}{% endcapture %}
+    {% else %}{% capture description %}{{ site.description }}{% endcapture %}{% endif %}
+    {% if page.image %}{% capture image %}{{ site.url }}{{ page.image }}{% endcapture %}
+    {% else %}{% capture image %}{{ site.url }}{{ site.image }}{% endcapture %}{% endif %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

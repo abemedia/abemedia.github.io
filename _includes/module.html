@@ -8,11 +8,13 @@
       {% include {{module}} params=include.module.params %}
     {% else %}
       {% for item in include.module %}
-        {% if item.title %}
-        <h3 class="module-title">{{ item.title }}</h3>
-        {% endif %}
-        {% capture module %}modules/{{ item.type }}.html{% endcapture %}
-        {% include {{module}} params=item.params %}
+        <div class="{{ item.class }}">
+          {% if item.title %}
+          <h3 class="module-title">{{ item.title }}</h3>
+          {% endif %}
+          {% capture module %}modules/{{ item.type }}.html{% endcapture %}
+          {% include {{module}} params=item.params %}
+        </div>
       {% endfor %}
     {% endif %}
   </div>

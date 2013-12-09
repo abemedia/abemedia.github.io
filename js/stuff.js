@@ -20,25 +20,21 @@ if ($(".toc").length > 0) {
 }
 
 // equal heights
-function equalHeight(group) {
-    group.css("height", "auto");
-    tallest = 0;
-    group.each(function () {
-        //$(this).css("height", "auto");
-        thisHeight = $(this).innerHeight();
-        if (thisHeight > tallest) {
-            tallest = thisHeight;
-        }
+$(window).resize( function() {
+
+    var $column = $('.box-list-small li'),
+        maxHeight = 0;
+
+    $column.each( function() {
+        $(this).removeAttr('style');
+        if($(this).height() > maxHeight) {
+            maxHeight = $(this).height();
+        } 
     });
-    console.log(tallest);
-    group.css("height", tallest + 'px');
-}
-$(document).ready(function () {
-    equalHeight($(".box-list-small .box"));
-});
-$(window).resize(function () {
-    equalHeight($(".box-list-small .box"));
-});
+
+    $column.height(maxHeight);
+
+}).trigger('resize');
 
 /*
 

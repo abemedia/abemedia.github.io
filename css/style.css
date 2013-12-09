@@ -261,8 +261,6 @@ footer a:hover {
 .carousel-indicators li {
 	border: none;
 	background-color: #333;
-	width: 12px;
-	height: 12px;
 }
 .carousel-indicators .active {
 	background-color: #F59331;

@@ -8,13 +8,13 @@
       {% capture description %}{{ page.description }}{% endcapture %}
     {% else %}
       {% capture description %}{{ site.description }}{% endcapture %}
-    {% endunless %}
+    {% endif %}
     
     {% if page.image %}
       {% capture image %}{{ page.image }}{% endcapture %}
     {% else %}
       {% capture image %}{{ site.image }}{% endcapture %}
-    {% endunless %}
+    {% endif %}
     
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">

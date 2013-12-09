@@ -1,8 +1,7 @@
 ---
 layout: default
-title: About ABE Media
+title: About Us
 slug: about
-lead: Brighton Website Designers
 sitemap:
     priority: 0.7
     changefreq: monthly

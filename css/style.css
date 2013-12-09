@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	text-shadow: #fff 1px 1px 0px;
 }
 #carousel .item {
-	height: 300px;
+	padding: 30px 50px;
 }
 @media (min-width:1920px){
 	#carousel {

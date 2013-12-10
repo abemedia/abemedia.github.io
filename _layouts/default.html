@@ -9,7 +9,7 @@
       {% if page.left or page.right %}
       <div class="row">
         {% if page.left %}
-        <div class="col-md-{{ page.left.size }}">
+        <div class="col-md-{{ page.left.size }}" role="complementary">
           {% include module.html module=page.left %}
         </div>
         {% endif %}
@@ -17,7 +17,7 @@
           {{ content }}
         </div>
         {% if page.right %}
-        <div class="col-md-{{ page.right.size }}">
+        <div class="col-md-{{ page.right.size }}" role="complementary">
           {% include module.html module=page.right %}
         </div>
         {% endif %}

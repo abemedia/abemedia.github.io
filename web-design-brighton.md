@@ -11,7 +11,7 @@ sitemap:
 bottom:
 -
     type: portfolio
-    title: Website Design Portfolio
+    title: Website Design Projects
     class: container
 -
     type: services

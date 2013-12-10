@@ -23,6 +23,7 @@ $(window).resize(function() {
         } 
         rows[rowIndex].push($el);
     });
+    console.log(maxHeight);
     for (row = 1 ; row <= rowIndex ; row++) {
         for (i = 0 ; i <= rows[row].length ; i++) {
             $(rows[row][i]).height(maxHeight[row]);

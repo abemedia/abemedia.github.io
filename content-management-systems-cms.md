@@ -11,7 +11,7 @@ sitemap:
 bottom: 
 -
     type: portfolio
-    title: CMS Website Design Portfolio
+    title: CMS Website Design Projects
     class: container grey
     params:
         filter: content management systems

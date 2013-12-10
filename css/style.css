@@ -349,10 +349,10 @@ div.box {
 	margin-bottom:30px;
 }
 a.box {
-	background-image: -webkit-linear-gradient(top,rgba(255,255,255,0.25),rgba(255,255,255,0.25) 50%,rgba(0,0,0,0.1));
-	background-image: -moz-linear-gradient(top,rgba(255,255,255,0.25),rgba(255,255,255,0.25) 50%,rgba(0,0,0,0.1));
-	background-image: -ms-linear-gradient(top,rgba(255,255,255,0.25),rgba(255,255,255,0.25) 50%,rgba(0,0,0,0.1));
-	background-image: -o-linear-gradient(top,rgba(255,255,255,0.25),rgba(255,255,255,0.25) 50%,rgba(0,0,0,0.1));
+	background-image: -webkit-linear-gradient(top,rgba(255,255,255,0.25),rgba(255,255,255,0.25) 50%,rgba(0,0,0,0.05));
+	background-image: -moz-linear-gradient(top,rgba(255,255,255,0.25),rgba(255,255,255,0.25) 50%,rgba(0,0,0,0.05));
+	background-image: -ms-linear-gradient(top,rgba(255,255,255,0.25),rgba(255,255,255,0.25) 50%,rgba(0,0,0,0.05));
+	background-image: -o-linear-gradient(top,rgba(255,255,255,0.25),rgba(255,255,255,0.25) 50%,rgba(0,0,0,0.05));
 	background-size: 100% 200%;
 }
 a.box:hover {

@@ -4,10 +4,14 @@ $.getScript('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.2/js/bootstr
 // equal heights
 $(window).resize(function() {
     var $column = $('.box-list-small li'),
-        maxHeight = 0;
+        maxHeight = 0,
+        rowTop = 0;
     $column.each( function() {
         $(this).removeAttr('style');
-        if($(this).height() > maxHeight) {
+        if($(this).offsetTop  > rowTop) {
+            rowTop = $(this).offsetTop;
+            maxHeight = $(this).height();
+        } else if($(this).height() > maxHeight) {
             maxHeight = $(this).height();
         } 
     });

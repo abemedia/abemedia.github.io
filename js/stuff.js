@@ -24,7 +24,7 @@ $(window).resize(function() {
     });
     console.log(rows);
     for (i = 1 ; i < rowIndex ; i++) {
-        rows[i].height(maxHeight[i]);
+        $(rows[i]).height(maxHeight[i]);
     }
 });
 $(window).load(function() {

@@ -1,23 +1,36 @@
 // stuff for the things...
 $.getScript('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.2/js/bootstrap.min.js');
-/*
+
 // equal heights
 $(window).resize(function() {
     var $column = $('.box-list-small li'),
-        maxHeight = 0;
+        maxHeight = array(),
+        rows = array(),
+        rowTop = 0,
+        rowIndex = 0;
+        
     $column.each( function() {
-        $(this).removeAttr('style');
-        if($(this).height() > maxHeight) {
-            maxHeight = $(this).height();
+        $el = $(this);
+        $el.removeAttr('style');
+        if($el.offset().top > rowTop) {
+            rowTop = $el.offset().top;
+            rowIndex++;
+            maxHeight[rowIndex] = $el.height();
+        } else if($el.height() > maxHeight) {
+            maxHeight[rowIndex] = $el.height();
         } 
+        rows[rowIndex].push($el);
     });
+    for (i = 0 ; i < rowIndex ; i++) {
+        rows[i].height(maxHeight[i]);
+    }
     $column.height(maxHeight);
 });
 $(window).load(function() {
     $(window).trigger('resize');
 });
-*/
 
+/*
 $(window).resize(function() {
     var currentTallest = 0,
         currentRowStart = 0,
@@ -57,7 +70,7 @@ $(window).resize(function() {
 $(window).load(function() {
     $(window).trigger('resize');
 });
-
+*/
 // tocify
 if ($(".toc").length > 0) {
     var tocCallback = function () {

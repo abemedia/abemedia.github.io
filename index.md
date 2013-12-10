@@ -12,17 +12,16 @@ bottom:
 -
     type: services
     title: Our Services
-    class: container grey
+    class: grey
     params:
         desc: true
 -
     type: portfolio
     title: Featured Projects
-    class: container
 -
     type: testimonials
     title: What our clients say
-    class: container grey
+    class: grey
 ---
 <h2>Brighton web designers specialising in ecommerce &amp; content management systems</h2>
 <p class="lead">We're a small, yet highly innovative web design and development company based in Brighton &amp; Hove, East Sussex.<br>

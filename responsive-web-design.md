@@ -11,7 +11,7 @@ sitemap:
 bottom:     
 -
     type: portfolio
-    title: Responsive Website Design Portfolio
+    title: Responsive Website Design Projects
     class: container
     params:
         filter: mobile

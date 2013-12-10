@@ -3,7 +3,7 @@
           {% if page.features == nil or page.features contains {{item.alias}} %}
           <li><a class="box" href="{{ site.url }}/{{ item.url }}">
             <img src="{{ item.image }}">
-            {% if include.params.desc %}<h3>{{ item.title }}</h3>
+            {% if include.params.desc %}<h3 class="media-heading">{{ item.title }}</h3>
             <span class="text-muted">{{ item.desc }}</span>
             {% else %}
             <span class="h5">{{ item.title }}</span>

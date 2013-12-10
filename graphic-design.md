@@ -11,7 +11,7 @@ sitemap:
 bottom: 
 -
     type: portfolio
-    title: Graphic Design Portfolio
+    title: Graphic Design Projects
     class: container
     params:
         filter: graphic

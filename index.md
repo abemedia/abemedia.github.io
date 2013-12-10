@@ -24,7 +24,7 @@ bottom:
     title: What our clients say
     class: container grey
 ---
-<h2>{{page.date}}Brighton web designers specialising in e-commerce &amp; content management systems</h2>
+<h2>Brighton web designers specialising in ecommerce &amp; content management systems</h2>
 <p class="lead">We're a small, yet highly innovative web design and development company based in Brighton &amp; Hove, East Sussex.<br>
 Since its incorporation in 2005, ABE Media have been at the forefront of new technology, shaping the future of web design with each and every project.</p>
 <!--

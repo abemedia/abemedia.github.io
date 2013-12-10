@@ -360,7 +360,7 @@ a.box:hover {
 	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 	text-decoration: none;
-	background-size: 100% 200%;
+	background-size: 100% 100%;
 }
 .box h3.box-header, .box h1 {
 	border-bottom:3px solid #ff9833;

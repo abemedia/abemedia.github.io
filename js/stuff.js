@@ -23,8 +23,10 @@ $(window).resize(function() {
         rows[rowIndex].push($el);
     });
     console.log(rows);
-    for (i = 1 ; i < rowIndex ; i++) {
-        $(rows[i]).height(maxHeight[i]);
+    for (row = 1 ; row <= rowIndex ; row++) {
+        for (i = 0 ; i < rows[row].length ; i++) {
+            $(rows[row][i]).height(maxHeight[row]);
+        }
     }
 });
 $(window).load(function() {

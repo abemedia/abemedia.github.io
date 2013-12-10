@@ -23,13 +23,14 @@ $(window).load(function() {
 */
 
 $(window).resize(function() {
-    var currentTallest = 0,
-         currentRowStart = 0,
-         rowDivs = new Array(),
-         $el,
-         topPosition = 0;
+    var $column = $('.box-list-small li'),
+        currentTallest = 0,
+        currentRowStart = 0,
+        rowDivs = new Array(),
+        $el,
+        topPosition = 0;
     
-    $('.blocks').each(function() {
+    $column.each(function() {
     
         $el = $(this);
         topPostion = $el.position().top;

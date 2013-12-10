@@ -23,6 +23,12 @@
     image: /images/services/mobile-websites.png
     desc: "Dedicated mobile sites and responsive web design for mobile phones &amp; tablets. Never miss out on a sale, regardless of the users' device."
 -
+    title: Graphic Design
+    alias: graphic
+    url: graphic-design
+    image: /images/services/graphic-design.png
+    desc: "From simple logos and promotional material such as leaflets &amp; business cards to full brand identities.<br>We love graphic design!"
+-
     title: 3D Design
     alias: 3d
     url: 3d-design

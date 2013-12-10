@@ -11,7 +11,7 @@ sitemap:
 bottom:     
 -
     type: portfolio
-    title: Ecommerce Website Design Portfolio
+    title: Ecommerce Website Design Projects
     class: container
     params:
         filter: ecommerce

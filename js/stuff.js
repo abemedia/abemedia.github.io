@@ -16,8 +16,9 @@ $(window).resize(function() {
             rowIndex++;
             rows[rowIndex] = new Array();
             rowTop = $el.offset().top;
-            maxHeight[rowIndex] = $el.height();
-        } else if($el.height() > maxHeight[rowIndex]) {
+            maxHeight[rowIndex] = 0;
+        }
+        if($el.height() > maxHeight[rowIndex]) {
             maxHeight[rowIndex] = $el.height();
         } 
         rows[rowIndex].push($el);

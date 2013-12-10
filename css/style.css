@@ -159,7 +159,7 @@ footer a:hover {
 		padding: 15px 30px;
 	}
 	.navbar .dropdown-menu li {
-		width: 20%;
+		width: 12.5%;
 		float: left;
 	}
 	.navbar .dropdown-menu li a {
@@ -169,6 +169,7 @@ footer a:hover {
 		padding: 10px 0;
 	        border-radius: 4px;
 		font-weight: bold;
+		white-space: normal;
 	}
 	.navbar .dropdown-menu li.active a,
 	.navbar .dropdown-menu:hover li.active a:hover,
@@ -321,7 +322,7 @@ footer a:hover {
 		width: 33.33333333333333%;
 	}
 	.box-list.box-list-small>li {
-		width: 20%;
+		width: 25%;
 	}
 }
 .box-list>li>a>span {

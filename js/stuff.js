@@ -3,13 +3,13 @@ $.getScript('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.2/js/bootstr
 
 // equal heights
 $(window).resize(function() {
-    var $column = $('.box-list-small li'),
+    var $col = $('.box-list-small li'),
         maxHeight = new Array(),
         rows = new Array(),
         rowTop = 0,
         rowIndex = 0;
         
-    $column.each( function() {
+    $col.each( function() {
         $el = $(this);
         $el.removeAttr('style');
         if($el.offset().top > rowTop) {
@@ -23,7 +23,6 @@ $(window).resize(function() {
         } 
         rows[rowIndex].push($el);
     });
-    console.log(maxHeight);
     for (row = 1 ; row <= rowIndex ; row++) {
         for (i = 0 ; i <= rows[row].length ; i++) {
             $(rows[row][i]).height(maxHeight[row]);
@@ -34,47 +33,6 @@ $(window).load(function() {
     $(window).trigger('resize');
 });
 
-/*
-$(window).resize(function() {
-    var currentTallest = 0,
-        currentRowStart = 0,
-        rowDivs = new Array(),
-        $el,
-        topPosition = 0;
-    
-    $('.box-list-small li').each(function() {
-    
-        $el = $(this);
-        topPostion = $el.position().top;
-        
-        if (currentRowStart != topPostion) {
-                     // we just came to a new row.  Set all the heights on the completed row
-            for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {
-                rowDivs[currentDiv].height(currentTallest);
-            }
-        
-            // set the variables for the new row
-            rowDivs.length = 0; // empty the array
-            currentRowStart = topPostion;
-            currentTallest = $el.height();
-            rowDivs.push($el);
-        } else {
-            // another div on the current row.  Add it to the list and check if it's taller
-            rowDivs.push($el);
-            currentTallest = (currentTallest < $el.height()) ? ($el.height()) : (currentTallest);
-        }
-           
-        // do the last row
-        for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {
-            rowDivs[currentDiv].height(currentTallest);
-        }
-       
-    });
-});
-$(window).load(function() {
-    $(window).trigger('resize');
-});
-*/
 // tocify
 if ($(".toc").length > 0) {
     var tocCallback = function () {

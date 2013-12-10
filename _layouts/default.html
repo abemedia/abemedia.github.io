@@ -21,7 +21,7 @@
       </div>
       {% endif %}
     </div>
-    {% else %}<div role="main">{{ content }}</div>{% endif %}
+    {% else %}{{ content }}{% endif %}
     {% if page.bottom %}{% include module.html module=page.bottom %}{% endif %}
   </div>
   {% include footer.html %}

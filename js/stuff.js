@@ -4,8 +4,8 @@ $.getScript('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.2/js/bootstr
 // equal heights
 $(window).resize(function() {
     var $column = $('.box-list-small li'),
-        maxHeight = array(),
-        rows = array(),
+        maxHeight = new array(),
+        rows = new array(),
         rowTop = 0,
         rowIndex = 0;
         

@@ -21,6 +21,9 @@ a:hover {
 a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
 	border-color: #F59331;
 }
+img {
+	max-width:100%;
+}
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: "PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 	text-transform: uppercase;
@@ -68,9 +71,6 @@ footer a:hover {
 }
 #main {
 	margin-top: 20px;
-}
-#main img {
-	max-width:100%;
 }
 .grey {
 	background: #f9f9f9;

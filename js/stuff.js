@@ -3,7 +3,7 @@ $.getScript('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.2/js/bootstr
 
 // equal heights
 $(window).resize(function() {
-    var $col = $('.box-list-small li'),
+    var $col = $('.equal>*'),
         maxHeight = new Array(),
         rows = new Array(),
         rowTop = 0,

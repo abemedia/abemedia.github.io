@@ -29,15 +29,9 @@
     image: /images/services/graphic-design.png
     desc: "From simple logos and promotional material such as leaflets &amp; business cards to full brand identities.<br>We love graphic design!"
 -
-    title: 3D Design
-    alias: 3d
-    url: 3d-design
-    image: /images/services/graphic-design.png
-    desc: "From simple logos and promotional material such as leaflets &amp; business cards to full brand identities.<br>We love graphic design!"
--
-    title: Illustration
-    alias: illustration
-    url: illustration
+    title: Illustration & 3D
+    alias: illustration-3d
+    url: illustration-3d
     image: /images/services/graphic-design.png
     desc: "From simple logos and promotional material such as leaflets &amp; business cards to full brand identities.<br>We love graphic design!"
 -

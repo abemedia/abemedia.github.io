@@ -159,7 +159,7 @@ footer a:hover {
 		padding: 15px 30px;
 	}
 	.navbar .dropdown-menu li {
-		width: 12.5%;
+		width: 16.66666666666666%;
 		float: left;
 	}
 	.navbar .dropdown-menu li a {
@@ -219,7 +219,7 @@ footer a:hover {
 		height: 40px;
 	}
 	.navbar .dropdown-menu li a {
-		font-size: 16px;
+		font-size: 17px;
 	}
 }
 

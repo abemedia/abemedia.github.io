@@ -6,6 +6,7 @@
   {% if page.top %}{% include module.html module=page.top %}{% endif %}
   <div class="container">
     <div id="main">
+      {% if page.left or page.right %}
       <div class="row">
         {% if page.left %}
         <div class="col-md-{{ page.left.size }}">
@@ -21,6 +22,11 @@
         </div>
         {% endif %}
       </div>
+      {% else %}
+      <div role="main">
+        {{ content }}
+      </div>
+      {% endif %}
     </div>
   </div>
   {% if page.bottom %}{% include module.html module=page.bottom %}{% endif %}

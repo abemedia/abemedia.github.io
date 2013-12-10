@@ -331,7 +331,7 @@ footer a:hover {
 .box-list>li>a>span {
 	display: block;
 }
-.box>li>a>img {
+.box-list>li>a>img {
 	margin-bottom: 15px;
 }
 .box {

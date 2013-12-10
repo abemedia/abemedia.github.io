@@ -331,6 +331,9 @@ footer a:hover {
 .box-list>li>a>span {
 	display: block;
 }
+.box>li>a>img {
+	margin-bottom: 15px;
+}
 .box {
 	background: #fff;
 	background: rgba(255,255,255,0.5);
@@ -365,7 +368,6 @@ a.box:hover {
 }
 .folio .box img {
 	width: 100%;
-	margin-bottom: 15px;
 }
 
 /* Blog

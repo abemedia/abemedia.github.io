@@ -372,7 +372,7 @@ a.box:hover {
 }
 .folio .box, .folio .box:hover {
 	padding: 0 0 15px;
-	background:#f3f3f3;
+	background-color:#f9f9f9;
 }
 .folio .box img {
 	width: 100%;

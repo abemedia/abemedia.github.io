@@ -1,8 +1,8 @@
-  <div id="photoslide" class="carousel slide" data-ride="carousel" data-interval="5000">
+  <div id="photoslide" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
     <ol class="carousel-indicators">
       {% capture i %}0{% endcapture %}
       {% for item in include.data %}
-      <li data-target="#carousel" data-slide-to="{{i}}" class="{% if {{i}} == "0" %}active{% endif %}"></li>
+      <li data-target="#photoslide" data-slide-to="{{i}}" class="{% if {{i}} == "0" %}active{% endif %}"></li>
       {% capture i %}{{ i | plus:1 }}{% endcapture %}
       {% endfor %}
     </ol>
@@ -15,5 +15,5 @@
       {% capture i %}{{ i | plus:1 }}{% endcapture %}
       {% endfor %}
     </div>
-    <!--a class="left carousel-control" href="#carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a--> 
+    <!--a class="left carousel-control" href="#photoslide" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#photoslide" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a--> 
   </div>

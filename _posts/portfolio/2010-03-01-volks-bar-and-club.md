@@ -1,13 +1,12 @@
 ---
-layout: portfolio
-categories: 
-  - Portfolio
-  - Content Management Systems
+layout: project
+categories:
+- Portfolio
+- Content Management Systems
 title: "Volks Bar & Club"
 link: volksclub.co.uk
 image: /images/portfolio/volksclub.jpg
-permalink: portfolio/volks-bar-and-club
-features:
+tags:
   - web-design
   - cms
   - mobile

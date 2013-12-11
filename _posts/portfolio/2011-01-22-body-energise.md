@@ -1,13 +1,12 @@
 ---
-layout: portfolio
-categories: 
-  - Portfolio
-  - Ecommerce
+layout: project
+categories:
+- Portfolio
+- Ecommerce
 title: "Body Energise"
 link: bodyenergise.co.uk
 image: /images/portfolio/bodyenergise.jpg
-permalink: portfolio/body-energise
-features:
+tags:
   - web-design
   - ecommerce
   - cms

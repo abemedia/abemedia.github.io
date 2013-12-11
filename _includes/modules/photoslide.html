@@ -1,0 +1,19 @@
+  <div id="photoslide" class="carousel slide" data-ride="carousel" data-interval="5000">
+    <ol class="carousel-indicators">
+      {% capture i %}0{% endcapture %}
+      {% for item in include.data %}
+      <li data-target="#carousel" data-slide-to="{{i}}" class="{% if {{i}} == "0" %}active{% endif %}"></li>
+      {% capture i %}{{ i | plus:1 }}{% endcapture %}
+      {% endfor %}
+    </ol>
+    <div class="carousel-inner">
+      {% capture i %}0{% endcapture %}
+      {% for item in include.data %}
+      <div class="item {% if {{i}} == "0" %}active{% endif %}">
+        <img src="{{ item }}">
+      </div>
+      {% capture i %}{{ i | plus:1 }}{% endcapture %}
+      {% endfor %}
+    </div>
+    <!--a class="left carousel-control" href="#carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a--> 
+  </div>

@@ -1,13 +1,12 @@
 ---
-layout: portfolio
-categories: 
-  - Portfolio
-  - Ecommerce
+layout: project
+categories:
+- Portfolio
+- Ecommerce
 title: "Printers Brighton"
 link: dsfmanufacturing.co.uk
 image: /images/portfolio/printersbrighton.jpg
-permalink: portfolio/printers-brighton
-features:
+tags:
   - web-design
   - ecommerce
   - cms

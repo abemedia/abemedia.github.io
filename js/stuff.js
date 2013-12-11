@@ -51,6 +51,44 @@ if ($(".toc").length > 0) {
     });
 }
 
+//portfolio previews
+$.fn.preview = function() {
+	$(this).each(function(i, e) {
+		var topMargin = $(e).find(".screen").height() - $(e).find("img").height() + "px",
+			isPhone = $(e).hasClass("iphone5");
+				
+		$(e).find("img").delay(isPhone ? 0 : 400).animate({
+			marginTop: topMargin
+		}, {
+			duration: isPhone ? 3000 : 1500,
+			specialEasing: {
+			  width: "linear",
+			  height: "easeOutBounce"
+			},
+			complete: function() {
+				$(this).delay(isPhone ? 100 : 1000).animate( {
+					marginTop: 0
+				}, {
+					duration: 1000,
+					specialEasing: {
+						width: "linear",
+						height: "easeOutBounce"
+					}
+				})
+			}
+		})
+	})
+    return this;
+}
+$(".previews").on("mouseenter", function() {
+	$(".preview").preview();
+});
+$(window).load(function() {
+	setTimeout(function() {
+		$(".preview").preview();
+	}, 1000);
+});
+
 /*
 // zopim chat
 window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=

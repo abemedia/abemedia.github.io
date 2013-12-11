@@ -12,13 +12,12 @@ bottom:
 -
     type: portfolio
     title: Ecommerce Website Design Projects
-    class: container
     params:
         filter: ecommerce
 -
     type: services
     title: Our Services
-    class: container grey
+    class: grey
 ---
 
 Ecommerce offers a great number of advantages as you can reach a global audience, attracting new customers, and greatly reduce your overheads and order processing costs.

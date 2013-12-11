@@ -1,13 +1,12 @@
 ---
-layout: portfolio
-categories: 
-  - Portfolio
-  - Content Management Systems
+layout: project
+categories:
+- Portfolio
+- Content Management Systems
 title: "Gold Estates"
 link: gold-estates.com
 image: /images/portfolio/gold-estates.jpg
-permalink: portfolio/gold-estates
-features:
+tags:
   - web-design
   - cms
   - graphic

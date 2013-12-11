@@ -12,11 +12,10 @@ bottom:
 -
     type: portfolio
     title: Website Design Projects
-    class: container
 -
     type: services
     title: Our Services
-    class: container grey
+    class: grey
 ---
 
 Our way of thinking has been changed by the internet and effective website design has become an integral part of sustainability in modern business.

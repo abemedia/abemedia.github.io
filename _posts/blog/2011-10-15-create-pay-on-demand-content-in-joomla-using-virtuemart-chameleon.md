@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "Create pay-on-demand content in Joomla! using Virtuemart & Chameleon"
-categories: 
-  - Blog
-  - Tutorials
+categories:
+- Blog
+- Tutorials
 image: "/images/blog/joomla-logo.jpg"
 published: true
 ---
-
 Although [Virtuemart](http://www.virtuemart.net/) offers downloadable goods out-the-box this isn't always ideal. Say for example you run a premium (paid) video or article service and you don't just want your visitors to be able to download the content they have bought but want them to be able to view it directly on your site whilst displaying a teaser to those who haven't paid yet.
 
 This would normally be quite a task but using a library called JomGenius that comes with [Metamod & Chameleon](http://www.metamodpro.com/) it's actually pretty simple!

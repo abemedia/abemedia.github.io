@@ -1,13 +1,13 @@
 ---
-layout: portfolio
-categories: 
-  - Portfolio
-  - Content Management Systems
+layout: project
+categories:
+- Portfolio
+- Content Management Systems
 title: "Bioenergetics UK"
 link: bodyflow.uk.com
 image: /images/portfolio/bodyflow.jpg
-permalink: portfolio/bioenergetics-uk
-features:
+preview_xl: /images/portfolio/bodyflow_xl.jpg
+tags:
   - web-design
   - cms
   - graphic

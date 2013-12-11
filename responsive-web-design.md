@@ -12,13 +12,12 @@ bottom:
 -
     type: portfolio
     title: Responsive Website Design Projects
-    class: container
     params:
         filter: mobile
 -
     type: services
     title: Our Services
-    class: container grey
+    class: grey
 ---
 
 Dedicated mobile sites and responsive web design for mobile phones & tablets. Never miss out on a sale, regardless of the users' device.

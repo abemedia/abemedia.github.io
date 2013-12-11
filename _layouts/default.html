@@ -8,17 +8,17 @@
     {% if page.left or page.right %}
     <div class="row">
       {% if page.left %}
-      <div class="col-md-{{ page.left.size }}" role="complementary">
+      <aside class="col-md-{{ page.left.size }}" role="complementary">
         {% include module.html module=page.left %}
-      </div>
+      </aside>
       {% endif %}
       <div class="col-md-{{ 12 | minus: page.left.size | minus: page.right.size }}" role="main">
         {{ content }}
       </div>
       {% if page.right %}
-      <div class="col-md-{{ page.right.size }}" role="complementary">
+      <aside class="col-md-{{ page.right.size }}" role="complementary">
         {% include module.html module=page.right %}
-      </div>
+      </aside>
       {% endif %}
     </div>
     {% else %}{{ content }}{% endif %}

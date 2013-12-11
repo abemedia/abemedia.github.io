@@ -1,13 +1,12 @@
 ---
-layout: portfolio
-categories: 
-  - Portfolio
-  - Content Management Systems
+layout: project
+categories:
+- Portfolio
+- Content Management Systems
 title: Orient Office
 link: ooffice.de
 image: /images/portfolio/ooffice.jpg
-permalink: portfolio/orient-office
-features:
+tags:
   - web-design
   - cms
 testimonial: "Very slick design. Superb..."

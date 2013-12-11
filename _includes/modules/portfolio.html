@@ -7,11 +7,11 @@
     {% capture i %}0{% endcapture %}
     {% for post in site.categories.portfolio %}
         {% if {{i}} < {{count}} %}
-          {% if include.params.filter == nil or post.features contains include.params.filter %}
+          {% if include.params.filter == nil or post.tags contains include.params.filter %}
             {% capture i %}{{ i | plus:1 }}{% endcapture %}
             <li><a class="box" href="{{ post.url }}">
               <img alt="{{ post.title }}" src="{{ post.image }}" class="img-responsive">
-              <span class="h4">{{ post.title }}</span><span class="text-muted">{{ post.link }}</span>
+              <span class="h4">{{ post.slug }}{{ post.title }}</span><span class="text-muted">{{ post.link }}</span>
             </a>
           {% endif %}
         {% endif %}

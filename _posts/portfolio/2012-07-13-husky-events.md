@@ -1,13 +1,12 @@
 ---
-layout: portfolio
-categories: 
-  - Portfolio
-  - Content Management Systems
+layout: project
+categories:
+- Portfolio
+- Content Management Systems
 title: "Husky Events"
 link: huskyevents.com
 image: /images/portfolio/huskyevents.jpg
-permalink: portfolio/husky-events
-features:
+tags:
   - web-design
   - cms
   - graphic

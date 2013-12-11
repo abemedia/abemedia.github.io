@@ -6,7 +6,7 @@
 {% assign crumbstotal = crumbs | size | minus:1 %}
 
 <ol class="breadcrumb" xmlns:v="http://rdf.data-vocabulary.org/#">
-  <li><a href="{{ site.url }}"><i class="icon-home"></i>Home</a></li>
+  <li><a href="{{ site.baseurl }}"><i class="icon-home"></i>Home</a></li>
   {% for crumb in crumbs offset:1 %}
     {% unless crumb == y or  crumb == m or  crumb == d %}
       {% capture previous %}{{ previous }}/{{ crumb | remove: '.html' }}{% endcapture %}

@@ -1,13 +1,12 @@
 ---
-layout: portfolio
-categories: 
-  - Portfolio
-  - Social Network
+layout: project
+categories:
+- Portfolio
+- Social Network
 title: Money Pipe
 link: moneypipe.co.uk
 image: /images/portfolio/moneypipe.jpg
-permalink: portfolio/money-pipe
-features:
+tags:
   - web-design
   - cms
   - graphic

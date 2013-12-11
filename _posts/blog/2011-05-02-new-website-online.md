@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "New website online"
-categories: 
-  - Blog
-  - Announcements
+categories:
+- Blog
+- Announcements
 image: "/images/blog/abemedia-logo.jpg"
 published: true
 ---

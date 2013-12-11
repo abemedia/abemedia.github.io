@@ -1,13 +1,12 @@
 ---
-layout: portfolio
-categories: 
-  - Portfolio
-  - Content Management Systems
+layout: project
+categories:
+- Portfolio
+- Content Management Systems
 title: Blaid Scaffolding
 link: blaidscaffolding.com
 image: /images/portfolio/blaidscaffolding.jpg
-permalink: portfolio/blaid-scaffolding
-features:
+tags:
   - web-design
   - cms
   - graphic

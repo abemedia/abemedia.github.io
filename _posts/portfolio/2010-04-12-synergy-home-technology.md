@@ -1,13 +1,12 @@
 ---
-layout: portfolio
+layout: project
 categories: 
   - Portfolio
   - Content Management Systems
 title: "Synergy Home Technology"
 link: synergytech.co.uk
 image: /images/portfolio/synergytech.jpg
-permalink: portfolio/synergy-home-technology
-features:
+tags:
   - web-design
   - cms
   - graphic

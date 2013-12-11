@@ -1,13 +1,15 @@
 ---
-layout: portfolio
-categories: 
-  - Portfolio
-  - Ecommerce
+layout: project
+categories:
+- Portfolio
+- Ecommerce
 title: "DSF Manufacturing"
 link: dsfmanufacturing.co.uk
 image: /images/portfolio/dsfmanufacturing.jpg
-permalink: portfolio/dsf-manufacturing
-features:
+preview_xl: 
+- /images/portfolio/dsfmanufacturing_xl.jpg
+- /images/portfolio/dsfmanufacturing_xl2.jpg
+tags:
   - web-design
   - ecommerce
   - cms

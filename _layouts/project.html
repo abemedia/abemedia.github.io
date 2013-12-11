@@ -1,0 +1,38 @@
+---
+layout: default
+bottom:
+    type: services
+    title: Services Provided
+    class: grey
+---
+<div class="row">
+  <div class="col-sm-5">
+    <h1>{{ page.title }}</h1>
+    {{ content }}
+    {% if page.testimonial %}
+    <h3>What the client said</h3>
+    <blockquote>
+      <p>{{ page.testimonial }}</p>
+      <small>{{ page.client }}, {{ page.title }}</small> </blockquote>
+    {% endif %} 
+  </div>
+  <div class="col-sm-7">
+    <div class="previews"> {% if page.preview_xl %}
+      <div class="device-mockup macbook{% if page.preview_xl %} preview{% endif %}">
+        <div class="device">
+          <div class="screen"> {% include modules/photoslide.html data=page.preview_xl %} </div>
+        </div>
+      </div>
+      {% endif %}
+      {% if page.preview_xs %}
+      <div style="position:absolute; width: 20%; bottom: -20px; right: 5%;">
+        <div class="device-mockup iphone5 preview">
+          <div class="device">
+            <div class="screen"> <img src="{{ page.preview_xs }}" alt=""> </div>
+          </div>
+        </div>
+      </div>
+      {% endif %} 
+    </div>
+  </div>
+</div>

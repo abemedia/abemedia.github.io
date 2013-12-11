@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Web design for charity AudioActive Youth Music Project"
-categories: 
+categories:
 - Blog
 - Announcements
 image: /images/blog/audioactive-logo.jpg

@@ -6,3 +6,4 @@ url: http://abemedia.github.io
 timezone: Europe/London
 image: /images/donjoomla.png
 locale: en_GB
+permalink: /:categories/:title.html

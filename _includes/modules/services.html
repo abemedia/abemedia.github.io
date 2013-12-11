@@ -1,7 +1,7 @@
         <ul class="box-list{% unless include.params.desc %} box-list-small{% endunless %} equal">
           {% for item in site.data.services %}
-          {% if page.features == nil or page.features contains {{item.alias}} %}
-          <li><a class="box" href="{{ site.url }}/{{ item.url }}">
+          {% if page.tags == nil or page.tags contains {{item.alias}} %}
+          <li><a class="box" href="{{ site.baseurl }}{{ item.url }}">
             <img src="{{ item.image }}">
             {% if include.params.desc %}
             <h3 class="media-heading">{{ item.title }}</h3>

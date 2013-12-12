@@ -2,7 +2,7 @@
 layout: project
 title: "Volks Bar & Club"
 link: volksclub.co.uk
-image: /images/portfolio/volksclub.jpg
+image: /images/portfolio/volks-club/volksclub.jpg
 tags:
   - web-design
   - cms

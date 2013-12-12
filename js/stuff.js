@@ -75,7 +75,7 @@ function previews() {
 						},
 						complete: function() { 
 							if(!isPhone) {
-								setTimeout(function() { $('#previews').carousel("next") }, 3000);
+								//setTimeout(function() { $('#previews').carousel("next") }, 3000);
 							}
 						}
 					})

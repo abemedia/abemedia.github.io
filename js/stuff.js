@@ -54,11 +54,10 @@ if ($(".toc").length > 0) {
 //portfolio previews
 $.fn.preview = function() {
 	$(this).each(function(i, e) {
-		var topMargin = $(e).find(".screen").height() - $(e).find("img").height() + "px",
-			isPhone = $(e).hasClass("iphone5");
+		var isPhone = $(e).hasClass("iphone5");
 				
 		$(e).find("img").delay(isPhone ? 0 : 400).animate({
-			marginTop: topMargin
+			bottom: 0
 		}, {
 			duration: isPhone ? 3000 : 1500,
 			specialEasing: {
@@ -67,7 +66,7 @@ $.fn.preview = function() {
 			},
 			complete: function() {
 				$(this).delay(isPhone ? 100 : 1000).animate( {
-					marginTop: 0
+					top: 0
 				}, {
 					duration: 1000,
 					specialEasing: {

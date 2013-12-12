@@ -57,7 +57,8 @@ $.fn.preview = function() {
 		var isPhone = $(e).hasClass("iphone5");
 				
 		$(e).find("img").delay(isPhone ? 0 : 400).animate({
-			bottom: 0
+			bottom: 0,
+			top: auto
 		}, {
 			duration: isPhone ? 3000 : 1500,
 			specialEasing: {
@@ -66,7 +67,8 @@ $.fn.preview = function() {
 			},
 			complete: function() {
 				$(this).delay(isPhone ? 100 : 1000).animate( {
-					top: 0
+					top: 0,
+					bottom: auto
 				}, {
 					duration: 1000,
 					specialEasing: {

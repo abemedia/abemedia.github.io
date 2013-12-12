@@ -11,6 +11,7 @@ tags:
   - web-design
   - ecommerce
   - cms
+  - mobile
   - graphic
 ---
 

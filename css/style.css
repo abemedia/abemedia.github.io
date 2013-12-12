@@ -334,7 +334,6 @@ footer a:hover {
 	width: 100%;
 	padding: 0 15px;
 	display: inline-block;
-	margin-bottom:30px;
 }
 .box-list>li>.box {
 	height: 100%;
@@ -371,8 +370,6 @@ footer a:hover {
 	padding: 15px;
 	overflow: hidden;
 	zoom: 1;
-}
-div.box {
 	margin-bottom:30px;
 }
 a.box {

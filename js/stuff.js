@@ -52,6 +52,7 @@ if ($(".toc").length > 0) {
 }
 
 //portfolio previews
+<<<<<<< HEAD
 function previews() {
 		$(".preview").each(function(i, e) {
 		var $img = $(e).find("img"),
@@ -82,6 +83,34 @@ function previews() {
 				}
 			})
 		}
+=======
+$.fn.preview = function() {
+	$(this).each(function(i, e) {
+		var isPhone = $(e).hasClass("iphone5");
+				
+		$(e).find("img").delay(isPhone ? 0 : 400).animate({
+			bottom: 0,
+			top: auto
+		}, {
+			duration: isPhone ? 3000 : 1500,
+			specialEasing: {
+			  width: "linear",
+			  height: "easeOutBounce"
+			},
+			complete: function() {
+				$(this).delay(isPhone ? 100 : 1000).animate( {
+					top: 0,
+					bottom: auto
+				}, {
+					duration: 1000,
+					specialEasing: {
+						width: "linear",
+						height: "easeOutBounce"
+					}
+				})
+			}
+		})
+>>>>>>> d375c85952254b7710546dda4fa4a5de5445f46e
 	})
 	return this;
 }

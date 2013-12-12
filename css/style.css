@@ -279,11 +279,10 @@ footer a:hover {
 
 /* Fade transition for carousel items */
 .carousel.carousel-fade .item {
-    left: 0 !important;
-      -webkit-transition: opacity .4s; /*adjust timing here */
-         -moz-transition: opacity .4s;
-           -o-transition: opacity .4s;
-              transition: opacity .4s;
+	-webkit-transition: opacity .4s; /*adjust timing here */
+       -moz-transition: opacity .4s;
+         -o-transition: opacity .4s;
+            transition: opacity .4s;
 }
 .carousel-fade .carousel-control {
     background-image: none !important; /* remove background gradients on controls */

@@ -2,7 +2,7 @@
 layout: project
 title: "Printers Brighton"
 link: dsfmanufacturing.co.uk
-image: /images/portfolio/printersbrighton.jpg
+image: /images/portfolio/printers-brighton/printersbrighton.jpg
 tags:
   - web-design
   - ecommerce

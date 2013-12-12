@@ -2,7 +2,7 @@
 layout: project
 title: "Gold Estates"
 link: gold-estates.com
-image: /images/portfolio/gold-estates.jpg
+image: /images/portfolio/gold-estates/gold-estates.jpg
 tags:
   - web-design
   - cms

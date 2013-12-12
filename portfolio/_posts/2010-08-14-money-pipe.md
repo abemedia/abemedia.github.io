@@ -2,7 +2,7 @@
 layout: project
 title: Money Pipe
 link: moneypipe.co.uk
-image: /images/portfolio/moneypipe.jpg
+image: /images/portfolio/money-pipe/moneypipe.jpg
 tags:
   - web-design
   - cms

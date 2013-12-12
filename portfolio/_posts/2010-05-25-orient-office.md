@@ -2,7 +2,7 @@
 layout: project
 title: Orient Office
 link: ooffice.de
-image: /images/portfolio/ooffice.jpg
+image: /images/portfolio/orient-office/ooffice.jpg
 tags:
   - web-design
   - cms

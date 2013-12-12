@@ -2,7 +2,7 @@
 layout: project
 title: "Body Energise"
 link: bodyenergise.co.uk
-image: /images/portfolio/bodyenergise.jpg
+image: /images/portfolio/body-energise/bodyenergise.jpg
 tags:
   - web-design
   - ecommerce

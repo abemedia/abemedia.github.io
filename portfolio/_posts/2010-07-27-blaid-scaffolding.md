@@ -2,7 +2,7 @@
 layout: project
 title: Blaid Scaffolding
 link: blaidscaffolding.com
-image: /images/portfolio/blaidscaffolding.jpg
+image: /images/portfolio/blaid-scaffolding/blaidscaffolding.jpg
 tags:
   - web-design
   - cms

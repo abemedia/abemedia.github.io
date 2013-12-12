@@ -2,10 +2,10 @@
 layout: project
 title: "Bioenergetics UK"
 link: bodyflow.uk.com
-image: /images/portfolio/bodyflow.jpg
+image: /images/portfolio/bioenergetics/bodyflow.jpg
 previews:
 -
-    xl: /images/portfolio/bodyflow_xl.jpg
+    xl: /images/portfolio/bioenergetics/bodyflow_xl.jpg
 tags:
   - web-design
   - cms

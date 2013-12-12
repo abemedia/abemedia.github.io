@@ -2,7 +2,7 @@
 layout: project
 title: "Husky Events"
 link: huskyevents.com
-image: /images/portfolio/huskyevents.jpg
+image: /images/portfolio/husky-events/huskyevents.jpg
 tags:
   - web-design
   - cms

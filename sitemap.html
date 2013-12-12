@@ -24,7 +24,7 @@ title: Sitemap
   <div class="col-md-3">
     <h3>Portfolio</h3>
     <ul class="unstyled">
-      {% for post in categories.portfolio %}
+      {% for post in site.categories.portfolio %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}
     </ul>
@@ -32,7 +32,7 @@ title: Sitemap
   <div class="col-md-3">
     <h3>Blog</h3>
     <ul class="unstyled">
-      {% for post in categories.blog %}
+      {% for post in site.categories.blog %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}
     </ul>

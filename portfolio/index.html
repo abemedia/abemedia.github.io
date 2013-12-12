@@ -9,4 +9,13 @@ sitemap:
     lastmod: 2013-12-01T10:00:00Z
 ---
 <h1 class="page-header">Web Design Portfolio <small>Websites designed &amp; built by us.</small></h1>
-{% include components/portfolio.html %}
+<ul class="box-list folio">
+  {% for post in site.categories.portfolio %}
+    {% if post.categories contains {{page.slug}} %}
+      <li><a class="box" href="{{ post.url }}">
+        <img alt="{{ post.title }}" src="{{ post.image }}" class="img-responsive">
+        <span class="h4">{{ post.title }}</span><span class="text-muted">{{ post.link }}</span>
+      </a>
+    {% endif %} 
+  {% endfor %}
+</ul>

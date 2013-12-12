@@ -407,12 +407,12 @@ a.box:hover {
 .folio .box img {
 	width: 100%;
 }
-.preview .carousel {
-	height:100%;
-}
 .preview img {
 	position:absolute;
 	width: 100%;
+}
+.preview .carousel-indicators {
+	bottom: 0;
 }
 
 /* Blog

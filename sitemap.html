@@ -6,7 +6,7 @@ title: Sitemap
 <div class="row">
   <div class="col-md-3">
     <h3>Pages</h3>
-    <ul class="unstyled">
+    <ul class="list-unstyled">
       <li><a href="{{ site.baseurl }}">Home</a></li>
       <li><a href="/about">About Us</a></li>
       <li><a href="/contact">Contact Us</a></li>
@@ -15,7 +15,7 @@ title: Sitemap
   </div>
   <div class="col-md-3">
     <h3>Services</h3>
-    <ul class="unstyled">
+    <ul class="list-unstyled">
       {% for post in site.data.services %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}
@@ -23,7 +23,7 @@ title: Sitemap
   </div>
   <div class="col-md-3">
     <h3>Portfolio</h3>
-    <ul class="unstyled">
+    <ul class="list-unstyled">
       {% for post in site.categories.portfolio %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}
@@ -31,7 +31,7 @@ title: Sitemap
   </div>
   <div class="col-md-3">
     <h3>Blog</h3>
-    <ul class="unstyled">
+    <ul class="list-unstyled">
       {% for post in site.categories.blog %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}

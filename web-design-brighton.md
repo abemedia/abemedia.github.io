@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: service
 category: services
 title: Web Design & Development
 slug: web-design

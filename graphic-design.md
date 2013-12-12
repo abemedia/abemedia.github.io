@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: service
 category: services
 title: Graphic Design 
 slug: graphic-design

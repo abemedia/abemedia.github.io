@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: service
 category: services
 title: Content Management Systems
 slug: content-management-systems-cms

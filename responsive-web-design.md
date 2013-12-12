@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: service
 category: services
 title: Mobile & Responsive Web Design
 slug: responsive-web-design

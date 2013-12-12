@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: service
 category: services
 title: Ecommerce Website Design Brighton
 slug: ecommerce-web-design

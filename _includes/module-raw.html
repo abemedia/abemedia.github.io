@@ -1,0 +1,4 @@
+{% if include.module %}
+  {% capture module %}modules/{{ include.module.type }}.html{% endcapture %}
+  {% include {{module}} params=include.module.params %}
+{% endif %}

@@ -407,15 +407,14 @@ a.box:hover {
 .folio .box img {
 	width: 100%;
 }
-<<<<<<< HEAD
-=======
 .preview .carousel {
 	height:100%;
 }
 .preview img {
 	position:absolute;
+	width: 100%;
 }
->>>>>>> d375c85952254b7710546dda4fa4a5de5445f46e
+
 /* Blog
 -------------------------------------------------- */
 .post h3 {

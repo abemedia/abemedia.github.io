@@ -397,6 +397,9 @@ a.box:hover {
 .preview .carousel {
 	height:100%;
 }
+.preview img {
+	position:absolute;
+}
 /* Blog
 -------------------------------------------------- */
 .post h3 {

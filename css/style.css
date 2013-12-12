@@ -276,17 +276,30 @@ footer a:hover {
 .carousel-indicators .active {
 	background-color: #F59331;
 }
-.carousel-fade .carousel-inner .item {
-	opacity: 0;
-	-webkit-transition-property: opacity;
-	-moz-transition-property: opacity;
-	-o-transition-property: opacity;
-	transition-property: opacity;
-	-webkit-transform: translate3d(0,0,0);  /* WEBKIT-FIX FOR FADING SCALED IMAGES CORRECTLY VIA CSS-TRANSITIONS */
+
+/* Fade transition for carousel items */
+.carousel.carousel-fade .item {
+    left: 0 !important;
+      -webkit-transition: opacity .4s; /*adjust timing here */
+         -moz-transition: opacity .4s;
+           -o-transition: opacity .4s;
+              transition: opacity .4s;
 }
-.carousel.carousel-fade .active.item {
-	opacity:1;
+.carousel-fade .carousel-control {
+    background-image: none !important; /* remove background gradients on controls */
+}
+/* Fade controls with items */
+.carousel-fade .next.left,
+.carousel-fade .prev.right {
+    opacity: 1;
 	filter: alpha(opacity=100); /* ie fix */
+    z-index: 1;
+}
+.carousel-fade .active.left,
+.carousel-fade .active.right {
+    opacity: 0;
+	filter: alpha(opacity=0); /* ie fix */
+    z-index: 2;
 }
 
 /* Navlist
@@ -393,12 +406,6 @@ a.box:hover {
 }
 .folio .box img {
 	width: 100%;
-}
-.preview .carousel {
-	height:100%;
-}
-.preview img {
-	position:absolute;
 }
 /* Blog
 -------------------------------------------------- */

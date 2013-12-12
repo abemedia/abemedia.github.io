@@ -6,7 +6,9 @@ categories:
 title: "Bioenergetics UK"
 link: bodyflow.uk.com
 image: /images/portfolio/bodyflow.jpg
-preview_xl: /images/portfolio/bodyflow_xl.jpg
+previews:
+-
+    xl: /images/portfolio/bodyflow_xl.jpg
 tags:
   - web-design
   - cms

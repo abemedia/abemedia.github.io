@@ -13,26 +13,49 @@ bottom:
     <h3>What the client said</h3>
     <blockquote>
       <p>{{ page.testimonial }}</p>
-      <small>{{ page.client }}, {{ page.title }}</small> </blockquote>
+      <small>{{ page.client }}, {{ page.title }}</small></blockquote>
     {% endif %} 
   </div>
   <div class="col-sm-7">
-    <div class="previews"> {% if page.preview_xl %}
-      <div class="device-mockup macbook{% if page.preview_xl %} preview{% endif %}">
-        <div class="device">
-          <div class="screen"> {% include modules/photoslide.html data=page.preview_xl %} </div>
-        </div>
-      </div>
-      {% endif %}
-      {% if page.preview_xs %}
-      <div style="position:absolute; width: 20%; bottom: -20px; right: 5%;">
-        <div class="device-mockup iphone5 preview">
-          <div class="device">
-            <div class="screen"> <img src="{{ page.preview_xs }}" alt=""> </div>
+    {% if page.previews %}
+    <div id="previews" class="carousel slide carousel-fade" data-interval="0">
+      <ol class="carousel-indicators">
+        {% capture i %}0{% endcapture %}
+        {% for item in page.previews %}
+        <li data-target="#previews" data-slide-to="{{i}}" class="{% if {{i}} == "0" %}active{% endif %}"></li>
+        {% capture i %}{{ i | plus:1 }}{% endcapture %}
+        {% endfor %}
+      </ol>
+      <div class="carousel-inner" style="padding-bottom:5%"> 
+        {% capture i %}0{% endcapture %}
+        {% for item in page.previews %}
+        <div class="item {% if {{i}} == "0" %}active{% endif %}">
+          <div class="device-mockup macbook preview">
+            <div class="device">
+              <div class="screen"> <img src="{{ item.xl }}" alt=""> </div>
+            </div>
           </div>
+          {% if item.xs %}
+          <div style="position:absolute; width: 20%; bottom: -5%; right: 5%;">
+            <div class="device-mockup iphone5 preview">
+              <div class="device">
+                <div class="screen"> <img src="{{ item.xs }}" alt=""></div>
+              </div>
+            </div>
+          </div>
+          {% endif %}
         </div>
+        {% capture i %}{{ i | plus:1 }}{% endcapture %}
+        {% endfor %} 
       </div>
-      {% endif %} 
+      <!--a class="left carousel-control" href="#photoslide" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#photoslide" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a-->
     </div>
+    {% else %} 
+    <div class="device-mockup macbook">
+      <div class="device">
+        <div class="screen"> <img src="{{ page.image }}" alt=""> </div>
+      </div>
+    </div>
+    {% endif %} 
   </div>
 </div>

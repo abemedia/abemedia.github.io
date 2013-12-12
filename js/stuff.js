@@ -52,42 +52,41 @@ if ($(".toc").length > 0) {
 }
 
 //portfolio previews
-$.fn.preview = function() {
-	$(this).each(function(i, e) {
-		var topMargin = $(e).find(".screen").height() - $(e).find("img").height() + "px",
-			isPhone = $(e).hasClass("iphone5");
-				
-		$(e).find("img").delay(isPhone ? 0 : 400).animate({
-			marginTop: topMargin
-		}, {
-			duration: isPhone ? 3000 : 1500,
-			specialEasing: {
-			  width: "linear",
-			  height: "easeOutBounce"
-			},
-			complete: function() {
-				$(this).delay(isPhone ? 100 : 1000).animate( {
-					marginTop: 0
-				}, {
-					duration: 1000,
-					specialEasing: {
-						width: "linear",
-						height: "easeOutBounce"
-					}
-				})
-			}
-		})
+function previews() {
+		$(".preview").each(function(i, e) {
+		var $img = $(e).find("img"),
+			$screen = $(e).find(".screen");
+		if($img.height() > $screen.height()) {
+			var topMargin = $screen.height() - $img.height() + "px",
+				isPhone = $(e).hasClass("iphone5");
+					
+			$img.delay(isPhone ? 0 : 400).animate({ marginTop: topMargin }, {
+				duration: isPhone ? 3000 : 1500,
+				specialEasing: {
+					width: "linear",
+					height: "easeOutBounce"
+				},
+				complete: function() {
+					$(this).delay(isPhone ? 100 : 1000).animate({ marginTop: 0 }, {
+						duration: 1000,
+						specialEasing: {
+							width: "linear",
+							height: "easeOutBounce"
+						},
+						complete: function() { 
+							if(!isPhone) {
+								setTimeout(function() { $('#previews').carousel("next") }, 3000);
+							}
+						}
+					})
+				}
+			})
+		}
 	})
-    return this;
+	return this;
 }
-$(".previews").on("mouseenter", function() {
-	$(".preview").preview();
-});
-$(window).load(function() {
-	setTimeout(function() {
-		$(".preview").preview();
-	}, 1000);
-});
+$(window).load(function() { setTimeout( previews(), 1000 ) });
+$('#previews').on('slid.bs.carousel', ( function() { setTimeout(previews(), 1000 ) }) );
 
 /*
 // zopim chat

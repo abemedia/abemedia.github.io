@@ -6,8 +6,16 @@ categories:
 title: Intergalactic Music
 link: intergalactic-music.co.uk
 image: /images/portfolio/intergalactic-music.jpg
-preview_xl: /images/portfolio/intergalactic-music_xl.jpg
-preview_xs: /images/portfolio/intergalactic-music_xs.jpg
+previews:
+-
+    xl: /images/portfolio/intergalactic-music_xl.jpg
+    xs: /images/portfolio/intergalactic-music_xs.jpg
+-
+    xl: /images/portfolio/intergalactic-music_xl.jpg
+    xs: /images/portfolio/intergalactic-music_xs.jpg
+-
+    xl: /images/portfolio/intergalactic-music_xl.jpg
+    xs: /images/portfolio/intergalactic-music_xs.jpg
 tags:
   - web-design
   - ecommerce

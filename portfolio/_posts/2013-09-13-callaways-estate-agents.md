@@ -21,5 +21,4 @@ testimonial: "The website looks amazing. Thank you so much."
 client: Heather Hilder-Darling
 ---
 
-Intergalactic Music is a UK based talent agency and live music & club night events company. Their agency manages some of the UK's finest DJ's, live bands, beatboxers and vocal talent and works closely with promoters across the world.
-
+Callaways is an independent, family-run Estate & Lettings Agency in Arundel, Hove, and Worthing which has been established for over 75 years and has won the Daily Mail's Best Estate Agency in East Sussex Award for the last years running.

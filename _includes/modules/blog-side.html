@@ -1,12 +1,12 @@
-        <div class="box">
+        <section class="box">
           <h3 class="box-header">Filter Category</h3>
           <ul class="nav nav-list">
             <li{% if page.slug == 'blog' %} class="active"{% endif %}><a href="{{ site.baseurl }}blog">All</a></li>
             <li{% if page.slug == 'announcements' %} class="active"{% endif %}><a href="{{ site.baseurl }}blog/announcements">Announcements</a></li>
             <li{% if page.slug == 'tutorials' %} class="active"{% endif %}><a href="{{ site.baseurl }}blog/tutorials">Tutorials</a></li>
           </ul>
-        </div>
-        <div class="box">
+        </section>
+        <section class="box">
           <h3 class="box-header">Archive</h3>
           <ul class="nav nav-list">
             {% for post in site.categories.blog %}
@@ -17,4 +17,4 @@
             {% endif %}
             {% endfor %}
           </ul>
-        </div>
+        </section>

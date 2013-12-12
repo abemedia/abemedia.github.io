@@ -13,7 +13,7 @@ bottom:
     type: portfolio
     title: CMS Website Design Projects
     params:
-        filter: content management systems
+        filter: cms
 -
     type: services
     title: Our Services

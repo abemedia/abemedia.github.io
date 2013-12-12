@@ -1,19 +1,11 @@
 {% if include.module %}
   {% if include.module.type %}
-  <section class="{{ include.module.class }}">
-    {% if include.module.title %}<h3 class="module-title">{{ include.module.title }}</h3>{% endif %}
-    {% capture module %}modules/{{ include.module.type }}.html{% endcapture %}
-    {% include {{module}} params=include.module.params %}
-  </section>
+    {% capture module %}module{% if include.module.style %}-{{ include.module.style }}{% elsif include.style %}-{{ include.style }}{% endif %}.html{% endcapture %}
+    {% include {{module}} module=include.module %}
   {% else %}
-    {% if include.module.class %}<div class="{{ include.module.class }}">{% endif %}
-      {% for item in include.module %}
-      <section class="{{ item.class }}">
-        {% if item.title %}<h3 class="module-title">{{ item.title }}</h3>{% endif %}
-        {% capture module %}modules/{{ item.type }}.html{% endcapture %}
-        {% include {{module}} params=item.params %}
-      </section>
-      {% endfor %}
-    {% if include.module.class %}</div>{% endif %}
+    {% for item in include.module %}
+      {% capture module %}module{% if include.module.style %}-{{ include.module.style }}{% elsif include.style %}-{{ include.style }}{% endif %}.html{% endcapture %}
+      {% include {{module}} module=item %}
+    {% endfor %}
   {% endif %}
 {% endif %}

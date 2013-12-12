@@ -2,14 +2,14 @@
 <html lang="en">
   <head>{% include header.html %}</head>
   <body>
-  {% include nav-main.html %}
-  {% if page.top %}{% include module.html module=page.top %}{% endif %}
+  {% include navbar.html %}
+  {% if page.top %}{% include modules.html module=page.top %}{% endif %}
   <div class="container">
     {% if page.left or page.right %}
     <div class="row">
       {% if page.left %}
       <aside class="col-md-{{ page.left.size }}" role="complementary">
-        {% include module.html module=page.left %}
+        {% include modules.html module=page.left %}
       </aside>
       {% endif %}
       <div class="col-md-{{ 12 | minus: page.left.size | minus: page.right.size }}" role="main">
@@ -17,13 +17,13 @@
       </div>
       {% if page.right %}
       <aside class="col-md-{{ page.right.size }}" role="complementary">
-        {% include module.html module=page.right %}
+        {% include modules.html module=page.right %}
       </aside>
       {% endif %}
     </div>
     {% else %}{{ content }}{% endif %}
   </div>
-  {% if page.bottom %}{% include module.html module=page.bottom %}{% endif %}
+  {% if page.bottom %}{% include modules.html module=page.bottom style="container" %}{% endif %}
   {% include footer.html %}
   </body>
 </html>

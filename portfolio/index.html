@@ -12,7 +12,7 @@ sitemap:
 <ul class="box-list folio">
   {% for post in site.categories.portfolio %}
     {% if post.categories contains {{page.slug}} %}
-      <li><a class="box" href="{{ post.url }}">
+      <li><a class="box" href="{{ post.url | remove:".html" }}">
         <img alt="{{ post.title }}" src="{{ post.image }}" class="img-responsive">
         <span class="h4">{{ post.title }}</span><span class="text-muted">{{ post.link }}</span>
       </a>

@@ -1,0 +1,40 @@
+---
+layout: default
+title: Sitemap
+---
+<h1 class="page-header">Sitemap</h1>
+<div class="row">
+  <div class="col-md-3">
+    <h3>Pages</h3>
+    <ul class="unstyled">
+      <li><a href="{{ site.baseurl }}">Home</a></li>
+      <li><a href="/about">About Us</a></li>
+      <li><a href="/contact">Contact Us</a></li>
+      <li><a href="/privacy">Privacy Policy</a></li>
+    </ul>
+  </div>
+  <div class="col-md-3">
+    <h3>Services</h3>
+    <ul class="unstyled">
+      {% for post in site.data.services %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="col-md-3">
+    <h3>Portfolio</h3>
+    <ul class="unstyled">
+      {% for post in categories.portfolio %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="col-md-3">
+    <h3>Blog</h3>
+    <ul class="unstyled">
+      {% for post in categories.blog %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

@@ -8,6 +8,8 @@ previews:
     xl: /images/portfolio/callaways_xl.jpg
 -
     xl: /images/portfolio/callaways_xl_property.jpg
+-
+    xl: /images/portfolio/callaways_xl_blog.jpg
 tags:
   - web-design
   - cms

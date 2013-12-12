@@ -45,6 +45,7 @@ section:before, section:after {
 }
 .container {
 	width: 100%;
+	max-width:1300px;
 	padding: 0 30px;
 }
 .page-header {

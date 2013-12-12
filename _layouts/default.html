@@ -3,8 +3,8 @@
   <head>{% include header.html %}</head>
   <body>
   {% include nav-main.html %}
+  {% if page.top %}{% include module.html module=page.top %}{% endif %}
   <div class="container">
-    {% if page.top %}{% include module.html module=page.top %}{% endif %}
     {% if page.left or page.right %}
     <div class="row">
       {% if page.left %}
@@ -22,8 +22,8 @@
       {% endif %}
     </div>
     {% else %}{{ content }}{% endif %}
-    {% if page.bottom %}{% include module.html module=page.bottom %}{% endif %}
   </div>
+  {% if page.bottom %}{% include module.html module=page.bottom %}{% endif %}
   {% include footer.html %}
   </body>
 </html>

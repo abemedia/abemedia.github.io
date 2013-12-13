@@ -85,16 +85,17 @@ function previews() {
 					})
 				}
 			})
-		}
+		} else setTimeout(function() { $('#previews').carousel("cycle"); }, 5000);
 	});
 	return this;
 }
 $(window).load(function() {setTimeout(previews(), 1000)});
 $('#previews')
 	.on('slide.bs.carousel', function() {
-		$(".preview img").clearQueue().stop().css({ marginTop:0 });
+		$(".preview img").clearQueue().stop();
 	}).on('slid.bs.carousel', function() {
 		$('#previews').carousel("pause");
+		$(".preview img").css({ marginTop:0 });
 		setTimeout(previews(), 1000);
 	});
 

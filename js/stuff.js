@@ -53,29 +53,33 @@ if ($(".toc").length > 0) {
 
 //portfolio previews
 function previews() {
-		$(".preview").each(function(i, e) {
+	var index=0;
+	$(".preview").each(function(i, e) {
 		var $img = $(e).find("img"),
-			$screen = $(e).find(".screen");
+			$screen = $(e).find(".screen"),
+			items = $screen.parents(".item").find(".screen").length;
 		if($img.height() > $screen.height()) {
 			var topMargin = $screen.height() - $img.height() + "px",
-				isPhone = $(e).hasClass("iphone5");
+				isPhone = $(e).hasClass("iphone5"),
+				duration = isPhone ? $img.height() * 2.5 : $img.height() * 4.5;
 					
 			$img.delay(isPhone ? 0 : 400).animate({ marginTop: topMargin }, {
-				duration: isPhone ? 3000 : 1500,
+				duration: duration,
 				specialEasing: {
 					width: "linear",
 					height: "easeOutBounce"
 				},
 				complete: function() {
 					$(this).delay(isPhone ? 100 : 1000).animate({ marginTop: 0 }, {
-						duration: 1000,
+						duration: duration/1.5,
 						specialEasing: {
 							width: "linear",
 							height: "easeOutBounce"
 						},
-						complete: function() { 
-							if(!isPhone) {
-								//setTimeout(function() { $('#previews').carousel("next") }, 3000);
+						complete: function() {
+							index++;
+							if(items == index) {
+								$('#previews').carousel("cycle");
 							}
 						}
 					})
@@ -86,7 +90,12 @@ function previews() {
 	return this;
 }
 $(window).load(function() { setTimeout( previews(), 1000 ) });
-$('#previews').on('slid.bs.carousel', ( function() { setTimeout(previews(), 1000 ) }) );
+$('#previews').on('slid.bs.carousel', function() {
+	$(".preview").clearQueue();
+	$(".preview").finish();
+	$('#previews').carousel("pause");
+	setTimeout(previews(), 1000 );
+});
 
 /*
 // zopim chat

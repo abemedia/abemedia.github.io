@@ -7,6 +7,15 @@ previews:
 -
     xl: /images/portfolio/intergalactic-music/intergalactic-music_xl.jpg
     xs: /images/portfolio/intergalactic-music/intergalactic-music_xs.jpg
+-
+    xl: /images/portfolio/intergalactic-music/event_xl.jpg
+    xs: /images/portfolio/intergalactic-music/event_xs.jpg
+-
+    xl: /images/portfolio/intergalactic-music/artists_xl.jpg
+    xs: /images/portfolio/intergalactic-music/artists_xs.jpg
+-
+    xl: /images/portfolio/intergalactic-music/artist-profile_xl.jpg
+    xs: /images/portfolio/intergalactic-music/artist-profile_xs.jpg
 tags:
   - web-design
   - ecommerce

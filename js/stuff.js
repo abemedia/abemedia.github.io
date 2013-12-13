@@ -54,7 +54,7 @@ if ($(".toc").length > 0) {
 //portfolio previews
 function previews() {
 	var index=0;
-	$(".preview").each(function(i, e) {
+	$(".active .preview").each(function(i, e) {
 		var $img = $(e).find("img"),
 			$screen = $(e).find(".screen"),
 			items = $screen.parents(".item").find(".screen").length;
@@ -86,16 +86,17 @@ function previews() {
 				}
 			})
 		}
-	})
+	});
 	return this;
 }
-$(window).load(function() { setTimeout( previews(), 1000 ) });
-$('#previews').on('slid.bs.carousel', function() {
-	$(".preview").clearQueue();
-	$(".preview").finish();
-	$('#previews').carousel("pause");
-	setTimeout(previews(), 1000 );
-});
+$(window).load(function() {setTimeout(previews(), 1000)});
+$('#previews')
+	.on('slide.bs.carousel', function() {
+		$(".preview img").clearQueue().stop().css({ marginTop:0 });
+	}).on('slid.bs.carousel', function() {
+		$('#previews').carousel("pause");
+		setTimeout(previews(), 1000);
+	});
 
 /*
 // zopim chat

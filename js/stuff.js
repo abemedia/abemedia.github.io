@@ -1,5 +1,10 @@
 // stuff for the things...
-$.getScript('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.2/js/bootstrap.min.js');
+$.getScript('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.2/js/bootstrap.min.js', function () {
+	$('.tip').tooltip({
+		selector: "[data-toggle=tooltip]",
+		container: "body"
+	})
+});
 
 // equal heights
 $(window).resize(function() {
@@ -98,8 +103,7 @@ $('#previews')
 		$(".preview img").css({ marginTop:0 });
 		setTimeout(previews(), 1000);
 	});
-	
-(function() { $(".tip").tooltip(); })
+
 /*
 // zopim chat
 window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=

@@ -32,14 +32,14 @@ bottom:
         <div class="item {% if {{i}} == "0" %}active{% endif %}">
           <div class="device-mockup macbook preview">
             <div class="device">
-              <div class="screen"> <img src="{{ item.xl }}" alt=""> </div>
+              <div class="screen"><img src="{{ item.xl }}" alt=""></div>
             </div>
           </div>
           {% if item.xs %}
           <div style="position:absolute; width: 20%; bottom: -5%; right: 5%;">
             <div class="device-mockup iphone5 preview">
               <div class="device">
-                <div class="screen"> <img src="{{ item.xs }}" alt=""></div>
+                <div class="screen"><img src="{{ item.xs }}" alt=""></div>
               </div>
             </div>
           </div>
@@ -53,9 +53,10 @@ bottom:
     {% else %} 
     <div class="device-mockup macbook">
       <div class="device">
-        <div class="screen"> <img src="{{ page.image }}" alt=""> </div>
+        <div class="screen"><img src="{{ page.image }}" alt=""></div>
       </div>
     </div>
     {% endif %} 
+    <div class="folio text-center"><a class="btn btn-primary btn-lg h4" href="http://{{ page.link }}">Visit Website</a> <p class="visible-xs"></p><a class="btn btn-success btn-lg h4" href="/contact">Get a quote</a></div>
   </div>
 </div>

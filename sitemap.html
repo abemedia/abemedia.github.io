@@ -5,14 +5,14 @@ title: Sitemap
 <h1 class="page-header">Sitemap</h1>
 <div class="row">
   <div class="col-md-3">
-    <h3>Pages</h3>
+    <h3 class="media-heading">Pages</h3>
     <ul class="list-unstyled">
       <li><a href="{{ site.baseurl }}">Home</a></li>
       <li><a href="/about">About Us</a></li>
       <li><a href="/contact">Contact Us</a></li>
       <li><a href="/privacy">Privacy Policy</a></li>
-    </ul>
-    <h3>Services</h3>
+    </ul><br>
+    <h3 class="media-heading">Services</h3>
     <ul class="list-unstyled">
       {% for post in site.data.services %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
@@ -20,7 +20,7 @@ title: Sitemap
     </ul>
   </div>
   <div class="col-md-3">
-    <h3>Portfolio</h3>
+    <h3 class="media-heading">Portfolio</h3>
     <ul class="list-unstyled">
       {% assign portfolio = site.categories.portfolio | sort:"url" %}
       {% for post in portfolio %}
@@ -29,7 +29,7 @@ title: Sitemap
     </ul>
   </div>
   <div class="col-md-6">
-    <h3>Blog</h3>
+    <h3 class="media-heading">Blog</h3>
     <ul class="list-unstyled">
       {% for post in site.categories.blog %}
       <li><a href="{{ post.url | remove:".html" }}">{{ post.title }}</a></li>

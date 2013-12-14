@@ -399,7 +399,7 @@ a.box:hover {
 	-o-transition: all 0.4s ease-in;
 	-ms-transition: all 0.4s ease-in;
 }
-.box h3.box-header, .box h1 {
+.box-header {
 	border-bottom:3px solid #ff9833;
 	margin:0 0 15px;
 	padding-bottom:3px;
@@ -416,6 +416,18 @@ a.box:hover {
 }
 #previews .carousel-indicators {
 	bottom: 0;
+}
+.folio .btn-lg {
+	width:230px; 
+	max-width:100%;
+}
+@media (max-width:650px) {
+	#previews {
+		margin-bottom:20px;
+	}
+	#previews .carousel-indicators {
+		bottom: -20px;
+	}
 }
 figure {
 	position: relative; 

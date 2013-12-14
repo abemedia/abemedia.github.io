@@ -6,8 +6,8 @@ link: intergalactic-music.co.uk
 image: /images/portfolio/intergalactic-music/intergalactic-music.jpg
 previews:
 -
-    xl: /images/portfolio/intergalactic-music/intergalactic-music_xl.jpg
-    xs: /images/portfolio/intergalactic-music/intergalactic-music_xs.jpg
+    xl: /images/portfolio/intergalactic-music/intergalactic-music-homepage_xl.jpg
+    xs: /images/portfolio/intergalactic-music/intergalactic-music-homepage_xs.jpg
 -
     xl: /images/portfolio/intergalactic-music/event_xl.jpg
     xs: /images/portfolio/intergalactic-music/event_xs.jpg

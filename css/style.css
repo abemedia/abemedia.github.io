@@ -414,20 +414,21 @@ a.box:hover {
 	position:absolute;
 	width: 100%;
 }
+.preview-phone {
+	position:absolute; 
+	width: 20%; 
+	bottom: -5%; 
+	right: 5%;
+}
 #previews .carousel-indicators {
-	bottom: 0;
+	bottom: 6px;
+}
+#previews .carousel-inner {
+	padding-bottom: 40px;
 }
 .folio .btn-lg {
 	width:230px; 
 	max-width:100%;
-}
-@media (max-width:650px) {
-	#previews {
-		margin-bottom:20px;
-	}
-	#previews .carousel-indicators {
-		bottom: -20px;
-	}
 }
 figure {
 	position: relative; 

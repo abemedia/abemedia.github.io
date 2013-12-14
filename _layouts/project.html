@@ -26,7 +26,7 @@ bottom:
         {% capture i %}{{ i | plus:1 }}{% endcapture %}
         {% endfor %}
       </ol>
-      <div class="carousel-inner" style="padding-bottom:5%"> 
+      <div class="carousel-inner"> 
         {% capture i %}0{% endcapture %}
         {% for item in page.previews %}
         <div class="item {% if {{i}} == "0" %}active{% endif %}">
@@ -36,7 +36,7 @@ bottom:
             </div>
           </div>
           {% if item.xs %}
-          <div style="position:absolute; width: 20%; bottom: -5%; right: 5%;">
+          <div class="preview-phone">
             <div class="device-mockup iphone5 preview">
               <div class="device">
                 <div class="screen"><img src="{{ item.xs }}" alt=""></div>

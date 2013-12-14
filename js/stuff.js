@@ -98,7 +98,8 @@ $('#previews')
 		$(".preview img").css({ marginTop:0 });
 		setTimeout(previews(), 1000);
 	});
-
+	
+(function() { $(".tip").tooltip(); })
 /*
 // zopim chat
 window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=

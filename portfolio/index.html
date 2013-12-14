@@ -13,8 +13,13 @@ sitemap:
   {% for post in site.categories.portfolio %}
     {% if post.categories contains {{page.slug}} %}
       <li><a class="box" href="{{ post.url | remove:".html" }}">
-        <img alt="{{ post.title }}" src="{{ post.image }}" class="img-responsive">
-        <span class="h4">{{ post.title }}</span><span class="text-muted">{{ post.link }}</span>
+        <figure><img alt="{{ post.title }}" src="{{ post.image }}" class="img-responsive">
+          <figcaption>
+            <div class="h4">{{ post.title }}</div>
+            <span class="service-icons">{% for tag in post.tags %}<cite class="tip" data-toggle="tooltip" title="{{ tag | camelcase }}"><i class="icon-{{ tag }}"></i></cite> {% endfor %}</span>
+            {{ post.link }}
+          </figcaption>
+        </figure>
       </a>
     {% endif %} 
   {% endfor %}

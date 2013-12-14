@@ -145,8 +145,9 @@ footer a:hover {
 	font-size: 22px !important;
 	background: none;
 }
-.navbar .navbar-right>li>a>.fa{
+.navbar .navbar-right>li>a>i{
 	line-height:20px;
+	display:block;
 }
 .navbar .navbar-right>li>a:hover {
 	color:#F59331;
@@ -201,7 +202,7 @@ footer a:hover {
 		padding: 20px 15px;
 	}
 	.navbar .navbar-nav>li>a, .navbar .navbar-right a {
-		padding:25px 15px;
+		padding: 25px 15px;
 	}
 	.navbar .navbar-nav>li>a {
 		font-size: 18px;

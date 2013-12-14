@@ -24,7 +24,7 @@ title: Sitemap
     <ul class="list-unstyled">
       {% assign portfolio = site.categories.portfolio | sort:"url" %}
       {% for post in portfolio %}
-      <li><a href="{{ post.url | remove:".html" }}">{{ post.title }}</a></li>
+      <li><a href="{{ post.url | remove:".html" }}">{{ post.name }}</a></li>
       {% endfor %}
     </ul>
   </div>

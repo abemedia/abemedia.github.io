@@ -410,9 +410,18 @@ a.box:hover {
 .folio .box img {
 	width: 100%;
 }
-.preview img {
+.preview-img {
 	position:absolute;
 	width: 100%;
+	cursor:row-resize;
+}
+.preview-img img {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-user-drag: none;
+	user-drag: none;
 }
 .preview-phone {
 	position:absolute; 

@@ -32,14 +32,14 @@ bottom:
         <div class="item {% if {{i}} == "0" %}active{% endif %}">
           <div class="device-mockup macbook preview">
             <div class="device">
-              <div class="screen"><img src="{{ item.xl }}" alt=""></div>
+              <div class="screen"><div class="preview-img"><img src="{{ item.xl }}" alt="" draggable="false" unselectable="on"></div></div>
             </div>
           </div>
           {% if item.xs %}
           <div class="preview-phone">
             <div class="device-mockup iphone5 preview">
               <div class="device">
-                <div class="screen"><img src="{{ item.xs }}" alt=""></div>
+                <div class="screen"><div class="preview-img"><img src="{{ item.xs }}" alt="" draggable="false" unselectable="on"></div></div>
               </div>
             </div>
           </div>

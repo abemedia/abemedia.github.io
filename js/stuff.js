@@ -168,7 +168,7 @@ $("#previews").hover(function () {
 		});
 	};
 })(jQuery);
-$(".preview-img").drags();
+$(".preview-img").drags({ cursor: "ns-resize" });
 
 /*
 // zopim chat

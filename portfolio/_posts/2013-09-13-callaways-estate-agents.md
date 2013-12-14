@@ -6,7 +6,7 @@ link: callaways.co.uk
 image: /images/portfolio/callaways-estate-agents/callaways.jpg
 previews:
 -
-    xl: /images/portfolio/callaways-estate-agents/callaways_xl.jpg
+    xl: /images/portfolio/callaways-estate-agents/callaways-estate-agents-homepage_xl.jpg
 -
     xl: /images/portfolio/callaways-estate-agents/callaways_xl_property.jpg
 -

@@ -12,10 +12,10 @@ sitemap:
 <ul class="box-list folio">
   {% for post in site.categories.portfolio %}
     {% if post.categories contains {{page.slug}} %}
-    <li><a class="box" href="{{ post.url | remove:".html" }}">
-      <figure><img alt="{{ post.title }}" src="{{ post.image }}" class="img-responsive">
+    <li><a title="{{ post.name }}" class="box" href="{{ post.url | remove:".html" }}">
+      <figure><img alt="{{ post.name }}" src="{{ post.image }}" class="img-responsive">
         <figcaption>
-          <div class="h4">{{ post.title }}</div>
+          <div class="h4">{{ post.name }}</div>
           <span class="service-icons tip">{% for tag in post.tags %}
             <cite data-toggle="tooltip" title="{% for service in site.data.services %}{% if tag == service.alias %}{{ service.title }}{% endif %}{% endfor %}"><i class="icon-{{ tag }}"></i></cite>{% endfor %}</span>
           {{ post.link }}

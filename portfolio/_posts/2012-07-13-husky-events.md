@@ -1,6 +1,7 @@
 ---
 layout: project
-title: "Husky Events"
+title: Husky Events
+name: Husky Events
 link: huskyevents.com
 image: /images/portfolio/husky-events/huskyevents.jpg
 tags:

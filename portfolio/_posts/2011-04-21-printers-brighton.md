@@ -1,6 +1,7 @@
 ---
 layout: project
-title: "Printers Brighton"
+title: Printers Brighton
+name: Printers Brighton
 link: dsfmanufacturing.co.uk
 image: /images/portfolio/printers-brighton/printersbrighton.jpg
 tags:

@@ -414,7 +414,7 @@ a.box:hover {
 	position:absolute;
 	width: 100%;
 }
-.preview .carousel-indicators {
+#previews .carousel-indicators {
 	bottom: 0;
 }
 figure {

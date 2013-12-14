@@ -1,6 +1,7 @@
 ---
 layout: project
-title: "Gold Estates"
+title: Gold Estates
+name: Gold Estates
 link: gold-estates.com
 image: /images/portfolio/gold-estates/gold-estates.jpg
 tags:

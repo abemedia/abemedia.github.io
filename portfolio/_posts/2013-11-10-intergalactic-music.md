@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Intergalactic Music
+name: Intergalactic Music
 link: intergalactic-music.co.uk
 image: /images/portfolio/intergalactic-music/intergalactic-music.jpg
 previews:

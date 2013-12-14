@@ -1,6 +1,7 @@
 ---
 layout: project
-title: "Body Energise"
+title: Body Energise
+name: Body Energise
 link: bodyenergise.co.uk
 image: /images/portfolio/body-energise/bodyenergise.jpg
 tags:

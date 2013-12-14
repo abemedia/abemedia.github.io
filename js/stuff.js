@@ -63,7 +63,7 @@ function previews() {
 		var $img = $(e).find("img"),
 			$screen = $(e).find(".screen"),
 			items = $screen.parents(".item").find(".screen").length;
-		if($img.height() > $screen.height()) {
+		if($img.height() > ( 1.1 * $screen.height() )) {
 			var topMargin = $screen.height() - $img.height() + "px",
 				isPhone = $(e).hasClass("iphone5"),
 				duration = isPhone ? $img.height() * 2.5 : $img.height() * 4.5;
@@ -90,7 +90,7 @@ function previews() {
 					})
 				}
 			})
-		} else setTimeout(function() { $('#previews').carousel("cycle"); }, 5000);
+		} else setTimeout(function() { $('#previews').carousel("cycle"); }, 3000);
 	});
 	return this;
 }

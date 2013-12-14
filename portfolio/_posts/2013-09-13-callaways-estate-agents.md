@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Callaways Estate Agents
+name: Callaways Estate Agents
 link: callaways.co.uk
 image: /images/portfolio/callaways-estate-agents/callaways.jpg
 previews:

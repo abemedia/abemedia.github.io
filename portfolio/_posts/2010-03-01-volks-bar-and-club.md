@@ -1,6 +1,7 @@
 ---
 layout: project
-title: "Volks Bar & Club"
+title: Volks Bar & Club
+name: Volks Bar & Club
 link: volksclub.co.uk
 image: /images/portfolio/volks-club/volksclub.jpg
 tags:

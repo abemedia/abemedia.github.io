@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Money Pipe
+name: Money Pipe
 link: moneypipe.co.uk
 image: /images/portfolio/money-pipe/moneypipe.jpg
 tags:

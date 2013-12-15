@@ -5,20 +5,35 @@ right:
     size: 4
     style: raw
 ---
-        <article>
-          <h1 class="page-header">{{ page.title }}</h1>
-          {{ content }}
-        </article>
-        <hr>
-        <div id="disqus_thread"></div>
-        <script type="text/javascript">
-            var disqus_shortname = 'abemedia'; 
-            (function() {
-                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-            })();
-        </script>
-        <noscript>
-          Please enable JavaScript to view the comments.
-        </noscript>
+<article>
+  <h1 class="page-header">{{ page.title }}</h1>
+  <div id="share_buttons">
+    <span class='st_sharethis_custom share-btn' data-service="sharethis">
+      <span class="btn-bubble"></span>
+      Shares
+    </span> 
+    <span class='st_facebook_custom share-btn' data-service="facebook">
+      <span class="btn-bubble"></span>
+      <span class="btn btn-default"><span class="icon-facebook"></span> Facebook</span>
+    </span> 
+    <span class='st_googleplus_custom share-btn' data-service="googleplus">
+      <span class="btn-bubble"></span>
+      <span class="btn btn-default"><span class="icon-google-plus"></span> Google+</span>
+    </span> 
+    <span class='st_twitter_custom share-btn' data-service="twitter">
+      <span class="btn-bubble"></span>
+      <span class="btn btn-default"><span class="icon-twitter"></span> Twitter</span>
+    </span> 
+    <span class='st_linkedin_custom share-btn' data-service="linkedin">
+      <span class="btn-bubble"></span>
+      <span class="btn btn-default"><span class="icon-linkedin"></span> LinkedIn</span>
+    </span> 
+    <span class='st_email_custom share-btn' data-service="email">
+      <span class="btn-bubble"></span>
+      <span class="btn btn-default"><span class="icon-envelope-alt"></span> Email</span>
+    </span>
+  </div>
+  {{ content }} 
+</article>
+<hr>
+<div id="disqus_thread"></div>

@@ -191,7 +191,8 @@ if ($(".js-share").length > 0) {
         shares = data.shares;
         $(".count").each(function (index, el) {
             var $service = $(el).parents(".js-share-btn").attr("data-service");
-            $(el).html(shares[$service]);
+            if(shares[$service]) $(el).html(shares[$service]);
+			else $(el).hide();
         });
     });
 }

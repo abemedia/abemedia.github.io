@@ -575,16 +575,16 @@ figure:hover img {
 .js-share.active .secondary {
 	display:block;
 }
-.js-share  .showSecondary{
+.js-share .showSecondary{
 	outline:none;
 }
-.js-share  .showSecondary::before {
+.js-share .showSecondary::before {
 	content: "+";
 	font-size: 28px;
 	display: block;
 	line-height:20px;
 }
-.js-share .active .showSecondary::before {
+.js-share.active .showSecondary::before {
 	content: "-";
 }
 .js-share  .fa, .js-share  [class^="icon-"], .js-share  [class*=" icon-"] {

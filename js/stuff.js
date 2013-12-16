@@ -196,7 +196,7 @@ if ($(".js-share").length > 0) {
 				$(el).html(shares[$service]);
 			});
 		});
-	});
+	})();
 }
 
 

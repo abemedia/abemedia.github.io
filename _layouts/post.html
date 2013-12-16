@@ -6,34 +6,25 @@ right:
     style: raw
 ---
 <article>
-  <h1 class="page-header">{{ page.title }}</h1>
-  <div id="share_buttons">
-    <span class='st_sharethis_custom share-btn' data-service="sharethis">
-      <span class="btn-bubble"></span>
-      Shares
-    </span> 
-    <span class='st_facebook_custom share-btn' data-service="facebook">
-      <span class="btn-bubble"></span>
-      <span class="btn btn-default"><span class="icon-facebook"></span> Facebook</span>
-    </span> 
-    <span class='st_googleplus_custom share-btn' data-service="googleplus">
-      <span class="btn-bubble"></span>
-      <span class="btn btn-default"><span class="icon-google-plus"></span> Google+</span>
-    </span> 
-    <span class='st_twitter_custom share-btn' data-service="twitter">
-      <span class="btn-bubble"></span>
-      <span class="btn btn-default"><span class="icon-twitter"></span> Twitter</span>
-    </span> 
-    <span class='st_linkedin_custom share-btn' data-service="linkedin">
-      <span class="btn-bubble"></span>
-      <span class="btn btn-default"><span class="icon-linkedin"></span> LinkedIn</span>
-    </span> 
-    <span class='st_email_custom share-btn' data-service="email">
-      <span class="btn-bubble"></span>
-      <span class="btn btn-default"><span class="icon-envelope-alt"></span> Email</span>
-    </span>
-  </div>
-  {{ content }} 
-</article>
+  <header>
+    <h1 class="page-header">{{ page.title }}</h1>
+    <div class="js-share">
+      <div class="primary">
+        <div class='js-share-btn js-total' data-service="total">
+          <div class="count h4"></div>
+          Shares </div>
+        <div class='js-share-btn' data-service="facebook"><a class="btn btn-facebook"><i class="fa fa-facebook"></i> <span class="hide-xs">Share</span><span class="lg sm">&nbsp;on Facebook</span></a></div>
+        <div class='js-share-btn' data-service="twitter"><a class="btn btn-twitter"><i class="fa fa-twitter"></i> <span class="lg sm">Share on Twitter</span><span class="md">Tweet</span></a></div>
+        <div class='js-share-btn' data-service="googleplus"><a class="btn btn-google"><i class="fa fa-google-plus"></i> <span class="hide-xs">Share</span><span class="lg sm">&nbsp;on Google+</span></a></div>
+      </div>
+      <div class="secondary">
+        <div class='js-share-btn' data-service="linkedin"><a class="btn btn-linkedin"><i class="fa fa-linkedin"></i></a></div>
+        <div class='js-share-btn' data-service="pinterest"><a class="btn btn-pinterest"><i class="fa fa-pinterest"></i></a></div>
+        <div class='js-share-btn' data-service="stumbleupon"><a class="btn btn-stumbleupon"><i class="icon-stumbleupon"></i></a></div>
+      </div>
+      <button class="btn btn-default showSecondary"></button>
+    </div>
+  </header>
+  {{ content }} </article>
 <hr>
 <div id="disqus_thread"></div>

@@ -177,94 +177,25 @@ $(".preview-img").drags({
 	cursor: "ns-resize"
 });
 
-/* ShareThis */
-var switchTo5x = true;
-$.getScript('//w.sharethis.com/button/buttons.js', function() {
-	stLight.options({
-		publisher: "789dd053-d988-42a9-bd7b-1d9f3c14bc6f",
-		onhover: false
+/* Social Share */
+if ($(".js-share").length > 0) {
+	$(".showSecondary").click(function(e) {
+		if ($(".js-share").hasClass("active")) {
+			$(".js-share").removeClass("active");
+		} else {
+			$(".js-share").addClass("active");
+		}
 	});
-	var url = $('link[name=canonical]').attr("href");
-	
-	$(".share-btn").each(function() {
-        stButtons.getCount(url, $(this).attr("data-service"), $(this).find(".btn-bubble"));
-    });
-	/*
-	 $(window).load(function() {
-	 var legacy = parseInt($('.legacy-comments-count').text());
-	 var disqus = $('.comments-counter a').first();
-	 var disqus_count = parseInt(disqus.text());
-	 disqus_count = (isNaN(disqus_count)) ? 0 : disqus_count;
-	 var total = legacy + disqus_count;
-	 $('.comments-counter a').text(total);
-	 
-	 if (total == 3) {
-	 $('.comments-icon').text('Comment');
-	 }
-	 
-	 var url = $('link[name=canonical]').attr("href");
-	 $.getJSON('http://graph.facebook.com/' + url, function(data) {
-	 
-	 var sharethis_count = jQuery('.st_sharethis_vcount .stBubble_count');
-	 var facebook_count = jQuery('.st_facebook_vcount .stBubble_count');
-	 var twitter_count = jQuery('.st_twitter_vcount .stBubble_count');
-	 var google_count = jQuery('.st_googleplus_vcount .stBubble_count');
-	 var other_count = jQuery('.other-counter .stBubble_count');
-	 
-	 var sharethis_int = parseFloat(sharethis_count.html(), 10);
-	 sharethis_int = (sharethis_int % 1 != 0) ? sharethis_int * 1000 : sharethis_int;
-	 var facebook_int = parseFloat(facebook_count.html(), 10);
-	 facebook_int = (facebook_int % 1 != 0) ? facebook_int * 1000 : facebook_int;
-	 var twitter_int = parseFloat(twitter_count.html(), 10);
-	 twitter_int = (twitter_int % 1 != 0) ? twitter_int * 1000 : twitter_int;
-	 var google_int = parseFloat(google_count.html(), 10);
-	 google_int = (google_int % 1 != 0) ? google_int * 1000 : google_int;
-	 
-	 
-	 var total_facebook_int = facebook_int;
-	 
-	 var older_facebook_int = data.shares ? data.shares : 0;
-	 if (!isNaN(older_facebook_int)) {
-	 total_facebook_int = facebook_int + older_facebook_int;
-	 facebook_count.html(total_facebook_int);
-	 sharethis_int = sharethis_int + older_facebook_int;
-	 sharethis_count.html(sharethis_int);
-	 }
-	 
-	 var fb_tw_gp_pin_stmbl_count = twitter_int + google_int + total_facebook_int;
-	 
-	 var other_int = sharethis_int - fb_tw_gp_pin_stmbl_count;
-	 other_count.html(other_int);
-	 
-	 if (sharethis_count.html() == "0" && twitter_count.html() == "0" && facebook_count.html() == "0" && google_count.html() == "0" && pinterest_count.html() == "0" && stumble_count.html() == "0" && other_count.html() == "0") {
-	 jQuery('.stBubble').css('display', 'none');
-	 jQuery('.stButton').css('border', 'none');
-	 jQuery('.stButton').css('margin-top', '15px');
-	 jQuery('.st_sharethis_vcount div.stBubble').css('display', 'block');
-	 jQuery('.st_sharethis_vcount span.stButton').css('margin-top', '0');
-	 }
-	 
-	 jQuery('.share-buttons-wrapper').css('visibility', 'visible');
-	 // ShareThis
-	 
-	 var shares_counter = jQuery('.st_sharethis_vcount .stBubble_count');
-	 var shares = parseInt(shares_counter.first().text());
-	 if (shares >= 1000 && shares < 10000) {
-	 shares = (shares / 1000).toFixed(1);
-	 shares = (shares.indexOf('.0') != -1) ? parseInt(shares).toFixed(0) : shares;
-	 shares_counter.text(shares + 'K');
-	 }
-	 else if (shares >= 10000) {
-	 shares = (shares / 1000).toFixed(0);
-	 shares_counter.text(shares + 'K');
-	 }
-	 });
-	 if (!jQuery.support.cors) { // IE 8 Hack
-	 jQuery('.share-buttons-wrapper').css('visibility', 'visible');
-	 }
-	 });
-	 */
-});
+	var shareUrl = $("link[rel=canonical]").attr("href");
+	//var shareUrl = 'http://facebook.com';
+	$.getJSON('http://clients.sc14.co.uk/sharecount/?url=' + encodeURIComponent(shareUrl) + "&callback=?", function(data) {
+		$(".js-share .count").each(function(index, el) {
+			var $service = $(el).parents(".share-btn").attr("data-service");
+            $(el).html(data[$service]);
+        });;
+	});
+}
+
 
 if ($("#disqus_thread").length > 0) {
 	var disqus_shortname = 'abemedia';

@@ -498,18 +498,16 @@ figure:hover img {
 	font-size:15px;
 	margin-top:1px;
 }
- [class^="icon-"], [class*=" icon-"] {
- font-family: 'icon';
- speak: none;
- font-style: normal;
- font-weight: normal;
- font-variant: normal;
- text-transform: none;
- line-height: 1;
-
-	/* Better Font Rendering =========== */
+.icon, [class^="icon-"], [class*=" icon-"], .icon {
+	font-family: 'icon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
 	-webkit-font-smoothing: antialiased;
- -moz-osx-font-smoothing: grayscale;
+	-moz-osx-font-smoothing: grayscale;
 }
 .icon-web-design:before {
 	content: "\e600";
@@ -541,8 +539,182 @@ figure:hover img {
 .icon-phone-sign:before {
 	content: "\e609";
 }
-.icon-envelope-alt:before {
+.icon-envelope:before {
 	content: "\e60a";
 }
-#share_buttons .stMainServices  {
+.icon-stumbleupon:before {
+	content: "\e60b";
+}
+
+/* Social Share Buttons */
+.js-share::before, .js-share::after {
+	display:table;
+	content: " ";
+	clear:both;
+}
+.js-share {
+	margin-bottom:15px;
+	margin-right:-10px;
+	position:relative;
+	padding-left:70px;
+}
+.js-share > *, .js-share .btn > * {
+	float:left;
+}
+.js-share .js-total {
+	border-right: 1px solid #ccc;
+	width:55px;
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+}
+.js-share .secondary {
+	display:none;
+}
+.js-share.active .secondary {
+	display:block;
+}
+.js-share  .showSecondary{
+	outline:none;
+}
+.js-share  .showSecondary::before {
+	content: "+";
+	font-size: 28px;
+	display: block;
+	line-height:20px;
+}
+.js-share .active .showSecondary::before {
+	content: "-";
+}
+.js-share  .fa, .js-share  [class^="icon-"], .js-share  [class*=" icon-"] {
+	font-size: 22px;
+	width: 1em;
+	overflow:hidden;
+	line-height:20px;
+}
+.secondary [class^="icon-"], .secondary [class*=" icon-"] {
+	background-color:transparent !important;
+}
+@media (max-width:768px) {
+.js-share  .fa, .js-share  [class^="icon-"], .js-share  [class*=" icon-"] {
+	background-color:transparent !important;
+}
+}
+@media (min-width:768px) {
+.primary .fa, .primary [class^="icon-"], .primary [class*=" icon-"] {
+	border-right-style:solid;
+	border-right-width:1px;
+	float:left;
+	margin:-6px 10px -6px -12px;
+	width: 2em;
+	line-height:32px;
+	height:32px;
+}
+}
+.js-share .js-share-btn {
+	float:left;
+	margin: 0 10px 10px 0;
+}
+.btn {
+	background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.1) 50%, rgba(129, 129, 129, 0) 75%, rgba(255, 255, 255, 0.1) 100%);
+	background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.1) 50%, rgba(129, 129, 129, 0) 75%, rgba(255, 255, 255, 0.1) 100%);
+	background-image: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.1) 50%, rgba(129, 129, 129, 0) 75%, rgba(255, 255, 255, 0.1) 100%);
+	background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.1) 50%, rgba(129, 129, 129, 0) 75%, rgba(255, 255, 255, 0.1) 100%);
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.1) 50%, rgba(129, 129, 129, 0) 75%, rgba(255, 255, 255, 0.1) 100%);
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.15), 0 1px 1px rgba(0,0,0,0.075);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.15), 0 1px 1px rgba(0,0,0,0.075);
+	color:#fff;
+	background-size:100% 200%;
+	background-position:top;
+	-webkit-transition: all 0.25s ease-in;
+	-moz-transition: all 0.25s ease-in;
+	-o-transition: all 0.25s ease-in;
+	-ms-transition: all 0.25s ease-in;
+}
+.btn:hover {
+	color:#fff;
+	background-position:bottom;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.15), 0 1px 1px rgba(0,0,0,0.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.15), 0 1px 1px rgba(0,0,0,0.075);
+}
+.btn-default {
+	color:#333;
+}
+.btn-facebook, .btn-facebook .fa {
+	background-color:#3b5998;
+	border-color:#133783;
+}
+.btn-twitter, .btn-twitter .fa {
+	background-color:#00acee;
+	border-color:#0093C5;
+}
+.btn-google, .btn-google .fa {
+	background-color:#d34836;
+	border-color:#AE3424;
+}
+.btn-linkedin {
+	background-color:#0e76a8;
+	border-color:#0A618B;
+}
+.btn-pinterest {
+	background-color:#c8232c;
+	border-color:#A5171E;
+}
+.btn-stumbleupon {
+	background-color:#f74425;
+	border-color:#CC3019;
+}
+ @media (max-width:1199px) {
+.lg {
+	display:none !important;
+}
+}
+@media (max-width: 991px), (min-width: 1200px) {
+.md {
+	display:none !important;
+}
+}
+@media (max-width: 767px), (min-width: 992px) {
+.sm {
+	display:none !important;
+}
+}
+@media (min-width: 768px) {
+.xs {
+	display:none !important;
+}
+}
+@media (min-width:1200px) {
+.lg {
+	display:inline-block !important;
+}
+.hide-lg {
+	display:none !important;
+}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+.md {
+	display:inline-block !important;
+}
+.hide-md {
+	display:none !important;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+.sm {
+	display:inline-block !important;
+}
+.hide-sm {
+	display:none !important;
+}
+}
+@media (max-width: 767px) {
+.xs {
+	display:inline-block !important;
+}
+.hide-xs {
+	display:none !important;
+}
 }

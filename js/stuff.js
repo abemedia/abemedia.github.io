@@ -179,22 +179,24 @@ $(".preview-img").drags({
 
 /* Social Share */
 if ($(".js-share").length > 0) {
-	$(".showSecondary").click(function(e) {
-		if ($(".js-share").hasClass("active")) {
-			$(".js-share").removeClass("active");
-		} else {
-			$(".js-share").addClass("active");
-		}
+	(function() {
+		$(".showSecondary").click(function(e) {
+			if ($(".js-share").hasClass("active")) {
+				$(".js-share").removeClass("active");
+			} else {
+				$(".js-share").addClass("active");
+			}
+		});
+		var shareUrl = $("link[rel=canonical]").attr("href");
+		$.ajaxSetup({ cache: true });
+		$.getJSON('http://share-count.appspot.com/?url=' + encodeURIComponent(shareUrl) + "&callback=?", function (data) {
+			shares = data.shares;
+			$(".count").each(function (index, el) {
+				var $service = $(el).parents(".js-share-btn").attr("data-service");
+				$(el).html(shares[$service]);
+			});
+		});
 	});
-	var shareUrl = $("link[rel=canonical]").attr("href");
-	$.ajaxSetup({ cache: true });
-    $.getJSON('http://share-count.appspot.com/?url=' + encodeURIComponent(shareUrl) + "&callback=?", function (data) {
-        shares = data.shares;
-        $(".count").each(function (index, el) {
-            var $service = $(el).parents(".js-share-btn").attr("data-service");
-            $(el).html(shares[$service]);
-        });
-    });
 }
 
 

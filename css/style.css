@@ -590,7 +590,6 @@ figure:hover img {
 .js-share  .fa, .js-share  [class^="icon-"], .js-share  [class*=" icon-"] {
 	font-size: 22px;
 	width: 1em;
-	overflow:hidden;
 	line-height:20px;
 }
 .secondary [class^="icon-"], .secondary [class*=" icon-"] {

@@ -187,13 +187,13 @@ if ($(".js-share").length > 0) {
 		}
 	});
 	var shareUrl = $("link[rel=canonical]").attr("href");
-	//var shareUrl = 'http://facebook.com';
-	$.getJSON('http://clients.sc14.co.uk/sharecount/?url=' + encodeURIComponent(shareUrl) + "&callback=?", function(data) {
-		$(".js-share .count").each(function(index, el) {
-			var $service = $(el).parents(".share-btn").attr("data-service");
-            $(el).html(data[$service]);
-        });;
-	});
+    $.getJSON('http://share-count.appspot.com/?url=' + encodeURIComponent(shareUrl) + "&callback=?", function (data) {
+        shares = data.shares;
+        $(".count").each(function (index, el) {
+            var $service = $(el).parents(".js-share-btn").attr("data-service");
+            $(el).html(shares[$service]);
+        });
+    });
 }
 
 

@@ -187,12 +187,12 @@ if ($(".js-share").length > 0) {
 		}
 	});
 	var shareUrl = $("link[rel=canonical]").attr("href");
+	$.ajaxSetup({ cache: true });
     $.getJSON('http://share-count.appspot.com/?url=' + encodeURIComponent(shareUrl) + "&callback=?", function (data) {
         shares = data.shares;
         $(".count").each(function (index, el) {
             var $service = $(el).parents(".js-share-btn").attr("data-service");
-            if(shares[$service]) $(el).html(shares[$service]);
-			else $(el).hide();
+            $(el).html(shares[$service]);
         });
     });
 }

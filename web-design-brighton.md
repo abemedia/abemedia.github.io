@@ -3,7 +3,7 @@ layout: service
 category: services
 title: Web Design & Development
 slug: web-design
-lead: Creating a balance between creativity and functionality
+lead: From simple brochure sites to bespoke database driven systems, ABE Media delivers solutions which are fast, user-friendly and fully optimised for search engine performance.
 sitemap:
     priority: 0.7
     changefreq: monthly

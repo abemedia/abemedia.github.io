@@ -1,7 +1,7 @@
 ---
 layout: service
 category: services
-title: Ecommerce Website Design Brighton
+title: Ecommerce Website Design
 slug: ecommerce-web-design
 lead: Easy to manage, secure payments...
 sitemap:

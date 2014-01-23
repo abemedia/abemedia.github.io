@@ -1,7 +1,12 @@
-  <div class="jumbotron banner">
-    <div class="container">
-      <h1>{{ include.params.title }}
-      {% if include.params.subtitle %}<br><small>{{ include.params.subtitle }}</small>{% endif %}</h1>
-      {% if include.params.lead %}<p>{{ include.params.lead }}</p>{% endif %}
-    </div>
+  <div class="jumbotron banner" id="carousel">
+    <div class="inner">
+      <div class="row">
+        <div class="col-md-7">
+		<h1>{{ page.title }}
+		{% if page.subtitle %}<br><small>{{ page.subtitle }}</small>{% endif %}</h1>
+		<p class="lead">{{ page.lead }}</p>
+		<p><a class="btn btn-primary btn-lg h4" href="{{ site.baseurl }}contact" role="button">Get a quote</a></p>
+	    </div>
+	  </div>
+	</div>
   </div>

@@ -3,7 +3,7 @@ layout: service
 category: services
 title: Content Management
 slug: content-management-systems-cms
-lead: Flexible out-of-the-box solutions & bespoke CMS development
+lead: From flexible out-of-the-box solutions to bespoke content management systems, ABE Media are experts at developing innovative, content-driven websites with the popular Joomla CMS.
 sitemap:
     priority: 0.7
     changefreq: monthly

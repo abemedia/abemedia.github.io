@@ -3,7 +3,7 @@ layout: service
 category: services
 title: Responsive Web Design
 slug: responsive-web-design
-lead: Dedicated mobile sites and responsive web design for mobile phones & tablets.
+lead: Dedicated mobile sites and responsive web design for mobile phones & tablets. Never miss out on a sale, regardless of the users' device.
 sitemap:
     priority: 0.7
     changefreq: monthly
@@ -20,4 +20,4 @@ bottom:
     class: grey
 ---
 
-Dedicated mobile sites and responsive web design for mobile phones & tablets. Never miss out on a sale, regardless of the users' device.
+

@@ -1,7 +1,7 @@
 ---
 layout: service
 category: services
-title: Mobile & Responsive Web Design
+title: Responsive Web Design
 slug: responsive-web-design
 lead: Dedicated mobile sites and responsive web design for mobile phones & tablets.
 sitemap:

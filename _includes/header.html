@@ -2,7 +2,7 @@
     {% else %}{% capture title %}{{ page.title }} &middot; {{ site.title }}{% endcapture %}{% endif %}
     {% if page.description %}{% capture description %}{{ page.description }}{% endcapture %}
     {% else %}{% capture description %}{{ site.description }}{% endcapture %}{% endif %}
-    {% if page.image %}{% capture image %}{{ site.baseurl }}{{ page.image }}{% endcapture %}
+    {% if page.image %}{% capture image %}{{ site.url }}{{ page.image }}{% endcapture %}
     {% else %}{% capture image %}{{ site.url }}{{ site.image }}{% endcapture %}{% endif %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,7 +32,8 @@
     <meta name="twitter:domain" content="{{ site.url }}"/>
     <meta name="twitter:creator" content="@abemedia"/>
     
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css" />
+    <!--link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css" /-->
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
     <link rel="stylesheet" href="{{ site.baseurl }}css/pygments-manni.css" />
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>

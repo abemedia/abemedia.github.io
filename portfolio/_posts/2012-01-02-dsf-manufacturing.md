@@ -22,10 +22,11 @@ tags:
   - graphic
 ---
 
-DSF Manufacturing is becoming Brighton's market leaders in CD Duplication & DVD Duplication services.  
-They needed an online shop which showcased their different types of disc packaging in a clean & simple fashion, making it easy for the customer to compare prices on different products & quantities.
+DSF Manufacturing is one of Brighton's market leaders in CD Duplication & DVD Duplication services.
 
 ### The Project
+
+They needed an online shop which showcased their different types of disc packaging in a clean & simple fashion, making it easy for the customer to compare prices on different products & quantities.
 
 ABE Media delivered a custom ecommerce system running on the Joomla! CMS, creating 3D images to display the products in a more beautiful, easy to understand way. Due to the small number of SKUs we were able to display the full range on each product page, making it even more convenient to switch between the different options and compare prices.  
 The result was one of the most attractive and user-friendly CD Duplication ecommerce websites in the UK with a large number of customers complimenting them on the design and how simple & easy it was to find their desired product.

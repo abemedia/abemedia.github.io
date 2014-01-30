@@ -14,7 +14,7 @@ right:
         <a class="pull-left thumbnail" href="{{ post.url | remove:".html" }}"><img alt="{{ post.title }}" src="{{ post.image }}" width="120"></a>
         <div class="media-body">{{ post.excerpt }}</div>
       </div>
-      <div class="post_meta">Written by <a href="{{ site.baseurl }}about">{{ site.author }}</a> in <a href="{{ site.baseurl }}{{ post.categories | join: "/" }}">{{ post.categories | last | capitalize }}</a> &middot; {{ post.date | date: "%A, %-d %B %Y" }} <a class="pull-right" href="{{ post.url | remove:".html" }}#disqus_thread"></a></div>
+      <div class="post_meta">Written by <a href="{{ site.baseurl }}about">{{ site.author }}</a> in <a href="{{ site.baseurl }}{{ post.categories | join: "/" }}">{{ post.categories | last | capitalize }}</a> &middot; {{ post.date | date: "%A, %-d %B %Y" }} <!--a class="pull-right" href="{{ post.url | remove:".html" }}#disqus_thread"></a--><a class="pull-right" href="{{ post.url }}#disqus_thread"></a></div>
     </section>
     {% endif %} 
 {% endfor %}

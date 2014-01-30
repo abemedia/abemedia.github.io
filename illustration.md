@@ -10,6 +10,22 @@ sitemap:
     lastmod: 2013-11-09T7:30:00
 bottom: 
 -
+    type: text
+    class: orange
+    params:
+    -
+        title: Open Source Code
+        icon: code
+        content: Our CMS websites are based on Joomla! which is fully open source and actively developed by a global community of web developers.
+    -
+        title: Simple Management
+        icon: edit
+        content: Joomla! has a simple, intuitive administration interface and we strip out all the clutter to ensure updating your site is child's play.
+    -
+        title: Easily extendible
+        icon: plus-circle
+        content: Your website is future proof and can be easily extended by custom components & plugins created by our expert Joomla! developers.
+-
     type: portfolio
     title: Illustration & Animation Projects
     params:

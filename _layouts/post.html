@@ -8,22 +8,23 @@ right:
 <article>
   <header>
     <h1 class="page-header">{{ page.title }}</h1>
-    <div class="js-share">
-      <div class="primary">
-        <div class='js-share-btn js-total' data-service="total">
-          <div class="count h4"></div>
-          Shares </div>
-        <div class='js-share-btn' data-service="facebook"><a class="btn btn-facebook"><i class="fa fa-facebook"></i> <span class="hide-xs">Share</span><span class="lg sm">&nbsp;on Facebook</span></a></div>
-        <div class='js-share-btn' data-service="twitter"><a class="btn btn-twitter"><i class="fa fa-twitter"></i> <span class="lg sm">Share on Twitter</span><span class="md">Tweet</span></a></div>
-        <div class='js-share-btn' data-service="googleplus"><a class="btn btn-google"><i class="fa fa-google-plus"></i> <span class="hide-xs">Share</span><span class="lg sm">&nbsp;on Google+</span></a></div>
-      </div>
-      <div class="secondary">
-        <div class='js-share-btn' data-service="linkedin"><a class="btn btn-linkedin"><i class="fa fa-linkedin"></i></a></div>
-        <div class='js-share-btn' data-service="pinterest"><a class="btn btn-pinterest"><i class="fa fa-pinterest"></i></a></div>
-        <div class='js-share-btn' data-service="stumbleupon"><a class="btn btn-stumbleupon"><i class="icon-stumbleupon"></i></a></div>
-      </div>
-      <button class="btn btn-default showSecondary"></button>
+    <div class="don-share" data-limit="3">
+      <div class="don-share-total"></div>
+      <div class="don-share-facebook"></div>
+      <div class="don-share-twitter"></div>
+      <div class="don-share-google"></div>
+      <div class="don-share-linkedin"></div>
+      <div class="don-share-pinterest"></div>
+      <div class="don-share-stumbleupon"></div>
     </div>
+    <script type="text/javascript"> 
+      (function() {
+        var dr = document.createElement('script');
+        dr.type = 'text/javascript'; dr.async = true;
+        dr.src = 'http://share.donreach.com/buttons.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dr);
+      })();
+    </script>
   </header>
   {{ content }} </article>
 <hr>

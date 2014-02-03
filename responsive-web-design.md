@@ -3,7 +3,7 @@ layout: service
 category: services
 title: Responsive Web Design
 slug: responsive-web-design
-lead: Websites optimised for mobile phones & tablets. Don't miss out on any customers, regardless of what device they are using to browse the web.
+lead: Websites optimised for mobile phones & tablets. <br>Don't miss out on any customers, regardless of what device they are using to browse the web.
 sitemap:
     priority: 0.7
     changefreq: monthly

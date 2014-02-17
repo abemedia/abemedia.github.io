@@ -3,6 +3,7 @@ layout: service
 category: services
 title: Responsive Web Design
 slug: responsive-web-design
+image: /images/services/mobile-websites.png
 lead: Websites optimised for mobile phones & tablets. <br>Don't miss out on any customers, regardless of what device they are using to browse the web.
 sitemap:
     priority: 0.7
@@ -35,11 +36,11 @@ bottom:
     title: Our Services
     class: grey
 ---
+###Is your website future-proof?
+
 <p class="lead"> 
 Responsive websites adapt to the device they are being viewed from thus eliminating the need for a dedicated mobile site.
 </p>
-
-###Is your website future-proof?
 
 In the UK alone around 8 million people surf the internet from their smart phones every day and experts predict this number is going to keep growing!  
 Tap into this ever-expanding number of potential customers without the added expense of having to build & maintain multiple websites. 

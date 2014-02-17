@@ -3,6 +3,7 @@ layout: service
 category: services
 title: Illustration & Animation
 slug: illustration
+image: /images/services/illustration.png
 lead: Make your website stand out with beautiful hand drawn or digital artworks and unique animations tailored to your specific requirements.
 sitemap:
     priority: 0.7

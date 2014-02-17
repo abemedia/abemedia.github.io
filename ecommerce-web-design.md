@@ -3,6 +3,7 @@ layout: service
 category: services
 title: Ecommerce Website Design
 slug: ecommerce-web-design
+image: /images/services/ecommerce.png
 lead: Start selling online fast with our customer-friendly, reliable & secure ecommerce solutions and take advantage of exciting new business opportunities in an ever-growing market.
 sitemap:
     priority: 0.7
@@ -35,9 +36,7 @@ bottom:
     title: Our Services
     class: grey
 ---
-<p class="lead">
 Ecommerce offers a great number of advantages as you can reach a global audience, attracting new customers, and greatly reduce your overheads and order processing costs.
-</p>
 
 Our ecommerce solutions are fast, secure and easy to manage with clients ranging from small merchandise shops with less than 20 products to large sites with thousands of products.
 

@@ -3,6 +3,7 @@ layout: service
 category: services
 title: Content Management
 slug: content-management-systems-cms
+image: /images/services/joomla-development.png
 lead: From flexible out-of-the-box solutions to bespoke CMS sites, ABE Media are experts at developing innovative, content-driven websites with the popular Joomla CMS.
 sitemap:
     priority: 0.7
@@ -35,10 +36,7 @@ bottom:
     title: Our Services
     class: grey
 ---
-
-<p class="lead">
 A dynamic content management system is at the heart of every good website, making it easy to keep your site up-to-date, without any technical knowledge or HTML required.
-</p>
 
 We develop CMS sites that make it simple for you to publish new content in minutes, removing all the clutter and catering directly to the needs of your business.
 

@@ -1,13 +1,19 @@
 ---
 layout: default
 title: ABE Media Web Design &middot; Website Design &amp; Development
+lead: Websites optimised for mobile phones & tablets. <br>Don't miss out on any customers, regardless of what device they are using to browse the web.
 slug: home
+image: /images/services/abemedia.png
 sitemap:
     priority: 0.7
     changefreq: monthly
     lastmod: 2013-11-09T7:30:00
 top:
-    type: carousel
+    type: banner 
+    style: raw
+    params:
+        title: Turning dreams digital...
+        nobutton: true
 bottom: 
 -
     type: services
@@ -23,8 +29,3 @@ bottom:
     title: What our clients say
     class: grey
 ---
-<div class="inner">
-<h2>Brighton web designers specialising in ecommerce &amp; content management systems</h2>
-<p class="lead">We're a small, yet highly innovative web design and development company based in Brighton &amp; Hove, East Sussex.<br>
-Since its incorporation in 2005, ABE Media have been at the forefront of new technology, shaping the future of web design with each and every project.</p>
-</div>

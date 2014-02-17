@@ -1,11 +1,29 @@
+  {% if include.params.title %}{% capture title %}{{ include.params.title }}{% endcapture %}
+  {% else %}{% capture title %}{{ page.title }}{% endcapture %}{% endif %}
   <div class="jumbotron banner" id="carousel">
+  
+
     <div class="inner">
       <div class="row">
-        <div class="col-md-7">
-		<h1>{{ page.title }}
-		{% if page.subtitle %}<br><small>{{ page.subtitle }}</small>{% endif %}</h1>
-		<p class="lead">{{ page.lead }}</p>
-		<p><a class="btn btn-danger btn-lg h4" href="{{ site.baseurl }}contact" role="button">Get a quote</a></p>
+        <div class="col-md-8">
+		<h1>{{ title }}</h1>
+		<p>{{ page.lead }}</p>
+	    </div>
+        <div class="col-md-4 text-center">
+		  <div class="jumbo-icon"><img class="img-responsive" src="{{page.image}}"></div>
+		  <div class="sunburst">
+		    <div class="outer">
+			  <b></b>
+			  <b></b>
+			  <b></b>
+			  <b></b>
+			  <b></b>
+			  <b></b>
+			  <b></b>
+			  <b></b>
+			  <b></b>
+			</div>
+		  </div>
 	    </div>
 	  </div>
 	</div>

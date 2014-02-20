@@ -1,5 +1,4 @@
-<br><br><br>
-<div class="inner">{% capture i %}0{% endcapture %}
+<div class="inner" style="padding-top:50px">{% capture i %}0{% endcapture %}
 <ul class="box-list equal">{% for post in include.params %}{% capture i %}{{ i | plus:1 }}{% endcapture %}
   <li>
     <div class="box">
@@ -9,8 +8,8 @@
 	    <span class="h4">{% if post.price %}&pound;{{ post.price }}{% else %}On Quotation{% endif %}</span>
       </div>
 	  {% if post.desc %}<p>{{ post.desc }}</p>{% endif %}
-	  <ul class="list-group">{% for feature in post.features %}
-	    <li class="list-group-item">{{feature}}</li>{% endfor %}
+	  <ul class="feature-list tip">{% for item in post.features %}{% assign feature = {{item}} | split: "|" %}
+	    <li>{% if feature[1] %}<span title="{{feature[1]}}" data-toggle="tooltip">{{feature[0]}}</span>{% else %}{{feature[0]}}{% endif %}</li>{% endfor %}
 	  </ul><br>
 	  <a href="#" class="btn btn-success btn-lg btn-block h4">Enquire now</a>
 	</div>{% endfor %}

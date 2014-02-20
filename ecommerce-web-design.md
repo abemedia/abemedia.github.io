@@ -30,29 +30,28 @@ bottom:
         title: Ecommerce Basic
         price: "2,500"
         icon: shopping-cart
+        desc: "<b>Ecommerce</b> website featuring:"
         features: 
             - Bespoke design
-            - Search engine friendly code
-            - Sitemap
-            - Remote training
-            - Remote training
+            - 5 CMS pages
+            - Custom payment gateways
+            - 1h remote training
     -
         title: Ecommerce Pro
-        price: "3,000"
+        price: "3,500"
         icon: shopping-cart
+        desc: "All of the <b>Ecommerce Basic</b> features plus:"
         features: 
-            - Bespoke design
-            - Search engine friendly code
-            - Sitemap
-            - Remote training
+            - Social login
     -
         title: Ecommerce Bespoke
         icon: star
+        desc: "An <b>online shop</b> tailored to your needs including:"
         features: 
-            - Bespoke design
-            - Search engine friendly code
-            - Sitemap
-            - Remote training
+            - Event ticket sales
+            - Event ticket sales
+            - Downloadable goods (MP3s, ebooks, etc.)
+            - Pay-per-view streaming
 -
     type: text
     class: orange

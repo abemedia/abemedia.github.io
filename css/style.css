@@ -800,3 +800,21 @@ figure:hover img {
     from { -moz-transform: rotate(0deg); }
     to   { -moz-transform: rotate(20deg); }
 }
+
+/* List Features
+-------------------------------------------------- */
+.feature-list {
+	list-style: none;
+	padding: 0;
+	margin:0;
+}
+.feature-list>li {
+	display: block;
+	border-top:1px solid #eee;
+	padding: 10px 0;
+	width: 100%;
+}
+.feature-list>li>span {
+	cursor: help;
+	color: #23869D;
+}

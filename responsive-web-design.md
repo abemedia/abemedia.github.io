@@ -5,6 +5,22 @@ title: Responsive Web Design
 slug: responsive-web-design
 image: /images/services/mobile-websites.png
 lead: Websites optimised for mobile phones & tablets. <br>Don't miss out on any customers, regardless of what device they are using to browse the web.
+previews:
+-
+    xl: /images/portfolio/intergalactic-music/intergalactic-music-homepage_xl.jpg
+    xs: /images/portfolio/intergalactic-music/intergalactic-music-homepage_xs.jpg
+-
+    xl: /images/portfolio/intergalactic-music/event_xl.jpg
+    xs: /images/portfolio/intergalactic-music/event_xs.jpg
+-
+    xl: /images/portfolio/intergalactic-music/basket_xl.jpg
+    xs: /images/portfolio/intergalactic-music/basket_xs.jpg
+-
+    xl: /images/portfolio/intergalactic-music/artists_xl.jpg
+    xs: /images/portfolio/intergalactic-music/artists_xs.jpg
+-
+    xl: /images/portfolio/intergalactic-music/artist-profile_xl.jpg
+    xs: /images/portfolio/intergalactic-music/artist-profile_xs.jpg
 sitemap:
     priority: 0.7
     changefreq: monthly
@@ -36,11 +52,10 @@ bottom:
     title: Our Services
     class: grey
 ---
-###Is your website future-proof?
+### Is your website future-proof?
 
-<p class="lead"> 
-Responsive websites adapt to the device they are being viewed from thus eliminating the need for a dedicated mobile site.
-</p>
+In the UK alone around 8 million people surf the internet from their smart phones every day and experts predict this number is going to keep growing.
 
-In the UK alone around 8 million people surf the internet from their smart phones every day and experts predict this number is going to keep growing!  
-Tap into this ever-expanding number of potential customers without the added expense of having to build & maintain multiple websites. 
+Responsive websites adapt to the device they are being viewed from thus eliminating the need for a dedicated mobile site and allowing you to tap into this ever-expanding number of potential customers without the added expense of having to build & maintain multiple websites.
+
+<p class="lead">Starting at only &pound;400 when purchased with a website from us!</p>

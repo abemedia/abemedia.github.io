@@ -1,4 +1,4 @@
-  <section class="fullrow fullrow-{{ include.module.class }}">
+  <section class="fullrow {{ include.module.class }}">
     <div class="container">
     {% if include.module.title %}<h3 class="module-title">{{ include.module.title }}</h3>{% endif %}
     {% capture module %}modules/{{ include.module.type }}.html{% endcapture %}

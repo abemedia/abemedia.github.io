@@ -5,11 +5,54 @@ title: Ecommerce Website Design
 slug: ecommerce-web-design
 image: /images/services/ecommerce.png
 lead: Start selling online fast with our customer-friendly, reliable & secure ecommerce solutions and take advantage of exciting new business opportunities in an ever-growing market.
+previews:
+-
+    xl: /images/portfolio/dsf-manufacturing/dsfmanufacturing-homepage_xl.jpg
+-
+    xl: /images/portfolio/dsf-manufacturing/jewel-case_xl.jpg
+-
+    xl: /images/portfolio/dsf-manufacturing/digipak-dvd_xl.jpg
+-
+    xl: /images/portfolio/dsf-manufacturing/dvd-case_xl.jpg
+-
+    xl: /images/portfolio/dsf-manufacturing/cardboard-wallet_xl.jpg
 sitemap:
     priority: 0.7
     changefreq: monthly
     lastmod: 2013-11-09T7:30:00
 bottom:
+-
+    type: products
+    title: Ecommerce Web Design Packages
+    class: grey
+    params:
+    -
+        title: Ecommerce Basic
+        price: "2,500"
+        icon: shopping-cart
+        features: 
+            - Bespoke design
+            - Search engine friendly code
+            - Sitemap
+            - Remote training
+            - Remote training
+    -
+        title: Ecommerce Pro
+        price: "3,000"
+        icon: shopping-cart
+        features: 
+            - Bespoke design
+            - Search engine friendly code
+            - Sitemap
+            - Remote training
+    -
+        title: Ecommerce Bespoke
+        icon: star
+        features: 
+            - Bespoke design
+            - Search engine friendly code
+            - Sitemap
+            - Remote training
 -
     type: text
     class: orange

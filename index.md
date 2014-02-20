@@ -9,10 +9,10 @@ sitemap:
     changefreq: monthly
     lastmod: 2013-11-09T7:30:00
 top:
-    type: banner 
+    type: _home-banners
     style: raw
     params:
-        title: Turning dreams digital...
+        title: Awesome web design
         nobutton: true
 bottom: 
 -

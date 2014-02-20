@@ -5,11 +5,56 @@ title: Content Management
 slug: content-management-systems-cms
 image: /images/services/joomla-development.png
 lead: From flexible out-of-the-box solutions to bespoke CMS sites, ABE Media are experts at developing innovative, content-driven websites with the popular Joomla CMS.
+previews:
+-
+    xl: /images/portfolio/callaways-estate-agents/callaways-estate-agents-homepage_xl.jpg
+-
+    xl: /images/portfolio/callaways-estate-agents/callaways_xl_property.jpg
+-
+    xl: /images/portfolio/callaways-estate-agents/callaways_xl_newhomes.jpg
+-
+    xl: /images/portfolio/callaways-estate-agents/callaways_xl_blog.jpg
+-
+    xl: /images/portfolio/callaways-estate-agents/callaways_xl_sell.jpg
 sitemap:
     priority: 0.7
     changefreq: monthly
     lastmod: 2013-11-09T7:30:00
-bottom: 
+bottom:
+-
+    type: products
+    title: CMS Web Design Packages
+    class: grey
+    params:
+    -
+        title: CMS Basic
+        price: "1,200"
+        icon: user
+        desc: "Joomla! CMS website featuring:"
+        features: 
+            - Bespoke design
+            - Search engine friendly build
+            - Home, contact & 3 pages
+            - News blog
+            - Sitemap
+    -
+        title: CMS Pro
+        price: "2,000"
+        icon: users
+        desc: "All of the <b>CMS Basic</b> features plus:"
+        features: 
+            - 10 extra pages
+            - Custom user groups & permissions
+            - Social login
+            - 1h remote training
+            - Add your own pages
+    -
+        title: CMS Bespoke
+        icon: star
+        features: 
+            - Bespoke design
+            - Search engine friendly code
+            - Sitemap
 -
     type: text
     class: orange

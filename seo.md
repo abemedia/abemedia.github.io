@@ -4,7 +4,7 @@ category: services
 title: Digital Marketing
 slug: seo
 image: /images/services/seo.png
-lead: Effective SEO & PPC campaigns to increase your traffic, coupled with conversion optimisation to turn visitors into returning customers.
+lead: Effective digital marketing campaigns using SEO & PPC (Pay Per Click) to increase your traffic and the latest techniques in conversion optimisation to turn visitors into returning customers.
 sitemap:
     priority: 0.7
     changefreq: monthly
@@ -17,7 +17,7 @@ bottom:
     -
         title: Organic SEO
         icon: search
-        content: Potential customers are already looking for your products on search engines every day. We boost your search engine ranking by improving on keywords and optimising your site.
+        content: Cost-effective long-term SEO campaigns including on- & off-site optimisation to help your site become more visible in the search engines and give your traffic a boost.
     -
         title: Google Adwords (PPC)
         icon: bar-chart-o
@@ -25,15 +25,14 @@ bottom:
     -
         title: Conversion Optimisation
         icon: tachometer
-        content: ...
+        content: A good conversion rate is fundamental to digital marketing success which is why conversion optimisation is at the heart of all of our campaigns, be it organic SEO or PPC.
 -
     type: services
     title: Our Services
     class: grey
 ---
+## Search Engine Optimisation
 
-Though originally coming from a web design background, ABE Media are experts in graphic design and branding, regardless if its for the web or for print.
+Grow your brand, reach out to new customers and turn visits into sales with our complete SEO & digital marketing packages including organic SEO, pay-per-click advertising (PPC) & conversion rate optimisation. 
 
-Having worked with a diverse set of clients ranging from international companies with offices in numerous countries to SMEs, local shops, freelancers and even independent authors & musicians, we're experienced at producing eye-catching graphic designs targeted to virtually any industry.
-
-Our design services include logos, business cards, flyers & leaflets, brochures, takeaway menus and even covers for CDs/DVDs and books.
+We implement effective digital marketing strategies to boost your traffic, increase sales and deliver an optimal return on investment.

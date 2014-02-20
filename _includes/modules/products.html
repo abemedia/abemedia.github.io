@@ -1,0 +1,18 @@
+<br><br><br>
+<div class="inner">{% capture i %}0{% endcapture %}
+<ul class="box-list equal">{% for post in include.params %}{% capture i %}{{ i | plus:1 }}{% endcapture %}
+  <li>
+    <div class="box">
+	  <div class="ribbon {% if {{i}} == "2" %}orange{% else %}blue{% endif %}"{% if {{i}} == "2" %} style="margin-top:-32px;"{% endif %}>
+	    <div class="ribbon-circle"><i class="fa fa-{{post.icon}} fa-3x"></i></div>
+	    <h3 class="media-heading {% if {{i}} == "2" %}h2{% endif %}">{{post.title}}</h3>
+	    <span class="h4">{% if post.price %}&pound;{{ post.price }}{% else %}On Quotation{% endif %}</span>
+      </div>
+	  {% if post.desc %}<p>{{ post.desc }}</p>{% endif %}
+	  <ul class="list-group">{% for feature in post.features %}
+	    <li class="list-group-item">{{feature}}</li>{% endfor %}
+	  </ul><br>
+	  <a href="#" class="btn btn-success btn-lg btn-block h4">Enquire now</a>
+	</div>{% endfor %}
+</ul>
+</div>

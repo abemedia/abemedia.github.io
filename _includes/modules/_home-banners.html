@@ -1,0 +1,70 @@
+  {% if include.params.title %}{% capture title %}{{ include.params.title }}{% endcapture %}
+  {% else %}{% capture title %}{{ page.title }}{% endcapture %}{% endif %}
+  <div class="jumbotron blue">
+    <div class="inner">
+      <div class="row">
+        <div class="col-md-8">
+		<h1>Awesome<br>
+		  web design</h1>
+		<p>{{ page.lead }}</p>
+	    </div>
+        <div class="col-md-4 text-center">
+		  <div class="jumbo-icon" style="display:block; margin-top: -10px;">
+		  
+		    <div style="position:relative; margin: -40px -70px;">
+			  <div class="device-mockup macbook ">
+				<div class="device">
+				  <div class="screen"><img src="/images/portfolio/intergalactic-music/intergalactic-music-homepage_xl.jpg" alt="" draggable="false" unselectable="on"></div>
+				</div>
+			  </div>
+			  <div class="preview-phone">
+				<div class="device-mockup iphone5">
+				  <div class="device">
+					<div class="screen"><img src="/images/portfolio/intergalactic-music/intergalactic-music-homepage_xs.jpg" alt="" draggable="false" unselectable="on"></div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			
+		  </div>
+		  <div class="sunburst">
+		    <div class="outer">
+			  <b></b>
+			  <b></b>
+			  <b></b>
+			  <b></b>
+			  <b></b>
+			  <b></b>
+			  <b></b>
+			  <b></b>
+			  <b></b>
+			</div>
+		  </div>
+	    </div>
+	  </div>
+	</div>
+  </div>
+  <div class="jumbotron orange">
+    <div class="inner">
+      <div class="row">
+        <div class="col-md-4 text-center">
+	    </div>
+        <div class="col-md-8 text-right">
+		<h1>Cutting edge functionality</h1>
+		<p>{{ page.lead }}</p>
+	    </div>
+	  </div>
+	</div>
+  </div>
+  <div class="jumbotron green">
+    <div class="inner">
+      <div class="row">
+        <div class="col-md-8">
+		<h1>{{ title }}</h1>
+		<p>{{ page.lead }}</p>
+	    </div>
+        <div class="col-md-4 text-center">
+	    </div>
+	  </div>
+	</div>
+  </div>

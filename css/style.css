@@ -252,6 +252,12 @@ body {
 	background-color: #333;
 	background-color: rgba(51, 51, 51, 0.75);
 }
+.carousel-indicators li.active {
+	background-color: #FE9833;
+}
+#carousel .carousel-indicators li.active {
+	background-color: #fff;
+}
 /* Fade transition for carousel items */
 .carousel-fade .carousel-inner .item {
 	opacity: 0;

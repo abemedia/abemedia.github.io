@@ -1,6 +1,6 @@
  {% if include.params.title %}{% capture title %}{{ include.params.title }}{% endcapture %}
   {% else %}{% capture title %}{{ page.title }}{% endcapture %}{% endif %}
-<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="7000">
+<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="7000" data-pause="false">
   <ol class="carousel-indicators">
     <li data-target="#carousel" data-slide-to="0" class="active"></li>
     <li data-target="#carousel" data-slide-to="1"></li>
@@ -14,7 +14,7 @@
             <div class="col-md-8">
               <h1>Awesome<br>
                 web design</h1>
-              <p>{{ page.lead }}</p>
+              <p>We specialise in developing innovative, user-friendly websites that boast eye catching designs and render beautifully on any device.</p>
             </div>
             <div class="col-md-4 text-center">
               <div class="jumbo-icon" style="display:block; margin-top: -10px;">
@@ -48,7 +48,7 @@
             <div class="col-md-4 text-center"></div>
             <div class="col-md-8 text-right">
               <h1>Cutting edge functionality</h1>
-              <p>{{ page.lead }}</p>
+              <p>We can turn your ideas into code with years of experience in creating anything from Joomla! extensions to large bespoke database applications.</p>
             </div>
           </div>
         </div>
@@ -68,4 +68,5 @@
       </div>
     </div>
   </div>
+    <!--a class="left carousel-control" href="#carousel" data-slide="prev"><span class="icon-prev"></span></a> <a class="right carousel-control" href="#carousel" data-slide="next"><span class="icon-next"></span></a--> 
 </div>

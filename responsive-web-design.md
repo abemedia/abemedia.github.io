@@ -44,7 +44,7 @@ bottom:
         content: You avoid duplicate content across multiple URLs and a better browsing experience means lower bounce rates and more time spent on your site.
 -
     type: portfolio
-    title: Responsive Website Design Projects
+    title: Responsive Web Design Projects
     params:
         filter: mobile
 -

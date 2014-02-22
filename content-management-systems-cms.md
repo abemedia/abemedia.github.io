@@ -32,22 +32,22 @@ bottom:
         icon: user
         desc: "<b>Joomla! CMS</b> website featuring:"
         features: 
-            - Bespoke design | We don't use any templates at ABE Media but create the design from scratch according to your specs.
+            - Bespoke design | We don't use any templates at ABE Media but create the design from scratch according to your specifications.
             - Search engine friendly build | We follow the latest coding standards and implement search engine friendly URLs.
-            - Home, contact & 3 pages
-            - News blog
-            - Sitemap | Includes an XML sitemap which is submitted to Google.
+            - Home, contact & 3 pages | We design and populate your front page, contact page and 3 extra pages.
+            - News blog | A blog including RSS feeds and auto-publish to social platforms such as Facebook & Twitter.
+            - Sitemaps | Includes an XML sitemap which is submitted to Google.
     -
         title: CMS Pro
         price: "2,000"
         icon: users
         desc: "All of the <b>CMS Basic</b> features plus:"
         features: 
-            - 10 extra pages
-            - Custom user groups & permissions | We can set up multiple user groups with different editing permissions for your staff members
-            - Social login | Users can log in with their social profiles such as Facebook, Google & LinkedIn.
+            - 10 extra pages | We design and populate up to 10 extra pages.
+            - Backup & recovery service | We take regular backups of your site and should your server go down we restore it on a server of your choice at no charge.
+            - Custom user groups & permissions | We create up to 3 user groups with individual permission sets for your different levels of members.
+            - Social login | We create applications for platforms such as Facebook, Google & LinkedIn to allow your users to sign in with their social profiles without having to enter any data.
             - 1h remote training | We train you and your staff how to use your site.
-            - Add your own pages | Easily add new pages to your website at any time.
     -
         title: CMS Bespoke
         icon: star

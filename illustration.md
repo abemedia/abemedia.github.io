@@ -15,17 +15,17 @@ bottom:
     class: orange
     params:
     -
-        title: Open Source Code
-        icon: code
-        content: Our CMS websites are based on Joomla! which is fully open source and actively developed by a global community of web developers.
+        title: 100% Unique
+        icon: heart
+        content: All illustrations, 3D artwork and animations are completely unique and made to order according to your specifications.
     -
-        title: Simple Management
-        icon: edit
-        content: Joomla! has a simple, intuitive administration interface and we strip out all the clutter to ensure updating your site is child's play.
+        title: Stand out
+        icon: star
+        content: Give your brand a creative personal touch and stand out from the competition with fresh illustrated graphics & animations.
     -
-        title: Easily extendible
-        icon: plus-circle
-        content: Your website is future proof and can be easily extended by custom components & plugins created by our expert Joomla! developers.
+        title: Stress free
+        icon: coffee
+        content: We're experts at creating illustrations, 3D artwork and animations so you can rest assured the whole process is smooth and stress free.
 -
     type: portfolio
     title: Illustration & Animation Projects
@@ -36,9 +36,8 @@ bottom:
     title: Our Services
     class: grey
 ---
+Be it a hand drawn logo or mascot, an animated intro or a completely illustrated website - we give your website a unique touch with beautifully drawn artwork, made with high attention to detail.
 
-Though orginally coming from a web design background, ABE Media are experts in graphic design and branding, regardless if its for the web or for print.
+We can produce illustrations & animations in a wide range of styles including 3D artwork & animations and all our illustrations are always 100% unique and made according to your specifications. 
 
-Having worked with a diverse set of clients ranging from international companies with offices in numerous countries to SMEs, local shops, freelancers and even independent authors & musicians, we're experienced at producing eye-catching graphic designs targeted to virtually any industry.
-
-Our design services include logos, business cards, flyers & leaflets, brochures, takeaway menus and even covers for CDs/DVDs and books.
+For more information on our illustration and animation services please view our products below or get in touch to speak to one of our experts directly.

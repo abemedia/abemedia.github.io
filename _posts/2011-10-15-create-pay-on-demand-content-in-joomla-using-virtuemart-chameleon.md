@@ -11,7 +11,7 @@ Although [Virtuemart](http://www.virtuemart.net/) offers downloadable goods out-
 
 This would normally be quite a task but using a library called JomGenius that comes with [Metamod & Chameleon](http://www.metamodpro.com/) it's actually pretty simple!
 
-##1. Create custom fields in Virtuemart
+## 1. Create custom fields in Virtuemart
 
 First of all we need to create custom fields in Virtuemart to hold the premium content.
 If you're using phpMyAdmin, open your database with it and find the jos_vm_products table.
@@ -29,7 +29,7 @@ alter table jos_vm_product add (
 {% endhighlight %}
 
 
-##2. Include custom fields in Virtuemart admin template
+## 2. Include custom fields in Virtuemart admin template
 
 Now that we have our new custom fields in the Virtuemart database we need to be able to edit their contents from within Virtuemart. To do so open administrator/components/com_virtuemart/html/product.product_form.php and around line 233 find:
 
@@ -81,7 +81,7 @@ insert this code below it, making sure you do so for both the add() and update()
 
 Now it's already possible to start populating Virtuemart with your products from the back-end, they just wont appear on the front-end of your website yet.
 
-##3. Modify Virtuemart product details template
+## 3. Modify Virtuemart product details template
 Next insert the premium content where you want it displayed on your product details page, in my case /components/com_virtuemart/themes/default/templates/product_details/flypage.tpl.php
 
 {% highlight php %}
@@ -107,7 +107,7 @@ As you can see in my example I'm embedding a video using if (defined("ALREADY_PU
 
 Feel free to adapt it to your needs as you could use the same method to display any other type of media such as a audio or video playlist or even an app (by including a php file). The possibilities are endless...
 
-##4. Use Chameleon to check if user has purchased
+## 4. Use Chameleon to check if user has purchased
 This is the magical part. We need to set the variable which decides if the current user is allowed to see our premium content or not.
 This part is actually suprisingly easy! Just [download ChameleonLite](http://www.metamodpro.com/chameleon/download) and install it in your Joomla! backend.
 

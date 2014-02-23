@@ -33,9 +33,9 @@ bottom:
         desc: "<b>Ecommerce</b> website featuring:"
         features: 
             - Bespoke design | We don't use any templates at ABE Media but create the design from scratch according to your specifications.
-            - 5 CMS pages* | We design & populate up to 5 content pages at no charge.
+            - 5 CMS pages | We design & populate up to 5 content pages at no charge.
             - Custom payment gateways | We set up your preferred payment gateways for your eg. PayPal, Google Wallet, SagePay etc.
-            - 50 categories* | We set up a maximum of 50 categories for you.
+            - 50 categories | We set up a maximum of 50 categories for you.
             - 2h remote training | We train you and your staff how to manage orders, add or edit products, manage client accounts etc.
     -
         title: Ecommerce Pro

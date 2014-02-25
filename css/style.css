@@ -86,6 +86,9 @@ footer a:hover {
 	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+.fullrow.orange {
+	padding: 50px 0;
+}
 .fullrow.orange .fa {
 	font-size:8em;
 }

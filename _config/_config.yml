@@ -1,0 +1,11 @@
+title: "ABE Media"
+description: "We're a small, yet highly innovative web design and development company based in Brighton &amp; Hove, East Sussex. Since its incorporation in 2005, ABE Media have been at the forefront of new technology, shaping the future of web design with each and every project."
+baseurl: /
+url: http://abemedia.github.io
+timezone: Europe/London
+image: /images/donjoomla.png
+locale: en_GB
+permalink: /:categories/:title.html
+layout: default
+disqus_shortname: abemedia
+author: Adam Bouqdib

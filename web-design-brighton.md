@@ -5,6 +5,22 @@ title: Web Design & Development
 slug: web-design-brighton
 image: /images/services/web-development.png
 lead: From simple brochure sites to bespoke database driven systems, ABE Media delivers solutions which are fast, user-friendly and fully optimised for search engine performance.
+previews:
+-
+    xl: /images/portfolio/intergalactic-music/intergalactic-music-homepage_xl.jpg
+    xs: /images/portfolio/intergalactic-music/intergalactic-music-homepage_xs.jpg
+-
+    xl: /images/portfolio/intergalactic-music/event_xl.jpg
+    xs: /images/portfolio/intergalactic-music/event_xs.jpg
+-
+    xl: /images/portfolio/intergalactic-music/basket_xl.jpg
+    xs: /images/portfolio/intergalactic-music/basket_xs.jpg
+-
+    xl: /images/portfolio/intergalactic-music/artists_xl.jpg
+    xs: /images/portfolio/intergalactic-music/artists_xs.jpg
+-
+    xl: /images/portfolio/intergalactic-music/artist-profile_xl.jpg
+    xs: /images/portfolio/intergalactic-music/artist-profile_xs.jpg
 sitemap:
     priority: 0.7
     changefreq: monthly

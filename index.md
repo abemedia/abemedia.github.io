@@ -9,7 +9,7 @@ sitemap:
     changefreq: monthly
     lastmod: 2013-11-09T7:30:00
 top:
-    type: _home-banners
+    type: _home-banner
     style: raw
     params:
         title: Awesome web design

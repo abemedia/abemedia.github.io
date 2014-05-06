@@ -51,7 +51,6 @@ bottom:
         desc: "An <b>online shop</b> tailored to your needs including:"
         features: 
             - Event ticket sales
-            - Event ticket sales
             - Downloadable goods (MP3s, ebooks, etc.)
             - Pay-per-view streaming
 -

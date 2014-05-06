@@ -11,15 +11,15 @@
         <li{% if page.category == "services" %} class="active"{% endif %} class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
           <ul class="dropdown-menu">
             {% for item in site.data.services %}
-            <li{% if page.slug == {{item.url}} %} class="active"{% endif %}><a href="{{ site.baseurl }}{{ item.url }}.html">
+            <li{% if page.slug == {{item.url}} %} class="active"{% endif %}><a href="{{ site.baseurl }}{{ item.url }}">
               <img class="hidden-xs img-responsive" src="{{ item.image }}">{{ item.title }}</a></li>
             {% endfor %}
         </ul>
         </li>
         <li{% if page.slug == "portfolio" or page.categories contains "portfolio" %} class="active"{% endif %}><a href="{{ site.baseurl }}portfolio">Portfolio</a></li>
-        <li{% if page.slug == "about" %} class="active"{% endif %}> <a href="{{ site.baseurl }}about.html">About</a></li>
+        <li{% if page.slug == "about" %} class="active"{% endif %}> <a href="{{ site.baseurl }}about">About</a></li>
         <li{% if page.category == "blog" or page.categories contains "blog" %} class="active"{% endif %}> <a href="{{ site.baseurl }}blog">Blog</a></li>
-        <li{% if page.slug == "contact" %} class="active"{% endif %}> <a href="{{ site.baseurl }}contact.html">Contact</a></li>
+        <li{% if page.slug == "contact" %} class="active"{% endif %}> <a href="{{ site.baseurl }}contact">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li class="hidden-sm hidden-xs"><a href="tel:+441273906909">01273 906 909</a></li>

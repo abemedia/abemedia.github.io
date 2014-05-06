@@ -1,19 +1,14 @@
-  {% if include.params.count %}
-  {% capture count %}{{ include.params.count }}{% endcapture %}
-  {% else %}
-  {% capture count %}2{% endcapture %}
-  {% endif %}
   <div class="row">
-    {% capture i %}0{% endcapture %}
-    {% for post in site.categories.portfolio %}
-      {% if {{i}} < {{count}} and post.testimonial %}
     <div class="col-md-6">
       <blockquote>
-        <p>{{ post.testimonial }}</p>
-        <small>{{ post.client }}, {{ post.title }}</small>
+        <p>I was completely overwhelmed by ABE Media's dedication and the ease of use my website provides to its users. All my ideas and hopes have not only been improved significantly but been delivered quickly and efficiently.</p>
+        <small>Arvin Golchin, Gold Estates PPS Ltd.</small>
       </blockquote>
     </div>
-        {% capture i %}{{ i | plus:1 }}{% endcapture %}
-      {% endif %}
-    {% endfor %}
+    <div class="col-md-6">
+      <blockquote>
+        <p>ABE Media did a fantastic job for us! They are highly professional, flexible and accommodated our every need in building us a great website that surpassed our every expectation.</p>
+        <small>Baboucarr Bittaye, Money Pipe Ltd.</small>
+      </blockquote>
+    </div>
   </ul>

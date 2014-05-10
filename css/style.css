@@ -307,6 +307,13 @@ body {
 	background-position: 100% 100%;
 	padding-left: 25px;
 }
+.nav-list>li>ul>li>a {
+	font-size: 12px;
+	padding-left: 25px;
+}
+.nav-list>li>ul>li>a:hover, .nav-list>li>ul>li>a:focus {
+	padding-left: 35px;
+}
 /* Box List
 -------------------------------------------------- */
 .box-list {

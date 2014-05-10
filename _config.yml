@@ -10,3 +10,5 @@ layout: default
 disqus_shortname: abemedia
 author: Adam Bouqdib
 markdown: kramdown
+gems:
+  - jekyll-sitemap

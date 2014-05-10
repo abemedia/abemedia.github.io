@@ -45,6 +45,9 @@ bottom:
         features: 
             - Backup & recovery service | We take regular backups of your site and should your server go down we restore it on a server of your choice at no charge.
             - Social login | We create applications for platforms such as Facebook, Google & LinkedIn to allow your users to sign in with their social profiles without having to enter any data.
+            - 10 CMS pages | We design & populate up to 10 content pages at no charge.
+            - 100 categories | We set up a maximum of 50 categories for you.
+            - 3h remote training | We train you and your staff how to manage orders, add or edit products, manage client accounts etc.
     -
         title: Ecommerce Bespoke
         icon: star
@@ -53,6 +56,7 @@ bottom:
             - Event ticket sales
             - Downloadable goods (MP3s, ebooks, etc.)
             - Pay-per-view streaming
+            - Web-to-print shops
 -
     type: text
     class: orange

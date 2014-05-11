@@ -12,3 +12,4 @@ author: Adam Bouqdib
 markdown: kramdown
 gems:
   - jekyll-sitemap
+relative_permalinks: false

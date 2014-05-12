@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Social sharing made easy"
+title: "Free social sharing service launched"
 categories:
 - Blog
 - Announcements

@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Web Design Agency Brighton &middot; Website Design &amp; Development
-lead: Websites optimised for mobile phones & tablets. <br>Don't miss out on any customers, regardless of what device they are using to browse the web.
+heading: We turn dreams into code...
+lead: We specialise in developing innovative, user-friendly websites that boast eye catching designs and render beautifully on any device.
 slug: home
 image: /images/services/abemedia.png
 sitemap:

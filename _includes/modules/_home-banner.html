@@ -1,12 +1,13 @@
  {% if include.params.title %}{% capture title %}{{ include.params.title }}{% endcapture %}
-  {% else %}{% capture title %}{{ page.title }}{% endcapture %}{% endif %}
+ {% elsif page.heading %}{% capture title %}{{ page.heading }}{% endcapture %}
+ {% else %}{% capture title %}{{ page.title }}{% endcapture %}{% endif %}
 
       <div class="jumbotron blue">
         <div class="inner">
           <div class="row">
             <div class="col-md-8">
-              <h1>Turning dreams into code</h1>
-              <p>We specialise in developing innovative, user-friendly websites that boast eye catching designs and render beautifully on any device.</p>
+              <h1>{{ title }}</h1>
+              <p>{{ page.lead }}</p>
             </div>
             <div class="col-md-4 text-center">
               <div class="jumbo-icon" style="display:block; margin-top: -10px;">

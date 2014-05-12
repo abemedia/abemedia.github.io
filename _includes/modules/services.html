@@ -2,7 +2,7 @@
           {% for item in site.data.services %}
           {% if page.tags == nil or page.tags contains {{item.alias}} %}
           <li><a class="box" href="{{ site.baseurl }}{{ item.url }}">
-            <img src="{{ item.image }}">
+            <img src="{{ item.image }}" alt="{{ item.title }}">
             {% if include.params.desc %}
             <h3 class="media-heading">{{ item.title }}</h3>
             <span class="text-muted">{{ item.desc }}</span>

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Web Design Agency Brighton &middot; Website Design &amp; Development
-heading: We turn dreams into code...
+heading: Turning dreams into code...
 lead: We specialise in developing innovative, user-friendly websites that boast eye catching designs and render beautifully on any device.
 slug: home
 image: /images/services/abemedia.png

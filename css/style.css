@@ -309,10 +309,10 @@ body {
 }
 .nav-list ul>li>a {
 	font-size: 12px;
-	padding-left: 25px;
+	padding-left: 20px;
 }
 .nav-list ul>li>a:hover, .nav-list ul>li>a:focus {
-	padding-left: 35px;
+	padding-left: 30px;
 }
 /* Box List
 -------------------------------------------------- */

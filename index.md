@@ -11,8 +11,6 @@ sitemap:
 top:
     type: _home-banner
     style: raw
-    params:
-        title: Web design made in Brighton
 bottom: 
 -
     type: services

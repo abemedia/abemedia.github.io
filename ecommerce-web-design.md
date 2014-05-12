@@ -31,7 +31,7 @@ bottom:
         title: Ecommerce Basic
         price: "2,500"
         icon: shopping-cart
-        desc: "<b>Ecommerce</b> website featuring:"
+        desc: "<strong>Ecommerce</strong> website featuring:"
         features: 
             - Bespoke design | We don't use any templates at ABE Media but create the design from scratch according to your specifications.
             - 5 CMS pages | We design & populate up to 5 content pages at no charge.
@@ -42,7 +42,7 @@ bottom:
         title: Ecommerce Pro
         price: "3,500"
         icon: shopping-cart
-        desc: "All of the <b>Ecommerce Basic</b> features plus:"
+        desc: "All of the <strong>Ecommerce Basic</strong> features plus:"
         features: 
             - Backup & recovery service | We take regular backups of your site and should your server go down we restore it on a server of your choice at no charge.
             - 10 CMS pages | We design & populate up to 10 content pages at no charge.
@@ -52,7 +52,7 @@ bottom:
     -
         title: Ecommerce Bespoke
         icon: star
-        desc: "An <b>online shop</b> tailored to your needs including:"
+        desc: "<strong>Ecommerce</strong> tailored to your needs including:"
         features: 
             - Event ticket sales
             - Downloadable goods (MP3s, ebooks, etc.)

@@ -11,4 +11,4 @@ ABE Media has evolved over the last few years and turned from a simple **web des
 
 Finally, after months of back and forth to capture the feel of the new ABE Media, we are please to announce the launch of our **brand new website**!
 
-We'd love to hear your feedback on it so feel free to have a look around and [leave a comment](#disqus_thread) or [contact us](/contact) to let us know what you think.
+We'd love to hear your feedback on it so feel free to have a look around and leave a comment or [contact us](/contact) to let us know what you think.

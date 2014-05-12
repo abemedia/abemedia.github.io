@@ -12,7 +12,7 @@
           <ul class="dropdown-menu">
             {% for item in site.data.services %}
             <li{% if page.slug == {{item.url}} %} class="active"{% endif %}><a href="{{ site.baseurl }}{{ item.url }}">
-              <img class="hidden-xs img-responsive" src="{{ item.image }}">{{ item.title }}</a></li>
+              <img class="hidden-xs img-responsive" src="{{ item.image }}" alt="{{ item.title }}">{{ item.title }}</a></li>
             {% endfor %}
         </ul>
         </li>

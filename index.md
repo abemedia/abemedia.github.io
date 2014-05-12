@@ -5,10 +5,7 @@ heading: Turning dreams into code...
 lead: We specialise in developing innovative, user-friendly websites that boast eye catching designs and render beautifully on any device.
 slug: home
 image: /images/services/abemedia.png
-sitemap:
-    priority: 0.7
-    changefreq: monthly
-    lastmod: 2013-11-09T7:30:00
+modified: 2014-05-12T22:00:00
 top:
     type: _home-banner
     style: raw

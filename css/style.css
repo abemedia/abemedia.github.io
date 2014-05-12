@@ -672,6 +672,14 @@ figure:hover img {
 	border-radius: 100%;
 	display: inline-block;
 }
+.jumbo-icon-home {
+	display:block; 
+	margin-top: -10px;
+}
+.jumbo-icon-home>.jumbo-icon-inner {
+	position:relative; 
+	margin: -40px -70px;
+}
 .jumbotron {
 	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);

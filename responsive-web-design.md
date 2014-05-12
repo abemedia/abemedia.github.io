@@ -1,7 +1,8 @@
 ---
 layout: service
 category: services
-title: Responsive Web Design
+title: Responsive Web Design Brighton
+heading: Responsive Web Design
 slug: responsive-web-design
 image: /images/services/mobile-websites.png
 lead: Websites optimised for mobile phones & tablets. <br>Don't miss out on any customers, regardless of what device they are using to browse the web.

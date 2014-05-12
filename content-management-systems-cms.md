@@ -1,7 +1,8 @@
 ---
 layout: service
 category: services
-title: Content Management
+title: Content Management System (CMS) development in Brighton
+heading: Content Management
 slug: content-management-systems-cms
 image: /images/services/joomla-development.png
 lead: From flexible out-of-the-box solutions to bespoke CMS sites, ABE Media are experts at developing innovative, content-driven websites with the popular Joomla CMS.

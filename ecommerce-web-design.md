@@ -1,7 +1,8 @@
 ---
 layout: service
 category: services
-title: Ecommerce Website Design
+title: Bespoke Ecommerce Web Design in Brighton
+heading: Ecommerce Website Design
 slug: ecommerce-web-design
 image: /images/services/ecommerce.png
 lead: Start selling online fast with our customer-friendly, reliable & secure ecommerce solutions and take advantage of exciting new business opportunities in an ever-growing market.

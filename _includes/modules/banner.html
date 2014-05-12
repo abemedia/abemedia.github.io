@@ -1,4 +1,5 @@
   {% if include.params.title %}{% capture title %}{{ include.params.title }}{% endcapture %}
+  {% elsif page.heading %}{% capture title %}{{ page.heading }}{% endcapture %}
   {% else %}{% capture title %}{{ page.title }}{% endcapture %}{% endif %}
   <div class="jumbotron {{ include.params.class }}">
     <div class="inner">

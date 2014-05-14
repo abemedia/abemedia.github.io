@@ -842,3 +842,24 @@ figure:hover img {
 	cursor: help;
 	color: #23869D;
 }
+
+/* Blog
+-------------------------------------------------- */
+.article-header {
+	padding-bottom: 30px;
+	position: relative;
+}
+.article-info, .article-info:hover {
+	position: absolute;
+	top: 100%;
+	width: 130px;
+	left: 40px;
+	text-align: center;
+	color: #5a5a5a;
+}
+.article-info img {
+	margin-bottom: 10px;
+}
+.article-content {
+	margin-left: 200px;
+}

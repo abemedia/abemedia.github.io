@@ -6,7 +6,7 @@ right:
     style: raw
 ---
 <article>
-  <header>
+  <header class="article-header">
     <h1 class="page-header">{{ page.title }}</h1>
     <div class="don-share" data-limit="3">
       <div class="don-share-total"></div>
@@ -25,8 +25,14 @@ right:
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dr);
       })();
     </script>
+    <img alt="{{ page.title }}" src="{{ page.image }}">
+    <a href="/author/adam-bouqdib" class="article-info" rel="author">
+      <img class="img-thumbnail img-circle" alt="Adam Bouqdib" src="/images/people/adam-bouqdib.jpg">
+      <span class="h5">By Adam Bouqdib</span>
+	  <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ site.time | date_to_string }}</time>
+    </a>
   </header>
-  <img alt="{{ page.title }}" src="{{ page.image }}"><br><br>
-  {{ content }} </article>
+  <div class="article-content">{{ content }}</div>
+</article>
 <hr>
 <div id="disqus_thread"></div>

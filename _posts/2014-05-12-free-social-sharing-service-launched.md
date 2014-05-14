@@ -4,7 +4,7 @@ title: "Free social sharing service launched"
 categories:
 - Blog
 - Announcements
-image: "/images/blog/abemedia-logo.jpg"
+image: "/images/blog/simple-social-share-buttons.jpg"
 ---
 
 You might have noticed the gorgeous social sharing buttons we have on some of our clients' sites and right here on our blog...  

@@ -853,7 +853,7 @@ figure:hover img {
 	position: absolute;
 	top: 100%;
 	width: 130px;
-	left: 40px;
+	left: 30px;
 	text-align: center;
 	color: #5a5a5a;
 }
@@ -861,5 +861,5 @@ figure:hover img {
 	margin-bottom: 10px;
 }
 .article-content {
-	margin-left: 200px;
+	margin-left: 190px;
 }

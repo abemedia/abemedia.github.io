@@ -4,7 +4,7 @@ title: "Web design for charity AudioActive Youth Music Project"
 categories:
 - Blog
 - Announcements
-image: /images/blog/audioactive-logo.jpg
+image: /images/blog/audioactive.jpg
 published: true
 ---
 
@@ -13,5 +13,3 @@ Local Brighton charity AudioActive needed a new website designed to promote thei
 Coming from a music background we at ABE Media were thrilled to help them by setting up a content management system to their specifications free of charge.
 
 For more information on how to get involved visit <http://www.audioactive.org.uk> or to donate visit <https://secure.thebiggive.org.uk/donate/donate.php?charity_id=8255>
-
-![AudioActive](/images/blog/audioactive.jpg "AudioActive")

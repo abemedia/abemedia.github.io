@@ -1,12 +1,15 @@
  {% if include.params.title %}{% capture title %}{{ include.params.title }}{% endcapture %}
  {% elsif page.heading %}{% capture title %}{{ page.heading }}{% endcapture %}
  {% else %}{% capture title %}{{ page.title }}{% endcapture %}{% endif %}
-
+      <div class="sr-only">
+        <h1>Web design agency in Brighton</h1>
+	    <p>We are a small web design agency based in Brighton, providing website design, web development and graphic design services to clients in the UK, Germany and the middle east.</p>
+      </div>
       <div class="jumbotron blue">
         <div class="inner">
           <div class="row">
             <div class="col-md-8">
-              <h1>{{ title }}</h1>
+              <div class="h1">{{ title }}</div>
               <p>{{ page.lead }}</p>
             </div>
             <div class="col-md-4 text-center">

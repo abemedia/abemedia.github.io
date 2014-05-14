@@ -29,7 +29,7 @@ right:
     <a href="/author/adam-bouqdib" class="article-info" rel="author">
       <img class="img-thumbnail img-circle" alt="Adam Bouqdib" src="/images/people/adam-bouqdib.jpg">
       <span class="h5">By Adam Bouqdib</span>
-	  <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ site.time | date_to_string }}</time>
+	  <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
     </a>
   </header>
   <div class="article-content">{{ content }}</div>

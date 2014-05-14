@@ -6,7 +6,11 @@
   {% if page.sitemap != null and page.sitemap != empty %}
   <url>
     <loc>{{ site.url }}{{ page.url | remove: 'index' | remove: '.html' }}</loc>
-    <lastmod>{{ page.sitemap.lastmod | date_to_xmlschema }}</lastmod>
+    {% if page.modified == null %}
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    {% else %}
+    <lastmod>{{ page.modified | date_to_xmlschema }}</lastmod>
+    {% endif %}
     <changefreq>{{ page.sitemap.changefreq }}</changefreq>
     <priority>{{ page.sitemap.priority }}</priority>
   </url>

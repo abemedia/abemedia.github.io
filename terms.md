@@ -62,7 +62,7 @@ We will endeavour to maintain network stability and satisfactory service levels,
 
 ## Search Engine Promotion
 
-When undertaking a new contract, ABE Media will code the client"s site to be search engine friendly. If the client wishes to take out an ongoing Search Engine Optimisation contract, this will take the form of a seperate agreement to the website contract. In the absence of a Search Engine Optimisation contract, ABE Media is not responsible for ongoing site promotion.
+When undertaking a new contract, ABE Media will code the client's site to be search engine friendly. If the client wishes to take out an ongoing Search Engine Optimisation contract, this will take the form of a separate agreement to the website contract. In the absence of a Search Engine Optimisation contract, ABE Media is not responsible for ongoing site promotion.
 
 ABE Media provides Search Optimisation services including link sourcing, link placement, on-site optimisation, traffic analytics and search engine rank position monitoring.
 
@@ -115,10 +115,6 @@ ABE Media develops websites in accordance with the client's specifications. It i
 ## Design Credit
 
 A link to ABE Media will appear in either small type or by a small graphic at the bottom of the client's website. If a graphic is used, ABE Media will design it to be sympathetic to the overall site design.
-
-## Complaints Policy
-
-For our Complaints Policy please refer to: [this page](http://www.ABE Media.co.uk/complaints-policy).
 
 ## Notes
 

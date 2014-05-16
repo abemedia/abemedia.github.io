@@ -43,9 +43,9 @@ The client agrees to make available as soon as is reasonably possible to ABE Med
 
 ## 	Registration Charges
 
-All third party costs arising from the registration of a domain name shall be met by the client. The rate for a .co.uk domain registration is £25 ex. VAT. For other domain registration prices please contact ABE Media. Domain names registered on behalf of the client by ABE Media are property of the client. In these circumstances, ABE Media acts as administrator on the client's behalf. ABE Media agrees to transfer any domain names to the client immediately upon request.
+All third party costs arising from the registration of a domain name shall be met by the client. The rate for a .co.uk domain registration is £5 ex. VAT. For other domain registration prices please contact ABE Media. Domain names registered on behalf of the client by ABE Media are property of the client. In these circumstances, ABE Media acts as administrator on the client's behalf. ABE Media agrees to transfer any domain names to the client immediately upon request.
 
-For full Domain Name Registration Terms and Conditions see the [Nominet website](http://www.nominet.org.uk/registrants/aboutdomainnames/legal/terms/).
+For full Domain Name Registration Terms and Conditions see the [ABE Host website](http://abehost.co.uk/terms.php).
 
 ## Web and Email Hosting
 

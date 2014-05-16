@@ -4,6 +4,9 @@ title: "Free social sharing service launched"
 categories:
 - Blog
 - Announcements
+tags:
+- social
+- api
 image: "/images/blog/simple-social-share-buttons.jpg"
 ---
 

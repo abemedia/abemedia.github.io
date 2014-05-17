@@ -3,6 +3,11 @@ layout: default
 title: About Us
 slug: about
 modified: 2014-05-12T21:30:00
+bottom: 
+-
+    type: testimonials
+    title: What our clients say
+    class: grey
 ---
 # Who we are
 

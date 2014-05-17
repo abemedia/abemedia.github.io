@@ -579,9 +579,22 @@ figure:hover img {
 .grey {
 	background: #f6f6f6;
 }
+.jumbotron::after {
+	box-shadow:inset 0 0 100px 50px #f6f6f6;
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+}
 .orange {
 	background: #FE9833;
 	color:#fff;
+}
+.jumbotron.orange::after {
+	box-shadow:inset 0 0 100px 50px #FE9833;
 }
 .orange h1, .orange .h1,
 .orange h2, .orange .h2,
@@ -604,6 +617,9 @@ figure:hover img {
 	background: #26BE4E;
 	color:#fff;
 }
+.jumbotron.green::after {
+	box-shadow:inset 0 0 100px 50px #26BE4E;
+}
 .green h1, .green .h1,
 .green h2, .green .h2,
 .green h3, .green .h3,
@@ -625,6 +641,9 @@ figure:hover img {
 	background: #23869D;
 	color:#fff;
 }
+.jumbotron.blue::after {
+	box-shadow:inset 0 0 100px 50px #23869D;
+}
 .blue h1, .blue .h1,
 .blue h2, .blue .h2,
 .blue h3, .blue .h3,
@@ -641,16 +660,6 @@ figure:hover img {
 		#0B5566 .08em .08em 0, 
 		#0B5566 .09em .09em 0, 
 		#0B5566 .1em .1em 0;
-}
-.jumbotron.blue::after {
-	box-shadow:inset 0 0 100px 50px #23869D;
-	position: absolute;
-	content: "";
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	z-index: -1;
 }
 /* Jumbotron
 -------------------------------------------------- */

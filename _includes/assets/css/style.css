@@ -874,6 +874,7 @@ figure:hover img {
 -------------------------------------------------- */
 .avatar, .avatar:hover, .avatar:active, .avatar:focus {
 	color: #5a5a5a;
+    display: block;
 }
 .avatar>img {
     border-radius: 50%;

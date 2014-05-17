@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Us
+title: About Us &middot; Website Designers in Brighton
 slug: about
 modified: 2014-05-12T21:30:00
 bottom: 
@@ -12,6 +12,6 @@ bottom:
 # Who we are
 
 ABE Media are a small, yet highly innovative web design and development company based in Brighton & Hove, East Sussex.  
-Since its incorporation in 2005, ABE Media have been at the forefront of new technology, shaping the future of web design with each and every project.
+We aren't a web design agency in the traditional sense though - more so a collective of highly skilled individuals with years of experience in creating functional yet beautiful products and new business opportunities for a socially connected digital world. 
 
-&nbsp;
+We don't pride ourselves in flashy offices or big corporate investments, but rather in innovative, user friendly web applications, cutting edge technology, beautiful artwork and digital marketing campaigns that simply work.

@@ -858,20 +858,31 @@ figure:hover img {
 	padding-bottom: 30px;
 	position: relative;
 }
-.article-info, .article-info:hover {
+.article-info {
 	position: absolute;
 	top: 100%;
 	width: 130px;
 	left: 30px;
 	text-align: center;
 }
-.article-info>a, .article-info>a:hover {
-	color: #5a5a5a;
-}
-.article-info img {
-	margin-bottom: 10px;
-}
 .article-content {
 	margin-left: 190px;
 	min-height: 200px;
+}
+
+/* Avatar
+-------------------------------------------------- */
+.avatar, .avatar:hover, .avatar:active, .avatar:focus {
+	color: #5a5a5a;
+}
+.avatar>img {
+    border-radius: 50%;
+	margin-bottom: 10px;
+	-webkit-transition: all 0.25s ease-in;
+	-moz-transition: all 0.25s ease-in;
+	-o-transition: all 0.25s ease-in;
+	-ms-transition: all 0.25s ease-in;
+}
+.avatar:hover>img, .avatar:active>img, .avatar:focus>img {
+    border-color: #F59331;
 }

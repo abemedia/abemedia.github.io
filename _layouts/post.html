@@ -27,8 +27,8 @@ right:
     </script>
     <img alt="{{ page.title }}" src="{{ page.image }}">
     <div class="article-info">
-      <a href="/author/{{ page.author | replace: " ","-" | downcase  }}" rel="author">
-        <img class="img-thumbnail img-circle" alt="{{ page.author }}" src="/images/people/{{ page.author | replace: " ","-" | downcase  }}.jpg">
+      <a href="/author/{{ page.author | replace: " ","-" | downcase  }}" rel="author" class="avatar">
+        <img class="img-thumbnail" alt="{{ page.author }}" src="/images/people/{{ page.author | replace: " ","-" | downcase  }}.jpg">
         <span class="h5">By {{ page.author }}</span>
       </a>
 	<time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>

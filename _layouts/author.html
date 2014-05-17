@@ -1,25 +1,30 @@
 --- 
 layout: default 
 ---
+{% for item in site.data.team %}
+{% if item.alias == page.slug %}
 <div class="inner">
-  <h1 class="page-header">About {{ page.title }}</h1>
+  <h1 class="page-header">{{ item.name }} <small>{{ item.role }}</small></h1>
   <div class="row">
     <div class="col-sm-4 text-center">
-      <p><img src="{{ site.baseurl }}images/people/{{ page.slug }}-xl.jpg" alt="" class="img-thumbnail img-circle hidden-xs" /></p>
-      <p>{% if page.twitter %}
-        <a target="_blank" class="btn btn-default btn-xs" href="https://twitter.com/{{ page.twitter }}"><i class="fa fa-twitter"></i> Twitter</a>
-        {% endif %}{% if page.google %}
-        <a target="_blank" class="btn btn-default btn-xs" href="https://plus.google.com/{{ page.google }}" rel="me"><i class="fa fa-google-plus"></i> Google+</a>
-        {% endif %}{% if page.linkedin %}
-        <a target="_blank" class="btn btn-default btn-xs" href="http://www.linkedin.com/in/{{ page.linkedin }}"><i class="fa fa-linkedin"></i> LinkedIn</a>
-        {% endif %}{% if page.github %}
-        <a target="_blank" class="btn btn-default btn-xs" href="http://www.github.com/{{ page.github }}"><i class="fa fa-github"></i> GitHub</a>{% endif %}
+      <p><img src="{{ site.baseurl }}images/people/{{ item.alias }}-xl.jpg" alt="" class="img-thumbnail img-circle hidden-xs" /></p>
+      <p>{% if item.links.twitter %}
+        <a title="Twitter" target="_blank" href="https://twitter.com/{{ item.links.twitter }}"><i class="fa fa-fw fa-2x fa-twitter"></i></a>
+        {% endif %}{% if item.links.linkedin %}
+        <a title="LinkedIn" target="_blank" href="http://www.linkedin.com/in/{{ item.links.linkedin }}"><i class="fa fa-fw fa-2x fa-linkedin"></i></a>
+        {% endif %}{% if item.links.google %}
+        <a title="Google+" target="_blank" href="https://plus.google.com/{{ item.links.google }}" rel="me"><i class="fa fa-fw fa-2x fa-google-plus"></i></a>
+        {% endif %}{% if item.links.github %}
+        <a title="GitHub" target="_blank" href="http://www.github.com/{{ item.links.github }}"><i class="fa fa-fw fa-2x fa-github"></i> </a>{% endif %}{% if item.links.stackoverflow %}
+        <a title="Stack Overflow" target="_blank" href="https://careers.stackoverflow.com/{{ item.links.stackoverflow }}"><i class="fa fa-fw fa-2x fa-stack-overflow"></i></a>{% endif %}
       </p>
     </div>
     <div class="col-sm-8">
-      <blockquote>{{ content }}</blockquote>
+      <blockquote>{{ item.about | newline_to_br }}</blockquote>
     </div>
   </div>
 </div>
+{% endif %}
+{% endfor %}
 <hr />
   

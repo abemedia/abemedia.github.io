@@ -14,6 +14,10 @@ top:
     params:
         class: orange
 bottom: 
+# -
+#    type: team
+#    title: Meet the team
+#    class: grey
 -
     type: testimonials
     title: What our clients say

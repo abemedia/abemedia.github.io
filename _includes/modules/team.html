@@ -1,0 +1,21 @@
+  <ul class="box-list">
+    {% for item in site.data.team %}  
+    <li><div class="box">
+      <a href="{{ site.baseurl }}author/{{ item.alias }}" class="avatar">
+        <img src="{{ site.baseurl }}images/people/{{ item.alias }}-xl.jpg" alt="" class="img-thumbnail" />
+        <h4>{{ item.name }}<br><small>{{ item.role }}</small></h4>
+      </a>
+      <p class="lead">{% if item.links.twitter %}
+        <a title="Twitter" target="_blank" class="btn btn-default" href="https://twitter.com/{{ item.links.twitter }}"><i class="fa fa-fw fa-twitter"></i></a>
+        {% endif %}{% if item.links.google %}
+        <a title="Google+" target="_blank" class="btn btn-default" href="https://plus.google.com/{{ item.links.google }}" rel="me"><i class="fa fa-fw fa-google-plus"></i></a>
+        {% endif %}{% if item.links.linkedin %}
+        <a title="LinkedIn" target="_blank" class="btn btn-default" href="http://www.linkedin.com/in/{{ item.links.linkedin }}"><i class="fa fa-fw fa-linkedin"></i></a>
+        {% endif %}{% if item.links.github %}
+        <a title="GitHub" target="_blank" class="btn btn-default" href="http://www.github.com/{{ item.links.github }}"><i class="fa fa-fw fa-github"></i> </a>{% endif %}{% if item.links.stackoverflow %}
+        <a title="Stack Overflow" target="_blank" class="btn btn-default" href="https://careers.stackoverflow.com/{{ item.links.stackoverflow }}"><i class="fa fa-fw fa-stack-overflow"></i></a>{% endif %}
+      </p>
+      <p>{{ item.about | newline_to_br }}</p>
+      </div>
+    {% endfor %}
+  </ul>

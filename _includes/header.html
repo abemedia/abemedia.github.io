@@ -1,16 +1,16 @@
-    {% if page.title == site.name %}{% capture title %}{{ site.title }}{% endcapture %}
-    {% else %}{% capture title %}{{ page.title }} &middot; {{ site.title }}{% endcapture %}{% endif %}
     {% if page.description %}{% capture description %}{{ page.description }}{% endcapture %}
-    {% elsif page.excerpt %}{% capture description %}{{ page.excerpt | strip_html }}{% endcapture %}
     {% elsif page.lead %}{% capture description %}{{ page.lead | strip_html }}{% endcapture %}
+    {% elsif page.excerpt %}{% capture description %}{{ page.excerpt | strip_html }}{% endcapture %}
     {% else %}{% capture description %}{{ site.description }}{% endcapture %}{% endif %}
     {% if page.image %}{% capture image %}{{ site.url }}{{ page.image }}{% endcapture %}
     {% else %}{% capture image %}{{ site.url }}{{ site.image }}{% endcapture %}{% endif %}
+    {% if page.author %}{% capture author %}{{ page.author }}{% endcapture %}
+    {% else %}{% capture author %}{{ site.author }}{% endcapture %}{% endif %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>{{ title }}</title>
+    <title>{{ page.title }} &middot; {{ site.title }}</title>
     <meta name="description" content="{{ description }}">
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
@@ -18,10 +18,10 @@
     <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/images/touch-icon-76x76-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/touch-icon-120x120-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/touch-icon-152x152-precomposed.png">
-    <meta name="author" content="Adam Bouqdib">
+    <meta name="author" content="{{ author }}">
     <link rel="canonical" href="{{ site.url }}{{ page.url | remove:"index" | remove:".html" }}" />
     
-    <meta property="og:title" content="{{ title }}" />
+    <meta property="og:title" content="{{ page.title }} &middot; {{ site.title }}" />
     <meta property="og:description" content="{{ description }}" />
     <meta property="og:image" content="{{ image }}" />
     <meta property="og:type" content="website" />

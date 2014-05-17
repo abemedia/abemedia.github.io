@@ -8,6 +8,7 @@ tags:
 - social
 - api
 image: "/images/blog/simple-social-share-buttons.jpg"
+author: Adam Bouqdib
 ---
 
 You might have noticed the gorgeous social sharing buttons we have on some of our clients' sites and right here on our blog...  

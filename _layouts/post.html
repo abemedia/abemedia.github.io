@@ -26,11 +26,13 @@ right:
       })();
     </script>
     <img alt="{{ page.title }}" src="{{ page.image }}">
-    <a href="/author/adam-bouqdib" class="article-info" rel="author">
-      <img class="img-thumbnail img-circle" alt="Adam Bouqdib" src="/images/people/adam-bouqdib.jpg">
-      <span class="h5">By Adam Bouqdib</span>
-	  <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
-    </a>
+    <div class="article-info">
+      <a href="/author/{{ page.author | replace: " ","-" | downcase  }}" rel="author">
+        <img class="img-thumbnail img-circle" alt="{{ page.author }}" src="/images/people/{{ page.author | replace: " ","-" | downcase  }}.jpg">
+        <span class="h5">By {{ page.author }}</span>
+      </a>
+	<time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
+    </div>
   </header>
   <div class="article-content">{{ content }}</div>
 </article>

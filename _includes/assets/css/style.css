@@ -864,6 +864,8 @@ figure:hover img {
 	width: 130px;
 	left: 30px;
 	text-align: center;
+}
+.article-info>a, .article-info>a:hover {
 	color: #5a5a5a;
 }
 .article-info img {

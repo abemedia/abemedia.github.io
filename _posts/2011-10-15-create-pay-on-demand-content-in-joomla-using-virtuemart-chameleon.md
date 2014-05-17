@@ -10,6 +10,7 @@ tags:
 - ecommerce
 image: "/images/blog/pay-per-view.jpg"
 published: true
+author: Adam Bouqdib
 ---
 
 Although [Virtuemart](http://www.virtuemart.net/) offers downloadable goods out-the-box this isn't always ideal. Say for example you run a premium (paid) video or article service and you don't just want your visitors to be able to download the content they have bought but want them to be able to view it directly on your site whilst displaying a teaser to those who haven't paid yet.

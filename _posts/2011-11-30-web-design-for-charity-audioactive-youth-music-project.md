@@ -6,6 +6,7 @@ categories:
 - Announcements
 image: /images/blog/audioactive.jpg
 published: true
+author: Adam Bouqdib
 ---
 
 Local Brighton charity AudioActive needed a new website designed to promote their youth music project and reach more funders. They have done great work helping underpriviledged kids in Brighton nurture their creative talents and give them an opportunity to make it as performing artists, their most recent success story being the urban music duo Rizzle Kicks.

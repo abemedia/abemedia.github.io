@@ -6,6 +6,7 @@ categories:
 - Announcements
 image: "/images/blog/abemedia-logo.jpg"
 published: true
+author: Adam Bouqdib
 ---
 
 We have finally launched our new site with a fresh website design. 

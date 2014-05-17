@@ -175,7 +175,7 @@ $(".preview-img").drags({
 	cursor: "ns-resize"
 });
 
-var disqus_shortname = 'abemedia';
+var disqus_shortname = '{{ site.disqus_shortname }}';
 if ($("#disqus_thread").length > 0) {
 	(function() {
 		var dsq = document.createElement('script');

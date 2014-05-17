@@ -46,11 +46,11 @@ Now that we have our new custom fields in the Virtuemart database we need to be 
 {% highlight html+php %}
    <tr class="row1"> 
       <td width="21%"><div style="text-align:right;font-weight:bold;">
-      	<?php echo $VM_LANG->_('PHPSHOP_PRODUCT_FORM_URL') ?>:</div>
-     	</td>
-     	<td width="79%"> 
-       	<input type="text" class="inputbox"  name="product_url" value="<?php $db->sp("product_url"); ?>" size="32" maxlength="255" />
-     	</td>
+          <?php echo $VM_LANG->_('PHPSHOP_PRODUCT_FORM_URL') ?>:</div>
+         </td>
+         <td width="79%"> 
+           <input type="text" class="inputbox"  name="product_url" value="<?php $db->sp("product_url"); ?>" size="32" maxlength="255" />
+         </td>
    </tr>
 {% endhighlight %}
 
@@ -58,20 +58,20 @@ Insert the following straight below:
 
 {% highlight html+php %}
   <tr class="row2"> 
-  	<td width="21%"><div style="text-align:right;font-weight:bold;">
-    	<?php echo $VM_LANG->_('PHPSHOP_PRODUCT_PREMIUM_CONTENT') ?>:</div>
-  	</td>
-  	<td width="79%"> 
-    	<input type="text" class="inputbox"  name="product_premium_content" value="<?php $db->sp("product_url"); ?>" size="32" maxlength="255" />
-  	</td>
+      <td width="21%"><div style="text-align:right;font-weight:bold;">
+        <?php echo $VM_LANG->_('PHPSHOP_PRODUCT_PREMIUM_CONTENT') ?>:</div>
+      </td>
+      <td width="79%"> 
+        <input type="text" class="inputbox"  name="product_premium_content" value="<?php $db->sp("product_url"); ?>" size="32" maxlength="255" />
+      </td>
   </tr>
   <tr class="row1"> 
-  	<td width="21%"><div style="text-align:right;font-weight:bold;">
-    	<?php echo $VM_LANG->_('PHPSHOP_PRODUCT_PREMIUM_TEASER') ?>:</div>
-  	</td>
-  	<td width="79%"> 
-    	<input type="text" class="inputbox"  name="product_premium_teaser" value="<?php $db->sp("product_url"); ?>" size="32" maxlength="255" />
-  	</td>
+      <td width="21%"><div style="text-align:right;font-weight:bold;">
+        <?php echo $VM_LANG->_('PHPSHOP_PRODUCT_PREMIUM_TEASER') ?>:</div>
+      </td>
+      <td width="79%"> 
+        <input type="text" class="inputbox"  name="product_premium_teaser" value="<?php $db->sp("product_url"); ?>" size="32" maxlength="255" />
+      </td>
   </tr>
 {% endhighlight %}
 

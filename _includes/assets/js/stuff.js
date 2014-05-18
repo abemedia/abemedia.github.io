@@ -54,7 +54,6 @@ if ($(".toc").length > 0) {
 }
 
 //portfolio previews
-
 function previews() {
 	var index = 0;
 	$(".active .preview").each(function(i, e) {
@@ -177,13 +176,35 @@ $(".preview-img").drags({
 
 var disqus_shortname = '{{ site.disqus_shortname }}';
 if ($("#disqus_thread").length > 0) {
-	(function() {
-		var dsq = document.createElement('script');
-		dsq.type = 'text/javascript';
-		dsq.async = true;
-		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-	})();
+    var comments = document.getElementById('disqus_thread'),
+        disqusLoaded=false;
+        
+    function loadDisqus() {
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        disqusLoaded = true;
+    }
+    
+    function findTop(obj) {
+        var curtop = 0;
+        if (obj.offsetParent) {
+            do {
+                curtop += obj.offsetTop;
+            } while (obj = obj.offsetParent);
+            return curtop;
+        }
+    }
+    
+    if(window.location.hash.indexOf('#disqus_thread') > 0) loadDisqus();
+    if(comments) {
+        var commentsOffset = findTop(comments);
+        window.onscroll = function() {
+            if(!disqusLoaded && window.pageYOffset > commentsOffset - 1500) loadDisqus();
+        }
+    }
 }
 if ($(".comment-link").length > 0) {
 	(function () {

@@ -2,6 +2,9 @@
     {% elsif page.lead %}{% capture description %}{{ page.lead | strip_html }}{% endcapture %}
     {% elsif page.excerpt %}{% capture description %}{{ page.excerpt | strip_html }}{% endcapture %}
     {% else %}{% capture description %}{{ site.description }}{% endcapture %}{% endif %}
+    {% if page.keywords %}{% capture keywords %}{{ page.keywords }}{% endcapture %}
+    {% elsif page.tags %}{% capture keywords %}{{ page.tags | join: ', ' }}{% endcapture %}
+    {% else %}{% capture keywords %}{{ site.keywords }}{% endcapture %}
     {% if page.image %}{% capture image %}{{ site.url }}{{ page.image }}{% endcapture %}
     {% else %}{% capture image %}{{ site.url }}{{ site.image }}{% endcapture %}{% endif %}
     {% if page.author %}{% capture author %}{{ page.author }}{% endcapture %}
@@ -12,6 +15,7 @@
     
     <title>{{ page.title }} &middot; {{ site.title }}</title>
     <meta name="description" content="{{ description }}">
+    <meta name="keywords" content="{{ keywords }}">
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon-precomposed" href="/images/touch-icon-precomposed.png">

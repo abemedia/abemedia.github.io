@@ -4,7 +4,7 @@
     {% else %}{% capture description %}{{ site.description }}{% endcapture %}{% endif %}
     {% if page.keywords %}{% capture keywords %}{{ page.keywords }}{% endcapture %}
     {% elsif page.tags %}{% capture keywords %}{{ page.tags | join: ', ' }}{% endcapture %}
-    {% else %}{% capture keywords %}{{ site.keywords }}{% endcapture %}
+    {% else %}{% capture keywords %}{{ site.keywords }}{% endcapture %}{% endif %}
     {% if page.image %}{% capture image %}{{ site.url }}{{ page.image }}{% endcapture %}
     {% else %}{% capture image %}{{ site.url }}{{ site.image }}{% endcapture %}{% endif %}
     {% if page.author %}{% capture author %}{{ page.author }}{% endcapture %}

@@ -62,7 +62,7 @@ section:before, section:after {
 	display: inline-block;
 	background: rgba(255,255,255,0.5);
 }
-footer {
+body>footer {
 	padding-top: 40px;
 	padding-bottom: 30px;
 	color: #fff;
@@ -73,10 +73,10 @@ footer {
 	right:0;
 	bottom:0;
 }
-footer a {
+body>footer a {
 	color: #fff;
 }
-footer a:hover {
+body>footer a:hover {
 	color:#F59331;
 }
 .fullrow {

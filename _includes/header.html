@@ -35,9 +35,9 @@
     {% if site.facebook_app %}<meta property="fb:app_id" content="{{ site.facebook_app }}" />{% endif %}
     
     <meta name="twitter:card" content="summary"/>
-    <meta name="twitter:site" content="@abemedia"/>
+    <meta name="twitter:site" content="@{{ site.twitter }}"/>
     <meta name="twitter:domain" content="{{ site.url }}"/>
-    <meta name="twitter:creator" content="@abemedia"/>
+    <meta name="twitter:creator" content="@{{ site.twitter }}"/>
     
     <link rel='stylesheet' href="{{ site.baseurl }}assets/style.css" />
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->

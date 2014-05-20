@@ -11,7 +11,9 @@ layout: default
 disqus_shortname: abemedia
 author: Adam Bouqdib
 markdown: kramdown
-facebook_app: 276049565908648
 gems:
   - jekyll-sitemap
 relative_permalinks: false
+
+facebook_app: 276049565908648
+twitter: abemedia

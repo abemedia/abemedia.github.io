@@ -887,3 +887,7 @@ figure:hover img {
 .avatar:hover>img, .avatar:active>img, .avatar:focus>img {
     border-color: #F59331;
 }
+
+#disqus_thread {
+	margin-left: 190px;
+}

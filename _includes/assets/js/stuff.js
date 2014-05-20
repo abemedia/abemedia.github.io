@@ -175,6 +175,7 @@ $(".preview-img").drags({
 });
 
 var disqus_shortname = '{{ site.disqus_shortname }}';
+var disqus_url = $("link[rel='canonical']").attr("href");
 if ($("#disqus_thread").length > 0) {
     var comments = document.getElementById('disqus_thread'),
         disqusLoaded=false;

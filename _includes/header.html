@@ -32,6 +32,7 @@
     <meta property="og:site_name" content="{{ site.title }}"/>
     <meta property="og:locale" content="{{ site.locale }}"/>
     <meta property="og:url" content="{{ site.url }}{{ page.url | remove:"index" | remove:".html" }}" />
+    {% if site.facebook_app %}<meta property="fb:app_id" content="{{ site.facebook_app }}" />{% endif %}
     
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="@abemedia"/>

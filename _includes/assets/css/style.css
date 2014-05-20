@@ -869,6 +869,9 @@ figure:hover img {
 	margin-left: 190px;
 	min-height: 200px;
 }
+.article-comments {
+	margin-left: 190px;
+}
 
 /* Avatar
 -------------------------------------------------- */
@@ -886,8 +889,4 @@ figure:hover img {
 }
 .avatar:hover>img, .avatar:active>img, .avatar:focus>img {
     border-color: #F59331;
-}
-
-#disqus_thread {
-	margin-left: 190px;
 }

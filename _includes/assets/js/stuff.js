@@ -198,7 +198,7 @@ if ($("#disqus_thread").length > 0) {
         }
     }
     
-    if(window.location.hash.indexOf('#disqus_thread') > 0) loadDisqus();
+    if(window.location.hash.indexOf('#comment') > 0) loadDisqus();
     if(comments) {
         var commentsOffset = findTop(comments);
         window.onscroll = function() {

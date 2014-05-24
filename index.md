@@ -22,6 +22,7 @@ bottom:
     class: grey
     params:
         desc: true
+        htag: 2
         class: box-list-md
 -
     type: portfolio

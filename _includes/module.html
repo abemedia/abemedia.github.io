@@ -1,5 +1,6 @@
+  {% if include.params.htag %}{% capture htag %}{{ include.params.htag }}{% endcapture %}{% else %}{% capture htag %}3{% endcapture %}{% endif %}  
   <section class="{{ include.module.class }}">
-    {% if include.module.title %}<h3 class="module-title">{{ include.module.title }}</h3>{% endif %}
+    {% if include.module.title %}<h{{ htag }} class="module-title">{{ include.module.title }}</h{{ htag }}>{% endif %}
     {% capture module %}modules/{{ include.module.type }}.html{% endcapture %}
     {% include {{module}} params=include.module.params %}
   </section>

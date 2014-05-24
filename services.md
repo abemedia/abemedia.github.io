@@ -6,6 +6,8 @@ slug: services
 image: /images/services/abemedia.png
 bottom:
     type: services
-    title: Our Services
-    class: grey
+    style: raw
+    params: 
+        desc: true
 ---
+# Our Services

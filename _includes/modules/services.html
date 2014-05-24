@@ -7,12 +7,12 @@
             <h3 class="media-heading">{{ item.title }}</h3>
             <span class="text-muted">{{ item.desc }}</span>
             {% else %}
-            <span class="h5">{{ item.title }}</span>
+            <strong class="h5">{{ item.title }}</strong>
             {% endif %}
             </a>
           {% endif %}
           {% endfor %}
         </ul>
-        {% unless page.tags == nil %}
+        {% if include.params.desc %}
         <p class="text-center text-lg">Not what you're looking for? <a href="/services">View all services.</a></p>
-        {% endunless %}
+        {% endif %}

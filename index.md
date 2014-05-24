@@ -18,7 +18,7 @@ tags:
 bottom: 
 -
     type: services
-    title: Our Web Design Services
+    title: Web Design Services
     htag: 2
     class: grey
     params:

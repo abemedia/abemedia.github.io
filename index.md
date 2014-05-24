@@ -9,6 +9,11 @@ modified: 2014-05-12T22:00:00
 top:
     type: _home-banner
     style: raw
+tags:
+- web-design
+- ecommerce
+- cms
+- mobile
 bottom: 
 -
     type: services

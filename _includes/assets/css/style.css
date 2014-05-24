@@ -792,7 +792,7 @@ figure:hover img {
    -moz-animation-iteration-count:infinite;
    -moz-animation-timing-function:linear;
 }
-.sunburst b {
+.sunburst span {
 	border-width: 180px 2000px;
 	margin: -360px 0 0 0;
 	display: block;
@@ -801,39 +801,39 @@ figure:hover img {
 	border-color: transparent rgba(255,255,255,0.1);
 	border-style: solid;
 }
-.sunburst b:nth-child(1) { 
+.sunburst span:nth-child(1) { 
    -webkit-transform:rotate(20deg);  
    -moz-transform:rotate(20deg);  
 }
-.sunburst b:nth-child(2) { 
+.sunburst span:nth-child(2) { 
    -webkit-transform:rotate(40deg);  
    -moz-transform:rotate(40deg);  
 }
-.sunburst b:nth-child(3) { 
+.sunburst span:nth-child(3) { 
    -webkit-transform:rotate(60deg);  
    -moz-transform:rotate(60deg);  
 }
-.sunburst b:nth-child(4) { 
+.sunburst span:nth-child(4) { 
    -webkit-transform:rotate(80deg);  
    -moz-transform:rotate(80deg);  
 }
-.sunburst b:nth-child(5) { 
+.sunburst span:nth-child(5) { 
    -webkit-transform:rotate(100deg); 
    -moz-transform:rotate(100deg); 
 }
-.sunburst b:nth-child(6) {    
+.sunburst span:nth-child(6) {    
    -webkit-transform:rotate(120deg); 
    -moz-transform:rotate(120deg); 
 }
-.sunburst b:nth-child(7) { 
+.sunburst span:nth-child(7) { 
    -webkit-transform:rotate(140deg); 
    -moz-transform:rotate(140deg); 
 }
-.sunburst b:nth-child(8) { 
+.sunburst span:nth-child(8) { 
    -webkit-transform:rotate(160deg); 
    -moz-transform:rotate(160deg); 
 }
-.sunburst b:nth-child(9) { 
+.sunburst span:nth-child(9) { 
    -webkit-transform:rotate(180deg); 
    -moz-transform:rotate(180deg); 
 }

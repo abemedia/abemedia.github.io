@@ -3,9 +3,9 @@ layout: page
 title: About Us &middot; Website Designers in Brighton
 heading: Digital Media Experts
 lead: Committed to providing an exceptional service in developing stunning websites that simply work and creating online marketing campaigns that make our customers real money.
-image: /images/services/abemedia.png
 slug: about
-class: lead text-justify
+image: /images/services/abemedia.png
+class: text-lg text-justify
 modified: 2014-05-12T21:30:00
 top: 
 -

@@ -902,3 +902,22 @@ figure:hover img {
 .avatar:hover>img, .avatar:active>img, .avatar:focus>img {
     border-color: #F59331;
 }
+
+/* Text Helpers
+-------------------------------------------------- */
+.text-lg {
+    font-size: 16px;
+}
+.text-xl {
+    font-size: 22px;
+    margin: 20px 0;
+}
+@media (min-width: 768px) {
+.text-lg {
+    font-size: 21px;
+}
+.text-xl {
+    font-size: 36px;
+    margin: 30px 0;
+}
+}

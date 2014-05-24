@@ -1,4 +1,4 @@
-  {% if include.params.htag %}{% capture htag %}{{ include.params.htag }}{% endcapture %}{% else %}{% capture htag %}3{% endcapture %}{% endif %}  
+  {% if include.module.htag %}{% capture htag %}{{ include.module.htag }}{% endcapture %}{% else %}{% capture htag %}3{% endcapture %}{% endif %}  
   <section class="fullrow {{ include.module.class }}">
     <div class="container">
     {% if include.module.title %}<h{{ htag }} class="module-title">{{ include.module.title }}</h{{ htag }}>{% endif %}

@@ -19,10 +19,10 @@ bottom:
 -
     type: services
     title: Our Web Design Services
+    htag: 2
     class: grey
     params:
         desc: true
-        htag: 2
         class: box-list-md
 -
     type: portfolio

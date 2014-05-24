@@ -1,4 +1,4 @@
-        <ul class="box-list{% unless include.params.desc %} box-list-xs{% endunless %} equal">
+        <ul class="box-list{% unless include.params.desc %} box-list-xs{% endunless %} {{ include.params.class }} equal">
           {% for item in site.data.services %}
           {% if page.tags == nil or page.tags contains {{item.alias}} %}
           <li><a class="box" href="{{ site.baseurl }}{{ item.url }}">

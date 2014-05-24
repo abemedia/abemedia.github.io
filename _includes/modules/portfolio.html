@@ -12,3 +12,6 @@
         </figcaption>
       </figure></a>{% capture i %}{{ i | plus:1 }}{% endcapture %}{% endif %}{% endif %}{% endfor %}
   </ul>
+        {% unless count == nil %}
+        <p class="text-center text-lg">Want to see more? <a href="/portfolio">Visit our portfolio.</a></p>
+        {% endunless %}

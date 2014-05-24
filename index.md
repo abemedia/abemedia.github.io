@@ -5,7 +5,7 @@ heading: Turning dreams into code...
 lead: We specialise in developing innovative, user-friendly websites that boast eye catching designs and render beautifully on any device.
 description: A different web design agency in Brighton. Specialised in web design, ecommerce & cms development.
 slug: home
-class: text-lg text-justify
+class: lead text-justify
 image: /images/services/abemedia.png
 modified: 2014-05-12T22:00:00
 top:

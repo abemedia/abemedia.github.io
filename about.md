@@ -5,7 +5,7 @@ heading: Digital Media Experts
 lead: Committed to providing an exceptional service in developing stunning websites that simply work and creating online marketing campaigns that make our customers real money.
 slug: about
 image: /images/services/abemedia.png
-class: text-lg text-justify
+class: lead text-justify
 modified: 2014-05-12T21:30:00
 top: 
 -

@@ -17,10 +17,11 @@ tags:
 bottom: 
 -
     type: services
-    title: Our Services
+    title: Our Web Design Services
     class: grey
     params:
         desc: true
+        class: box-list-md
 -
     type: portfolio
     title: Featured Projects

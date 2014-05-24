@@ -3,6 +3,7 @@ layout: page
 title: Ecommerce, Web Development & Web Design in Brighton
 heading: Turning dreams into code...
 lead: We specialise in developing innovative, user-friendly websites that boast eye catching designs and render beautifully on any device.
+description: We're a web design agency in Brighton specialised in developing innovative, user-friendly websites that boast eye catching designs and render beautifully on any device.
 slug: home
 class: text-lg text-justify
 image: /images/services/abemedia.png

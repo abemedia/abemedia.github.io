@@ -34,8 +34,8 @@ bottom:
     class: grey
 ---
 
-## A different web design agency in Brighton
+# A different web design agency in Brighton
 
-We're a small yet highly innovative team of technology geeks based in Brighton, who create digital experiences for the web & mobile devices.
+We're a small yet highly innovative team of technology geeks based in <strong>Brighton</strong>, who create digital experiences for the web & mobile devices, providing <strong>website design</strong>, web development and graphic design services to clients in the UK and Germany.
 
 No matter whether you need a new website designed, a fresh new look for your current website or a complex application developed - ABE Media create solutions which are both beautiful and functional, always up-to-date with the latest in digital trends and online marketing insights.

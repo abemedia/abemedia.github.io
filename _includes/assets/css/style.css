@@ -343,7 +343,7 @@ body {
 .box-list>li {
 	width: 50%;
 }
-.box-list.box-list-small>li {
+.box-list.box-list-xs>li {
 	width: 25%;
 }
 }
@@ -351,8 +351,13 @@ body {
 .box-list>li {
 	width: 33.33333333333333%;
 }
-.box-list.box-list-small>li {
+.box-list.box-list-xs>li {
 	width: 16.66666666666666%;
+}
+}
+@media (min-width: 1200px){
+.box-list.box-list-md>li {
+	width: 25%;
 }
 }
 .box-list>li>a>span {

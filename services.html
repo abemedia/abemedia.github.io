@@ -1,0 +1,24 @@
+---
+layout: default
+category: services
+title: Ecommerce, Web Development & Web Design in Brighton
+heading: Our Services
+lead: From design to implementation - you can rely on us!
+slug: services
+image: /images/services/abemedia.png
+top: 
+    type: banner
+    style: raw
+    params:
+        class: orange
+---        
+        <ul class="box-list equal">
+          {% for item in site.data.services %}
+          <li>
+          <a class="box" href="{{ site.baseurl }}{{ item.url }}">
+            <img src="{{ item.image }}" alt="{{ item.title }}">
+            <h3 class="media-heading">{{ item.title }}</h3>
+            <span class="text-muted">{{ item.desc }}</span>
+          </a>
+          {% endfor %}
+        </ul>

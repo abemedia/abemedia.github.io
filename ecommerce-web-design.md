@@ -58,6 +58,7 @@ bottom:
             - Downloadable goods (MP3s, ebooks, etc.)
             - Pay-per-view streaming
             - Web-to-print shops
+            - Subscriptions
 -
     type: text
     class: orange

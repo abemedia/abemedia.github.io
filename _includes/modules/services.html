@@ -1,5 +1,5 @@
         <ul class="box-list{% unless include.params.desc %} box-list-xs{% endunless %} {{ include.params.class }} equal">
-          {% for item in site.data.services %}
+          {% capture i %}0{% endcapture %}{% for item in site.data.services %}{% if {{i}} < '6' %}{% capture i %}{{ i | plus:1 }}{% endcapture %}
           {% if page.tags == nil or page.tags contains {{item.alias}} %}
           <li>
           {% if include.params.desc %}
@@ -20,10 +20,8 @@
             <img src="{{ item.image }}" alt="{{ item.title }}">
             <strong class="h5">{{ item.title }}</strong>
           </a>
-          {% endif %}
-          {% endif %}
-          {% endfor %}
+          {% endif %}{% endif %}{% endif %}{% endfor %}
         </ul>
-        {% if include.params.desc %}
+        {% if include.params.desc or page.tags == nil %}
         <p class="text-center text-lg">Not what you're looking for? <a href="/services">View all services.</a></p>
         {% endif %}

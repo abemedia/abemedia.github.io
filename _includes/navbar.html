@@ -15,7 +15,7 @@
               <img class="hidden-xs img-responsive" src="{{ item.image }}" alt="{{ item.title }}">{{ item.title }}</a>
             {% endif %}{% endfor %}
             <li{% if page.slug == 'services' %} class="active"{% endif %}><a href="{{ site.baseurl }}services">
-              <img class="hidden-xs img-responsive" src="/images/services/services.png" alt="All our services">All Services</a>
+              <img class="hidden-xs img-responsive" src="/images/services/services.png" alt="All our services">More...</a>
         </ul>
         </li>
         <li{% if page.slug == "portfolio" or page.categories contains "portfolio" %} class="active"{% endif %}><a href="{{ site.baseurl }}portfolio">Portfolio</a></li>

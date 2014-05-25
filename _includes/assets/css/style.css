@@ -928,7 +928,7 @@ figure:hover img {
 .flipper a:hover {
 	text-decoration: none;
 }
-.flipper a img {
+.flipper img {
 	margin-bottom:10px;
 }
 @media (max-width: 768px) {

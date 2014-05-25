@@ -47,5 +47,5 @@ After many months of development and testing from our professional, dedicated te
 
 <blockquote>
         <p>The website looks stunning!</p>
-        <footer>Heather Hilder-Darling, Callaways Estate & Lettings Agents</footer>
+        <footer>Heather Hilder-Darling, Callaways Estate Agents</footer>
       </blockquote>

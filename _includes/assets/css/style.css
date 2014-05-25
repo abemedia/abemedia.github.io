@@ -1037,6 +1037,6 @@ figure:hover img {
     transform: rotateY(-180deg);
     position: absolute;
     background: #FE9833;
-    color: #fff;
+    color: #fff !important;
 }
 }

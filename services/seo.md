@@ -2,8 +2,8 @@
 layout: service
 category: services
 title: Digital Marketing
-permalink: seo
 slug: seo
+permalink: seo.html
 image: /images/services/seo.png
 lead: Effective digital marketing campaigns using SEO & PPC (Pay Per Click) to increase your traffic and the latest techniques in conversion optimisation to turn visitors into returning customers.
 sitemap:

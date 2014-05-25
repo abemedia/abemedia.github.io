@@ -1,9 +1,9 @@
 ---
 layout: service
 category: services
-permalink: illustration
 title: Illustration & Animation
 slug: illustration
+permalink: illustration.html
 image: /images/services/illustration.png
 lead: Make your website stand out with beautiful hand drawn or digital artworks and unique animations tailored to your specific requirements.
 sitemap:

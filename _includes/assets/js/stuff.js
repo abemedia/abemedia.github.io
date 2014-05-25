@@ -3,7 +3,7 @@ $('.tip').tooltip({
 	selector: "[data-toggle=tooltip]",
 	container: "body"
 });
-/*
+
 // equal heights
 $(window).resize(function() {
 	var $col = $('.equal>*'),
@@ -22,7 +22,7 @@ $(window).resize(function() {
 				maxHeight[rowIndex] = 0;
 			}
 			if ($el.height() > maxHeight[rowIndex]) {
-				maxHeight[rowIndex] = $el.find('.back').outerHeight();
+				maxHeight[rowIndex] = $el.height();
 			}
 			rows[rowIndex].push($el);
 		});
@@ -35,7 +35,7 @@ $(window).resize(function() {
 $(window).load(function() {
 	$(window).trigger('resize');
 });
-*/
+
 // tocify
 if ($(".toc").length > 0) {
 	var tocCallback = function() {

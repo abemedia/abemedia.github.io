@@ -5,8 +5,8 @@ title: Web Design for Estate Agents
 heading: Estate Agent Websites
 slug: estate-agent-sites
 permalink: estate-agent-web-design.html
-image: /images/services/web-design.png
-lead: Powerful and simple tools which enable your visitors to have the best user experience on your website
+image: /images/services/web-development.png
+lead: Powerful yet simple tools which enable your visitors to have the best user experience on your website
 previews:
 -
     xl: /images/portfolio/callaways-estate-agents/callaways-estate-agents-homepage_xl.jpg
@@ -24,16 +24,16 @@ bottom:
     class: orange
     params:
     -
-        title: Simple & Secure
-        icon: lock
-        content: Our ecommerce stores are secure, easy to manage and built with the customer in mind to make the entire shopping experience simple & easy.
+        title: Database Integration
+        icon: home
+        content: Our estate agent websites integrate with providers such as DezRez so they are always up-to-date with your latest properties.
     -
-        title: Customer Insights
-        icon: users
-        content: Detailed statistics help you understand your market better and grow your client base, turning visitors into returning customers.
+        title: Branded PDF Brochures
+        icon: file-pdf-o
+        content: Automatically generate stunning PDF brochures of your property data which are fully customisable by the user.
     -
         title: Bespoke Design
-        icon: heart
+        icon: sliders
         content: All our ecommerce websites boast eye-catching designs  built around your brand to represent your business in the best possible way.
 
 -

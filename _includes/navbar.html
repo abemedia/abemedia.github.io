@@ -13,7 +13,7 @@
             {% capture i %}0{% endcapture %}{% for item in site.data.services %}{% if {{i}} < 6 %}
             <li{% if page.slug == {{item.url}} %} class="active"{% endif %}><a href="{{ site.baseurl }}{{ item.url }}">
               <img class="hidden-xs img-responsive" src="{{ item.image }}" alt="{{ item.title }}">{{ item.title }}</a>
-            {% endfor %}
+            {% endif %}{% endfor %}
             <li{% if page.slug == 'services' %} class="active"{% endif %}><a href="{{ site.baseurl }}services">
               <img class="hidden-xs img-responsive" src="/images/services/services.png" alt="All our services">All Services</a>
         </ul>

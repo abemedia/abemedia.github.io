@@ -1039,3 +1039,11 @@ figure:hover img {
     color: #fff;
 }
 }
+
+blockquote {
+    border: none;
+    text-align: center;
+}
+blockquote footer:before, blockquote small:before, blockquote .small:before {
+    content:"";
+}

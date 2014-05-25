@@ -1,14 +1,21 @@
-  <div class="row">
-    <div class="col-md-6">
-      <blockquote>
-        <p>I was completely overwhelmed by ABE Media's dedication and the ease of use my website provides to its users. All my ideas and hopes have not only been improved significantly but been delivered quickly and efficiently.</p>
-        <footer>Arvin Golchin, Gold Estates PPS Ltd.</footer>
-      </blockquote>
-    </div>
-    <div class="col-md-6">
-      <blockquote>
-        <p>ABE Media did a fantastic job for us! They are highly professional, flexible and accommodated our every need in building us a great website that surpassed our every expectation.</p>
-        <footer>Baboucarr Bittaye, Money Pipe Ltd.</footer>
-      </blockquote>
+  <div id="testimonials" class="carousel slide" data-ride="carousel" data-interval="7000">
+    <ol class="carousel-indicators">
+      {% capture i %}0{% endcapture %}
+      {% for item in site.data.testimonials %}
+      <li data-target="#testimonials" data-slide-to="{{i}}" class="{% if {{i}} == "0" %}active{% endif %}"></li>
+      {% capture i %}{{ i | plus:1 }}{% endcapture %}
+      {% endfor %}
+    </ol>
+    <div class="carousel-inner">
+      {% capture i %}0{% endcapture %}
+      {% for item in site.data.testimonials %}
+      <div class="item {% if {{i}} == "0" %}active{% endif %}">
+        <blockquote>
+          <p>{{ item.text }}</p>
+          <footer>{{ item.author }}</footer>
+        </blockquote>
+      </div>
+      {% capture i %}{{ i | plus:1 }}{% endcapture %}
+      {% endfor %}
     </div>
   </div>

@@ -962,10 +962,6 @@ figure:hover img {
 	padding: 15px;
 	zoom: 1;
 }
-.flipper:hover .back {
-	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
 }
 @media (min-width: 768px) {
 .flip-container {

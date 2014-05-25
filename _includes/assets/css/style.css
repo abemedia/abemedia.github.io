@@ -925,7 +925,7 @@ figure:hover img {
 
 /* Flip Cards
 -------------------------------------------------- */
-.flipper a:hover {
+.flipper:hover {
 	text-decoration: none;
 }
 .flipper img {

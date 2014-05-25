@@ -1,6 +1,7 @@
 ---
 layout: service
 category: services
+permalink: ecommerce-web-design
 title: Bespoke Ecommerce Web Design in Brighton
 heading: Ecommerce Website Design
 slug: ecommerce-web-design

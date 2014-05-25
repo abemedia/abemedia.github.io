@@ -1,6 +1,7 @@
 ---
 layout: service
 category: services
+permalink: illustration
 title: Illustration & Animation
 slug: illustration
 image: /images/services/illustration.png

@@ -4,6 +4,7 @@ category: services
 title: Web Design Brighton
 heading: Web Design & Development
 slug: web-design-brighton
+permalink: web-design-brighton
 image: /images/services/web-development.png
 lead: From simple brochure sites to bespoke database driven systems, ABE Media delivers solutions which are fast, user-friendly and fully optimised for search engine performance.
 previews:

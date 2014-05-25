@@ -4,6 +4,7 @@ category: services
 title: Graphic Design Company Brighton
 heading: Graphic Design 
 slug: graphic-design
+permalink: graphic-design.html
 image: /images/services/illustration.png
 lead: From promotional material to packaging and full corporate identities, we deliver eye-catching designs that give you that professional edge and make you stand out from the crowd.
 sitemap:

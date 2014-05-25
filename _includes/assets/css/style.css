@@ -924,6 +924,42 @@ figure:hover img {
 
 /* Flip Cards
 -------------------------------------------------- */
+@media (max-width: 768px) {
+.flipper {
+	background-color: #fff;
+	background-color: rgba(255,255,255,0.5);
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	display: block;
+	padding: 15px;
+	zoom: 1;
+	margin-bottom:30px;
+}
+
+.flipper:hover {
+	background-color: rgba(255,255,255,0.75);
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	text-decoration: none;
+	background-position: bottom;
+	-webkit-transition: all 0.4s ease-in;
+	-moz-transition: all 0.4s ease-in;
+	-o-transition: all 0.4s ease-in;
+	-ms-transition: all 0.4s ease-in;
+}
+}
+@media (min-width: 768px) {
+.front, .back {
+	background-color: #fff;
+	background-color: rgba(255,255,255,0.5);
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	display: block;
+	padding: 15px;
+	zoom: 1;
+	margin-bottom:30px;
+}
+}
 @media (min-width: 768px) {
 .flip-container {
     -webkit-perspective: 1000;

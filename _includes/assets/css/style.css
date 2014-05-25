@@ -28,6 +28,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	font-weight: bold;
+    display: block;
 }
 section:before, section:after {
 	display: table;
@@ -359,9 +360,6 @@ body {
 .box-list.box-list-md>li {
 	width: 25%;
 }
-}
-.box-list>li span, .box-list>li strong {
-	display: block;
 }
 .box-list>li>a>img {
 	margin-bottom:10px;

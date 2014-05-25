@@ -23,14 +23,20 @@
     image: /images/services/mobile-websites.png
     desc: "Dedicated mobile sites and responsive web design for mobile phones &amp; tablets. Never miss out on a sale, regardless of the users' device."
 -
+    title: Digital Marketing
+    alias: seo
+    url: seo
+    image: /images/services/seo.png
+    desc: "Effective SEO & PPC campaigns to increase your traffic, coupled with conversion optimisation to turn visitors into returning customers."
+-
     title: Illustration & 3D
     alias: illustration
     url: illustration
     image: /images/services/illustration.png
     desc: "From simple logos and promotional material such as leaflets &amp; business cards to full brand identities.<br>We love graphic design!"
 -
-    title: Digital Marketing
-    alias: seo
-    url: seo
-    image: /images/services/seo.png
-    desc: "Effective SEO & PPC campaigns to increase your traffic, coupled with conversion optimisation to turn visitors into returning customers."
+    title: Graphic design
+    alias: graphic-design
+    url: graphic-design
+    image: /images/services/illustration.png
+    desc: "From simple logos and promotional material such as leaflets &amp; business cards to full brand identities.<br>We love graphic design!"

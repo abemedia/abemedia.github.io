@@ -30,7 +30,7 @@ bottom:
     -
         title: PDF Brochures
         icon: file-pdf-o
-        content: Automatically generate stunning PDF brochures of your property data which are fully customisable by the user.
+        content: Generate stunning, branded PDF brochures of your properties on-the-fly which can be customised by the user to only include the data they want.
     -
         title: Innovative Search
         icon: sliders

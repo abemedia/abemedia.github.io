@@ -360,10 +360,10 @@ body {
 	width: 25%;
 }
 }
-.box-list>li>a>span {
+.box-list>li span, .box-list>li strong {
 	display: block;
 }
-.box-list>li>a>img {
+.box-list>li img {
 	margin-bottom:10px;
 }
 .box {
@@ -376,7 +376,7 @@ body {
 	zoom: 1;
 	margin-bottom:30px;
 }
-a.box {
+.box-list>li .box {
 	background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.25), rgba(255,255,255,0.25) 50%, rgba(0,0,0,0.05));
 	background-image: -moz-linear-gradient(top, rgba(255,255,255,0.25), rgba(255,255,255,0.25) 50%, rgba(0,0,0,0.05));
 	background-image: -ms-linear-gradient(top, rgba(255,255,255,0.25), rgba(255,255,255,0.25) 50%, rgba(0,0,0,0.05));
@@ -384,7 +384,7 @@ a.box {
 	background-size: 100% 200%;
 	margin-bottom:0;
 }
-a.box:hover {
+.box-list>li:hover .box {
 	background-color: rgba(255,255,255,0.75);
 	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -919,5 +919,79 @@ figure:hover img {
 .text-xl {
     font-size: 36px;
     margin: 30px 0;
+}
+}
+
+/* Flip Cards
+-------------------------------------------------- */
+@media (min-width: 768px) {
+.flip-container {
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -ms-perspective: 1000;
+    perspective: 1000;
+    -ms-transform: perspective(1000px);
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d; 
+    -ms-transform-style: preserve-3d; 
+}
+.flip-container:hover .back, .flip-container.hover .back {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+.flip-container:hover .front, .flip-container.hover .front {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.flipper {
+    -webkit-transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+    display:block;
+}
+.front, .back {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 0.6s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 0.6s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 0.6s;
+    -ms-transform-style: preserve-3d;
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.front {
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+}
+.back {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    position: absolute;
 }
 }

@@ -22,7 +22,7 @@ $(window).resize(function() {
 				maxHeight[rowIndex] = 0;
 			}
 			if ($el.height() > maxHeight[rowIndex]) {
-				maxHeight[rowIndex] = $el.height();
+				maxHeight[rowIndex] = $el.find('.back').outerHeight();
 			}
 			rows[rowIndex].push($el);
 		});

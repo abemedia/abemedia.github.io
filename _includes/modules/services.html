@@ -1,15 +1,27 @@
         <ul class="box-list{% unless include.params.desc %} box-list-xs{% endunless %} {{ include.params.class }} equal">
           {% for item in site.data.services %}
           {% if page.tags == nil or page.tags contains {{item.alias}} %}
-          <li><a class="box" href="{{ site.baseurl }}{{ item.url }}">
-            <img src="{{ item.image }}" alt="{{ item.title }}">
-            {% if include.params.desc %}
-            <h3 class="media-heading">{{ item.title }}</h3>
-            <span class="text-muted">{{ item.desc }}</span>
-            {% else %}
-            <strong class="h5">{{ item.title }}</strong>
-            {% endif %}
+          <li>
+          {% if include.params.desc %}
+          <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+            <a class="flipper" href="{{ site.baseurl }}{{ item.url }}">
+              <div class="front box">
+                <img src="{{ item.image }}" alt="{{ item.title }}">
+                <h3 class="media-heading">{{ item.title }}</h3>
+              </div>
+              <div class="back box">
+                <span class="h3 media-heading hidden-xs">{{ item.title }}</span>
+                <p class="text-muted">{{ item.desc }}</p>
+                <p class="btn btn-primary">More info</p>
+              </div>
             </a>
+          </div>
+          {% else %}
+          <a class="box" href="{{ site.baseurl }}{{ item.url }}">
+            <img src="{{ item.image }}" alt="{{ item.title }}">
+            <strong class="h5">{{ item.title }}</strong>
+          </a>
+          {% endif %}
           {% endif %}
           {% endfor %}
         </ul>

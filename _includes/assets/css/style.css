@@ -363,7 +363,7 @@ body {
 .box-list>li span, .box-list>li strong {
 	display: block;
 }
-.box-list>li img {
+.box-list>li>a>img {
 	margin-bottom:10px;
 }
 .box {
@@ -927,6 +927,9 @@ figure:hover img {
 -------------------------------------------------- */
 .flipper a:hover {
 	text-decoration: none;
+}
+.flipper a img {
+	margin-bottom:10px;
 }
 @media (max-width: 768px) {
 .flipper {

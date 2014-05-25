@@ -374,7 +374,7 @@ body {
 	zoom: 1;
 	margin-bottom:30px;
 }
-.box-list>li .box {
+.box-list>li>a.box {
 	background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.25), rgba(255,255,255,0.25) 50%, rgba(0,0,0,0.05));
 	background-image: -moz-linear-gradient(top, rgba(255,255,255,0.25), rgba(255,255,255,0.25) 50%, rgba(0,0,0,0.05));
 	background-image: -ms-linear-gradient(top, rgba(255,255,255,0.25), rgba(255,255,255,0.25) 50%, rgba(0,0,0,0.05));
@@ -382,7 +382,7 @@ body {
 	background-size: 100% 200%;
 	margin-bottom:0;
 }
-.box-list>li:hover .box {
+.box-list>li>a.box:hover  {
 	background-color: rgba(255,255,255,0.75);
 	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);

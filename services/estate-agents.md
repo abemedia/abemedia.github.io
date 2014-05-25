@@ -32,9 +32,9 @@ bottom:
         icon: file-pdf-o
         content: Automatically generate stunning PDF brochures of your property data which are fully customisable by the user.
     -
-        title: Bespoke Design
+        title: Innovative Property Search
         icon: sliders
-        content: All our ecommerce websites boast eye-catching designs  built around your brand to represent your business in the best possible way.
+        content: Innovative property search interface featuring dynamic sliders & instant search which updates as the user select search parameters.
 
 -
     type: services

@@ -471,6 +471,7 @@ figure img {
 	-moz-transition: all 1s ease;
 	-o-transition: all 1s ease;
 	transition: all 1s ease;
+    margin:0;
 }
 figure:hover img {
 	-moz-transform: scale(1.2) rotate(-3deg);
@@ -924,6 +925,9 @@ figure:hover img {
 
 /* Flip Cards
 -------------------------------------------------- */
+.flipper:hover a{
+	text-decoration: none;
+}
 @media (max-width: 768px) {
 .flipper {
 	background-color: #fff;
@@ -947,25 +951,20 @@ figure:hover img {
 }
 }
 @media (min-width: 768px) {
-.front, .back {
+.front {
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.5);
+}
+.front, .back {
 	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 	display: block;
 	padding: 15px;
 	zoom: 1;
 }
-.front:hover, .back:hover {
-	background-color: rgba(255,255,255,0.75);
+.flipper:hover .back {
 	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-	text-decoration: none;
-	background-position: bottom;
-	-webkit-transition: all 0.4s ease-in;
-	-moz-transition: all 0.4s ease-in;
-	-o-transition: all 0.4s ease-in;
-	-ms-transition: all 0.4s ease-in;
 }
 }
 @media (min-width: 768px) {
@@ -1037,5 +1036,7 @@ figure:hover img {
     -ms-transform: rotateY(-180deg);
     transform: rotateY(-180deg);
     position: absolute;
+    background: #FE9833;
+    color: #fff;
 }
 }

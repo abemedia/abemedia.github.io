@@ -51,7 +51,7 @@ bottom:
             - Search engine friendly build | We follow the latest coding standards, implement search engine friendly URLs and create an XML sitemap which is submitted to Google.
             - Home, contact & 3 pages | We design and populate your front page, contact page and 3 extra pages.
             - News blog | A blog including RSS feeds and auto-publish to social platforms such as Facebook & Twitter.
-            - Add unlimited pages | Add unlimited pages yourself from a simple to use admin interface.
+            - Add unlimited pages | Add unlimited pages yourself from Joomla's easy to use admin interface.
     -
         title: Ecommerce
         price: "2,500"

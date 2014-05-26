@@ -1053,18 +1053,17 @@ blockquote {
 }
 blockquote p:before, blockquote p:after {
     display: inline-block;
-    content: open-quote;
     font-size: 4em;
     line-height: 0px;
-    margin-bottom: -3px;
+    margin: 0 3px -10px;
 }
 blockquote p:before {
     content: open-quote;
-    vertical-align: -0.5em;
+    vertical-align: -0.55em;
 }
 blockquote p:after {
     content: close-quote;
-    vertical-align: -0.3em;
+    vertical-align: -0.49em;
 }
 blockquote footer:before, blockquote small:before, blockquote .small:before {
     display:none;

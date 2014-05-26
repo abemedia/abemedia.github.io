@@ -20,28 +20,24 @@ previews:
     xl: /images/portfolio/callaways-estate-agents/callaways_xl_sell.jpg
 features:
 -
-    title: Innovative AJAX search
+    title: Innovative AJAX property search
     text: Our innovative property search interface features dynamic sliders & instant results which update as the user selects search parameters.
-    image: 
 -
     title: Branded custom PDF brochures
     text: Generate stunning, branded PDF brochures of your properties on-the-fly which can be customised by the user to only include the data they want.
-    image:
 -
     title: Always up-to-date with your latest properties
     text: Our estate agent websites integrate with database providers such as DezRez so they are always up-to-date with your latest properties.
-    image:
 -
     title: Local schools & colleges
     text: Displays a map showing your visitors all the local schools & colleges with links to Ofsted inspection data and exam performance results.
-    image:
 -
-    title: Social login & favourites
+    title: Social login & favourite properties
     text: "Let your visitors sign up and login with just one click using social profiles such as Google, LinkedIn or Facebook. This has proven to increase registration rates by up to 50%! (Source: Janrain.com)"
 bottom:
 -
     type: features
-    title: Features
+    title: Property Website Features
     class: grey
 -
     type: text
@@ -51,7 +47,7 @@ bottom:
         title: Bespoke Design
         icon: heart
         content: All our ecommerce websites boast eye-catching designs  built around your brand to represent your business in the best possible way.
--
+    -
         title: SEO Ready
         icon: search
         content: Search engine friendly code & URL structures mean your website already comes optimised for maximum search engine performance.

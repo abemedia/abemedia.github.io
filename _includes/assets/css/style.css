@@ -422,10 +422,10 @@ body {
 	bottom: -5%;
 	right: 5%;
 }
-#previews .carousel-indicators {
+#previews .carousel-indicators, #testimonials .carousel-indicators {
 	bottom: 6px;
 }
-#previews .carousel-inner {
+#previews .carousel-inner, #testimonials .carousel-inner {
 	padding-bottom: 40px;
 }
 .folio .btn-lg {

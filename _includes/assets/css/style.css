@@ -258,12 +258,17 @@ body {
 	margin-top:-30px;
 }
 .carousel-indicators li {
+    width: 15px;
+    height:15px;
+    line-height: 20px;
 	border: none;
 	background-color: #333;
 	background-color: rgba(51, 51, 51, 0.75);
 }
 .carousel-indicators li.active {
 	background-color: #FE9833;
+    width: 20px;
+    height:20px;
 }
 #carousel .carousel-indicators li.active {
 	background-color: #fff;

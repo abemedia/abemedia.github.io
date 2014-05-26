@@ -37,9 +37,11 @@ features:
     image:
 -
     title: Social login & favourites
-    text: Let your visitors sign up and login with just one click using social profiles such as Google, LinkedIn or Facebook. This has proven to increase registration rates by up to 50%! (Source: Janrain.com)
-    image:
+    text: "Let your visitors sign up and login with just one click using social profiles such as Google, LinkedIn or Facebook. This has proven to increase registration rates by up to 50%! (Source: Janrain.com)"
 bottom:
+-
+    type: features
+    title: Features
 -
     type: services
     title: Our Services

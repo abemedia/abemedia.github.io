@@ -18,10 +18,6 @@ previews:
     xl: /images/portfolio/dsf-manufacturing/dvd-case_xl.jpg
 -
     xl: /images/portfolio/dsf-manufacturing/cardboard-wallet_xl.jpg
-sitemap:
-    priority: 0.7
-    changefreq: monthly
-    lastmod: 2013-11-09T7:30:00
 bottom:
 -
     type: products

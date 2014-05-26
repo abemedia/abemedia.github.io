@@ -23,11 +23,24 @@ previews:
 -
     xl: /images/portfolio/intergalactic-music/artist-profile_xl.jpg
     xs: /images/portfolio/intergalactic-music/artist-profile_xs.jpg
-sitemap:
-    priority: 0.7
-    changefreq: monthly
-    lastmod: 2013-11-09T7:30:00
 bottom:
+-
+    type: products
+    title: Web Design Prices
+    class: grey
+    params:
+    -
+        title: Static
+        price: "800"
+        icon: html5
+    -
+        title: CMS
+        price: "3,500"
+        icon: joomla
+    -
+        title: Ecommerce
+        price: "3,500"
+        icon: shopping-cart
 -
     type: text
     class: orange

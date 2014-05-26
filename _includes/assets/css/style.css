@@ -258,8 +258,8 @@ body {
 	margin-top:-30px;
 }
 .carousel-indicators li {
-    width: 18px;
-    height:18px;
+    width: 16px;
+    height:16px;
     border-radius: 100%;
 	border: none;
 	background-color: #333;

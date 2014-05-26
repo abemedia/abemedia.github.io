@@ -1052,10 +1052,10 @@ blockquote {
     font-size: 21px;
 }
 blockquote p:before {
-    content:"&ldquo;";
+    content:"\8220";
 }
 blockquote p:after {
-    content:"&rdquo;";
+    content:"\8221";
 }
 blockquote footer:before, blockquote small:before, blockquote .small:before {
     content:"";

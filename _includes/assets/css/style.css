@@ -1051,12 +1051,20 @@ blockquote {
     text-align: center;
     font-size: 21px;
 }
+blockquote p:before, blockquote p:after {
+    display: inline-block;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0px;
+    vertical-align: -0.5em;
+    margin-bottom: -3px;
+}
 blockquote p:before {
-    content:"\201C";
+    content: open-quote;
 }
 blockquote p:after {
-    content:"\201D";
+    content: close-quote;
 }
 blockquote footer:before, blockquote small:before, blockquote .small:before {
-    content:"";
+    display:none;
 }

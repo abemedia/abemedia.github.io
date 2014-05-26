@@ -1043,7 +1043,7 @@ figure:hover img {
 blockquote {
     border: none;
     text-align: center;
-    font-size: 28px;
+    font-size: 21px;
 }
 blockquote footer:before, blockquote small:before, blockquote .small:before {
     content:"";

@@ -33,14 +33,33 @@ bottom:
         title: Static
         price: "800"
         icon: html5
+        features: 
+            - Bespoke design | We don't use any templates at ABE Media but create the design from scratch according to your specifications.
+            - Search engine friendly build | We follow the latest coding standards, implement search engine friendly URLs and create an XML sitemap which is submitted to Google.
+            - Home, contact & 3 pages | We design and populate your front page, contact page and 3 extra pages.
+            - News blog | A blog including RSS feeds and auto-publish to social platforms such as Facebook & Twitter.
+            - Edit pages | Edit pages yourself from our simple to use Static CMS app.
     -
         title: CMS
         price: "1,200"
         icon: joomla
+        features: 
+            - Bespoke design | We don't use any templates at ABE Media but create the design from scratch according to your specifications.
+            - Search engine friendly build | We follow the latest coding standards, implement search engine friendly URLs and create an XML sitemap which is submitted to Google.
+            - Home, contact & 3 pages | We design and populate your front page, contact page and 3 extra pages.
+            - News blog | A blog including RSS feeds and auto-publish to social platforms such as Facebook & Twitter.
+            - Add unlimited pages | Add unlimited pages yourself from a simple to use admin interface.
     -
         title: Ecommerce
         price: "2,500"
         icon: shopping-cart
+        desc: "<strong>Ecommerce</strong> website featuring:"
+        features: 
+            - Bespoke design | We don't use any templates at ABE Media but create the design from scratch according to your specifications.
+            - 5 CMS pages | We design & populate up to 5 content pages at no charge.
+            - Custom payment gateways | We set up your preferred payment gateways for your eg. PayPal, Google Wallet, SagePay etc.
+            - 50 categories | We set up a maximum of 50 categories for you.
+            - 2h remote training | We train you and your staff how to manage orders, add or edit products, manage client accounts etc.
 -
     type: text
     class: orange

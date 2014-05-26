@@ -18,24 +18,28 @@ previews:
     xl: /images/portfolio/callaways-estate-agents/callaways_xl_blog.jpg
 -
     xl: /images/portfolio/callaways-estate-agents/callaways_xl_sell.jpg
-bottom:
+features:
 -
-    type: text
-    class: orange
-    params:
-    -
-        title: DezRez Integration
-        icon: home
-        content: Our estate agent websites integrate with database providers such as DezRez so they are always up-to-date with your latest properties.
-    -
-        title: PDF Brochures
-        icon: file-pdf-o
-        content: Generate stunning, branded PDF brochures of your properties on-the-fly which can be customised by the user to only include the data they want.
-    -
-        title: Innovative Search
-        icon: sliders
-        content: Our innovative property search interface features dynamic sliders & instant results which update as the user selects search parameters.
-
+    title: Innovative AJAX search
+    text: Our innovative property search interface features dynamic sliders & instant results which update as the user selects search parameters.
+    image: 
+-
+    title: Branded custom PDF brochures
+    text: Generate stunning, branded PDF brochures of your properties on-the-fly which can be customised by the user to only include the data they want.
+    image:
+-
+    title: Always up-to-date with your latest properties
+    text: Our estate agent websites integrate with database providers such as DezRez so they are always up-to-date with your latest properties.
+    image:
+-
+    title: Local schools & colleges
+    text: Displays a map showing your visitors all the local schools & colleges with links to Ofsted inspection data and exam performance results.
+    image:
+-
+    title: Social login & favourites
+    text: Let your visitors sign up and login with just one click using social profiles such as Google, LinkedIn or Facebook. This has proven to increase registration rates by up to 50%! (Source: Janrain.com)
+    image:
+bottom:
 -
     type: services
     title: Our Services

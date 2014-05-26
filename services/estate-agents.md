@@ -39,6 +39,7 @@ bottom:
     type: features
     title: Property Website Features
     class: grey
+    htag: 2
 -
     type: text
     class: orange

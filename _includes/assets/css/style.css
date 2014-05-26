@@ -260,7 +260,6 @@ body {
 .carousel-indicators li {
     width: 15px;
     height:15px;
-    line-height: 20px;
     border-radius: 100%;
 	border: none;
 	background-color: #333;

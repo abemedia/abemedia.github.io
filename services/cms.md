@@ -18,10 +18,6 @@ previews:
     xl: /images/portfolio/callaways-estate-agents/callaways_xl_blog.jpg
 -
     xl: /images/portfolio/callaways-estate-agents/callaways_xl_sell.jpg
-sitemap:
-    priority: 0.7
-    changefreq: monthly
-    lastmod: 2013-11-09T7:30:00
 bottom:
 -
     type: products

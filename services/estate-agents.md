@@ -42,6 +42,23 @@ bottom:
 -
     type: features
     title: Features
+    class: grey
+-
+    type: text
+    class: orange
+    params:
+    -
+        title: Bespoke Design
+        icon: heart
+        content: All our ecommerce websites boast eye-catching designs  built around your brand to represent your business in the best possible way.
+-
+        title: SEO Ready
+        icon: search
+        content: Search engine friendly code & URL structures mean your website already comes optimised for maximum search engine performance.
+    -
+        title: Customer Insights
+        icon: users
+        content: Detailed statistics help you understand your market better and grow your client base, turning visitors into returning customers.
 -
     type: services
     title: Our Services

@@ -429,7 +429,7 @@ body {
 	right: 5%;
 }
 #previews .carousel-indicators, #testimonials .carousel-indicators {
-	bottom: 6px;
+	bottom: 0px;
 }
 #previews .carousel-inner, #testimonials .carousel-inner {
 	padding-bottom: 40px;

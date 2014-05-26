@@ -12,7 +12,7 @@
 	    <li>{% if feature[1] %}<span title="{{feature[1]}}" data-toggle="tooltip">{{feature[0]}}</span>{% else %}{{feature[0]}}{% endif %}</li>{% endfor %}
 	  </ul><br>
 	  {% if post.link %}
-	  <a href="{{ post.link }}" class="btn btn-success btn-lg btn-block h4">More info</a>
+	  <a href="{{ post.link }}" class="btn btn-info btn-lg btn-block h4">More info</a>
       {% else %}
 	  <a href="/contact" class="btn btn-success btn-lg btn-block h4">Enquire now</a>
       {% endif %}

@@ -30,7 +30,7 @@ bottom:
     class: grey
     params:
     -
-        title: Brochure
+        title: Brochure site
         price: "800"
         icon: html5
         desc: "<b>Brochure site</b> featuring:"

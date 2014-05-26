@@ -11,7 +11,7 @@
       {% for item in site.data.testimonials %}
       <div class="item {% if {{i}} == "0" %}active{% endif %}">
         <blockquote>
-          <p>&ldquo;{{ item.text }}&rdquo;</p>
+          <p>{{ item.text }}</p>
           <footer>{{ item.author }}</footer>
         </blockquote>
       </div>

@@ -1051,6 +1051,12 @@ blockquote {
     text-align: center;
     font-size: 21px;
 }
+blockquote p:before {
+    content:"&ldquo;";
+}
+blockquote p:after {
+    content:"&rdquo;";
+}
 blockquote footer:before, blockquote small:before, blockquote .small:before {
     content:"";
 }

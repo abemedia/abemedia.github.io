@@ -261,6 +261,7 @@ body {
     width: 15px;
     height:15px;
     line-height: 20px;
+    border-radius: 100%;
 	border: none;
 	background-color: #333;
 	background-color: rgba(51, 51, 51, 0.75);

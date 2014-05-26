@@ -258,8 +258,8 @@ body {
 	margin-top:-30px;
 }
 .carousel-indicators li {
-    width: 15px;
-    height:15px;
+    width: 18px;
+    height:18px;
     border-radius: 100%;
 	border: none;
 	background-color: #333;
@@ -268,7 +268,8 @@ body {
 .carousel-indicators li.active {
 	background-color: #FE9833;
     width: 20px;
-    height:20px;
+    height: 20px;
+    margin-bottom: -1px;
 }
 #carousel .carousel-indicators li.active {
 	background-color: #fff;

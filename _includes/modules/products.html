@@ -5,7 +5,7 @@
 	  <div class="ribbon {% if {{i}} == "2" %}orange{% else %}blue{% endif %}"{% if {{i}} == "2" %} style="margin-top:-32px;"{% endif %}>
 	    <div class="ribbon-circle"><i class="fa fa-{{post.icon}} fa-3x"></i></div>
 	    <h3 class="media-heading {% if {{i}} == "2" %}h2{% endif %}">{{post.title}}</h3>
-	    <span class="h4"><small>From</small> {% if post.price %}&pound;{{ post.price }}{% else %}On Quotation{% endif %}</span>
+	    <span class="h4">{% if post.price %}From &pound;{{ post.price }}{% else %}On Quotation{% endif %}</span>
       </div>
 	  {% if post.desc %}<p>{{ post.desc }}</p>{% endif %}
 	  <ul class="feature-list tip">{% for item in post.features %}{% assign feature = {{item}} | split: "|" %}

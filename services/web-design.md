@@ -35,11 +35,11 @@ bottom:
         icon: html5
     -
         title: CMS
-        price: "3,500"
+        price: "1,200"
         icon: joomla
     -
         title: Ecommerce
-        price: "3,500"
+        price: "2,500"
         icon: shopping-cart
 -
     type: text

@@ -30,19 +30,22 @@ bottom:
     class: grey
     params:
     -
-        title: Static
+        title: Brochure
         price: "800"
         icon: html5
+        desc: "<b>Brochure site</b> featuring:"
         features: 
             - Bespoke design | We don't use any templates at ABE Media but create the design from scratch according to your specifications.
             - Search engine friendly build | We follow the latest coding standards, implement search engine friendly URLs and create an XML sitemap which is submitted to Google.
             - Home, contact & 3 pages | We design and populate your front page, contact page and 3 extra pages.
             - News blog | A blog including RSS feeds and auto-publish to social platforms such as Facebook & Twitter.
-            - Edit pages | Edit pages yourself from our simple to use Static CMS app.
+            - Edit pages | Edit pages yourself from our simple to use gitCMS application.
     -
         title: CMS
         price: "1,200"
         icon: joomla
+        desc: "<b>Joomla! CMS</b> website featuring:"
+        link: /content-management-systems-cms
         features: 
             - Bespoke design | We don't use any templates at ABE Media but create the design from scratch according to your specifications.
             - Search engine friendly build | We follow the latest coding standards, implement search engine friendly URLs and create an XML sitemap which is submitted to Google.
@@ -54,6 +57,7 @@ bottom:
         price: "2,500"
         icon: shopping-cart
         desc: "<strong>Ecommerce</strong> website featuring:"
+        link: /ecommerce-web-design
         features: 
             - Bespoke design | We don't use any templates at ABE Media but create the design from scratch according to your specifications.
             - 5 CMS pages | We design & populate up to 5 content pages at no charge.

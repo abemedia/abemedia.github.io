@@ -11,7 +11,11 @@
 	  <ul class="feature-list tip">{% for item in post.features %}{% assign feature = {{item}} | split: "|" %}
 	    <li>{% if feature[1] %}<span title="{{feature[1]}}" data-toggle="tooltip">{{feature[0]}}</span>{% else %}{{feature[0]}}{% endif %}</li>{% endfor %}
 	  </ul><br>
-	  <a href="#" class="btn btn-success btn-lg btn-block h4">Enquire now</a>
+	  {% if post.link %}
+	  <a href="{{ post.link }}" class="btn btn-success btn-lg btn-block h4">More info</a>
+      {% else %}
+	  <a href="/contact" class="btn btn-success btn-lg btn-block h4">Enquire now</a>
+      {% endif %}
 	</div>{% endfor %}
 </ul>
 <div class="text-center text-xl">Do you have any questions? <a href="/contact">Contact us now!</a></div>

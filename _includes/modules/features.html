@@ -16,6 +16,6 @@
     <div class="col-sm-4"><img src="{{ item.image }}"></div>
     {% endif %}
   </div>
-  {% unless item.last %}<hr>{% endunless %}
+  {% unless forloop.last %}<hr>{% endunless %}
 {% endfor %}
 </div>

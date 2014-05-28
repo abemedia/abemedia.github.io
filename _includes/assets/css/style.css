@@ -1055,13 +1055,15 @@ blockquote p:before, blockquote p:after {
     display: inline-block;
     font-size: 4em;
     line-height: 0px;
-    margin: 0 3px -10px;
+    margin-bottom: -10px;
 }
 blockquote p:before {
+    margin-right: 3px;
     content: open-quote;
     vertical-align: -0.55em;
 }
 blockquote p:after {
+    margin-left: 3px;
     content: close-quote;
     vertical-align: -0.49em;
 }

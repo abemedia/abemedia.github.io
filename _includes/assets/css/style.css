@@ -434,7 +434,7 @@ body {
 #previews .carousel-inner, #testimonials .carousel-inner {
 	padding-bottom: 40px;
 }
-.folio .btn-lg {
+.btn-wide.btn-lg {
 	width:230px;
 	max-width:100%;
 }

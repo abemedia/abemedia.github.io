@@ -49,7 +49,7 @@ features:
     image: /images/services/estate-agents/smartphone-integration.jpg
 -
     title: Glossary of property terms
-    text: Help your users understand you with a glossary of property terms which is integrated with all other parts of the site. This means that any "property jargon" is explained simply by hovering over the word in the copy, making your site more user-friendly even to first time buyers.
+    text: Help your users understand you with a glossary of property terms which is integrated with all other parts of the site. This means that any "property jargon" is explained simply by hovering over the word in the copy, making your site more user-friendly even to first time buyers and landlords.
     image: /images/services/estate-agents/property-glossary.jpg
 bottom:
 -

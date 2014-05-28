@@ -1050,6 +1050,7 @@ blockquote {
     border: none;
     text-align: center;
     font-size: 21px;
+    padding: 0;
 }
 blockquote p:before, blockquote p:after {
     display: inline-block;

@@ -6,7 +6,7 @@ heading: Estate Agent Websites
 slug: estate-agent-sites
 permalink: estate-agent-web-design.html
 image: /images/services/estate-agent-websites.png
-lead: Powerful yet simple tools & professionals property websites for estate & lettings agents.
+lead: Powerful yet simple applications and professional property websites for estate & lettings agents, offering the best in user-experience whilst automating the task of selling property online.
 previews:
 -
     xl: /images/portfolio/callaways-estate-agents/callaways-estate-agents-homepage_xl.jpg

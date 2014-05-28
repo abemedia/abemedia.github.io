@@ -50,7 +50,7 @@ features:
 -
     title: Glossary of property terms
     text: Help your users understand you with a glossary of property terms which is integrated with all other parts of the site. This means that any "property jargon" is explained simply by hovering over the word in the copy.
-    image: /images/services/estate-agents/property-glossay.jpg
+    image: /images/services/estate-agents/property-glossary.jpg
 bottom:
 -
     type: features

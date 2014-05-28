@@ -3,7 +3,7 @@
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
   <div class="row">
     {% if thecycle == 'odd' %}
-    <div class="col-sm-4"><img src="{{ item.image }}"></div>
+    <div class="col-sm-4"><img class="img-thumbnail" src="{{ item.image }}"></div>
     <div class="col-sm-8">
       <h3>{{ item.title }}</h3>
       <p>{{ item.text }}</p>

@@ -42,11 +42,11 @@ features:
 -
     title: Social login & favourite properties
     text: "Let your visitors sign up and login with just one click using social profiles such as Google, LinkedIn or Facebook, which has proven to increase registration rates by up to 50%* so they can start adding properties to favourites in seconds without the hassle of another creating and remembering yet another username & password. <br><small>*Source: Janrain.com</small>"
-    image: /images/services/estate-agents/property-search.jpg
+    image: /images/services/estate-agents/social-login.jpg
 -
     title: Cutting-edge smartphone integration
     text: Not only are we experts at making your website mobile responsive, we also integrate various types of QR codes including property specifications QR codes on the listings to allow users to easily download the information to their phone and contact QR codes on the contact & team pages to save your company and staff to their phone without any hassle.
-    image: /images/services/estate-agents/property-search.jpg
+    image: /images/services/estate-agents/smartphone-integration.jpg
 -
     title: Glossary of property terms
     text: Help your users understand you with a glossary of property terms which is integrated with all other parts of the site. This means that any "property jargon" is explained simply by hovering over the word in the copy.

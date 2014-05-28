@@ -82,6 +82,8 @@ The all new ABE media estate agent websites are the ultimate in design and usabi
 
 After many months of development and testing from our professional, dedicated team of web designers and programmers, this fine balance of code and design provides a completely fresh take on estate agent websites.
 
+<hr>
+
 <blockquote>
         <p>The website looks stunning!</p>
         <footer>Heather Hilder-Darling, Callaways Estate Agents</footer>

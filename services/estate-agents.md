@@ -29,7 +29,7 @@ features:
     image: /images/services/estate-agents/pdf-brochures.jpg
 -
     title: Always up-to-date with your latest properties
-    text: Our estate agent websites integrate with database providers such as DezRez so they are always up-to-date with your latest properties without having to enter your data in multiple places.
+    text: Our estate agent websites integrate with database providers such as DezRez so they are always up-to-date with your latest properties without having to enter your data in multiple places.<br> Use a different provider than DezRez or even your own custom database? No problem! We can integrate most systems and don't even charge extra for major providers!
     image: /images/services/estate-agents/property-feeds.jpg
 -
     title: Local schools & colleges

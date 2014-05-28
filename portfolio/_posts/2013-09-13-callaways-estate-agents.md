@@ -18,8 +18,8 @@ previews:
 tags:
   - web-design
   - cms
-# testimonial: "The website looks amazing. Thank you so much."
-# client: Heather Hilder-Darling
+testimonial: "The website looks amazing. Thank you so much."
+client: Heather Hilder-Darling
 ---
 
 Callaways is an independent, family-run Estate & Lettings Agency in Arundel, Hove, and Worthing which has been established for over 75 years and has won the Daily Mail's Best Estate Agency in East Sussex Award for the last years running.

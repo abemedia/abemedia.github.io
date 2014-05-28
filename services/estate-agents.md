@@ -30,11 +30,11 @@ features:
 -
     title: Always up-to-date with your latest properties
     text: Our estate agent websites integrate with database providers such as DezRez so they are always up-to-date with your latest properties without having to enter your data in multiple places.
-    image: /images/services/estate-agents/property-search.jpg
+    image: /images/services/estate-agents/property-feeds.jpg
 -
     title: Local schools & colleges
     text: Sometimes photos & a compelling description aren't enough, especially when selling to families it is important to know what kind of education is available in the near vicinity. Forget having to spend hours manually compiling that data for your properties, our estate agent websites display a map showing your visitors all the local schools & colleges with links to Ofsted inspection data and exam performance results completely hands-free!
-    image: /images/services/estate-agents/property-search.jpg
+    image: /images/services/estate-agents/local-schools.jpg
 -
     title: Maps, directions & public transport
     text: Help your users find the property easily with inbuilt Google Maps, featuring directions for driving, cycling and walking, as well as train & bus connections with live departure times.

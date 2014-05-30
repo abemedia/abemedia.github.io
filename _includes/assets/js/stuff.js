@@ -222,4 +222,4 @@ if ($(".img-link").length > 0) {
 		jQuery('.img-modal .img').css('background-image', 'url(' + jQuery(this).find('img').attr('src') + ')');
 		jQuery('.img-modal img').attr('src', jQuery(this).attr('data-img'));
 	});
-});
+};

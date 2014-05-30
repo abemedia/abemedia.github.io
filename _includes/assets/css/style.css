@@ -1095,7 +1095,6 @@ blockquote footer:before, blockquote small:before, blockquote .small:before {
   background-position: center;
   background-repeat: no-repeat;
   background-size:contain;
-  max-width:849px;
 }
 .modal.img-modal.in {
   top: 0;

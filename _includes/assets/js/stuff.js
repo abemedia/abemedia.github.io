@@ -218,8 +218,9 @@ if ($(".comment-link").length > 0) {
 
 
 if ($(".img-link").length > 0) {
-	jQuery('.img-link').click(function () {
-		jQuery('.img-modal .img').css('background-image', 'url(' + jQuery(this).find('img').attr('src') + ')');
-		jQuery('.img-modal img').attr('src', jQuery(this).attr('data-img'));
+	$('.img-link').click(function () {
+        $( "body" ).append( '<div id="imgModal" class="modal img-modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="img"><img /></div><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button></div>' );
+		$('.img-modal .img').css('background-image', 'url(' + $(this).find('img').attr('src') + ')');
+		$('.img-modal img').attr('src', $(this).attr('data-img'));
 	});
 };

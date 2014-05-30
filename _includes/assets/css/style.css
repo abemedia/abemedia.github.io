@@ -1094,7 +1094,7 @@ blockquote footer:before, blockquote small:before, blockquote .small:before {
   right: 20px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size:849px;
 }
 .modal.img-modal.in {
   top: 0;
@@ -1113,8 +1113,8 @@ blockquote footer:before, blockquote small:before, blockquote .small:before {
   opacity: 1;
 }
 .img-modal img {
-  width: auto;
-  height:100%;
+  width: 849px;
+  height:auto;
   -webkit-box-shadow: 0 0 15px rgba(0,0,0,.75);
   -moz-box-shadow: 0 0 15px rgba(0,0,0,.75);
   box-shadow: 0 0 15px rgba(0,0,0,.75);

@@ -215,4 +215,11 @@ if ($(".comment-link").length > 0) {
 		(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
 	}());
 }
-	
+
+
+if ($(".img-link").length > 0) {
+	jQuery('.img-link').click(function () {
+		jQuery('.img-modal .img').css('background-image', 'url(' + jQuery(this).find('img').attr('src') + ')');
+		jQuery('.img-modal img').attr('src', jQuery(this).attr('data-img'));
+	});
+});

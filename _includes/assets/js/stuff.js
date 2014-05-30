@@ -219,7 +219,7 @@ if ($(".comment-link").length > 0) {
 
 if ($(".img-link").length > 0) {
 	$('.img-link').click(function () {
-        $( "body" ).append( '<div id="imgModal" class="modal img-modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="img thumbnail"><img /><span class="h1"></span></div><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button></div>' );
+        $( "body" ).append( '<div id="imgModal" class="modal img-modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="img thumbnail"><img /><span></span></div><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button></div>' );
 		$('.img-modal img').attr('src', $(this).attr('data-img'));
 		$('.img-modal span').text($(this).attr('data-title'));
 	});

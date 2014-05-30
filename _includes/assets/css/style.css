@@ -1046,6 +1046,8 @@ figure:hover img {
 }
 }
 
+/* Blockquotes
+-------------------------------------------------- */
 blockquote {
     border: none;
     text-align: center;
@@ -1070,4 +1072,50 @@ blockquote p:after {
 }
 blockquote footer:before, blockquote small:before, blockquote .small:before {
     display:none;
+}
+
+/* Image modals
+-------------------------------------------------- */
+.modal.img-modal {
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+  text-align: center;
+}
+.modal.img-modal .img {
+  position: absolute;
+  bottom: 20px;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+.modal.img-modal.in {
+  top: 0;
+}
+.img-modal .close {
+  color: #fff;
+  font-size: 40px;
+  line-height: 40px;
+  opacity: 0.8;
+  font-weight: 300;
+  position: absolute;
+  right: 15px;
+  top: 0;
+}
+.img-modal .close:hover {
+  opacity: 1;
+}
+.img-modal img {
+  width: auto;
+  height:100%;
+  -webkit-box-shadow: 0 0 15px rgba(0,0,0,.75);
+  -moz-box-shadow: 0 0 15px rgba(0,0,0,.75);
+  box-shadow: 0 0 15px rgba(0,0,0,.75);
 }

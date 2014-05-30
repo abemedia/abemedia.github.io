@@ -1099,6 +1099,10 @@ blockquote footer:before, blockquote small:before, blockquote .small:before {
 .img-modal .img {
     display: inline-block;
 }
+.img-modal span {
+    display: block;
+    color: #fff;
+}
 .img-modal img {
     max-height:80%;
 	-webkit-box-shadow: 0 0 15px rgba(0,0,0,.75);

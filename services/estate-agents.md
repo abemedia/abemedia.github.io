@@ -21,7 +21,7 @@ previews:
 features:
 -
     title: Innovative AJAX property search
-    text: Our innovative property search interface features dynamic sliders,& instant property search results and is easily accessible from all pages of the site. This means it's not only child's play to use but the search results update as the user selects their property preferences, thus allowing them to get a peek at properties they might not have seen otherwise.
+    text: Our innovative property search interface features dynamic sliders & instant property search results and is easily accessible from all pages of the site. This means it's not only child's play to use but the search results update as the user selects their property preferences, thus allowing them to get a peek at properties they might not have seen otherwise.
     image: /images/services/estate-agents/property-search.jpg
 -
     title: Branded custom PDF brochures

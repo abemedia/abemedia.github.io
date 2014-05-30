@@ -3,7 +3,7 @@
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
   <div class="row">
     <div class="col-sm-4{% if thecycle == 'even' %} col-sm-push-8{% endif %}">
-      <a href="#imgModal" role="button" data-toggle="modal" class="img-link" data-img="{{ item.image }}">
+      <a href="#imgModal" role="button" data-toggle="modal" class="img-link" data-img="{{ item.image }}" data-title="{{ item.title }}">
         <img class="img-thumbnail" src="{{ item.image }}">
       </a>
     </div>

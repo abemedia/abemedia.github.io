@@ -171,6 +171,8 @@ body>footer a:hover {
 	position: fixed;
 	top: 50px;
 	border: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
 	border-radius: 0;
 	background: #FE9833;
 	padding: 15px 30px;
@@ -199,6 +201,8 @@ body>footer a:hover {
 	color: #fff;
 	text-transform: uppercase;
 	padding: 10px 5px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
 	border-radius: 4px;
 	font-weight: bold;
 	white-space: normal;
@@ -260,6 +264,8 @@ body {
 .carousel-indicators li {
 	width: 16px;
 	height:16px;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
 	border-radius: 100%;
 	border: none;
 	background-color: #333;
@@ -694,6 +700,8 @@ figure:hover img {
 	padding: 50px;
 	background: #fff;
 	background: rgba(255,255,255,0.85);
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
 	border-radius: 100%;
 	display: inline-block;
 }
@@ -735,6 +743,8 @@ figure:hover img {
 	padding: 10px 0;
 }
 .ribbon-circle {
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
 	border-radius: 100%;
 	background: inherit;
 	color: #fff;
@@ -896,6 +906,8 @@ figure:hover img {
 	display: block;
 }
 .avatar>img {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
 	border-radius: 50%;
 	margin-bottom: 10px;
 	-webkit-transition: all 0.25s ease-in;

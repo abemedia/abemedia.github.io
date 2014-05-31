@@ -986,14 +986,12 @@ figure:hover img {
 	-o-transform: rotateY(0deg);
 	-ms-transform: rotateY(0deg);
 	transform: rotateY(0deg);
-	z-index: 2;
 }
 .flip-container:hover .front, .flip-container.hover .front {
 	-webkit-transform: rotateY(180deg);
 	-moz-transform: rotateY(180deg);
 	-o-transform: rotateY(180deg);
 	transform: rotateY(180deg);
-	z-index: 1;
 }
 .flipper {
 	-webkit-transition: 0.6s;
@@ -1042,6 +1040,12 @@ figure:hover img {
 	position: absolute;
 	background: #FE9833;
 	color:#fff;
+	z-index: 1;
+}
+.flip-container:hover .back {
+	z-index: 2;
+}
+.flip-container:hover .front {
 	z-index: 1;
 }
 .back .text-muted {

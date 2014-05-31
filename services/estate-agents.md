@@ -80,7 +80,9 @@ bottom:
 ---
 The all new ABE media estate agent websites are the ultimate in design and usability. They are the most comprehensive estate agent website solutions available at realistic prices to high street agents.
 
-After many months of development and testing, this fine balance of code and design provides a completely fresh take on estate agent websites, simplifying your workflow by automatically updating itself with the latest available properties from your current database, such as DezRez or ExpertAgent. If we don't currently feature your current provider, or you are using a bespoke Access database, we can also integrate these without a problem.
+After many months of development and testing, this fine balance of code and design provides a completely fresh take on estate agent websites, simplifying your workflow by automatically updating itself with the latest available properties from your current database, such as DezRez or ExpertAgent. 
+ 
+If we don't currently feature your current provider, or you are using a bespoke Access database, we can also integrate these without a problem.
 
 <hr>
 

@@ -25,6 +25,6 @@ bottom:
 ---
 <h2 class="module-title">Who we are</h2>
 
-ABE Media aren't a **web design agency** in the traditional sense - more so a small collective of highly skilled individuals with years of experience in creating functional yet beautiful products and new business opportunities for a socially connected digital world. 
+ABE Media aren't a **web design agency** in the traditional sense - more a small collective of highly-skilled individuals with years of experience in creating functional yet beautiful products and new business opportunities for a socially-connected digital world. 
 
-Rather than pride ourselves on flashy offices or big corporate investments we take pride in innovative, user friendly web applications, beautiful artwork and forward thinking digital marketing campaigns.
+Rather than pride ourselves on flashy offices or big corporate investments, we take pride in innovative, user-friendly web applications, beautiful artwork and forward-thinking digital marketing campaigns.

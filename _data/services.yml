@@ -3,13 +3,13 @@
     alias: web-design
     url: web-design-brighton
     image: /images/services/web-development.png
-    desc: "We offer professional, innovative web design &amp; development, creating accessible, web standards compliant and SEO friendly websites."
+    desc: "We offer professional, innovative web design &amp; development, creating accessible, web standards-compliant and SEO-friendly websites."
 -
     title: Ecommerce
     alias: ecommerce
     url: ecommerce-web-design
     image: /images/services/ecommerce.png
-    desc: "No two online businesses are the same; that's why our online shops are fully customized to support your specific ecommerce strategy."
+    desc: "No two online businesses are the same; that's why our online shops are fully customised to support your specific ecommerce strategy."
 -
     title: CMS
     alias: cms

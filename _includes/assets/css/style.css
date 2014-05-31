@@ -1100,9 +1100,6 @@ blockquote footer:before, blockquote small:before, blockquote .small:before {
     display: inline-block;
     margin-top: 20px;
 }
-.img-modal span {
-    display: block;
-}
 .img-modal img {
     max-height:80%;
 }

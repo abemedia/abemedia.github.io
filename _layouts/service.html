@@ -8,61 +8,63 @@ top:
 ---
 <div class="fullrow">
   <div class="inner">
-	<div class="row">
-	  <div class="col-md-5">
-		<h1>{{ page.name }}</h1>
-		{{ content }}
-	  </div>
-	  <div class="col-md-7">
-		{% if page.previews %}
-		<div id="previews" class="carousel slide carousel-fade" data-interval="1000">
-		  <ol class="carousel-indicators">
-			{% capture i %}0{% endcapture %}
-			{% for item in page.previews %}
-			<li data-target="#previews" data-slide-to="{{i}}" class="{% if {{i}} == "0" %}active{% endif %}"></li>
-			{% capture i %}{{ i | plus:1 }}{% endcapture %}
-			{% endfor %}
-		  </ol>
-		  <div class="carousel-inner"> 
-			{% capture i %}0{% endcapture %}
-			{% for item in page.previews %}
-			<div class="item {% if {{i}} == "0" %}active{% endif %}">
-			  <div class="device-mockup macbook preview">
-				<div class="device">
-				  <div class="screen"><div class="preview-img"><img src="{{ item.xl }}" alt="" draggable="false" unselectable="on"></div></div>
-				</div>
-			  </div>
-			  {% if item.xs %}
-			  <div class="preview-phone">
-				<div class="device-mockup iphone5 preview">
-				  <div class="device">
-					<div class="screen"><div class="preview-img"><img src="{{ item.xs }}" alt="" draggable="false" unselectable="on"></div></div>
-				  </div>
-				</div>
-			  </div>
-			  {% endif %}
-			</div>
-			{% capture i %}{{ i | plus:1 }}{% endcapture %}
-			{% endfor %} 
-		  </div>
-		  <!--a class="left carousel-control" href="#photoslide" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#photoslide" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a-->
-		</div>
-		{% else %} 
-		<div class="device-mockup macbook">
-		  <div class="device">
-			<div class="screen"></div>
-		  </div>
-		</div>
-		<div class="preview-phone">
-		  <div class="device-mockup iphone5">
-			<div class="device">
-			  <div class="screen"></div>
-			</div>
-		  </div>
-		</div>
-		{% endif %} 
-		<div class="text-center"><a href="{{site.baseurl}}contact" class="btn btn-danger btn-wide btn-lg h4">Find out more!</a></div>
-	  </div>
-	</div>
+    <div class="row">
+      <div class="col-md-5">
+        <h1>{{ page.name }}</h1>
+        {{ content }}
+      </div>
+      <div class="col-md-7">
+        {% if page.previews %}
+        <div id="previews" class="carousel slide carousel-fade" data-interval="1000">
+          <ol class="carousel-indicators">
+            {% capture i %}0{% endcapture %}
+            {% for item in page.previews %}
+            <li data-target="#previews" data-slide-to="{{i}}" class="{% if {{i}} == "0" %}active{% endif %}"></li>
+            {% capture i %}{{ i | plus:1 }}{% endcapture %}
+            {% endfor %}
+          </ol>
+          <div class="carousel-inner"> 
+            {% capture i %}0{% endcapture %}
+            {% for item in page.previews %}
+            <div class="item {% if {{i}} == "0" %}active{% endif %}">
+              <div class="device-mockup macbook preview">
+                <div class="device">
+                  <div class="screen"><div class="preview-img"><img src="{{ item.xl }}" alt="" draggable="false" unselectable="on"></div></div>
+                </div>
+              </div>
+              {% if item.xs %}
+              <div class="preview-phone">
+                <div class="device-mockup iphone5 preview">
+                  <div class="device">
+                    <div class="screen"><div class="preview-img"><img src="{{ item.xs }}" alt="" draggable="false" unselectable="on"></div></div>
+                  </div>
+                </div>
+              </div>
+              {% endif %}
+            </div>
+            {% capture i %}{{ i | plus:1 }}{% endcapture %}
+            {% endfor %} 
+          </div>
+          <!--a class="left carousel-control" href="#photoslide" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#photoslide" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a-->
+        </div>
+        {% else %} 
+        <div>
+          <div class="device-mockup macbook">
+            <div class="device">
+              <div class="screen"></div>
+            </div>
+          </div>
+          <div class="preview-phone">
+            <div class="device-mockup iphone5">
+              <div class="device">
+                <div class="screen"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endif %} 
+        <div class="text-center"><a href="{{site.baseurl}}contact" class="btn btn-danger btn-wide btn-lg h4">Find out more!</a></div>
+      </div>
+    </div>
   </div>
 </div>

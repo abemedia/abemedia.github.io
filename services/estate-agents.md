@@ -25,11 +25,11 @@ features:
     image: /images/services/estate-agents/property-search.jpg
 -
     title: Branded custom PDF brochures
-    text: Generate stunning, branded PDF brochures of your properties on-the-fly, which are customisable by the user. They select which data they would like included in the brochure (including photos, floorplans, EPC etc.) and create the brochure with one click, thus saving paper and ink - your contribution towards saving the environment.
+    text: Generate stunning, branded PDF brochures of your properties on-the-fly, customisable by the users, who select data they would like included (such as photos, floor plans, EPCs etc.) and create the brochure with one click, thus saving paper and ink - your contribution towards saving the environment.
     image: /images/services/estate-agents/pdf-brochures.jpg
 -
     title: Always up-to-date with your latest properties
-    text: Our estate agent websites integrate with database providers such as DezRez, so they are always up-to-date with your latest properties without having to enter them in multiple places.<br> Use a different provider than DezRez or even your own custom database? No problem! We can integrate most systems and don't even charge extra for major providers!
+    text: Our estate agent websites integrate with database providers such as DezRez and are therefore always up-to-date with your latest properties without having to enter them in multiple places.<br> Use a different provider than DezRez or even your own custom database? No problem! We can integrate most systems and don't even charge extra for major providers!
     image: /images/services/estate-agents/property-feeds.jpg
 -
     title: Local schools & colleges

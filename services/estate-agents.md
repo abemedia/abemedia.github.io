@@ -41,11 +41,11 @@ features:
     image: /images/services/estate-agents/map-directions.jpg
 -
     title: Social login & favourite properties
-    text: "Let your visitors sign up and login with just one click using social profiles such as Google, LinkedIn or Facebook, which has proven to increase registration rates by up to 50%* so they can start adding properties to favourites in seconds without the hassle of another creating and remembering yet another username & password. <br><small>*Source: Janrain.com</small>"
+    text: "Let your visitors sign up and login with just one click using social profiles such as Google, LinkedIn or Facebook which, according to a case study by Janrain.com, has proven to increase registration rates by up to 50%. Potential clients can start adding properties to favourites in seconds, without the hassle of creating and remembering yet another username & password."
     image: /images/services/estate-agents/social-login.jpg
 -
     title: Cutting-edge smartphone integration
-    text: Not only are we experts at making your website mobile responsive, we also integrate various types of QR codes including property specifications QR codes on the listings to allow users to easily download the information to their phone and contact QR codes on the contact & team pages to save your company and staff to their phone without any hassle.
+    text: Not only are we experts at making your website responsive for mobile devices, we also integrate various types of QR codes. These include property specifications QR codes on the listings, to allow users to easily download the information to their phone, and contact QR codes on the contact & team pages to save your company and staff details to their phone without any hassle.
     image: /images/services/estate-agents/smartphone-integration.jpg
 -
     title: Glossary of property terms

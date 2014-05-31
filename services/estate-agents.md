@@ -33,19 +33,19 @@ features:
     image: /images/services/estate-agents/property-feeds.jpg
 -
     title: Local schools & colleges
-    text: Sometimes photos & a compelling description aren't enough. Especially when selling to families it's important for them to know what kind of education is available in the near vicinity. Forget having to spend hours manually compiling that data for your properties, our estate agent websites display a map showing your visitors all the local schools & colleges with links to Ofsted inspection data and exam performance results completely hands-free!
+    text: Sometimes photos & a compelling description aren't enough. Especially when selling to families, it's important for them to know what kind of education is available in the near vicinity. Forget about spending hours manually compiling data for your properties, our estate agent websites display a map showing your visitors all the local schools & colleges, with links to Ofsted inspection data and exam performance results, all completely hands-free!
     image: /images/services/estate-agents/local-schools.jpg
 -
     title: Maps, directions & public transport
-    text: Help your users find the property easily with inbuilt Google Maps, featuring directions for driving, cycling and walking, as well as train & bus connections with live departure times. <br>Google Maps also features local amenities such as restaurants, sports clubs, shops & churches.
+    text: Help your users find the property easily with inbuilt Google Maps, featuring directions for driving, cycling and walking, as well as train & bus connections with live departure times. <br>Google Maps also features local amenities, such as restaurants, sports clubs, shops & churches.
     image: /images/services/estate-agents/map-directions.jpg
 -
     title: Social login & favourite properties
-    text: "Let your visitors sign up and login with just one click using social profiles such as Google, LinkedIn or Facebook which, according to a case study by Janrain.com, has proven to increase registration rates by up to 50%. Potential clients can start adding properties to favourites in seconds, without the hassle of creating and remembering yet another username & password."
+    text: Using social profiles such as Google, LinkedIn or Facebook, your visitors can sign up and login with just one click which, according to a case study by Janrain.com, has proven to increase registration rates by up to 50%. Potential clients can start adding properties to favourites in seconds, without the hassle of creating and remembering yet another username & password.
     image: /images/services/estate-agents/social-login.jpg
 -
     title: Cutting-edge smartphone integration
-    text: Not only are we experts at making your website responsive for mobile devices, we also integrate various types of QR codes. These include property specifications QR codes on the listings, to allow users to easily download the information to their phone, and contact QR codes on the contact & team pages to save your company and staff details to their phone without any hassle.
+    text: Not only are we experts at making your website responsive for mobile devices, we also integrate various types of QR codes. These include property specifications QR codes on the listings, allowing users to easily download the information to their phone, and contact QR codes on the contact & team pages, so they can save your company and staff details to their phone without any hassle.
     image: /images/services/estate-agents/smartphone-integration.jpg
 -
     title: Glossary of property terms

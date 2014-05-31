@@ -64,7 +64,7 @@ bottom:
     -
         title: Bespoke Design
         icon: heart
-        content: All our estate agents websites boast eye-catching designs  built around your brand to represent your business in the best possible way.
+        content: All our estate agent websites boast eye-catching designs built around your brand to represent your business in the best possible way.
     -
         title: SEO Ready
         icon: search
@@ -72,7 +72,7 @@ bottom:
     -
         title: Customer Insights
         icon: users
-        content: Gather valuable insights that help you understand your visitors better, increasing conversions and turning casual browsers into clients. 
+        content: Understand your visitors better by gathering valuable insights, thus increasing conversions, turning casual browsers into clients. 
 -
     type: services
     title: Our Services

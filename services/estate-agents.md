@@ -21,23 +21,23 @@ previews:
 features:
 -
     title: Innovative AJAX property search
-    text: Our innovative property search interface features dynamic sliders & instant property search results and is easily accessible from all pages of the site. This means it's not only child's play to use, but the search results update as the user selects their property preferences, thus allowing them to get a peek at properties they might not have seen otherwise.
+    text: Our innovative property search interface features dynamic sliders & instant property search results and is easily accessible from all pages of the site. This means it's not only child's play to use, but the search results update as the user selects their property preferences, thus allowing them to get a peek at properties they might not otherwise have seen.
     image: /images/services/estate-agents/property-search.jpg
 -
     title: Branded custom PDF brochures
-    text: Generate stunning, branded PDF brochures of your properties on-the-fly which are customisable by the user. They select which data they would like included in the brochure (including photos, floorplans, EPC etc.) and create the brochure with one click thus saving them paper and ink and doing your bit towards saving the environment.
+    text: Generate stunning, branded PDF brochures of your properties on-the-fly, which are customisable by the user. They select which data they would like included in the brochure (including photos, floorplans, EPC etc.) and create the brochure with one click, thus saving paper and ink - your contribution towards saving the environment.
     image: /images/services/estate-agents/pdf-brochures.jpg
 -
     title: Always up-to-date with your latest properties
-    text: Our estate agent websites integrate with database providers such as DezRez so they are always up-to-date with your latest properties without having to enter your data in multiple places.<br> Use a different provider than DezRez or even your own custom database? No problem! We can integrate most systems and don't even charge extra for major providers!
+    text: Our estate agent websites integrate with database providers such as DezRez, so they are always up-to-date with your latest properties without having to enter them in multiple places.<br> Use a different provider than DezRez or even your own custom database? No problem! We can integrate most systems and don't even charge extra for major providers!
     image: /images/services/estate-agents/property-feeds.jpg
 -
     title: Local schools & colleges
-    text: Sometimes photos & a compelling description aren't enough, especially when selling to families it is important to know what kind of education is available in the near vicinity. Forget having to spend hours manually compiling that data for your properties, our estate agent websites display a map showing your visitors all the local schools & colleges with links to Ofsted inspection data and exam performance results completely hands-free!
+    text: Sometimes photos & a compelling description aren't enough. Especially when selling to families it's important for them to know what kind of education is available in the near vicinity. Forget having to spend hours manually compiling that data for your properties, our estate agent websites display a map showing your visitors all the local schools & colleges with links to Ofsted inspection data and exam performance results completely hands-free!
     image: /images/services/estate-agents/local-schools.jpg
 -
     title: Maps, directions & public transport
-    text: Help your users find the property easily with inbuilt Google Maps, featuring directions for driving, cycling and walking, as well as train & bus connections with live departure times.
+    text: Help your users find the property easily with inbuilt Google Maps, featuring directions for driving, cycling and walking, as well as train & bus connections with live departure times. <br>Google Maps also features local amenities such as restaurants, sports clubs, shops & churches.
     image: /images/services/estate-agents/map-directions.jpg
 -
     title: Social login & favourite properties

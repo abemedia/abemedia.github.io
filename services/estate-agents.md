@@ -6,7 +6,7 @@ heading: Estate Agent Websites
 slug: estate-agent-sites
 permalink: estate-agent-web-design.html
 image: /images/services/estate-agent-websites.png
-lead: Powerful yet simple applications and professional property websites for estate & lettings agents, offering the best in user-experience whilst automating the task of selling property online.
+lead: Powerful yet simple applications and professional property websites for estate & lettings agents, offering the best in user-experience, whilst automating the task of selling property online.
 previews:
 -
     xl: /images/portfolio/callaways-estate-agents/callaways-estate-agents-homepage_xl.jpg
@@ -21,7 +21,7 @@ previews:
 features:
 -
     title: Innovative AJAX property search
-    text: Our innovative property search interface features dynamic sliders & instant property search results and is easily accessible from all pages of the site. This means it's not only child's play to use but the search results update as the user selects their property preferences, thus allowing them to get a peek at properties they might not have seen otherwise.
+    text: Our innovative property search interface features dynamic sliders & instant property search results and is easily accessible from all pages of the site. This means it's not only child's play to use, but the search results update as the user selects their property preferences, thus allowing them to get a peek at properties they might not have seen otherwise.
     image: /images/services/estate-agents/property-search.jpg
 -
     title: Branded custom PDF brochures
@@ -80,7 +80,7 @@ bottom:
 ---
 The all new ABE media estate agent websites are the ultimate in design and usability. They are the most comprehensive estate agent website solutions available at realistic prices to high street agents.
 
-After many months of development and testing from our professional, dedicated team of web designers and programmers, this fine balance of code and design provides a completely fresh take on estate agent websites.
+After many months of development and testing, this fine balance of code and design provides a completely fresh take on estate agent websites, simplifying your workflow by automatically updating itself with the latest available properties from your current database, such as DezRez or ExpertAgent. If we don't currently feature your current provider, or you are using a bespoke Access database, we can also integrate these without a problem.
 
 <hr>
 

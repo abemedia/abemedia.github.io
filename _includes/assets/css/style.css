@@ -1131,6 +1131,7 @@ blockquote footer:before, blockquote small:before, blockquote .small:before {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
 }
 .blog .back .h4 {
 	margin-bottom: 0;

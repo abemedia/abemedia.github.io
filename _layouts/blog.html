@@ -14,7 +14,7 @@ layout: default
               </div>
               <div class="back">
                 <div class="h4 hidden-xs">{{ post.title }}</div>
-                <small class="text-muted">{{ post.date | date: "%A, %-d %B %Y" }}</small>
+                <small class="text-muted">{{ post.date | date: "%A, %-d %B %Y" }} in {{ post.categories | last | capitalize  }}</small>
                 <hr>
                 <div class="text-muted">{{ post.excerpt | strip_html }}</div>
               </div>

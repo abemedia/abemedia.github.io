@@ -1148,7 +1148,7 @@ blockquote footer:before, blockquote small:before, blockquote .small:before {
     bottom: 0;
     right: 0;
     left:0;
-    height: 2em;
+    height: 3em;
     background: linear-gradient(to bottom, rgba(254, 152, 51, 0), rgb(254, 152, 51) 60%, rgb(254, 152, 51) 100%);
     pointer-events: none;
 }

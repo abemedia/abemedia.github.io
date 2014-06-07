@@ -56,12 +56,6 @@ section:before, section:after {
 .page-header {
 	margin-top: 0;
 }
-.breadcrumb {
-	padding: 5px 10px;
-	margin: 10px 0 20px 82px;
-	display: inline-block;
-	background: rgba(255,255,255,0.5);
-}
 body>footer {
 	padding-top: 40px;
 	padding-bottom: 30px;

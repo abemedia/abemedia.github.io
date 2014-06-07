@@ -955,6 +955,7 @@ figure:hover img {
 	display: block;
 	padding: 15px;
 	zoom: 1;
+    height:100%;
 }
 .flipper:hover {
 	background-color: rgba(255,255,255,0.75);

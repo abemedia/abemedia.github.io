@@ -14,7 +14,7 @@ layout: default
               </div>
               <div class="back">
                 <div class="h4 hidden-xs">{{ post.title }}</div>
-                <span class="text-muted">{{ post.excerpt }}</span>
+                <span class="text-muted">{{ post.excerpt | strip_html }}</span>
               </div>
             </a>
           </div>

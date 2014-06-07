@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Terms & Conditions
+sitemap: false
 ---
 # Terms of Use
 

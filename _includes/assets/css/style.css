@@ -1141,9 +1141,17 @@ blockquote footer:before, blockquote small:before, blockquote .small:before {
 }
 .back-inner {
     overflow: hidden;
-    text-overflow: ellipsis;
-    -o-text-overflow: ellipsis;
     max-height: 100%;
+    
+}.back-inner:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left:0;
+    height: 1.2em;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0), white 100%);
+    pointer-events: none;
 }
 .post-inner {
 	max-width: 849px;

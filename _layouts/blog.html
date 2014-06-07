@@ -5,11 +5,16 @@ layout: default
 <ul class="box-list equal blog">
 {% for post in site.categories.blog %}
   {% if post.categories contains {{page.slug}} %}
-    <li><a class="box" href="{{ site.baseurl }}{{ post.url }}">
-      <img src="{{ post.image }}" alt="{{ post.title }}">
-      <h3 class="h4 media-heading">{{ post.title }}</h3>
-      <span class="text-muted">{{ post.excerpt | strip_html }}</span>
-      </a>
+    <li>
+      <div class="box">
+        <a href="{{ site.baseurl }}{{ post.url | remove:".html" }}">
+          <img src="{{ post.image }}" alt="{{ post.title }}">
+          <div class="box-content">
+            <h3 class="h4 media-heading">{{ post.title }}</h3>
+            <span class="text-muted">{{ post.excerpt | strip_html }}</span>
+          </div>
+        </a>
+      </div>
     {% endif %} 
 {% endfor %}
 </ul>

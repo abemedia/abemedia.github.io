@@ -12,7 +12,8 @@ layout: default
           <h3 class="h4 media-heading">{{ post.title }}</h3>
         </a>
         <span class="text-muted">{{ post.excerpt | strip_html }}</span>
-        <div class="post_meta">Written by <a href="{{ site.baseurl }}author/{{ post.author | replace: " ","-" | downcase  }}">{{ post.author }}</a> in <a href="{{ site.baseurl }}{{ post.categories | join: "/" }}">{{ post.categories | last | capitalize  }}</a> &middot; {{ post.date | date: "%A, %-d %B %Y" }} <a class="pull-right comment-link" href="{{ post.url | remove:".html" }}#disqus_thread"></a></div>
+        <img src="{{ site.baseurl }}images/people/{{ post.author | replace: " ","-" | downcase }}.jpg" alt="" class="img-thumbnail img-circle hidden-xs" />
+        <div class="post_meta">By <a href="{{ site.baseurl }}author/{{ post.author | replace: " ","-" | downcase  }}">{{ post.author }}</a> &middot; {{ post.date | date: "%A, %-d %B %Y" }}</div>
       </div>
     {% endif %} 
 {% endfor %}

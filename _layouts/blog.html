@@ -13,10 +13,11 @@ layout: default
                 <h3 class="media-heading h4">{{ post.title }}</h3>
               </div>
               <div class="back">
-                <div class="h4 hidden-xs">{{ post.title }}</div>
-                <small class="text-muted">{{ post.date | date: "%A, %-d %B %Y" }} in {{ post.categories | last | capitalize  }}</small>
-                <hr>
-                <div class="text-muted">{{ post.excerpt | strip_html }}</div>
+                <div class="back-inner">
+                  <div class="h4 hidden-xs">{{ post.title }}</div>
+                  <small class="text-muted">{{ post.date | date: "%A, %-d %B %Y" }} in {{ post.categories | last | capitalize  }}</small>
+                  <hr>{{ post.excerpt | strip_html }}</div>
+                </div>
               </div>
             </a>
           </div>

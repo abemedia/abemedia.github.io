@@ -1139,6 +1139,12 @@ blockquote footer:before, blockquote small:before, blockquote .small:before {
 .blog .img {
 	margin: -15px -15px 5px;
 }
+.back-inner {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    max-height: 100%;
+}
 .post-inner {
 	max-width: 849px;
     margin: 0 auto;

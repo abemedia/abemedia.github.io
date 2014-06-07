@@ -6,10 +6,22 @@ layout: default
 {% for post in site.categories.blog %}
   {% if post.categories contains {{page.slug}} %}
     <li>
-      <a class="box" href="{{ post.url | remove:".html" }}">
+          <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+            <a class="flipper" href="{{ post.url | remove:".html" }}">
+              <div class="front">
+                <div class="img"><img src="{{ post.image }}" alt="{{ post.title }}"></div>
+                <h3 class="media-heading">{{ post.title }}</h3>
+              </div>
+              <div class="back">
+                <div class="h3 hidden-xs">{{ post.title }}</div>
+                <span class="text-muted">{{ post.excerpt | strip_html }}</span>
+              </div>
+            </a>
+          </div>
+      <!--a class="box" href="{{ post.url | remove:".html" }}">
         <div class="img"><img src="{{ post.image }}" alt="{{ post.title }}"></div>
         <h3 class="h4 media-heading">{{ post.title }}</h3>
-      </a>
+      </a-->
     {% endif %} 
 {% endfor %}
 </ul>

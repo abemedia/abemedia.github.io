@@ -34,7 +34,10 @@ top:
 	<time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
     </div>
   </header>
-  <div class="article-content">{{ content }}</div>
+  <div class="article-content">{{ content }}
+    Posted in <a href="{{ site.baseurl }}{{ post.categories | join: "/" }}">{{ post.categories | last | capitalize  }}</a>
+  </div>
+  
 </article>
 <hr>
 <div id="disqus_thread"></div>

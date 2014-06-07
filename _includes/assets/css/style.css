@@ -1148,8 +1148,8 @@ blockquote footer:before, blockquote small:before, blockquote .small:before {
     bottom: 0;
     right: 0;
     left:0;
-    height: 1.2em;
-    background: linear-gradient(to bottom, rgba(254, 152, 51, 0), rgba(254, 152, 51) 100%);
+    height: 2em;
+    background: linear-gradient(to bottom, rgba(254, 152, 51, 0), rgb(254, 152, 51) 100%);
     pointer-events: none;
 }
 .post-inner {

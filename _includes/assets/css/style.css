@@ -1125,10 +1125,8 @@ blockquote footer:before, blockquote small:before, blockquote .small:before {
     max-height:80%;
 }
 
-
-.blog .box {
-    text-align: left;
-}
+/* Blog
+-------------------------------------------------- */
 .blog .img {
 	margin: -15px -15px 15px;
 }

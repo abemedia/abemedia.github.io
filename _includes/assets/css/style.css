@@ -1128,7 +1128,7 @@ blockquote footer:before, blockquote small:before, blockquote .small:before {
 /* Blog
 -------------------------------------------------- */
 .blog .img {
-	margin: -15px -15px 15px;
+	margin: -15px -15px 5px;
 }
 .post-inner {
 	max-width: 849px;

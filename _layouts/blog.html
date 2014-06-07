@@ -11,8 +11,8 @@ layout: default
           <div class="img"><img src="{{ post.image }}" alt="{{ post.title }}"></div>
           <h3 class="h4 media-heading">{{ post.title }}</h3>
         </a>
-        <span class="text-muted">{{ post.excerpt | strip_html }}</span>
-        <div class="post_meta">By <a href="{{ site.baseurl }}author/{{ post.author | replace: " ","-" | downcase  }}">{{ post.author }}</a> &middot; {{ post.date | date: "%A, %-d %B %Y" }}</div>
+        <p class="text-muted">{{ post.excerpt | strip_html }}</p>
+        <small>{{ post.date | date: "%A, %-d %B %Y" }}</small>
       </div>
     {% endif %} 
 {% endfor %}

@@ -4,7 +4,7 @@ title: "New website online"
 categories:
 - Blog
 - Announcements
-image: "/images/blog/abemedia-logo.jpg"
+image: "/images/blog/abemedia-trinity.jpg"
 published: true
 author: Adam Bouqdib
 ---

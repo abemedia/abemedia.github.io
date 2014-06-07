@@ -236,7 +236,7 @@ if ($(".img-link").length > 0) {
                         if(el.css("overflow") == "hidden")
                         {
                                 var text = el.html();
-                                var multiline = el.hasClass('multiline');
+                                var multiline = true;
                                 var t = $(this.cloneNode(true))
                                         .hide()
                                         .css('position', 'absolute')

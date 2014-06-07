@@ -946,8 +946,8 @@ figure:hover img {
 .flipper img {
 	margin-bottom: 10px;
 }
-.blog .flipper img {
-	margin: -15px -15px 10px;
+.blog .flipper .img {
+	margin: -15px -15px 0;
 }
 @media (max-width: 768px) {
 .flipper {

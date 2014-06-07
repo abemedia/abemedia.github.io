@@ -10,11 +10,12 @@ layout: default
             <a class="flipper" href="{{ post.url | remove:".html" }}">
               <div class="front">
                 <div class="img"><img src="{{ post.image }}" alt="{{ post.title }}"></div>
-                <h3 class="media-heading">{{ post.title }}</h3>
+                <h3 class="media-heading h4">{{ post.title }}</h3>
               </div>
               <div class="back">
-                <div class="h3 hidden-xs">{{ post.title }}</div>
-                <span class="text-muted">{{ post.excerpt | strip_html }}</span>
+                <div class="h4 hidden-xs">{{ post.title }}</div>
+                <small class="text-muted">{{ post.date | date: "%A, %-d %B %Y" }}</small>
+                <div class="text-muted">{{ post.excerpt | strip_html }}</div>
               </div>
             </a>
           </div>

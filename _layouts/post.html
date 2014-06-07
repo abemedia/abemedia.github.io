@@ -35,7 +35,7 @@ top:
     </div>
   </header>
   <div class="article-content">{{ content }}
-    Posted in <a href="{{ site.baseurl }}{{ page.categories | join: "/" }}">{{ page.categories | last | capitalize  }}</a>
+    <small>Posted in <a href="{{ site.baseurl }}{{ page.categories | join: "/" }}">{{ page.categories | last | capitalize  }}</a></small>
   </div>
   
 </article>

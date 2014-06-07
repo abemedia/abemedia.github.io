@@ -9,11 +9,11 @@ layout: default
       <div class="box">
         <a href="{{ site.baseurl }}{{ post.url | remove:".html" }}">
           <img src="{{ post.image }}" alt="{{ post.title }}">
-          <div class="box-content">
-            <h3 class="h4 media-heading">{{ post.title }}</h3>
-            <span class="text-muted">{{ post.excerpt | strip_html }}</span>
-          </div>
         </a>
+        <div class="box-content">
+          <h3 class="h4 media-heading">{{ post.title }}</h3>
+          <span class="text-muted">{{ post.excerpt | strip_html }}</span>
+        </div>
       </div>
     {% endif %} 
 {% endfor %}

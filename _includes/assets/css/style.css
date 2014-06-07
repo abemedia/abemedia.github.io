@@ -1134,6 +1134,7 @@ blockquote footer:before, blockquote small:before, blockquote .small:before {
 
 .blog .box {
 	padding: 0;
+    text-align: left;
 }
 .blog .box-content {
 	padding: 15px;

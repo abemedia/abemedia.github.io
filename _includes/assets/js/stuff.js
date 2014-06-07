@@ -233,8 +233,8 @@ if ($(".img-link").length > 0) {
                 {
                         var el = $(this);
 
-                        if(el.css("overflow") == "hidden")
-                        {
+                        //if(el.css("overflow") == "hidden")
+                       // {
                                 var text = el.html();
                                 var multiline = true;
                                 var t = $(this.cloneNode(true))
@@ -260,7 +260,7 @@ if ($(".img-link").length > 0) {
 
                                 el.html(t.html());
                                 t.remove();
-                        }
+                       // }
                 });
         };
 })(jQuery);

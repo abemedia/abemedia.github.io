@@ -2,7 +2,7 @@
 layout: default
 ---
 <h1 class="page-header">{{ page.title }}</h1>
-<ul class="box-list folio">
+<ul class="box-list equal">
 {% for post in site.categories.blog %}
   {% if post.categories contains {{page.slug}} %}
     <li>

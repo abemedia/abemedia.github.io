@@ -1136,5 +1136,5 @@ blockquote footer:before, blockquote small:before, blockquote .small:before {
     text-align: left;
 }
 .blog .img {
-	margin: -15px -15px 0;
+	margin: -15px -15px 15px;
 }

@@ -1127,6 +1127,9 @@ blockquote footer:before, blockquote small:before, blockquote .small:before {
 
 /* Blog
 -------------------------------------------------- */
+.blog .back .h4 {
+	margin-bottom: 0;
+}
 .blog .img {
 	margin: -15px -15px 5px;
 }

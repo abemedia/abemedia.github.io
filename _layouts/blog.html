@@ -11,7 +11,6 @@ layout: default
           <div class="img"><img src="{{ post.image }}" alt="{{ post.title }}"></div>
           <h3 class="h4 media-heading">{{ post.title }}</h3>
         </a>
-        <p class="text-muted">{{ post.excerpt | strip_html }}</p>
         <small>{{ post.date | date: "%A, %-d %B %Y" }}</small>
       </div>
     {% endif %} 

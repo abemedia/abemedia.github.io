@@ -970,6 +970,9 @@ figure:hover img {
 }
 }
 @media (min-width: 768px) {
+.flip-container, .flipper, .front, .back {
+    height:100%;
+}
 .front {
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.5);
@@ -981,8 +984,6 @@ figure:hover img {
 	padding: 15px;
 	zoom: 1;
 }
-}
-@media (min-width: 768px) {
 .flip-container {
 	-webkit-perspective: 1000;
 	-moz-perspective: 1000;

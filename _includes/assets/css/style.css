@@ -1140,4 +1140,5 @@ blockquote footer:before, blockquote small:before, blockquote .small:before {
 }
 .post-inner {
 	max-width: 849px;
+    margin: 0 auto;
 }

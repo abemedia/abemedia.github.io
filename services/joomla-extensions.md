@@ -1,7 +1,7 @@
 ---
 layout: service
 category: services
-title: Content Management System (CMS) development in Brighton
+title: Joomla! Extensions &middot; Joomla! developers in Brighton
 heading: Joomla Extensions
 slug: joomla-extensions
 permalink: joomla-extensions.html
@@ -24,3 +24,10 @@ bottom:
     title: Our Services
     class: grey
 ---
+At ABE Media our main focus has been Joomla! ever since we first came across it in 2007, making Joomla! our preferred choice for CMS sites and creating custom Joomla Extensions for nearly every single one.
+
+No matter whether you need some amendments or new features integrating into a current extension, or you need a new component, module or plugin building from the ground up, you're in good hands with us!
+
+### Free, open source Joomla! Extensions
+
+To find our free, open source Joomla extensions, which we've made available for the community head over to our sister site [donjoomla.com](http://donjoomla.com).

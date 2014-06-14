@@ -13,7 +13,7 @@
       </aside>
       {% endif %}
       <div class="col-md-{{ 12 | minus: page.left.size | minus: page.right.size }}" role="main">
-        <div class="fullrow">{{ content }}</div>
+        {{ content }}
       </div>
       {% if page.right %}
       <aside class="col-md-{{ page.right.size }}" role="complementary">
@@ -21,7 +21,7 @@
       </aside>
       {% endif %}
     </div>
-    {% else %}{{ content }}{% endif %}
+    {% else %}<div class="fullrow">{{ content }}</div>{% endif %}
   </div>
   {% if page.bottom %}{% include modules.html module=page.bottom style="container" %}{% endif %}
   {% include footer.html %}

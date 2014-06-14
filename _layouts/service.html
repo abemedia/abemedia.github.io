@@ -47,7 +47,7 @@ top:
           <!--a class="left carousel-control" href="#photoslide" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#photoslide" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a-->
         </div>
         {% elsif page.slides %}
-        <div id="slides" class="carousel slide carousel-fade" data-interval="1000">
+        <div id="slides" class="carousel slide" data-interval="1000">
           <ol class="carousel-indicators">
             {% capture i %}0{% endcapture %}
             {% for item in page.slides %}
@@ -64,7 +64,7 @@ top:
             {% capture i %}{{ i | plus:1 }}{% endcapture %}
             {% endfor %} 
           </div>
-          <!--a class="left carousel-control" href="#photoslide" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#photoslide" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a-->
+          <a class="left carousel-control" href="#photoslide" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#photoslide" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
         </div>
         {% else %} 
         <img src="{{ page.image }}" alt="{{ page.title }}">

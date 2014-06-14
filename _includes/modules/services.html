@@ -21,7 +21,7 @@
             <strong class="h5">{{ item.title }}</strong>
           </a>
           {% endif %}{% endif %}{% endif %}{% endfor %}
-          {% unless include.params.desc or page.tags == nil %}
+          {% unless include.params.desc or page.tags %}
           <li><a class="box" href="{{ site.baseurl }}services">
             <img src="/images/services/services.png" alt="All our services"><br>
             <strong class="h5">More...</strong>

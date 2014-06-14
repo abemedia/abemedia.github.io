@@ -1,5 +1,5 @@
         <ul class="box-list{% unless include.params.desc %} box-list-xs{% endunless %} {{ include.params.class }} equal">
-          {% capture i %}0{% endcapture %}{% for item in site.data.services %}{% if {{i}} < '6' %}{% capture i %}{{ i | plus:1 }}{% endcapture %}
+          {% capture i %}0{% endcapture %}{% for item in site.data.services %}{% if {{i}} < '5' %}{% capture i %}{{ i | plus:1 }}{% endcapture %}
           {% if page.tags == nil or page.tags contains {{item.alias}} %}
           <li>
           {% if include.params.desc %}

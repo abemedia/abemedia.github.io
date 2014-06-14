@@ -2,12 +2,12 @@
 {% for item in page.features %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
   <div class="row">
-    <div class="col-sm-4{% if thecycle == 'even' %} col-sm-push-8{% endif %}">
+    <div class="col-sm-5{% if thecycle == 'even' %} col-sm-push-7{% endif %}">
       <a href="#imgModal" role="button" data-toggle="modal" class="img-link thumbnail" data-img="{{ item.image }}" data-title="{{ item.title }}">
         <img src="{{ item.image }}">
       </a>
     </div>
-    <div class="col-sm-8{% if thecycle == 'even' %} col-sm-pull-4{% endif %}">
+    <div class="col-sm-7{% if thecycle == 'even' %} col-sm-pull-5{% endif %}">
       <h3>{{ item.title }}</h3>
       <p>{{ item.text }}</p>
     </div>

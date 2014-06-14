@@ -7,10 +7,15 @@ slug: graphic-design
 permalink: graphic-design.html
 image: /images/services/graphic-design.png
 lead: From promotional material to packaging and full corporate identities, we deliver eye-catching designs that give you that professional edge and make you stand out from the crowd.
-sitemap:
-    priority: 0.7
-    changefreq: monthly
-    lastmod: 2013-11-09T7:30:00
+slides:
+- /images/portfolio/graphic-design/big-ans-cd-design.jpg
+- /images/portfolio/graphic-design/eat-good-flyer-design.jpg
+- /images/portfolio/graphic-design/gold-estates-brand-identity.jpg
+- /images/portfolio/graphic-design/harveys-brand-identity.jpg
+- /images/portfolio/graphic-design/iluna-flyer-design.jpg
+- /images/portfolio/graphic-design/moneycash-flyer-design.jpg
+- /images/portfolio/graphic-design/spankin-flyer-design.jpg
+- /images/portfolio/graphic-design/zorba-menu-design.jpg
 bottom:
 -
     type: portfolio

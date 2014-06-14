@@ -21,6 +21,12 @@
             <strong class="h5">{{ item.title }}</strong>
           </a>
           {% endif %}{% endif %}{% endif %}{% endfor %}
+          {% unless include.params.desc %}
+          <a class="box" href="{{ site.baseurl }}services">
+            <img src="/images/services/services.png" alt="All our services"><br>
+            <strong class="h5">More...</strong>
+          </a>
+          {% endunless %}
         </ul>
         {% if include.params.desc or page.tags == nil %}
         <p class="text-center text-lg">Not what you're looking for? <a href="/services">View all services.</a></p>

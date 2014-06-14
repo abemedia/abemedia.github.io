@@ -59,7 +59,7 @@ top:
             {% capture i %}0{% endcapture %}
             {% for item in page.slides %}
             <div class="item {% if {{i}} == "0" %}active{% endif %}">
-              <img src="{{ item.xl }}" alt="">
+              <img src="{{ item }}" alt="">
             </div>
             {% capture i %}{{ i | plus:1 }}{% endcapture %}
             {% endfor %} 

@@ -871,6 +871,7 @@ figure:hover img {
 
 /* Blog
 -------------------------------------------------- */
+@media (min-width: 768px) {
 .article-header {
 	padding-bottom: 30px;
 	position: relative;
@@ -886,10 +887,7 @@ figure:hover img {
 	margin-left: 190px;
 	min-height: 200px;
 }
-.article-comments {
-	margin-left: 190px;
 }
-
 /* Avatar
 -------------------------------------------------- */
 .avatar, .avatar:hover, .avatar:active, .avatar:focus {

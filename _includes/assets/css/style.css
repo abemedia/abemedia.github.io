@@ -892,9 +892,16 @@ figure:hover img {
 -------------------------------------------------- */
 .avatar, .avatar:hover, .avatar:active, .avatar:focus {
 	color: #5a5a5a;
-	display: block;
 }
 .avatar>img {
+    display:none;
+}
+@media (min-width: 768px) {
+.avatar, .avatar:hover, .avatar:active, .avatar:focus {
+	color: #5a5a5a;
+}
+.avatar>img {
+    display:inline-block;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
@@ -906,6 +913,7 @@ figure:hover img {
 }
 .avatar:hover>img, .avatar:active>img, .avatar:focus>img {
 	border-color: #F59331;
+}
 }
 
 /* Text Helpers

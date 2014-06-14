@@ -871,11 +871,11 @@ figure:hover img {
 
 /* Blog
 -------------------------------------------------- */
-@media (min-width: 768px) {
 .article-header {
 	padding-bottom: 30px;
 	position: relative;
 }
+@media (min-width: 768px) {
 .article-info {
 	position: absolute;
 	top: 100%;

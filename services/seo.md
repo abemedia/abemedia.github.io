@@ -5,11 +5,8 @@ title: Digital Marketing
 slug: seo
 permalink: seo.html
 image: /images/services/seo.png
+slide: /images/services/seo.png
 lead: Effective digital marketing campaigns using SEO & PPC (Pay Per Click) to increase your traffic and the latest techniques in conversion optimisation to turn visitors into returning customers.
-sitemap:
-    priority: 0.7
-    changefreq: monthly
-    lastmod: 2013-11-09T7:30:00
 bottom:
 -
     type: text

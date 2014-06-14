@@ -85,6 +85,6 @@ After many months of development and testing, this fine balance of code and desi
 <hr>
 
 <blockquote>
-        <p>The website looks amazing. Thank you so much!</p>
+        <p>The website looks amazing. <br> Thank you so much!</p>
         <footer>Heather Hilder-Darling, Callaways Estate Agents</footer>
       </blockquote>

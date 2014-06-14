@@ -2,11 +2,11 @@
 layout: service
 category: services
 title: Joomla! Extensions &middot; Joomla! developers in Brighton
-heading: Joomla Extensions
+heading: Joomla Development
 slug: joomla-extensions
 permalink: joomla-extensions.html
 image: /images/services/joomla-development.png
-lead: Having worked with Joomla! since 2007, we're experts in creating bespoke Joomla components, modules, plugins & templates.
+lead: Having worked with Joomla! since 2007, we're experts in creating innovative & easy-to-use Joomla components, modules, plugins & templates.
 previews:
 -
     xl: /images/portfolio/callaways-estate-agents/callaways-estate-agents-homepage_xl.jpg

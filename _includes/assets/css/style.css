@@ -872,10 +872,16 @@ figure:hover img {
 /* Blog
 -------------------------------------------------- */
 .article-header {
+	padding-bottom: 15px;
+}
+.article-info {
+	padding-top: 15px;
+}
+@media (min-width: 768px) {
+.article-header {
 	padding-bottom: 30px;
 	position: relative;
 }
-@media (min-width: 768px) {
 .article-info {
 	position: absolute;
 	top: 100%;

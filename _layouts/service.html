@@ -47,7 +47,7 @@ top:
           <!--a class="left carousel-control" href="#photoslide" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#photoslide" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a-->
         </div>
         {% elsif page.slides %}
-        <div id="slides" class="carousel slide" data-interval="5000">
+        <div id="slides" class="carousel slide" data-interval="5000" data-ride="carousel">
           <ol class="carousel-indicators">
             {% capture i %}0{% endcapture %}
             {% for item in page.slides %}

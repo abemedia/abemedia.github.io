@@ -894,14 +894,14 @@ figure:hover img {
 	color: #5a5a5a;
 }
 .avatar>img {
-    display:none;
+    display: none;
 }
 @media (min-width: 768px) {
-.avatar, .avatar:hover, .avatar:active, .avatar:focus {
-	color: #5a5a5a;
+.avatar {
+    display: block;
 }
 .avatar>img {
-    display:inline-block;
+    display: inline-block;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;

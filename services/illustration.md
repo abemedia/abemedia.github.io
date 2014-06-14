@@ -27,11 +27,11 @@ bottom:
         title: Stress free
         icon: coffee
         content: We're experts at creating illustrations, 3D artwork and animations so you can rest assured the whole process is smooth and stress free.
--
-    type: portfolio
-    title: Illustration & Animation Projects
-    params:
-        filter: illustration
+#-
+#    type: portfolio
+#    title: Illustration & Animation Projects
+#    params:
+#        filter: illustration
 -
     type: services
     title: Our Services

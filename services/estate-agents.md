@@ -21,11 +21,11 @@ previews:
 features:
 -
     title: Innovative AJAX property search
-    text: Our innovative property search interface features dynamic sliders & instant property search results and is easily accessible from all pages of the site. This means it's not only child's play to use, but the search results update as the user selects their property preferences, thus allowing them to get a peek at properties they might not otherwise have seen.
+    text: Our innovative property search interface features dynamic sliders & instant property search results and is easily accessible from all pages of the site. This means it's not only child's play to use, but the search results update as the user selects their property preferences, thus showing them properties they might not otherwise have seen.
     image: /images/services/estate-agents/property-search.jpg
 -
     title: Branded custom PDF brochures
-    text: Generate stunning, branded PDF brochures of your properties on-the-fly, customisable by the users, who select data they would like included (such as photos, floor plans, EPCs etc.) and create the brochure with one click, thus saving paper and ink - your contribution towards saving the environment.
+    text: Generate stunning, branded PDF brochures of your properties on-the-fly, customisable by the users, who select data they would like included (such as photos, floor plans, EPCs etc.) and create the brochure with one click, thus saving paper and ink and contributing towards saving the environment.
     image: /images/services/estate-agents/pdf-brochures.jpg
 -
     title: Always up-to-date with your latest properties
@@ -78,15 +78,13 @@ bottom:
     title: Our Services
     class: grey
 ---
-The innovative, all-new ABE media estate agent websites are the ultimate in design and usability. They are the most comprehensive estate agent website solutions available at realistic prices to high street agents.
+<p class="lead">The innovative, all-new ABE media estate agent websites are the ultimate in design and usability. They are the most comprehensive estate agent website solutions available at realistic prices to high street agents.</p>
 
 After many months of development and testing, this fine balance of code and design provides a completely fresh take on estate agent websites, simplifying your workflow by automatically updating itself with the latest available properties from your database, such as DezRez or ExpertAgent. 
- 
-If we don't yet feature your current provider, or you are using a bespoke Access database, we can also integrate these without a problem.
 
 <hr>
 
 <blockquote>
-        <p>The website looks stunning!</p>
+        <p>The website looks amazing. Thank you so much!</p>
         <footer>Heather Hilder-Darling, Callaways Estate Agents</footer>
       </blockquote>

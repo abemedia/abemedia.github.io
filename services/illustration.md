@@ -1,7 +1,7 @@
 ---
 layout: service
 category: services
-title: Illustration & Animation
+title: Illustration, 3D & Animation
 slug: illustration
 permalink: illustration.html
 image: /images/services/illustration.png

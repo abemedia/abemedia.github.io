@@ -79,8 +79,8 @@ bottom:
     title: Our Services
     class: grey
 ---
-A dynamic content management system is at the heart of every good website, making it easy to keep your site up-to-date, without any technical knowledge or HTML required.
+<p class="lead">We develop CMS sites that make it simple for you to publish new content in minutes, removing all the clutter and catering directly to the needs of your business.</p>
 
-We develop CMS sites that make it simple for you to publish new content in minutes, removing all the clutter and catering directly to the needs of your business.
+A dynamic content management system is at the heart of every good website, making it easy to keep your site up-to-date, without any technical knowledge or HTML required.
 
 ABE Media have years of experience with most common open source platforms and have built bespoke content management systems for numerous applications, our main area of expertise however lies with the powerful Joomla! CMS which we have used to develop a wide array of websites ranging from social networks to property management systems for estate agents.

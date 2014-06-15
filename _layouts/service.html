@@ -44,17 +44,9 @@ top:
             {% capture i %}{{ i | plus:1 }}{% endcapture %}
             {% endfor %} 
           </div>
-          <!--a class="left carousel-control" href="#photoslide" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#photoslide" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a-->
         </div>
         {% elsif page.slides %}
-        <div id="slides" class="carousel slide" data-interval="5000" data-ride="carousel">
-          <ol class="carousel-indicators">
-            {% capture i %}0{% endcapture %}
-            {% for item in page.slides %}
-            <li data-target="#slides" data-slide-to="{{i}}" class="{% if {{i}} == "0" %}active{% endif %}"></li>
-            {% capture i %}{{ i | plus:1 }}{% endcapture %}
-            {% endfor %}
-          </ol>
+        <div id="slides" class="carousel slide" data-interval="7000" data-ride="carousel">
           <div class="carousel-inner"> 
             {% capture i %}0{% endcapture %}
             {% for item in page.slides %}

@@ -1,7 +1,7 @@
 ---
 layout: service
 category: services
-title: Bespoke Ecommerce Web Design in Brighton
+title: Ecommerce Web Design Brighton &middot; Magento Development
 heading: Ecommerce Website Design
 slug: ecommerce-web-design
 permalink: ecommerce-web-design.html

@@ -1,7 +1,7 @@
 ---
 layout: service
 category: services
-title: Content Management System (CMS) development in Brighton
+title: CMS development Brighton &middot; Joomla Developers
 heading: Content Management
 slug: content-management-systems-cms
 permalink: content-management-systems-cms.html

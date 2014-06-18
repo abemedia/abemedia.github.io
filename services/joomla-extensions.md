@@ -1,7 +1,7 @@
 ---
 layout: service
 category: services
-title: Joomla! Extensions &middot; Joomla! developers in Brighton
+title: Joomla! Extensions &bull; Joomla! developers in Brighton
 heading: Joomla Development
 slug: joomla-extensions
 permalink: joomla-extensions.html

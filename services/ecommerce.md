@@ -1,7 +1,7 @@
 ---
 layout: service
 category: services
-title: Ecommerce Web Design Brighton &middot; Magento Developers
+title: Ecommerce Web Design &bull; Brighton Magento Developer
 heading: Ecommerce Website Design
 slug: ecommerce-web-design
 permalink: ecommerce-web-design.html

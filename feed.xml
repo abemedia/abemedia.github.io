@@ -14,7 +14,7 @@
 				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 				<link>{{ site.url }}{{ post.url }}</link>
 				<author>{{ post.author }}</author>
-				<category>{{ post.categories.last }}</category>
+				<category>{{ post.categories.last | capitalize }}</category>
 				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
 			</item>
 		{% endfor %}

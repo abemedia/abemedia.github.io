@@ -19,4 +19,4 @@ To get them now just visit [share.donreach.com](http://share.donreach.com/), cus
 
 You will need a very basic understanding HTML, however simple plugins for Joomla! & WordPress are already in the works and will follow soon.
 
-We'd love to hear your comments so don't hesitate to let us know in the [comments section](#{{site.url}}{{page.url}}#disqus_thread) or by [dropping us an email]({{site.url}}/contact).
+We'd love to hear your comments so don't hesitate to let us know in the [comments section]({{ page.url }}#disqus_thread) or by [dropping us an email]({{ site.url }}/contact).

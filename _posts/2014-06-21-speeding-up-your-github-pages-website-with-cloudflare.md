@@ -53,4 +53,4 @@ Here, enter the name server details you were given in the last step of your Clou
 
 Click on `Update` and that's it! Now you just need to wait for the name servers to update and enjoy a significant increase in speed.
 
-Oh and by the way... I realise the whole point of using GitHub Pages' CDN has become slightly pointless now that we're using CloudFlare's CDN anyway but does it really matter? ;)
+Oh and by the way... I realise the whole point of using GitHub Pages' CDN has become slightly pointless now that we're using CloudFlare's CDN anyway but does it really matter? =)

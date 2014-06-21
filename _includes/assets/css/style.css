@@ -968,6 +968,9 @@ figure:hover img {
 }
 }
 @media (min-width: 992px) {
+h1, .h1 {
+    font-size: 64px;
+}
 body {
 	font-size: 16px;
 }
@@ -979,6 +982,7 @@ body {
 }
 .module-title {
     font-size:52px;
+}
 }
 
 /* Flip Cards

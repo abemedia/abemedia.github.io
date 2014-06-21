@@ -893,6 +893,9 @@ figure:hover img {
 	margin-left: 190px;
 	min-height: 200px;
 }
+.article-content img{
+	padding: 20px;
+}
 }
 /* Avatar
 -------------------------------------------------- */

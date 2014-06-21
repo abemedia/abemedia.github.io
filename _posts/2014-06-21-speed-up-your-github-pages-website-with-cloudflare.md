@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to speed up your GitHub Pages website with CloudFlare"
+title: "Speed up your GitHub Pages website with CloudFlare"
 categories:
 - Blog
 - Tutorials

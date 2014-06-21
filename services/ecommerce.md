@@ -49,7 +49,7 @@ bottom:
     -
         title: Ecommerce Bespoke
         icon: star
-        desc: "<strong>Ecommerce</strong> tailored to your needs including:"
+        desc: "<strong>Ecommerce</strong> tailored to you, including:"
         features: 
             - Event ticket sales
             - Downloadable goods (MP3s, ebooks, etc.)

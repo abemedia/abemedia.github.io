@@ -31,9 +31,7 @@ bottom:
     type: testimonials
     title: What our clients say
     class: grey
-class: lead
 ---
 <h2 class="h1">A different web design company</h2>
-
-We're a small yet highly innovative team of technology experts based in <strong>Brighton</strong>, who create digital experiences for the web & mobile devices, providing **website design**, web development and graphic design services.  
-No matter whether you need a new website designed, a fresh new look for your current website or a complex application developed - ABE Media create solutions which are both beautiful and functional, always up-to-date with the latest in digital trends and online marketing insights.
+<p class="lead">We're a small yet highly innovative team of technology experts based in <strong>Brighton</strong>, who create digital experiences for the web & mobile devices, providing <strong>website design</strong>, web development and graphic design services.</p>
+<p class="lead">No matter whether you need a new website designed, a fresh new look for your current website or a complex application developed - ABE Media create solutions which are both beautiful and functional, always up-to-date with the latest in digital trends and online marketing insights.</p>

@@ -34,7 +34,7 @@ bottom:
     class: grey
 ---
 
-# A different web design agency in Brighton
+## A different web design agency in Brighton
 
 We're a small yet highly innovative team of technology experts based in <strong>Brighton</strong>, who create digital experiences for the web & mobile devices, providing <strong>website design</strong>, web development and graphic design services to clients in the UK and Germany.
 

@@ -32,8 +32,9 @@ bottom:
     title: What our clients say
     class: grey
 ---
+<h1 class="sr-only">Web Design Brighton</h1>
 
-## A different web design agency in Brighton
+## A different web design company
 
 <p class="lead">We're a small yet highly innovative team of technology experts based in <strong>Brighton</strong>, who create digital experiences for the web & mobile devices, providing <strong>website design</strong>, web development and graphic design services to clients in the UK and Germany.</p>
 

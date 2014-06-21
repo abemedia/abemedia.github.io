@@ -708,12 +708,6 @@ figure:hover img {
 	overflow: hidden;
 	z-index: 0;
 }
-@media screen and (min-width: 768px) {
-	.jumbotron {
-		padding-top: 90px;
-		padding-bottom: 90px;
-	}
-}
 .jumbo-icon {
 	padding: 50px;
 	background: #fff;
@@ -739,13 +733,22 @@ figure:hover img {
 .jumbotron h1, .jumbotron .h1 {
 	margin: 0 0 15px;
 }
-
+@media screen and (min-width: 768px) {
+	.jumbotron {
+		padding-top: 90px;
+		padding-bottom: 90px;
+	}
+}
 @media (min-width:992px) {
 .jumbotron h1, .jumbotron .h1 {
 	font-size: 60px;
 }
 }
 @media (min-width:1200px) {
+	.jumbotron {
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
 .jumbotron h1, .jumbotron .h1 {
 	font-size: 72px;
 }

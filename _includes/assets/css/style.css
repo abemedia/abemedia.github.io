@@ -968,10 +968,10 @@ figure:hover img {
 }
 }
 @media (min-width: 992px) {
-h1, .h1 {
+h1 {
     font-size: 64px;
 }
-h2, .h2 {
+h2 {
     font-size: 56px;
 }
 body {

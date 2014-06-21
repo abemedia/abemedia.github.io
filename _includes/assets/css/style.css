@@ -1197,15 +1197,15 @@ blockquote footer:before, blockquote small:before, blockquote .small:before {
     margin: 0 auto;
 }
 .faded {
-    margin-top: 100px;
+    margin-top: 50px;
     opacity: 0;
 }
 .faded.in {
-	-webkit-transition: margin 0.4s ease-in, opacity 0.8s ease-in;
-	-moz-transition: margin 0.4s ease-in, opacity 0.8s ease-in;
-	-o-transition: margin 0.4s ease-in, opacity 0.8s ease-in;
-	-ms-transition: margin 0.4s ease-in, opacity 0.8s ease-in;
-	transition: margin 0.4s ease-in, opacity 0.8s ease-in;
+	-webkit-transition: margin 0.3s ease-in, opacity 0.8s ease-in;
+	-moz-transition: margin 0.3s ease-in, opacity 0.8s ease-in;
+	-o-transition: margin 0.3s ease-in, opacity 0.8s ease-in;
+	-ms-transition: margin 0.3s ease-in, opacity 0.8s ease-in;
+	transition: margin 0.3s ease-in, opacity 0.8s ease-in;
     margin-top: 0;
     opacity: 1;
 }

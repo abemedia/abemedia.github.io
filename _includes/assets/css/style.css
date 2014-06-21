@@ -977,6 +977,8 @@ body {
 .text-lg {
 	font-size: 28px;
 }
+.module-title {
+    font-size:52px;
 }
 
 /* Flip Cards

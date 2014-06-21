@@ -78,7 +78,7 @@ bottom:
     title: Our Services
     class: grey
 ---
-<p class="lead">Say hello to the most comprehensive estate agent website solution available at realistic prices to high street agents.</p>
+<p class="lead">Introducing the most comprehensive estate agent website solution available at realistic prices to high street agents.</p>
 
 The innovative, all-new ABE Media estate agent websites are the ultimate in design and usability, repositioning your brand as an authority in the digital world. 
 

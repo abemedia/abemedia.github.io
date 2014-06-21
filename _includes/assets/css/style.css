@@ -1196,11 +1196,11 @@ blockquote footer:before, blockquote small:before, blockquote .small:before {
 	max-width: 849px;
     margin: 0 auto;
 }
-.faded {
+.fullrow {
     margin-top: 50px;
     opacity: 0;
 }
-.faded.in {
+.fullrow.in {
 	-webkit-transition: margin 0.3s ease-in, opacity 0.8s ease-in;
 	-moz-transition: margin 0.3s ease-in, opacity 0.8s ease-in;
 	-o-transition: margin 0.3s ease-in, opacity 0.8s ease-in;

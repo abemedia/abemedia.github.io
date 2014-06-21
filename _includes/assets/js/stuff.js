@@ -225,7 +225,6 @@ if ($(".img-link").length > 0) {
 	});
 };
 
-$('.fullrow').addClass('faded');
  $(window).scroll(function() { 
     $('.fullrow').each(function() {
         fold = 0//$(window).height() / 10,

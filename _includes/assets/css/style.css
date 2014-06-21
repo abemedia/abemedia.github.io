@@ -51,18 +51,6 @@ section:before, section:after {
 	margin: 30px 0;
 	font-weight: bold;
 }
-.module-title::before, .module-title::after {
-    font-size: 0.5em;
-    margin: -0.5em 0.5em 0;
-    display: inline-block;
-    vertical-align: middle;
-}
-.module-title::before {
-    content: "\25C0";
-}
-.module-title::after {
-    content: "\25B6";
-}
 .title {
 	color:#F59331;
 	font-size:16px;

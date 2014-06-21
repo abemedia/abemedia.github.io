@@ -225,19 +225,18 @@ if ($(".img-link").length > 0) {
 	});
 };
 
+$('.fullrow').addClass('faded');
  $(window).scroll(function() { 
     $('.fullrow').each(function() {
-        var rowtop = $(this).offset().top;
-        var scrolltop = ($(window).scrollTop() + $(window).height());
-        
-        var rowopacity = (scrolltop - rowtop - 100) / 2 / 100;
-        console.log(scrolltop);
-        console.log(rowtop);
-        console.log(rowopacity);
-        if (rowopacity > 1) rowopacity = 1;
-        if (rowopacity < 0) rowopacity = 0;
-        
-        $(this).css({'opacity':(rowopacity)});
+        fold = 0//$(window).height() / 10,
+        mytop = $(window).scrollTop() + $(window).height() - $(this).offset().top;
+            
+        if(mytop < fold) {
+            $(this).removeClass('in');
+        }
+        else {
+            $(this).addClass('in');
+        }
     });
 });
 $(window).scroll();

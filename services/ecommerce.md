@@ -52,7 +52,7 @@ bottom:
         desc: "<strong>Ecommerce</strong> tailored to you, including:"
         features: 
             - Event ticket sales
-            - Downloadable goods (MP3s, ebooks, etc.)
+            - Digital goods (MP3s etc.)
             - Pay-per-view streaming
             - Web-to-print shops
             - Subscriptions

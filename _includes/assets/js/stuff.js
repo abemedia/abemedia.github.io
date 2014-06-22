@@ -225,6 +225,7 @@ if ($(".img-link").length > 0) {
 
 // smoove
 function close(a,b) {
+    console.log(20 * Math.round(a/20) +' '+ 20 * Math.round(b/20));
     if(20 * Math.round(a/20) === 20 * Math.round(b/20)) return true;
 }
 $(document).ready( function() {
@@ -242,9 +243,6 @@ $(document).ready( function() {
         else {
             $(this).smoove({top: 50});
         }
-        console.log(Math.round($(this).offset().left) +' '+ Math.round($(this).parent().offset().left));
-        console.log(Math.round($(this).offset().left + $(this).outerWidth()) +' '+ Math.round($(this).parent().offset().left + $(this).parent().outerWidth()));
-        console.log('---')
     });
     $('.text-cto').smoove({
         top: 50

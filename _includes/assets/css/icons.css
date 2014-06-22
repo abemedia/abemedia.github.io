@@ -346,8 +346,9 @@ body {
 }
 .box-list>li {
 	width: 100%;
-	padding: 0 15px 30px;
+	padding: 0 15px;
 	display: inline-block;
+	margin-bottom:30px;
 	vertical-align:top;
 }
 .box-list>li>.box {
@@ -508,7 +509,6 @@ figure:hover img {
 }
 /* Icons
 -------------------------------------------------- */
-/*
 @font-face {
 	font-family: 'icon';
 	src:url('../fonts/icon.eot');
@@ -516,7 +516,6 @@ figure:hover img {
 	font-weight: normal;
 	font-style: normal;
 }
-*/
 .service-icons {
 	font-size:16px;
 	float:right;
@@ -938,23 +937,20 @@ figure:hover img {
 
 /* Text Helpers
 -------------------------------------------------- */
-.text-cto {
+.text-lg {
 	font-size: 16px;
-    text-align: center;
-    margin: 0;
-    padding: 0 0 10px;
 }
 .text-xl {
 	font-size: 22px;
-	padding: 20px 0;
+	margin: 20px 0;
 }
 @media (min-width: 768px) {
-.text-cto {
+.text-lg {
 	font-size: 21px;
 }
 .text-xl {
 	font-size: 36px;
-	padding: 30px 0;
+	margin: 30px 0;
 }
 }
 @media (min-width: 1200px) {
@@ -967,7 +963,7 @@ h2, .h2 {
 body {
 	font-size: 16px;
 }
-.lead, .jumbotron p, .text-cto {
+.lead, .jumbotron p, .text-lg {
 	font-size: 28px;
 }
 .module-title {

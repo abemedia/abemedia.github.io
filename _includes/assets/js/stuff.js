@@ -174,12 +174,12 @@ $(".preview-img").drags({
 	cursor: "ns-resize"
 });
 
+// comments
 var disqus_shortname = '{{ site.disqus_shortname }}';
 var disqus_url = $("link[rel='canonical']").attr("href");
 if ($("#disqus_thread").length > 0) {
     var comments = document.getElementById('disqus_thread'),
         disqusLoaded=false;
-        
     function loadDisqus() {
         var dsq = document.createElement('script');
         dsq.type = 'text/javascript';
@@ -188,7 +188,6 @@ if ($("#disqus_thread").length > 0) {
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
         disqusLoaded = true;
     }
-    
     function findTop(obj) {
         var curtop = 0;
         if (obj.offsetParent) {
@@ -198,7 +197,6 @@ if ($("#disqus_thread").length > 0) {
             return curtop;
         }
     }
-    
     if(window.location.hash.indexOf('#comment') > 0) loadDisqus();
     if(comments) {
         var commentsOffset = findTop(comments);
@@ -216,7 +214,7 @@ if ($(".comment-link").length > 0) {
 	}());
 }
 
-
+// image modals
 if ($(".img-link").length > 0) {
 	$('.img-link').click(function () {
         $( "body" ).append( '<div id="imgModal" class="modal img-modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="img thumbnail"><img /><span class="lead"></span></div><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button></div>' );
@@ -225,18 +223,24 @@ if ($(".img-link").length > 0) {
 	});
 };
 
- $(window).scroll(function() { 
-    $('.fullrow').each(function() {
-        fold = 0//$(window).height() / 10,
-        mytop = $(window).scrollTop() + $(window).height() - $(this).offset().top;
-            
-        if(mytop < fold) {
-            $(this).removeClass('in');
+// smoove
+$(document).ready( function() {
+    $('.fullrow').smoove({
+        offset: 100,
+        top: 50
+    });
+    $('.box-list>li').each( function() {
+        if(Math.round($(this).offset().left) === Math.round($(this).parent().offset().left)) {
+            $(this).smoove({right: 50,top: 50});
+        }
+        else if(Math.round($(this).offset().left + $(this).outerWidth()) === Math.round($(this).parent().offset().left + $(this).parent().outerWidth())) {
+            $(this).smoove({left: 50,top: 50});
         }
         else {
-            $(this).addClass('in');
+            $(this).smoove({top: 50});
         }
     });
+    $('.text-cto').smoove({
+        top: 50
+    });
 });
-$(window).scroll();
-

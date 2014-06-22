@@ -229,7 +229,7 @@ $(document).ready( function() {
         offset: 100,
         top: 50
     });
-    $('.box-list>li').each( function() {
+    $('.box-list>li,.row>*').each( function() {
         if(Math.round($(this).offset().left) === Math.round($(this).parent().offset().left)) {
             $(this).smoove({right: 50,top: 50});
         }

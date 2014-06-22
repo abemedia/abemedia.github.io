@@ -228,21 +228,16 @@ function close(a,b) {
     if(20 * Math.round(a/20) === 20 * Math.round(b/20)) return true;
 }
 $(document).ready( function() {
-    $('.fullrow').smoove({
-        top: 50
-    });
+    $('.fullrow, .text-cto, hr').smoove({top: 50});
     $('.box-list>li, .row>*').each( function() {
         if(close($(this).offset().left, $(this).parent().offset().left)) {
-            $(this).smoove({right: 50,top: 50});
+            $(this).smoove({move: '-50px,50px'});
         }
         else if(close($(this).offset().left + $(this).outerWidth(), $(this).parent().offset().left + $(this).parent().outerWidth())) {
-            $(this).smoove({left: 50,top: 50});
+            $(this).smoove({move: '50px,50px'});
         }
         else {
-            $(this).smoove({top: 50});
+            $(this).smoove({moveY: '50px'});
         }
-    });
-    $('.text-cto').smoove({
-        top: 50
     });
 });

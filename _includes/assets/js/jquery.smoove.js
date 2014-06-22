@@ -1,16 +1,15 @@
 (function($) {
 	$.fn.smoove = function(options) {
 		options = $.extend({
-			offset: 100,
-			left: false,
-			right: false,
-			top: false,
-			bottom: false,
+			offset: 50,
+			move: false,
+			rotate: false,
+			scale: false,
 			opacity: 0,
-			transition: "margin 0.3s ease-in, opacity 0.7s ease-in"
+			transition: "all 1s ease, opacity 1.5s ease"
 		}, options);
         
-        if($('body').width() == $(window).width()) $('body').css('overflow-x','hidden');
+        //if($('body').width() == $(window).width()) $('body').css('overflow-x','hidden');
         
         var $items = $(this);
         function smooveIt() { 
@@ -25,11 +24,27 @@
                 });
                 itemtop = $(window).scrollTop() + $(window).height() - $(this).offset().top;
                     
-                if(itemtop < params.offset - params.top) {
+                if(itemtop < params.offset) {
                     $(this).css({
-                        opacity: params.opacity,
-                        position: 'relative'
+                        opacity: params.opacity
                     });
+                    params.transform = '';
+                    if(params.move) params.transform += ' translate(' + params.move + ')';
+                    if(params.moveX) params.transform += ' translateX(' + params.moveX + ')';
+                    if(params.moveY) params.transform += ' translateY(' + params.moveY + ')';
+                    
+                    if(params.rotate) {
+                        params.transform += ' rotate(' + params.rotate + 'deg)';
+                    }
+                    if(params.transform) {
+                        $(this).css({
+                            WebkitTransform : params.transform,
+                            MozTransform    : params.transform,
+                            MsTransform     : params.transform,
+                            OTransform      : params.transform,
+                            transform       : params.transform
+                        });
+                    }/*
                     if(params.top) {
                         $(this).css('margin-top', params.top);
                         $(this).css('margin-bottom', -params.top);
@@ -45,13 +60,12 @@
                     else if(params.right) {
                         $(this).css('margin-right', params.right);
                         $(this).css('margin-left', -params.right);
-                    }
+                    }*/
                 }
                 else {
                     $(this).css({
                         opacity : 1,
-                        margin: '',
-                        position: ''
+                        transform: ''
                     });
                 }
             });

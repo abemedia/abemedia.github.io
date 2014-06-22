@@ -1,7 +1,7 @@
 (function($) {
 	$.fn.smoove = function(options) {
 		options = $.extend({
-			offset: 50,
+			offset: 100,
 			left: false,
 			right: false,
 			top: false,

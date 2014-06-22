@@ -229,7 +229,6 @@ function close(a,b) {
 }
 $(document).ready( function() {
     $('.fullrow').smoove({
-        offset: 100,
         top: 50
     });
     $('.box-list>li, .row>*').each( function() {

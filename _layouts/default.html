@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script >document.documentElement.body.className = 'js';</script>{% include header.html %}</head>
+    {% include header.html %}</head>
   <body>
+  <script>document.body.className = 'js';</script>
   {% include navbar.html %}
   {% if page.top %}{% include modules.html module=page.top %}{% endif %}
   <div class="container">

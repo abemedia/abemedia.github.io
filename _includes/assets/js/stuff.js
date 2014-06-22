@@ -225,6 +225,7 @@ if ($(".img-link").length > 0) {
 
 // smoove
 function close(a,b) {
+    console.log(200 * Math.round(a/200) +' '+ 200 * Math.round(b/200));
     if(200 * Math.round(a/200) === 200 * Math.round(b/200)) return true;
 }
 $(document).ready( function() {

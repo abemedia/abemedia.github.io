@@ -239,7 +239,8 @@ $(document).ready( function() {
         else {
             $(this).smoove({top: 50});
         }
-        console.log(($(this).offset().left + $(this).outerWidth()) +' '+ ($(this).parent().offset().left + $(this).parent().outerWidth()));
+        console.log(Math.round($(this).offset().left) +' '+ Math.round($(this).parent().offset().left + ));
+        console.log(Math.round($(this).offset().left + $(this).outerWidth()) +' '+ Math.round($(this).parent().offset().left + $(this).parent().outerWidth()));
     });
     $('.text-cto').smoove({
         top: 50

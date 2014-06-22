@@ -9,7 +9,7 @@
 			transition: "all 1s ease, opacity 1.5s ease"
 		}, options);
         
-        //if($('body').width() == $(window).width()) $('body').css('overflow-x','hidden');
+        if($('body').width() == $(window).width()) $('body').css('overflow-x','hidden');
         
         var $items = $(this);
         function smooveIt() { 

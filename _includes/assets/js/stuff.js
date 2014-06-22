@@ -224,16 +224,19 @@ if ($(".img-link").length > 0) {
 };
 
 // smoove
+function close(a,b) {
+    if(20 * Math.round(a/20) === 20 * Math.round(b/20)) return true;
+}
 $(document).ready( function() {
     $('.fullrow').smoove({
         offset: 100,
         top: 50
     });
     $('.box-list>li, .row>*').each( function() {
-        if(Math.round($(this).offset().left) === Math.round($(this).parent().offset().left)) {
+        if(close($(this).offset().left, $(this).parent().offset().left)) {
             $(this).smoove({right: 50,top: 50});
         }
-        else if(Math.round($(this).offset().left + $(this).outerWidth()) === Math.round($(this).parent().offset().left + $(this).parent().outerWidth())) {
+        else if(close($(this).offset().left + $(this).outerWidth(), $(this).parent().offset().left + $(this).parent().outerWidth())) {
             $(this).smoove({left: 50,top: 50});
         }
         else {

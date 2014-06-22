@@ -241,6 +241,7 @@ $(document).ready( function() {
         }
         console.log(Math.round($(this).offset().left) +' '+ Math.round($(this).parent().offset().left));
         console.log(Math.round($(this).offset().left + $(this).outerWidth()) +' '+ Math.round($(this).parent().offset().left + $(this).parent().outerWidth()));
+        console.log('---')
     });
     $('.text-cto').smoove({
         top: 50

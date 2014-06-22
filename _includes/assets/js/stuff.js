@@ -229,7 +229,7 @@ $(document).ready( function() {
         offset: 100,
         top: 50
     });
-    $('.box-list>li,.row>*').each( function() {
+    $('.box-list>li, .row>*').each( function() {
         if(Math.round($(this).offset().left) === Math.round($(this).parent().offset().left)) {
             $(this).smoove({right: 50,top: 50});
         }
@@ -239,7 +239,7 @@ $(document).ready( function() {
         else {
             $(this).smoove({top: 50});
         }
-        console.log(Math.round($(this).offset().left + $(this).outerWidth()) +' '+ Math.round($(this).parent().offset().left + $(this).parent().outerWidth()));
+        console.log(($(this).offset().left + $(this).outerWidth()) +' '+ ($(this).parent().offset().left + $(this).parent().outerWidth()));
     });
     $('.text-cto').smoove({
         top: 50

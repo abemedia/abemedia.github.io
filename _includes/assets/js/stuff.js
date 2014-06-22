@@ -225,7 +225,7 @@ if ($(".img-link").length > 0) {
 
 // smoove
 function close(a,b) {
-    if(400 * Math.round(a/400) === 400 * Math.round(b/400)) return true;
+    if(10 * Math.round(a/10) === 10 * Math.round(b/10)) return true;
 }
 $(document).ready( function() {
     $('.fullrow').smoove({

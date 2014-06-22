@@ -239,6 +239,7 @@ $(document).ready( function() {
         else {
             $(this).smoove({top: 50});
         }
+        console.log(Math.round($(this).offset().left + $(this).outerWidth()) +' '+ Math.round($(this).parent().offset().left + $(this).parent().outerWidth()));
     });
     $('.text-cto').smoove({
         top: 50

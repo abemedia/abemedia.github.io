@@ -1196,7 +1196,7 @@ blockquote footer:before, blockquote small:before, blockquote .small:before {
 	max-width: 849px;
     margin: 0 auto;
 }
-.fullrow {
+.js .fullrow {
     margin-top: 50px;
     opacity: 0;
 }

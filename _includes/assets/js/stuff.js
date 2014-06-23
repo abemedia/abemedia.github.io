@@ -228,6 +228,7 @@ function close(a,b) {
     if(20 * Math.round(a/20) === 20 * Math.round(b/20)) return true;
 }
 $(document).ready( function() {
+    $.fn.smoove.defaults.offset = 150;
     $('.fullrow').smoove({moveY: '50px'});
     $('.text-cto, hr').smoove();
     $('.box-list>li, .row>*').each( function() {

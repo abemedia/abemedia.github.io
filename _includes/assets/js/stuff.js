@@ -230,15 +230,15 @@ function close(a,b) {
 $(document).ready( function() {
     $('.fullrow').smoove({moveY: '50px'});
     $('.text-cto, hr').smoove();
-    $('.box-list-md>li, .row>*').each( function() {
+    $('.box-list>li, .row>*').each( function() {
         if(close($(this).offset().left, $(this).parent().offset().left)) {
-            $(this).smoove({move: '-100%,100%', rotate: '45'});
+            $(this).smoove({move: '-50%,50%', rotate: '45'});
         }
         else if(close($(this).offset().left + $(this).outerWidth(), $(this).parent().offset().left + $(this).parent().outerWidth())) {
-            $(this).smoove({move: '100%,100%', rotate: '-45'});
+            $(this).smoove({move: '50%,50%', rotate: '-45'});
         }
         else {
-            $(this).smoove({moveY: '100%'});
+            $(this).smoove({moveY: '50%'});
         }
     });
     $('.box-list-md>li, .box-list-xs>li').smoove({rotateX:90, moveZ:"-400px", transformOrigin:"bottom"});

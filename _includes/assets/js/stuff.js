@@ -229,8 +229,8 @@ function close(a,b) {
 }
 $(document).ready( function() {
     $('.fullrow').smoove({moveY: '50px'});
-    $('.text-cto, hr').smoove();
     $('.box-list-md>li').smoove({rotateX:90, moveZ:"-400px", transformOrigin:"bottom"});
+    $('.text-cto, hr').smoove();
     $('.folio>li, .row>*').each( function() {
         if(close($(this).offset().left, $(this).parent().offset().left)) {
             $(this).smoove({move: '-50px,50px', rotate: '45'});

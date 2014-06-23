@@ -36,6 +36,30 @@ $(window).load(function() {
 	$(window).trigger('resize');
 });
 
+// smoove
+function close(a,b) {
+    if(20 * Math.round(a/20) === 20 * Math.round(b/20)) return true;
+}
+$(document).ready( function() {
+    $('.fullrow').smoove({moveY: '50px'});
+    $('.text-cto, hr').smoove();
+    $('.box-list>li, .row>*').each( function() {
+        if($(this).parent().hasClass('box-list-md') || $(this).parent().hasClass('box-list-xs')) {
+            $(this).smoove({rotateX:90, moveZ:"-400px", transformOrigin:"bottom"});
+        } else {
+            if(close($(this).offset().left, $(this).parent().offset().left)) {
+                $(this).smoove({move: '-100px,100px'});
+            }
+            else if(close($(this).offset().left + $(this).outerWidth(), $(this).parent().offset().left + $(this).parent().outerWidth())) {
+                $(this).smoove({move: '100px,100px'});
+            }
+            else {
+                $(this).smoove({moveY: '100px'});
+            }
+        }
+    });
+});
+
 // tocify
 if ($(".toc").length > 0) {
 	var tocCallback = function() {
@@ -223,26 +247,3 @@ if ($(".img-link").length > 0) {
 	});
 };
 
-// smoove
-function close(a,b) {
-    if(20 * Math.round(a/20) === 20 * Math.round(b/20)) return true;
-}
-$(document).ready( function() {
-    $('.fullrow').smoove({moveY: '50px'});
-    $('.text-cto, hr').smoove();
-    $('.box-list>li, .row>*').each( function() {
-        if($(this).parent().hasClass('box-list-md') || $(this).parent().hasClass('box-list-xs')) {
-            $(this).smoove({rotateX:90, moveZ:"-400px", transformOrigin:"bottom"});
-        } else {
-            if(close($(this).offset().left, $(this).parent().offset().left)) {
-                $(this).smoove({move: '-100px,100px'});
-            }
-            else if(close($(this).offset().left + $(this).outerWidth(), $(this).parent().offset().left + $(this).parent().outerWidth())) {
-                $(this).smoove({move: '100px,100px'});
-            }
-            else {
-                $(this).smoove({moveY: '100px'});
-            }
-        }
-    });
-});

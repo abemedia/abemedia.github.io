@@ -9,7 +9,7 @@
     };
 
     $.fn.smoove.defaults = {
-        offset: 150,
+        offset: 100,
         move: false,
 		moveX: false,
 		moveY: false,
@@ -26,8 +26,7 @@
     };
 
     $.fn.smoove.init = function (settings){
-            $items = settings.items;
-            $items.each(function() {
+            settings.items.each(function() {
                 $item = $(this);
                 params = $.extend({}, settings, $item.data());
                 

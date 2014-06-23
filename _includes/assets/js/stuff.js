@@ -232,10 +232,10 @@ $(document).ready( function() {
     $('.text-cto, hr').smoove();
     $('.box-list>li, .row>*').each( function() {
         if(close($(this).offset().left, $(this).parent().offset().left)) {
-            $(this).smoove({move: '-50%,50%', rotate: '45'});
+            $(this).smoove({move: '-100%,50%', rotate: '45'});
         }
         else if(close($(this).offset().left + $(this).outerWidth(), $(this).parent().offset().left + $(this).parent().outerWidth())) {
-            $(this).smoove({move: '50%,50%', rotate: '-45'});
+            $(this).smoove({move: '100%,50%', rotate: '-45'});
         }
         else {
             $(this).smoove({moveY: '50%'});

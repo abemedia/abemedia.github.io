@@ -229,9 +229,8 @@ function close(a,b) {
 }
 $(document).ready( function() {
     $('.fullrow').smoove({moveY: '50px'});
-    $('.box-list-md>li').smoove({rotateX:90, moveZ:"-400px", transformOrigin:"bottom"});
     $('.text-cto, hr').smoove();
-    $('.folio>li, .row>*').each( function() {
+    $('.box-list-md>li, .row>*').each( function() {
         if(close($(this).offset().left, $(this).parent().offset().left)) {
             $(this).smoove({move: '-100%,100%', rotate: '45'});
         }
@@ -242,4 +241,5 @@ $(document).ready( function() {
             $(this).smoove({moveY: '100%'});
         }
     });
+    $('.box-list-md>li, .box-list-xs>li').smoove({rotateX:90, moveZ:"-400px", transformOrigin:"bottom"});
 });

@@ -233,17 +233,16 @@ $(document).ready( function() {
     $('.box-list>li, .row>*').each( function() {
         if($(this).parent().hasClass('box-list-md') || $(this).parent().hasClass('box-list-xs')) {
             $(this).smoove({rotateX:90, moveZ:"-400px", transformOrigin:"bottom"});
-        }
-        rotate = (!$(this).parent().hasClass('row')) ? 45 : 0;
-        if(close($(this).offset().left, $(this).parent().offset().left)) {
-            $(this).smoove({move: '-100%,100%', rotate: rotate : ''});
-        }
-        else if(close($(this).offset().left + $(this).outerWidth(), $(this).parent().offset().left + $(this).parent().outerWidth())) {
-            $(this).smoove({move: '100%,100%', rotate: '-'+rotate});
-        }
-        else {
-            $(this).smoove({moveY: '50%'});
+        } else {
+            if(close($(this).offset().left, $(this).parent().offset().left)) {
+                $(this).smoove({move: '-100px,100px'});
+            }
+            else if(close($(this).offset().left + $(this).outerWidth(), $(this).parent().offset().left + $(this).parent().outerWidth())) {
+                $(this).smoove({move: '100px,100px'});
+            }
+            else {
+                $(this).smoove({moveY: '100px'});
+            }
         }
     });
-    $('.box-list-md>li, .box-list-xs>li').smoove({rotateX:90, moveZ:"-400px", transformOrigin:"bottom"});
 });

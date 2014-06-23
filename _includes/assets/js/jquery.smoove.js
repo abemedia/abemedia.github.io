@@ -9,7 +9,7 @@
     };
 
     $.fn.smoove.defaults = {
-        offset: 100,
+        offset: 150,
         move: false,
 		moveX: false,
 		moveY: false,

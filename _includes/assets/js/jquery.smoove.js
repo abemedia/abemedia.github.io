@@ -4,6 +4,7 @@
     $.fn.smoove = function (options){
         var settings = $.extend({}, $.fn.smoove.defaults, options);
         settings.items = $(this);
+        if($('body').width() == $(window).width()) $('body').css('overflow-x','hidden');
         $(window).on('scroll resize load', function() { $.fn.smoove.init(settings) });
     };
 

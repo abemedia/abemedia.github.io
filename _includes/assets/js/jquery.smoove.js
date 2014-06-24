@@ -1,4 +1,4 @@
-/*! jQuery Smoove v0.2 | (c) 2014 Adam Bouqdib | abemedia.co.uk/license */
+/*! jQuery Smoove v0.2.1 | (c) 2014 Adam Bouqdib | abemedia.co.uk/license */
 (function ($){
 
     $.fn.smoove = function (options){
@@ -8,6 +8,8 @@
         $(window).on('scroll resize', function() { $.fn.smoove.init(settings) });
         $.fn.smoove.init(settings);
     };
+
+    $.fn.smoove.scrolltop = 0;
 
     $.fn.smoove.defaults = {
         offset: 150,
@@ -40,7 +42,13 @@
             if(!$item.data('offsettop')) $item.data('offsettop', $item.offset().top);
             itemtop = $(window).scrollTop() + $(window).height() - $item.data('offsettop');
             
-            if(itemtop < params.offset) {
+            // detect scroll direction
+            scrolltop = $(window).scrollTop();
+            if(scrolltop > $.fn.smoove.scrolltop) direction = 'down';
+            else direction = 'up';
+            $.fn.smoove.scrolltop = scrolltop;
+            
+            if(itemtop < params.offset && direction == 'up') {
                 if(params.opacity !== false) $item.css({opacity: params.opacity});
                 var transforms = [];
                 if(params.move) transforms['translate'] = params.move;

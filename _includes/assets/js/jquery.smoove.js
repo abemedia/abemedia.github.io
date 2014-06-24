@@ -1,12 +1,11 @@
 /*! jQuery Smoove v0.2.1 | (c) 2014 Adam Bouqdib | abemedia.co.uk/license */
-(function ($){
+(function ($, window){
 
     $.fn.smoove = function (options){
         var settings = $.extend({}, $.fn.smoove.defaults, options);
         settings.items = $(this);
         if($('body').width() == $(window).width()) $('body').css('overflow-x','hidden');
-        $(window).on('scroll resize', function() { $.fn.smoove.init(settings) });
-        $.fn.smoove.init(settings);
+        $(window).on('scroll resize load', function() { $.fn.smoove.init(settings) });
     };
 
     $.fn.smoove.scrolltop = 0;
@@ -116,4 +115,4 @@
         });
     };
 
-}( jQuery ));
+}( jQuery, window ));

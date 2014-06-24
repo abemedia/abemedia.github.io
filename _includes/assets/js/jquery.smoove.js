@@ -9,7 +9,7 @@
         $.fn.smoove.init(settings);
     };
 
-    $.fn.smoove.scrolltop = 0;
+    $.fn.smoove.scrolltop = $(window).scrollTop();
 
     $.fn.smoove.defaults = {
         offset: 150,
@@ -29,6 +29,15 @@
     };
 
     $.fn.smoove.init = function (settings){
+        
+        // detect scroll direction
+        scrolltop = $(window).scrollTop();
+        if(scrolltop > $.fn.smoove.scrolltop) direction = 'down';
+        else direction = 'up';
+        $.fn.smoove.scrolltop = scrolltop;
+        
+        console.log(direction);
+            
         settings.items.each(function() {
             $item = $(this);
             params = $.extend({}, settings, $item.data());
@@ -39,14 +48,9 @@
                 OTransition      : params.transition.replace('transform','-o-transform'),
                 transition       : params.transition
             });
-            if(!$item.data('offsettop')) $item.data('offsettop', $item.offset().top);
-            itemtop = $(window).scrollTop() + $(window).height() - $item.data('offsettop');
             
-            // detect scroll direction
-            scrolltop = $(window).scrollTop();
-            if(scrolltop > $.fn.smoove.scrolltop) direction = 'down';
-            else direction = 'up';
-            $.fn.smoove.scrolltop = scrolltop;
+            if(!$item.data('offsettop')) $item.data('offsettop', $item.offset().top);
+            itemtop = scrolltop + $(window).height() - $item.data('offsettop');
             
             if(itemtop < params.offset && direction == 'up') {
                 if(params.opacity !== false) $item.css({opacity: params.opacity});

@@ -9,7 +9,7 @@
         $.fn.smoove.init(settings);
     };
 
-    $.fn.smoove.scrolltop = $(window).scrollTop();
+    $.fn.smoove.scrolltop = 0;
 
     $.fn.smoove.defaults = {
         offset: 150,

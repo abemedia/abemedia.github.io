@@ -90,7 +90,8 @@
                             }
                             oldDocHeight = docHeight;
                         }, 500);
-                    }
+                    } 
+                    else $.fn.smoove.scroll(direction);
                     oldWidth = width;
                 }, 500);
             });

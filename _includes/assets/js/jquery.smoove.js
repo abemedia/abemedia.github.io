@@ -97,9 +97,8 @@
             
             $(window).scroll(function() {
                 didScroll = true;
-            });
-            
-            $(document).ready(function() {
+            })
+            .on('load', function() {
                 $.fn.smoove.scroll();
             });
             

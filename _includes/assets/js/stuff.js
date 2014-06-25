@@ -42,7 +42,7 @@ function close(a,b) {
     $('.text-cto, hr').smoove();
     $('.box-list>li, .row>*').each( function() {
         if($(this).parent().hasClass('box-list-md') || $(this).parent().hasClass('box-list-xs')) {
-            $(this).smoove({rotateX:90, moveZ:"-400px", transformOrigin:"bottom"});
+            $(this).smoove({rotateX:'90deg', moveZ:"-400px", transformOrigin:"bottom"});
         } else {
             if(close($(this).offset().left, $(this).parent().offset().left)) {
                 $(this).smoove({move: '-100px,100px'});

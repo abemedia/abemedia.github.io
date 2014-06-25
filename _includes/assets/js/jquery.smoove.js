@@ -91,6 +91,7 @@
                             oldDocHeight = docHeight;
                         }, 500);
                     }
+                    oldWidth = width;
                 }, 500);
             });
             

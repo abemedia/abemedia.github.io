@@ -1,5 +1,5 @@
-/*! jQuery Smoove v0.2.4 | (c) 2014 Adam Bouqdib | abemedia.co.uk/license */
-(function ($, window){
+/*! jQuery Smoove v0.2.6 | (c) 2014 Adam Bouqdib | abemedia.co.uk/license */
+(function ($, window, document){
     
     $.fn.smoove = function (options){
         $.fn.smoove.init(this, $.extend({}, $.fn.smoove.defaults, options));
@@ -23,16 +23,11 @@
         if($('body').width() == $(window).width()) $('body').css('overflow-x','hidden');
         
         items.each(function() {
-            $item = $(this);
-            params = $item.params = $.extend({}, settings, $item.data());
+            var $item = $(this),
+                params = $item.params = $.extend({}, settings, $item.data());
+                
+            params.transition = crossBrowser('transition', params.transition, 'transform');
             
-            // css transition - if using transform add vendor prefixes
-            params.transition = {
-                WebkitTransition : params.transition.replace('transform','-webkit-transform'),
-                MozTransition    : params.transition.replace('transform','-moz-transform'),
-                OTransition      : params.transition.replace('transform','-o-transform'),
-                transition       : params.transition
-            }
             $item.css(params.transition);
             $item.data('top', $item.offset().top);
             
@@ -40,16 +35,20 @@
         });
         
         // function for adding vendor prefixes
-        function crossBrowser(property, value) {
+        function crossBrowser(property, value, prefix) {
+        
             function ucase(string) {
                 return string.charAt(0).toUpperCase() + string.slice(1);
             }
-            properties = {}
-            properties['Webkit' + ucase(property)] = value,
-            properties['Moz' + ucase(property)] = value,
-            properties['Ms' + ucase(property)] = value,
-            properties['O' + ucase(property)] = value,
-            properties[property] = value
+            
+            var vendor = ['webkit','moz','ms','o'],
+                properties = {};
+                
+            for(i in vendor) {
+                if(prefix) value = value.replace(prefix, '-' + vendor[i] + '-' + prefix);
+                properties[ucase(vendor[i]) + ucase(property)] = value;
+            }
+            properties[property] = value;
             
             return properties;
         }
@@ -124,9 +123,13 @@
             for(i in $.fn.smoove.items) {
                 var $item = $.fn.smoove.items[i],
                     params = $item.params,
+                    height = $(window).height(),
                     // if direction isn't set, set offset to 0 to avoid hiding objects that are above the fold
                     offset = (direction) ? params.offset : 0,
-                    itemtop = $(window).scrollTop() + $(window).height() - $item.data('top');
+                    itemtop = $(window).scrollTop() + height - $item.data('top');
+                    
+                // offset in %
+                if(typeof offset == 'string' && offset.indexOf('%')) offset = parseInt(offset) / 100 * height;
                 
                 if(itemtop < offset) {
                     if(params.opacity !== false) $item.css({opacity: params.opacity});
@@ -142,7 +145,6 @@
                     for(i in transforms) {
                         transform += i.replace('move', 'translate') + '(' + transforms[i] + ') ';
                     }
-                    console.log(crossBrowser('transform', transform));
                     if(transform) {
                         $item.css(crossBrowser('transform', transform));
                         $item.parent().css(crossBrowser('perspective', params.perspective));
@@ -161,4 +163,4 @@
         }
     };
 
-}( jQuery, window ));
+}( jQuery, window, document ));

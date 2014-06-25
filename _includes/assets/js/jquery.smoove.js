@@ -118,7 +118,7 @@
     $.fn.smoove.scroll = function (direction) {
         for(i in $.fn.smoove.items) {
             var $item = $.fn.smoove.items[i],
-                params = $item.params
+                params = $item.params,
                 // if direction isn't set, set offset to 0 to avoid hiding objects that already were in the view
                 offset = (direction) ? params.offset : 0,
                 itemtop = $(window).scrollTop() + $(window).height() - $item.data('offsettop');

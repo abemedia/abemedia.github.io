@@ -27,15 +27,14 @@
             $item = $(this);
             params = $item.params = $.extend({}, settings, $item.data());
             
+            $item.data('offsettop', $item.offset().top);
             // css transition - if using transform add vendor prefixes
-            params.transition = {
+            $item.css({
                 WebkitTransition : params.transition.replace('transform','-webkit-transform'),
                 MozTransition    : params.transition.replace('transform','-moz-transform'),
                 OTransition      : params.transition.replace('transform','-o-transform'),
                 transition       : params.transition
-            }
-            $item.css(params.transition);
-            $item.data('offsettop', $item.offset().top);
+            });
             
             $.fn.smoove.items.push($item);
         });
@@ -68,11 +67,7 @@
                                 MozTransform     : '',
                                 MsTransform      : '',
                                 OTransform       : '',
-                                transform        : '',
-                                WebkitTransition : '',
-                                MozTransition    : '',
-                                OTransition      : '',
-                                transition       : ''
+                                transform        : ''
                             });
                         }
                         
@@ -84,7 +79,6 @@
                                 for(i in $.fn.smoove.items) {
                                     $item = $.fn.smoove.items[i];
                                     $item.data('offsettop', $item.offset().top);
-                                    $item.css($item.params.transition);
                                 }
                                 $.fn.smoove.scroll(direction);
                             }

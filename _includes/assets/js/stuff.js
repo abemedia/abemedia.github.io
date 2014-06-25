@@ -39,7 +39,7 @@ function close(a,b) {
     if(20 * Math.round(a/20) === 20 * Math.round(b/20)) return true;
 }
     $('.fullrow').smoove({moveY: '50px'});
-    $('.fullrow.orange').smoove({rotateX:90, moveZ:"-400px", transformOrigin:"top"});
+    $('.fullrow.orange').smoove({rotateX:-90, moveZ:"-400px", transformOrigin:"top"});
     $('.text-cto, hr').smoove();
     $('.box-list>li, .row>*').each( function() {
         if($(this).parent().hasClass('box-list-md') || $(this).parent().hasClass('box-list-xs')) {

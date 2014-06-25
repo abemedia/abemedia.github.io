@@ -5,8 +5,9 @@
   <body>
   <script data-cfasync="false">document.body.className = 'js';</script>
   {% include navbar.html %}
-  {% if page.top %}{% include modules.html module=page.top %}{% endif %}
-  <div class="container">
+  <div>
+    {% if page.top %}{% include modules.html module=page.top %}{% endif %}
+    <div class="container">
     {% if page.left or page.right %}
     <div class="row">
       {% if page.left %}
@@ -24,8 +25,9 @@
       {% endif %}
     </div>
     {% else %}<div class="fullrow">{{ content }}</div>{% endif %}
+    </div>
+    {% if page.bottom %}{% include modules.html module=page.bottom style="container" %}{% endif %}
   </div>
-  {% if page.bottom %}{% include modules.html module=page.bottom style="container" %}{% endif %}
   {% include footer.html %}
   </body>
 </html>

@@ -5,7 +5,7 @@ $('.tip').tooltip({
 });
 
 // equal heights
-$(window).resize(function() {
+function equalHeights() {
 	var $col = $('.equal>*'),
 		maxHeight = [],
 		rows = [],
@@ -31,10 +31,8 @@ $(window).resize(function() {
 				$(rows[row][i]).height(maxHeight[row]);
 			}
 		}
-});
-$(window).load(function() {
-	$(window).trigger('resize');
-});
+}
+$(window).on('resize load', equalHeights);
 
 // smoove
 function close(a,b) {

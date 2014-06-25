@@ -10,7 +10,7 @@
     $.fn.smoove.loaded = false;
     
     $.fn.smoove.defaults = {
-        offset: 100,
+        offset: 150,
         opacity: 0,
         transition: "all 1s ease, opacity 1.5s ease",
         transformStyle: 'preserve-3d',

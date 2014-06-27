@@ -28,11 +28,11 @@ Smoove was built with [responsive web design](/responsive-web-design) in mind an
 ### Free & Open Source
 
 Yep that's right, it doesn't cost a penny and is licensed under GNU GPLv2.  
-Feel free to [fork it on GitHub](https://github.com/abeMedia/jquery-smoove).
+Feel free to [fork it on GitHub](https://github.com/abeMedia/jquery-smoove){:target="_blank"}.
 
 ## Usage
 
-Using jQuery Smoove is as simple as including the JavaScript file in your project and adding one single line of code to run it. What makes it even better is that it's hosted on [CloudFlare's super-fast CDN](http://cdnjs.com/libraries/jquery-smoove), so you don't even have to download it!
+Using jQuery Smoove is as simple as including the JavaScript file in your project and adding one single line of code to run it. What makes it even better is that it's hosted on [CloudFlare's super-fast CDN](http://cdnjs.com/libraries/jquery-smoove){:target="_blank"}, so you don't even have to download it!
 
 The following example shows how easy it is to create a similar effect as we have right here on ABE Media, making objects glide in from the bottom.
 
@@ -50,7 +50,7 @@ Load jQuery & jQuery Smoove from CloudFlare's CDN.
 
 ### Initiate jQuery Smoove
 
-Initiate Smoove for all objects with the class `.foo`, setting the `moveY` parameter to make them smoothly move up their Y-axis. See the [documentation](http://smoove.donlabs.com/#options) for a full list of possible parameters.
+Initiate Smoove for all objects with the class `.foo`, setting the `moveY` parameter to make them smoothly move up their Y-axis. See the [documentation](http://smoove.donlabs.com/#options){:target="_blank"} for a full list of possible parameters.
 
 {% highlight js %}
 $(".foo").smoove({moveY : '100px'});
@@ -58,7 +58,9 @@ $(".foo").smoove({moveY : '100px'});
 
 ### Using HTML5 data-attributes
 
-Alternatively you can also set the options using data-attributes. Doing so will override any parameters set in the JavaScript. Also, when defining options via data-attributes, CamelCase names are split with hyphens e.g. `moveY` becomes `data-move-y`.
+Alternatively you can also set the options using data-attributes. Doing so will override any parameters set in the JavaScript. 
+
+**Note:** When defining options via data-attributes, CamelCase names are split with hyphens e.g. `moveY` becomes `data-move-y`.{: .alert .alert-warning}
 
 {% highlight html %}
 <div class="foo" data-move-y="100px"></div>

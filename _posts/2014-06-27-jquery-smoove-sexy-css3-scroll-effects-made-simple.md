@@ -60,7 +60,8 @@ $(".foo").smoove({moveY : '100px'});
 
 Alternatively you can also set the options using data-attributes. Doing so will override any parameters set in the JavaScript. 
 
-**Note:** When defining options via data-attributes, CamelCase names are split with hyphens e.g. `moveY` becomes `data-move-y`.{: .alert .alert-warning}
+**Note:** When defining options via data-attributes, CamelCase names are split with hyphens e.g. `moveY` becomes `data-move-y`.
+{: .alert .alert-warning}
 
 {% highlight html %}
 <div class="foo" data-move-y="100px"></div>

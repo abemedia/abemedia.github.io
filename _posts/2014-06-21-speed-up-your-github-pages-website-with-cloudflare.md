@@ -10,18 +10,18 @@ tags:
 image: "/images/blog/cloudflare.jpg"
 author: Adam Bouqdib
 ---
-GitHub Pages is an awesome service, no doubt about that! It became even more awesome when they [rolled out updates](https://github.com/blog/1715-faster-more-awesome-github-pages) at the beginning of the year, serving all sites through a [CDN](http://en.wikipedia.org/wiki/Content_delivery_network).  
+GitHub Pages is an awesome service, no doubt about that! It became even more awesome when they [rolled out updates](https://github.com/blog/1715-faster-more-awesome-github-pages){:target="_blank"} at the beginning of the year, serving all sites through a [CDN](http://en.wikipedia.org/wiki/Content_delivery_network){:target="_blank"}.  
 Especially being based in the UK it would have meant a great performance boost, as up until then the websites were being loaded all the way from California and, being heavily OCD when it comes to website performance, this was costing me sleep for months. Needless to say I was thrilled about the news!
 
-Sadly, this joy didn't last as it turned out that using the CDN with custom domains only works when pointing to GitHub Pages via CNAME records (which only work for subdomains as they mess up MX records) or ALIAS records, which the vast majority of DNS providers don't currently support (and according to [this article](https://iwantmyname.com/blog/2014/01/why-alias-type-records-break-the-internet.html) are a bad idea anyway). 
+Sadly, this joy didn't last as it turned out that using the CDN with custom domains only works when pointing to GitHub Pages via CNAME records (which only work for subdomains as they mess up MX records) or ALIAS records, which the vast majority of DNS providers don't currently support (and according to [this article](https://iwantmyname.com/blog/2014/01/why-alias-type-records-break-the-internet.html){:target="_blank"} are a bad idea anyway). 
 Since I wanted to point an APEX domain (eg. example.com) and I wasn't too keen on switching to another provider, it seemed the quest for faster GitHub Pages was doomed. 
 Well, it was up until a couple of months ago...
 
 ## CNAMEs on a naked domain with CloudFlare's CNAME Flattening
 
-I've been aware of CloudFlare for quite some time now but this is what really caught my attention. They came up with a way to use a [CNAME record on a root domain](http://blog.cloudflare.com/introducing-cname-flattening-rfc-compliant-cnames-at-a-domains-root) without breaking the internet, which is not only a breeze to set up but also completely free!
+I've been aware of CloudFlare for quite some time now but this is what really caught my attention. They came up with a way to use a [CNAME record on a root domain](http://blog.cloudflare.com/introducing-cname-flattening-rfc-compliant-cnames-at-a-domains-root){:target="_blank"} without breaking the internet, which is not only a breeze to set up but also completely free!
 
-What are you waiting for? Head over to [CloudFlare.com](http://cloudflare.com) and create an account.
+What are you waiting for? Head over to [CloudFlare.com](http://cloudflare.com){:target="_blank"} and create an account.
 
 ## Setting up CloudFlare DNS for GitHub Pages
 

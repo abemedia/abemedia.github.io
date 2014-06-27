@@ -135,7 +135,7 @@
                     if(params.opacity !== false) $item.css({opacity: params.opacity});
                     
                     var transforms = [],
-                        properties = ['move','move3D','moveX','moveY','moveZ','rotate','rotate3d','rotateX','rotateY','rotateZ','scale','scale3d','scaleX','scaleY','skew','skewX','skewY'];
+                        properties = ['move','move3d','moveX','moveY','moveZ','rotate','rotate3d','rotateX','rotateY','rotateZ','scale','scale3d','scaleX','scaleY','skew','skewX','skewY'];
                         
                     for(i in properties) {
                         if(typeof params[properties[i]] !== "undefined") transforms[properties[i]] = params[properties[i]];

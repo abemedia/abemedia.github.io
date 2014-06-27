@@ -5,7 +5,8 @@ categories:
 - Blog
 - Tutorials
 tags:
-- speed
+- cdn
+- website performance
 - security
 image: "/images/blog/cloudflare.jpg"
 author: Adam Bouqdib

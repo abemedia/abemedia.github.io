@@ -24,7 +24,7 @@
       </aside>
       {% endif %}
     </div>
-    {% else %}<div class="fullrow">{{ content }}</div>{% endif %}
+    {% else %}<div class="fullrow {{ page.class }}">{{ content }}</div>{% endif %}
     </div>
     {% if page.bottom %}{% include modules.html module=page.bottom style="container" %}{% endif %}
   </div>

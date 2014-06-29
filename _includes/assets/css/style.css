@@ -215,8 +215,8 @@ body>footer a:hover {
 }
 .navbar .dropdown-menu li.active a, .navbar .dropdown-menu:hover li.active a:hover, .navbar .dropdown-menu li a:hover {
 	background: rgba(255,255,255,0.2);
-	/*-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);*/
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 .navbar .dropdown-menu:hover li.active a {
 	background: none;
@@ -380,8 +380,8 @@ body {
 .box {
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.5);
-	/*-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);*/
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 	display: block;
 	padding: 15px;
 	zoom: 1;
@@ -986,8 +986,8 @@ body {
 .flipper {
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.5);
-	/*-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);*/
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 	display: block;
 	padding: 15px;
 	zoom: 1;
@@ -1014,8 +1014,8 @@ body {
 	background-color: rgba(255,255,255,0.5);
 }
 .front, .back {
-	/*-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);*/
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 	display: block;
 	padding: 15px;
 	zoom: 1;

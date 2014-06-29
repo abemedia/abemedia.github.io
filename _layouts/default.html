@@ -7,7 +7,7 @@
   {% include navbar.html %}
   <div id="content">
     {% if page.top %}{% include modules.html module=page.top %}{% endif %}
-    <div class="container">
+    <div class="container {{ page.class }}">
     {% if page.left or page.right %}
     <div class="row">
       {% if page.left %}
@@ -15,7 +15,7 @@
         {% include modules.html module=page.left %}
       </aside>
       {% endif %}
-      <div class="col-md-{{ 12 | minus: page.left.size | minus: page.right.size }} {{ page.class }}" role="main">
+      <div class="col-md-{{ 12 | minus: page.left.size | minus: page.right.size }}" role="main">
         {{ content }}
       </div>
       {% if page.right %}
@@ -24,7 +24,7 @@
       </aside>
       {% endif %}
     </div>
-    {% else %}<div class="fullrow {{ page.class }}">{{ content }}</div>{% endif %}
+    {% else %}<div class="fullrow">{{ content }}</div>{% endif %}
     </div>
     {% if page.bottom %}{% include modules.html module=page.bottom style="container" %}{% endif %}
   </div>

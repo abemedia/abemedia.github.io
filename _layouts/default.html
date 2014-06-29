@@ -3,7 +3,7 @@
   <head>
     {% include header.html %}</head>
   <body>
-  <script data-cfasync="false">document.body.className = 'js';</script>
+  <script data-cfasync="false">document.body.className = document.body.className + 'js';</script>
   {% include navbar.html %}
   <div id="content">
     {% if page.top %}{% include modules.html module=page.top %}{% endif %}

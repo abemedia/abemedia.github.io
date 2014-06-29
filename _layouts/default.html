@@ -5,7 +5,7 @@
   <body>
   <script data-cfasync="false">document.body.className = document.body.className + 'js';</script>
   {% include navbar.html %}
-  <div id="content" class="{{ page.class }}">
+  <div id="content">
     {% if page.top %}{% include modules.html module=page.top %}{% endif %}
     <div class="container">
     {% if page.left or page.right %}
@@ -15,7 +15,7 @@
         {% include modules.html module=page.left %}
       </aside>
       {% endif %}
-      <div class="col-md-{{ 12 | minus: page.left.size | minus: page.right.size }}" role="main">
+      <div class="col-md-{{ 12 | minus: page.left.size | minus: page.right.size }} {{ page.class }}" role="main">
         {{ content }}
       </div>
       {% if page.right %}

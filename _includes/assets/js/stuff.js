@@ -41,26 +41,27 @@ function close(a,b) {
 
 $('.fullrow').each( function() { 
     if (!$(this).hasClass('orange')) {
-        $(this).smoove({moveY: '50px'});
+        $(this).data({moveY: '50px'});
     }
 });
-$('.text-cto, hr').smoove();
 $('.box-list>li, .fullrow .row>*').each( function() {
     if($(this).parent().hasClass('box-list-md') || $(this).parent().hasClass('box-list-xs')) {
-        $(this).smoove({rotateX:'90deg', moveZ:"-400px", transformOrigin:"bottom"});
-    } else {
+        $(this).data({rotateX:'90deg', moveZ:"-400px", transformOrigin:"bottom"});
+    } 
+    else {
         if(close($(this).offset().left, $(this).parent().offset().left)) {
-            $(this).smoove({move: '-100px,100px'});
+            $(this).data({move: '-100px,100px'});
         }
         else if(close($(this).offset().left + $(this).outerWidth(), $(this).parent().offset().left + $(this).parent().outerWidth())) {
-            $(this).smoove({move: '100px,100px'});
+            $(this).data({move: '100px,100px'});
         }
         else {
-            $(this).smoove({moveY: '100px'});
+            $(this).data({moveY: '100px'});
         }
     }
 });
-
+$('.fullrow, .text-cto, .box-list>li, .fullrow .row>*').smoove();
+console.log($.fn.smoove.length);
 // tocify
 if ($(".toc").length > 0) {
 	var tocCallback = function() {

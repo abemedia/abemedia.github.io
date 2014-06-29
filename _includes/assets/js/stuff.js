@@ -40,7 +40,7 @@ function close(a,b) {
 }
 
 $('.fullrow').each( function() { 
-    if (!$(this).hasClass(.orange)) {
+    if (!$(this).hasClass('orange')) {
         $(this).smoove({moveY: '50px'});
     }
 });

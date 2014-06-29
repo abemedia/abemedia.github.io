@@ -5,7 +5,6 @@ heading: Digital Media Experts
 lead: Committed to providing an exceptional service in developing stunning websites that simply work and creating online marketing campaigns which make our customers real money.
 slug: about
 image: /images/services/abemedia.png
-class: lead text-justify
 modified: 2014-05-12T21:30:00
 top: 
 -
@@ -23,8 +22,11 @@ bottom:
     title: What our clients say
     class: grey
 ---
-<h2 class="module-title">Who we are</h2>
+## Who we are
+{: .module-title}
 
 ABE Media aren't a **web design agency** in the traditional sense - more a small collective of highly-skilled individuals with years of experience in creating functional yet beautiful products and new business opportunities for a socially-connected digital world. 
+{: .lead .text-justify}
 
 Rather than pride ourselves on flashy offices or big corporate investments, we take pride in innovative, user-friendly web applications, beautiful artwork and forward-thinking digital marketing campaigns.
+{: .lead .text-justify}

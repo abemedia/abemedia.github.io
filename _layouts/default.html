@@ -5,9 +5,9 @@
   <body>
   <script data-cfasync="false">document.body.className = document.body.className + 'js';</script>
   {% include navbar.html %}
-  <div id="content">
+  <div id="content" class="{{ page.class }}">
     {% if page.top %}{% include modules.html module=page.top %}{% endif %}
-    <div class="container {{ page.class }}">
+    <div class="container">
     {% if page.left or page.right %}
     <div class="row">
       {% if page.left %}

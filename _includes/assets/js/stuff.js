@@ -45,7 +45,7 @@ $('.fullrow').each( function() {
     }
 });
 $('.text-cto, hr').smoove();
-$('.box-list>li, .row>*').each( function() {
+$('.box-list>li, .fullrow .row>*').each( function() {
     if($(this).parent().hasClass('box-list-md') || $(this).parent().hasClass('box-list-xs')) {
         $(this).smoove({rotateX:'90deg', moveZ:"-400px", transformOrigin:"bottom"});
     } else {

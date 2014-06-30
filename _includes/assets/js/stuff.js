@@ -61,7 +61,7 @@ $('.box-list>li, .fullrow .row>*').each( function() {
     }
 });
 $('.fullrow, .text-cto, .box-list>li, .fullrow .row>*').smoove();
-console.log($.fn.smoove.length);
+
 // tocify
 if ($(".toc").length > 0) {
 	var tocCallback = function() {

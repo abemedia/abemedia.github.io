@@ -1281,3 +1281,10 @@ blockquote footer:before, blockquote small:before, blockquote .small:before {
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
 	background-color: #23879E;
 }
+/* donshare unstyled flash fix */
+.don-share a {
+    -webkit-transition: none;;
+    -moz-transition: none;
+    -o-transition: none;
+    -ms-transition: none;
+}

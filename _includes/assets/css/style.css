@@ -26,6 +26,15 @@ a {
 	-moz-transition: all 0.25s ease-in;
 	-o-transition: all 0.25s ease-in;
 	-ms-transition: all 0.25s ease-in;
+	transition: all 0.25s ease-in;
+}
+/* donshare unstyled flash fix */
+.don-share a {
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    -ms-transition: none;
+    transition: none;
 }
 a:hover {
 	color:#BC7126;
@@ -187,6 +196,7 @@ body>footer a:hover {
 	-webkit-transition:ease 0.6s all;
 	-moz-transition:ease 0.6s all;
 	-o-transition:ease 0.6s all;
+	-ms-transition:ease 0.6s all;
 	transition:ease 0.6s all;
 }
 .navbar .navbar-nav:hover>li.open {
@@ -290,6 +300,7 @@ body {
 	-webkit-transition-property: opacity;
 	-moz-transition-property: opacity;
 	-o-transition-property: opacity;
+	-ms-transition-property: opacity;
 	transition-property: opacity;
 }
 .carousel-fade .carousel-inner .active {
@@ -303,6 +314,7 @@ body {
 	-webkit-transition-property: none;
 	-moz-transition-property: none;
 	-o-transition-property: none;
+	-ms-transition-property: none;
 	transition-property: none;
 }
 .carousel-fade .carousel-inner .active.left, .carousel-fade .carousel-inner .active.right {
@@ -324,6 +336,7 @@ body {
 	-o-transition: all 0.3s ease-out;
 	-webkit-transition: all 0.3s ease-out;
 	-ms-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
 }
 .nav-list>li>a:hover, .nav-list>li>a:focus {
 	background-position: 100% 100%;
@@ -405,6 +418,7 @@ body {
 	-moz-transition: all 0.4s ease-in;
 	-o-transition: all 0.4s ease-in;
 	-ms-transition: all 0.4s ease-in;
+	transition: all 0.4s ease-in;
 }
 .box-header {
 	border-bottom:3px solid #ff9833;
@@ -471,6 +485,7 @@ figcaption {
 	-webkit-transition: all 0.6s ease;
 	-moz-transition: all 0.6s ease;
 	-o-transition: all 0.6s ease;
+	-ms-transition: all 0.6s ease;
 	transition: all 0.6s ease;
 }
 figure:hover figcaption {
@@ -481,6 +496,7 @@ figure img {
 	-webkit-transition: all 1s ease;
 	-moz-transition: all 1s ease;
 	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
 	transition: all 1s ease;
 	margin:0;
 }
@@ -587,6 +603,7 @@ figure:hover img {
 	-moz-transition: all 0.25s ease-in;
 	-o-transition: all 0.25s ease-in;
 	-ms-transition: all 0.25s ease-in;
+	transition: all 0.25s ease-in;
 }
 .btn:hover {
 	color:#fff;
@@ -928,6 +945,7 @@ figure:hover img {
 	-moz-transition: all 0.25s ease-in;
 	-o-transition: all 0.25s ease-in;
 	-ms-transition: all 0.25s ease-in;
+	transition: all 0.25s ease-in;
 }
 .avatar:hover>img, .avatar:active>img, .avatar:focus>img {
 	border-color: #F59331;
@@ -1003,6 +1021,7 @@ body {
 	-moz-transition: all 0.4s ease-in;
 	-o-transition: all 0.4s ease-in;
 	-ms-transition: all 0.4s ease-in;
+	transition: all 0.4s ease-in;
 }
 }
 @media (min-width: 768px) {
@@ -1280,11 +1299,4 @@ blockquote footer:before, blockquote small:before, blockquote .small:before {
 	color: #ffffff;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
 	background-color: #23879E;
-}
-/* donshare unstyled flash fix */
-.don-share * {
-    -webkit-transition: none;;
-    -moz-transition: none;
-    -o-transition: none;
-    -ms-transition: none;
 }

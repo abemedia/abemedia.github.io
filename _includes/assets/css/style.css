@@ -1282,7 +1282,7 @@ blockquote footer:before, blockquote small:before, blockquote .small:before {
 	background-color: #23879E;
 }
 /* donshare unstyled flash fix */
-.don-share a {
+.don-share * {
     -webkit-transition: none;;
     -moz-transition: none;
     -o-transition: none;

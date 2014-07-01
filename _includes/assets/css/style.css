@@ -801,82 +801,6 @@ figure:hover img {
 	border-right-color: #0B5566;
 }
 
-/* Sunburst
--------------------------------------------------- */
-.sunburst {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	z-index: -1;
-}
-.sunburst .outer {
-	width: 4000px;
-	height: 4000px;
-	padding-top: 2180px;
-	margin: -2000px 0 0 -2000px;
-	-webkit-animation-name: rotate1;
-	-webkit-animation-duration:2s;
-	-webkit-animation-iteration-count:infinite;
-	-webkit-animation-timing-function:linear;
-	-moz-animation-name: rotate1;
-	-moz-animation-duration:2s;
-	-moz-animation-iteration-count:infinite;
-	-moz-animation-timing-function:linear;
-}
-.sunburst span {
-	border-width: 180px 2000px;
-	margin: -360px 0 0 0;
-	display: block;
-	width: 0;
-	height: 0;
-	border-color: transparent rgba(255,255,255,0.1);
-	border-style: solid;
-}
-.sunburst span:nth-child(1) { 
-	-webkit-transform:rotate(20deg);  
-	-moz-transform:rotate(20deg);  
-}
-.sunburst span:nth-child(2) { 
-	-webkit-transform:rotate(40deg);  
-	-moz-transform:rotate(40deg);  
-}
-.sunburst span:nth-child(3) { 
-	-webkit-transform:rotate(60deg);  
-	-moz-transform:rotate(60deg);  
-}
-.sunburst span:nth-child(4) { 
-	-webkit-transform:rotate(80deg);  
-	-moz-transform:rotate(80deg);  
-}
-.sunburst span:nth-child(5) { 
-	-webkit-transform:rotate(100deg); 
-	-moz-transform:rotate(100deg); 
-}
-.sunburst span:nth-child(6) {	
-	-webkit-transform:rotate(120deg); 
-	-moz-transform:rotate(120deg); 
-}
-.sunburst span:nth-child(7) { 
-	-webkit-transform:rotate(140deg); 
-	-moz-transform:rotate(140deg); 
-}
-.sunburst span:nth-child(8) { 
-	-webkit-transform:rotate(160deg); 
-	-moz-transform:rotate(160deg); 
-}
-.sunburst span:nth-child(9) { 
-	-webkit-transform:rotate(180deg); 
-	-moz-transform:rotate(180deg); 
-}
-@-webkit-keyframes rotate1 {
-	from { -webkit-transform: rotate(0deg); }
-	to	{ -webkit-transform: rotate(20deg); }
-}
-@-moz-keyframes rotate1 {
-	from { -moz-transform: rotate(0deg); }
-	to	{ -moz-transform: rotate(20deg); }
-}
-
 /* List Features
 -------------------------------------------------- */
 .feature-list {
@@ -1299,4 +1223,80 @@ blockquote footer:before, blockquote small:before, blockquote .small:before {
 	color: #ffffff;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
 	background-color: #23879E;
+}
+
+/* Sunburst
+-------------------------------------------------- */
+.sunburst {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: -1;
+}
+.sunburst .outer {
+	width: 4000px;
+	height: 4000px;
+	padding-top: 2180px;
+	margin: -2000px 0 0 -2000px;
+	-webkit-animation-name: rotate1;
+	-webkit-animation-duration:2s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:linear;
+	-moz-animation-name: rotate1;
+	-moz-animation-duration:2s;
+	-moz-animation-iteration-count:infinite;
+	-moz-animation-timing-function:linear;
+}
+.sunburst span {
+	border-width: 180px 2000px;
+	margin: -360px 0 0 0;
+	display: block;
+	width: 0;
+	height: 0;
+	border-color: transparent rgba(255,255,255,0.1);
+	border-style: solid;
+}
+.sunburst span:nth-child(1) { 
+	-webkit-transform:rotate(20deg);  
+	-moz-transform:rotate(20deg);  
+}
+.sunburst span:nth-child(2) { 
+	-webkit-transform:rotate(40deg);  
+	-moz-transform:rotate(40deg);  
+}
+.sunburst span:nth-child(3) { 
+	-webkit-transform:rotate(60deg);  
+	-moz-transform:rotate(60deg);  
+}
+.sunburst span:nth-child(4) { 
+	-webkit-transform:rotate(80deg);  
+	-moz-transform:rotate(80deg);  
+}
+.sunburst span:nth-child(5) { 
+	-webkit-transform:rotate(100deg); 
+	-moz-transform:rotate(100deg); 
+}
+.sunburst span:nth-child(6) {	
+	-webkit-transform:rotate(120deg); 
+	-moz-transform:rotate(120deg); 
+}
+.sunburst span:nth-child(7) { 
+	-webkit-transform:rotate(140deg); 
+	-moz-transform:rotate(140deg); 
+}
+.sunburst span:nth-child(8) { 
+	-webkit-transform:rotate(160deg); 
+	-moz-transform:rotate(160deg); 
+}
+.sunburst span:nth-child(9) { 
+	-webkit-transform:rotate(180deg); 
+	-moz-transform:rotate(180deg); 
+}
+@-webkit-keyframes rotate1 {
+	from { -webkit-transform: rotate(0deg); }
+	to	{ -webkit-transform: rotate(20deg); }
+}
+@-moz-keyframes rotate1 {
+	from { -moz-transform: rotate(0deg); }
+	to	{ -moz-transform: rotate(20deg); }
 }

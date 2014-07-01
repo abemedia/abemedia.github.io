@@ -1,7 +1,7 @@
 ---
 ---
-{% include assets/css/pygments-manni.css %}
 {% include assets/css/bootstrap.min.css %}
-{% include assets/css/device-mockups.min.css %}
 {% include assets/css/font-awesome.min.css %}
-{% include assets/css/style.css %}
+{% include assets/css/device-mockups.min.css %}
+{% include assets/css/pygments-manni.min.css %}
+{% include assets/css/style.min.css %}

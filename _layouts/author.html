@@ -15,8 +15,10 @@ layout: default
         {% endif %}{% if item.links.google %}
         <a title="Google+" target="_blank" href="https://plus.google.com/{{ item.links.google }}" rel="me"><i class="fa fa-fw fa-2x fa-google-plus"></i></a>
         {% endif %}{% if item.links.github %}
-        <a title="GitHub" target="_blank" href="http://www.github.com/{{ item.links.github }}"><i class="fa fa-fw fa-2x fa-github"></i> </a>{% endif %}{% if item.links.stackoverflow %}
-        <a title="Stack Overflow" target="_blank" href="https://careers.stackoverflow.com/{{ item.links.stackoverflow }}"><i class="fa fa-fw fa-2x fa-stack-overflow"></i></a>{% endif %}
+        <a title="GitHub" target="_blank" href="http://www.github.com/{{ item.links.github }}"><i class="fa fa-fw fa-2x fa-github"></i></a>
+        {% endif %}{% if item.links.stackoverflow %}
+        <a title="Stack Overflow" target="_blank" href="https://careers.stackoverflow.com/{{ item.links.stackoverflow }}"><i class="fa fa-fw fa-2x fa-stack-overflow"></i></a>
+        {% endif %}
       </p>
     </div>
     <div class="col-sm-8">

@@ -10,7 +10,6 @@ tags:
 - animation
 image: "/images/blog/css3.jpg"
 author: Owen Andrew
-published: false
 ---
 
 In a world where even groceries can be ordered online and delivered to your doorstep, the process used to make and place orders online is **essential** to any business involved in eCommerce. From PPC ads to the check-out page, the eCommerce process is all about what your customer is expecting to see. Meeting those expectations is vital to online success. 

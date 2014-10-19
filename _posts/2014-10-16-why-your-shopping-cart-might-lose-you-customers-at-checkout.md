@@ -8,7 +8,7 @@ tags:
 - css
 - jquery
 - animation
-image: "/images/blog/css3.jpg"
+image: "/images/blog/cart-losing-customers.jpg"
 author: Owen Andrew
 ---
 

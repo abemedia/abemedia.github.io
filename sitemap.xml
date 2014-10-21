@@ -18,11 +18,11 @@
     <priority>{% if post.url == "/" or post.url == "/index.html" %}1.0{% else %}0.7{% endif %}</priority>
   </url>
   {% endunless %}{% endfor %}
-  {% for file in site.html_files %}
+  {% for file in site.html_files %}{% unless file.sitemap == false %}
   <url>
     <loc>{{ site_url }}{{ file.path }}</loc>
     <lastmod>{{ file.modified_time | date:"%Y-%m-%dT%H:%M:%sZ" }}</lastmod>
     <priority>0.6</priority>
   </url>
-  {% endfor %}
+  {% endunless %}{% endfor %}
 </urlset>

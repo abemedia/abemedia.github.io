@@ -10,5 +10,5 @@
   {% for file in site.html_files %}{% unless file.sitemap == false %}
   {{ post | jsonify }},
   {% endunless %}{% endfor %}
-  "":""
+  {}
 ]

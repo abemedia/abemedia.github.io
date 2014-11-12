@@ -3,11 +3,8 @@ layout: post
 title: "Why Your Shopping Cart Might Lose You Customers at Checkout"
 categories:
 - Blog
-- Tutorials
 tags:
-- css
-- jquery
-- animation
+- ecommerce
 image: "/images/blog/cart-losing-customers.jpg"
 author: Owen Andrew
 ---
@@ -33,4 +30,3 @@ Fortunately, there are some steps that you can take to make sure that a customer
 7. Only request essential information for checkout. For instance, an address is essential for billing and shipping purposes, but asking “how did you hear about us?” or any other questions not directly related to the transaction are excessive, necessary and can ultimately lead to loss of sales. 
 
 If you undergo these steps and attempt to see it from a customer’s perspective, it will make the process much more user-friendly and efficient. Expect feedback on your first try, and know that you’ll need to adjust your shopping cart to fit the needs of your customers. It’s not always about what’s most convenient for you, but what’s convenient for the people who pay you!  
-

@@ -8,6 +8,8 @@ tags:
 - cdn
 - website performance
 - security
+- github
+- cloudflare
 image: "/images/blog/cloudflare.jpg"
 author: Adam Bouqdib
 ---

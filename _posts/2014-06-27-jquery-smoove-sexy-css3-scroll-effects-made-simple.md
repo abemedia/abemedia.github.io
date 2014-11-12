@@ -6,6 +6,7 @@ categories:
 - Announcements
 tags:
 - css
+- javascript
 - jquery
 - animation
 image: "/images/blog/css3.jpg"

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Biggest Web Hosting and Migration Mistakes and How to Avoid Them"
+title: "Biggest Web Hosting & Migration Mistakes and How to Avoid Them"
 categories:
 - Blog
 tags:

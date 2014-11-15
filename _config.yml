@@ -13,6 +13,9 @@ author: Adam Bouqdib
 markdown: kramdown
 gems:
   - jekyll-sitemap
+exclude:
+  - Gemfile
+  - "Gemfile.lock"
 relative_permalinks: false
 
 facebook_app: 276049565908648

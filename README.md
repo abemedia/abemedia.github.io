@@ -1,6 +1,6 @@
-[ABE Media](http://abemedia.co.uk)
+[Web Design Brighton](http://abemedia.co.uk)
 ===================
-This is the new web presence of ABE Media.
+This is the new web presence of ABE Media - Web Design Brighton.
 
 ##Licence
 

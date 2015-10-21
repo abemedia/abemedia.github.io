@@ -51,7 +51,7 @@ Load jQuery & jQuery Smoove from CloudFlare's CDN.
 
 ### Initiate jQuery Smoove
 
-Initiate Smoove for all objects with the class `.foo`, setting the `moveY` parameter to make them smoothly move up their Y-axis. See the [documentation](http://smoove.donlabs.com/#options){:target="_blank"} for a full list of possible parameters.
+Initiate Smoove for all objects with the class `.foo`, setting the `moveY` parameter to make them smoothly move up their Y-axis. See the [documentation](http://abemedia.co.uk/jquery-smoove/#options){:target="_blank"} for a full list of possible parameters.
 
 {% highlight js %}
 $(".foo").smoove({moveY : '100px'});
@@ -77,7 +77,7 @@ To see **jQuery Smoove** in action just [visit our front page](/) and scroll up 
 Enough of the talking - time for some action! Check the following links to get started.
 
 - [Download latest release](https://github.com/abeMedia/jquery-smoove/zipball/master)
-- [Read the docs](http://smoove.donlabs.com)
+- [Read the docs](http://abemedia.co.uk/jquery-smoove/)
 - [Fork it on GitHub](https://github.com/abeMedia/jquery-smoove)
 
 If you have any questions or feedback feel free to [give us a shout](/contact) or use the comments section below.

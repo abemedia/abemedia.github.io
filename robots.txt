@@ -1,3 +1,7 @@
+---
+---
 User-agent: *
 Disallow: /terms
 Disallow: /privacy
+
+Sitemap: {{site.url}}/sitemap.xml

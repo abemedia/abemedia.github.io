@@ -1,7 +1,6 @@
 ---
 layout: author
-title: Adam Bouqdib &bull; Web Developer &bull; Joomla Expert
-name: Adam Bouqdib
+title: Adam Bouqdib
 slug: adam-bouqdib
 role: Web Developer
 links:

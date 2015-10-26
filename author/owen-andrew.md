@@ -1,7 +1,6 @@
 ---
 layout: author
-title: Owen Andrew &bull; Journalist
-name: Owen Andrew
+title: Owen Andrew
 slug: owen-andrew
 role: Journalist
 links:

@@ -2,10 +2,10 @@
 layout: default 
 ---
 <div class="inner">
-  <h1 class="page-header">{{ page.name }} <small>{{ page.role }}</small></h1>
+  <h1 class="page-header">{{ page.title }} <small>{{ page.role }}</small></h1>
   <div class="row">
     <div class="col-sm-4 text-center">
-      <p><img src="{{ site.baseurl }}images/people/{{ page.alias }}-xl.jpg" alt="" class="img-thumbnail img-circle hidden-xs" /></p>
+      <p><img src="{{ site.baseurl }}images/people/{{ page.slug }}-xl.jpg" alt="" class="img-thumbnail img-circle hidden-xs" /></p>
       <p>{% if page.links.twitter %}
         <a title="Twitter" target="_blank" href="https://twitter.com/{{ page.links.twitter }}"><i class="fa fa-fw fa-2x fa-twitter"></i></a>
         {% endif %}{% if page.links.linkedin %}

@@ -1,32 +1,28 @@
 --- 
 layout: default 
 ---
-{% for item in site.data.team %}
-{% if item.alias == page.slug %}
 <div class="inner">
-  <h1 class="page-header">{{ item.name }} <small>{{ item.role }}</small></h1>
+  <h1 class="page-header">{{ page.name }} <small>{{ page.role }}</small></h1>
   <div class="row">
     <div class="col-sm-4 text-center">
-      <p><img src="{{ site.baseurl }}images/people/{{ item.alias }}-xl.jpg" alt="" class="img-thumbnail img-circle hidden-xs" /></p>
-      <p>{% if item.links.twitter %}
-        <a title="Twitter" target="_blank" href="https://twitter.com/{{ item.links.twitter }}"><i class="fa fa-fw fa-2x fa-twitter"></i></a>
-        {% endif %}{% if item.links.linkedin %}
-        <a title="LinkedIn" target="_blank" href="http://www.linkedin.com/in/{{ item.links.linkedin }}"><i class="fa fa-fw fa-2x fa-linkedin"></i></a>
-        {% endif %}{% if item.links.google %}
-        <a title="Google+" target="_blank" href="https://plus.google.com/{{ item.links.google }}" rel="me"><i class="fa fa-fw fa-2x fa-google-plus"></i></a>
-        {% endif %}{% if item.links.github %}
-        <a title="GitHub" target="_blank" href="http://www.github.com/{{ item.links.github }}"><i class="fa fa-fw fa-2x fa-github"></i></a>
-        {% endif %}{% if item.links.stackoverflow %}
-        <a title="Stack Overflow" target="_blank" href="https://careers.stackoverflow.com/{{ item.links.stackoverflow }}"><i class="fa fa-fw fa-2x fa-stack-overflow"></i></a>
+      <p><img src="{{ site.baseurl }}images/people/{{ page.alias }}-xl.jpg" alt="" class="img-thumbnail img-circle hidden-xs" /></p>
+      <p>{% if page.links.twitter %}
+        <a title="Twitter" target="_blank" href="https://twitter.com/{{ page.links.twitter }}"><i class="fa fa-fw fa-2x fa-twitter"></i></a>
+        {% endif %}{% if page.links.linkedin %}
+        <a title="LinkedIn" target="_blank" href="http://www.linkedin.com/in/{{ page.links.linkedin }}"><i class="fa fa-fw fa-2x fa-linkedin"></i></a>
+        {% endif %}{% if page.links.google %}
+        <a title="Google+" target="_blank" href="https://plus.google.com/{{ page.links.google }}" rel="me"><i class="fa fa-fw fa-2x fa-google-plus"></i></a>
+        {% endif %}{% if page.links.github %}
+        <a title="GitHub" target="_blank" href="http://www.github.com/{{ page.links.github }}"><i class="fa fa-fw fa-2x fa-github"></i></a>
+        {% endif %}{% if page.links.stackoverflow %}
+        <a title="Stack Overflow" target="_blank" href="https://careers.stackoverflow.com/{{ page.links.stackoverflow }}"><i class="fa fa-fw fa-2x fa-stack-overflow"></i></a>
         {% endif %}
       </p>
     </div>
     <div class="col-sm-8">
-      <p class="lead">{{ item.about | newline_to_br }}</p>
+      <p class="lead">{{ content }}</p>
     </div>
   </div>
 </div>
-{% endif %}
-{% endfor %}
 <hr />
   

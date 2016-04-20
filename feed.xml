@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>ABE Media</title>
+		<description>We're a small, yet highly innovative web design and development company based in Brighton &amp; Hove, East Sussex. Since its incorporation in 2005, ABE Media have been at the forefront of new technology, shaping the future of web design with each and every project.</description>
+		<link>http://abemedia.co.uk</link>
+		<atom:link href="http://abemedia.co.uk/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title><![CDATA[Biggest Web Hosting & Migration Mistakes and How to Avoid Them]]></title>
+				<description><![CDATA[<img src="http://abemedia.co.uk/images/blog/web-hosting.jpg" style="width:100%;"><p>Mostly operating in the shadows, web hosts are an unheralded and often-undervalued aspect of a website’s operations. Yet the difference between having a good web host and a bad one is often the difference between having happy customers and annoyed or distracted customers.</p>
+
+<p>As you likely have a good understanding already of what web hosts do, let’s jump right into a few of the biggest mistakes people make when choosing one.</p>
+
+<h3 id="they-fall-for-the-unlimited-bandwidth-spiel">They Fall for the Unlimited Bandwidth Spiel</h3>
+
+<p>There is simply no way a web host can legitimately offer you unlimited bandwidth. Any host claiming to do so is attempting to pull the wool over your eyes, and has their real limitations buried somewhere in the fine print; and chances are they’re not very high, hence the deception.<br />
+Having a full understanding of how much bandwidth you have and what will happen should you exceed it is vital to running your business well and without fear.</p>
+
+<h3 id="they-choose-free-or-low-cost-hosting">They Choose Free or Low Cost Hosting</h3>
+
+<p>Wary new online business operators are prone to look for free or cheap web hosting initially, believing the small savings will be worth the difference in service. They are not. You should be building your business on a solid foundation of investment or funding, which should allow you to prioritize quality over cutting corners for cost savings. The difference between a free host bombarding your visitors with their own ads and luring them away from your site, and a high quality one can not be overstated.</p>
+
+<h3 id="they-dont-test-the-hosts-customer-service">They Don’t Test The Host’s Customer Service</h3>
+
+<p>Web hosting is not a service where you can wing it on your own, and in which the quality and timeliness of the customer service isn’t overly important. You will need to be in contact with your web host at various points over a multitude of issues, and you’ll tear your hair out if you’re stuck with a host that is slow and inattentive to your needs. For this reason, your web host’s customer service is extremely important, and testing it out beforehand is a good way to gauge it.</p>
+
+<h2 id="making-the-move-to-a-new-host">Making the Move to a New Host</h2>
+
+<p>So you’ve identified some of the <a href="http://www.hostt.com/3-signs-its-time-to-switch-web-hosts/">key failures with your own web host</a> and have decided to make the move to a new one. You now have a whole new set of potential landmines to avoid in transferring your service over to greener hosting pastures.</p>
+
+<h3 id="downtime">Downtime</h3>
+
+<p>The major issue you want to avoid is having a lengthy bout of downtime for your website. For this reason, you should not inform your existing web host of your impending move from their service until you’re completely up and running on the new servers.<br />
+The process of switching your DNS records to the new servers can take as long as 12 to 24 hours, though this can be greatly expedited with services like Cloudflare. During that time both services will be running but you’ll be unable to make a thorough test of your new site or add content. Should something go wrong, you may need to attempt the process again, and will want the old hosting still in place so customers can continue to reach your website.</p>
+
+<h3 id="loss-of-data">Loss of Data</h3>
+
+<p>Another, greater concern is loss of data. Again, you should avoid notifying your existing web host of a move, as they may decide to shut down your service immediately, regardless of the time remaining on your subscription. Should your web host shut down your service before you’ve had time to backup your files and safely migrate them, you could potentially lose mounds of valuable content and customer data that you may be unable to recover.</p>
+]]></description>
+				<pubDate>Tue, 11 Nov 2014 00:00:00 +0000</pubDate>
+				<link>http://abemedia.co.uk/blog/biggest-web-hosting-and-migration-mistakes-and-how-to-avoid-them</link>
+				<author>Owen Andrew</author>
+				<category>Blog</category>
+				<guid isPermaLink="true">http://abemedia.co.uk/blog/biggest-web-hosting-and-migration-mistakes-and-how-to-avoid-them</guid>
+			</item>
+		
+			<item>
+				<title><![CDATA[Why Your Shopping Cart Might Lose You Customers at Checkout]]></title>
+				<description><![CDATA[<img src="http://abemedia.co.uk/images/blog/cart-losing-customers.jpg" style="width:100%;"><p>In a world where even groceries can be ordered online and delivered to your doorstep, the process used to make and place orders online is <strong>essential</strong> to any business involved in eCommerce. From PPC ads to the check-out page, the eCommerce process is all about what your customer is expecting to see. Meeting those expectations is vital to online success.</p>
+
+<h3 id="shopping-cart-optimisation">Shopping Cart Optimisation</h3>
+
+<p>If you look at well-known businesses such as Amazon or eBay, they’ve had success with their online check-out systems because they’re completely optimised for the customer. Shopping carts are the vital last step that a customer can take. If that last step is too complicated, it’s very possible for customers to lose interest or become frustrated and abandon their orders. Once that happens, the likelihood of attracting that customer again is very low. Nobody wants to sit through ten pages of forms to fill out. It’s frustrating and time-consuming and people want to order their products and be on to the next activity in their fast-paced lifestyle.</p>
+
+<p>If you’re just getting your online business started, it might be a good idea to use an ecommerce tool, like the ones <a href="http://www.entrepreneur.com/article/217950">listed at Entrepreneur Magazine</a>. eCommerce tools are already set up and relatively easy to use. Before signing up for an ecommerce tool, take into account what your product line and business model is.</p>
+
+<h3 id="making-your-cart-user-friendly">Making Your Cart User-Friendly</h3>
+
+<p>Fortunately, there are some steps that you can take to make sure that a customer doesn’t get fed up with your check-out process, as this <a href="http://www.forbes.com/sites/neilpatel/2014/09/23/improve-your-online-checkout-process/">Forbes article</a> suggests.</p>
+
+<ol>
+  <li>Make it mobile-friendly. A mistake that so many businesses make is to ignore the functionality of their mobile site and ordering apparatus. More and more business is completed from mobile devices. If your app has a problem, it’s vital to get it solved right away. If possible, don’t even launch without complete mobile functionality.</li>
+  <li>Show customers their progress in the checkout process. It’s a psychological trick, and some of the best shopping carts tell a customer how many steps they have left and offer encouragement to continue. If a customer believes they have already placed their order when they actually haven’t, frustration will run rampant.</li>
+  <li>Make it clear what the customer is ordering, and what they are paying for. They should always be able to access a clear list of their shopping cart contents as they shop. Once they enter the shopping cart screen and see their total, the customer should be able to see where the total comes from.</li>
+  <li>Have multiple payment options. Make sure that you have <a href="http://www.shopify.com/credit-card-processing">credit card processing options</a> with low transaction fees. This leads to more options for your customer and reduced overhead for you.</li>
+  <li>Be careful about requiring a membership login. Bigger companies can get away with it, but as a start-up your business is better off asking for a less invasive ordering process. If you offer a membership, make sure to make it an option to order without creating a customer profile.</li>
+  <li>Include security features and make sure they are visible. If you have ordered from another site, you’ll notice that the bottom left or right corners will have logos of security features. Protecting the information that a customer gives you is required to establish any sort of protracted customer-retailer relationship. Particularly in light of recent credit card fraud at huge retailers like Target, valuing your customer enough to protect them while they are using your services is a <a href="http://www.itbusinessedge.com/slideshows/five-ways-to-protect-customer-credit-card-information.html">key to retaining returning buyers.</a></li>
+  <li>Only request essential information for checkout. For instance, an address is essential for billing and shipping purposes, but asking “how did you hear about us?” or any other questions not directly related to the transaction are excessive, necessary and can ultimately lead to loss of sales.</li>
+</ol>
+
+<p>If you undergo these steps and attempt to see it from a customer’s perspective, it will make the process much more user-friendly and efficient. Expect feedback on your first try, and know that you’ll need to adjust your shopping cart to fit the needs of your customers. It’s not always about what’s most convenient for you, but what’s convenient for the people who pay you!</p>
+]]></description>
+				<pubDate>Thu, 16 Oct 2014 00:00:00 +0100</pubDate>
+				<link>http://abemedia.co.uk/blog/why-your-shopping-cart-might-lose-you-customers-at-checkout</link>
+				<author>Owen Andrew</author>
+				<category>Blog</category>
+				<guid isPermaLink="true">http://abemedia.co.uk/blog/why-your-shopping-cart-might-lose-you-customers-at-checkout</guid>
+			</item>
+		
+			<item>
+				<title><![CDATA[jQuery Smoove - Sexy CSS3 scroll effects made simple]]></title>
+				<description><![CDATA[<img src="http://abemedia.co.uk/images/blog/css3.jpg" style="width:100%;"><p>Want gorgeous <strong>scroll animations</strong> on your website? So did we! The only problem is that most JavaScript plugins we came across for doing so were total overkill and felt a bit like lighting a candle with a flame-thrower. With so many awesome effects possible with <strong>CSS3</strong> these days, we felt it was time for a new, simpler way to spice up scrolling on your website, without all the clutter that tends to come with it, so we got to work…</p>
+
+<h2 id="introducing-jquery-smoove">Introducing jQuery Smoove</h2>
+
+<p>Smoove is a super simple jQuery plugin for creating awesome <strong>CSS animations</strong> as you scroll down the page, making your content smoothly glide into view. It supports a number of different slick effects &amp; 3D animations and only takes a single line of code to run.</p>
+
+<h3 id="lightweight">Lightweight</h3>
+
+<p>The plugin weighs in at only 3.3KB (minified) and doesn’t require any CSS files to work.</p>
+
+<h3 id="responsive">Responsive</h3>
+
+<p>Smoove was built with <a href="/responsive-web-design">responsive web design</a> in mind and automatically adapts to any changes to the viewport.</p>
+
+<h3 id="free--open-source">Free &amp; Open Source</h3>
+
+<p>Yep that’s right, it doesn’t cost a penny and is licensed under GNU GPLv2.<br />
+Feel free to <a href="https://github.com/abeMedia/jquery-smoove" target="_blank">fork it on GitHub</a>.</p>
+
+<h2 id="usage">Usage</h2>
+
+<p>Using jQuery Smoove is as simple as including the JavaScript file in your project and adding one single line of code to run it. What makes it even better is that it’s hosted on <a href="http://cdnjs.com/libraries/jquery-smoove" target="_blank">CloudFlare’s super-fast CDN</a>, so you don’t even have to download it!</p>
+
+<p>The following example shows how easy it is to create a similar effect as we have right here on ABE Media, making objects glide in from the bottom.</p>
+
+<h3 id="loading-javascript-files">Loading JavaScript files</h3>
+
+<p>Load jQuery &amp; jQuery Smoove from CloudFlare’s CDN.</p>
+
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="c">&lt;!-- Always include jQuery before loading any plugins --&gt;</span>
+<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js&quot;</span><span class="nt">&gt;&lt;/script&gt;</span>
+
+<span class="c">&lt;!-- Load jQuery Smoove from cdnjs --&gt;</span>
+<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">&quot;//cdnjs.cloudflare.com/ajax/libs/jquery-smoove/0.2.6/jquery.smoove.min.js&quot;</span><span class="nt">&gt;&lt;/script&gt;</span></code></pre></div>
+
+<h3 id="initiate-jquery-smoove">Initiate jQuery Smoove</h3>
+
+<p>Initiate Smoove for all objects with the class <code>.foo</code>, setting the <code>moveY</code> parameter to make them smoothly move up their Y-axis. See the <a href="http://abemedia.co.uk/jquery-smoove/#options" target="_blank">documentation</a> for a full list of possible parameters.</p>
+
+<div class="highlight"><pre><code class="language-js" data-lang="js"><span class="nx">$</span><span class="p">(</span><span class="s2">&quot;.foo&quot;</span><span class="p">).</span><span class="nx">smoove</span><span class="p">({</span><span class="nx">moveY</span> <span class="o">:</span> <span class="s1">&#39;100px&#39;</span><span class="p">});</span></code></pre></div>
+
+<h3 id="using-html5-data-attributes">Using HTML5 data-attributes</h3>
+
+<p>Alternatively you can also set the options using data-attributes. Doing so will override any parameters set in the JavaScript.</p>
+
+<p class="alert alert-warning"><strong>Note:</strong> When defining options via data-attributes, CamelCase names are split with hyphens e.g. <code>moveY</code> becomes <code>data-move-y</code>.</p>
+
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;foo&quot;</span> <span class="na">data-move-y=</span><span class="s">&quot;100px&quot;</span><span class="nt">&gt;&lt;/div&gt;</span></code></pre></div>
+
+<h2 id="demo">Demo</h2>
+
+<p>To see <strong>jQuery Smoove</strong> in action just <a href="/">visit our front page</a> and scroll up &amp; down the page.</p>
+
+<h2 id="get-started">Get Started</h2>
+
+<p>Enough of the talking - time for some action! Check the following links to get started.</p>
+
+<ul>
+  <li><a href="https://github.com/abeMedia/jquery-smoove/zipball/master">Download latest release</a></li>
+  <li><a href="http://abemedia.co.uk/jquery-smoove/">Read the docs</a></li>
+  <li><a href="https://github.com/abeMedia/jquery-smoove">Fork it on GitHub</a></li>
+</ul>
+
+<p>If you have any questions or feedback feel free to <a href="/contact">give us a shout</a> or use the comments section below.</p>
+
+<p>Stay awesome!</p>
+]]></description>
+				<pubDate>Fri, 27 Jun 2014 00:00:00 +0100</pubDate>
+				<link>http://abemedia.co.uk/blog/announcements/jquery-smoove-sexy-css3-scroll-effects-made-simple</link>
+				<author>Adam Bouqdib</author>
+				<category>Announcements</category>
+				<guid isPermaLink="true">http://abemedia.co.uk/blog/announcements/jquery-smoove-sexy-css3-scroll-effects-made-simple</guid>
+			</item>
+		
+			<item>
+				<title><![CDATA[Speed up your GitHub Pages website with CloudFlare]]></title>
+				<description><![CDATA[<img src="http://abemedia.co.uk/images/blog/cloudflare.jpg" style="width:100%;"><p>GitHub Pages is an awesome service, no doubt about that! It became even more awesome when they <a href="https://github.com/blog/1715-faster-more-awesome-github-pages" target="_blank">rolled out updates</a> at the beginning of the year, serving all sites through a <a href="http://en.wikipedia.org/wiki/Content_delivery_network" target="_blank">CDN</a>.<br />
+Especially being based in the UK it would have meant a great performance boost, as up until then the websites were being loaded all the way from California and, being heavily OCD when it comes to website performance, this was costing me sleep for months. Needless to say I was thrilled about the news!</p>
+
+<p>Sadly, this joy didn’t last as it turned out that using the CDN with custom domains only works when pointing to GitHub Pages via CNAME records (which only work for subdomains as they mess up MX records) or ALIAS records, which the vast majority of DNS providers don’t currently support (and according to <a href="https://iwantmyname.com/blog/2014/01/why-alias-type-records-break-the-internet.html" target="_blank">this article</a> are a bad idea anyway). 
+Since I wanted to point an APEX domain (eg. example.com) and I wasn’t too keen on switching to another provider, it seemed the quest for faster GitHub Pages was doomed. 
+Well, it was up until a couple of months ago…</p>
+
+<h2 id="cnames-on-a-naked-domain-with-cloudflares-cname-flattening">CNAMEs on a naked domain with CloudFlare’s CNAME Flattening</h2>
+
+<p>I’ve been aware of CloudFlare for quite some time now but this is what really caught my attention. They came up with a way to use a <a href="http://blog.cloudflare.com/introducing-cname-flattening-rfc-compliant-cnames-at-a-domains-root" target="_blank">CNAME record on a root domain</a> without breaking the internet, which is not only a breeze to set up but also completely free!</p>
+
+<p>What are you waiting for? Head over to <a href="http://cloudflare.com" target="_blank">CloudFlare.com</a> and create an account.</p>
+
+<h2 id="setting-up-cloudflare-dns-for-github-pages">Setting up CloudFlare DNS for GitHub Pages</h2>
+
+<p>This part really couldn’t be easier! Login and click on <code>Websites</code>, add your domain name and wait for CloudFlare to import your DNS records.</p>
+
+<p>Next, delete the <code>A</code> records and replace them with <code>CNAME</code> records pointing to your GitHub Pages URL. You should have two <code>CNAME</code> records similar to those below amongst your other stuff (subdomains, MX records etc.).</p>
+
+<p><img src="/images/blog/2014-06-21-speeding-up-your-github-pages-website-with-cloudflare/cloudflare-dns-settings.jpg" alt="CloudFlare DNS Settings" /></p>
+
+<p>Once you’ve completed the DNS setup, hitting the big green button at the bottom will take you to the performance &amp; security settings. These can be changed later so don’t worry if you’re not 100% sure but I personally chose the following:</p>
+
+<p><img src="/images/blog/2014-06-21-speeding-up-your-github-pages-website-with-cloudflare/cloudflare-performance-and-security-settings.jpg" alt="CloudFlare DNS Settings" /></p>
+
+<div class="alert alert-warning">The <b>full optimisations</b> setting can cause issues with some JavaScript resources &amp; plugins. If you experience problems try using the <b>basic optimisations</b> setting.</div>
+
+<p>Once you’re happy with the settings click through to the next page and keep it open while you open your registrar’s website in a new tab. You’ll need the name server addresses in a moment.</p>
+
+<h2 id="switching-your-domain-to-cloudflare-dns">Switching your domain to CloudFlare DNS</h2>
+
+<p>Now that the DNS is configured, let’s point our domain to it. For this example I’m using 123-reg as they are the most common registrar in the UK, however its just as simple to do with any other registrar.</p>
+
+<p>Log into 123-reg’s control panel, select your domain and click <code>Manage</code>. Then, on the following screen, click on <code>Change Nameservers (DNS)</code>.</p>
+
+<p><img src="/images/blog/2014-06-21-speeding-up-your-github-pages-website-with-cloudflare/123-reg-advanced-domain-settings.jpg" alt="CloudFlare DNS Settings" /></p>
+
+<p>Here, enter the name server details you were given in the last step of your CloudFlare setup.</p>
+
+<p><img src="/images/blog/2014-06-21-speeding-up-your-github-pages-website-with-cloudflare/123-reg-change-name-servers.jpg" alt="CloudFlare DNS Settings" /></p>
+
+<p>Click on <code>Update</code> and that’s it! Now you just need to wait for the name servers to update and enjoy a significant increase in speed.</p>
+
+<p>Oh and by the way… I realise the whole point of using GitHub Pages’ CDN has become slightly pointless now that we’re using CloudFlare’s CDN anyway but does it really matter? ;-)</p>
+]]></description>
+				<pubDate>Sat, 21 Jun 2014 00:00:00 +0100</pubDate>
+				<link>http://abemedia.co.uk/blog/tutorials/speed-up-your-github-pages-website-with-cloudflare</link>
+				<author>Adam Bouqdib</author>
+				<category>Tutorials</category>
+				<guid isPermaLink="true">http://abemedia.co.uk/blog/tutorials/speed-up-your-github-pages-website-with-cloudflare</guid>
+			</item>
+		
+			<item>
+				<title><![CDATA[Free social sharing service launched]]></title>
+				<description><![CDATA[<img src="http://abemedia.co.uk/images/blog/simple-social-share-buttons.jpg" style="width:100%;"><p>You might have noticed the gorgeous social sharing buttons we have on some of our clients’ sites and right here on our blog…<br />
+Well, here’s the good news: You can have them for free on your site right now!<br />
+That’s right, we’ve just launched our very own <a href="http://share.donreach.com/">free social sharing service</a>!</p>
+
+<p>To get them now just visit <a href="http://share.donreach.com/">share.donreach.com</a>, customise them using our simple form, click on <em>Get the code</em> and paste it where you want the buttons to appear on your website.</p>
+
+<p>You will need a very basic understanding HTML, however simple plugins for Joomla! &amp; WordPress are already in the works and will follow soon.</p>
+
+<p>We’d love to hear your comments so don’t hesitate to let us know in the <a href="/blog/announcements/free-social-sharing-service-launched#disqus_thread">comments section</a> or by <a href="http://abemedia.co.uk/contact">dropping us an email</a>.</p>
+]]></description>
+				<pubDate>Mon, 12 May 2014 00:00:00 +0100</pubDate>
+				<link>http://abemedia.co.uk/blog/announcements/free-social-sharing-service-launched</link>
+				<author>Adam Bouqdib</author>
+				<category>Announcements</category>
+				<guid isPermaLink="true">http://abemedia.co.uk/blog/announcements/free-social-sharing-service-launched</guid>
+			</item>
+		
+			<item>
+				<title><![CDATA[ABE Media has evolved]]></title>
+				<description><![CDATA[<img src="http://abemedia.co.uk/images/blog/new-abemedia-website.jpg" style="width:100%;"><p>ABE Media has evolved over the last few years and turned from a simple <strong>web design company</strong> to a web application smithy, churning out highly complex <strong>database applications</strong>, <strong>bespoke ecommerce systems</strong> and <strong>custom Joomla! extensions</strong> so we felt our website no longer represented us and had to change.</p>
+
+<p>Finally, after months of back and forth to capture the feel of the new ABE Media, we are please to announce the launch of our <strong>brand new website</strong>!</p>
+
+<p>We’d love to hear your feedback on it so feel free to have a look around and leave a comment or <a href="/contact">contact us</a> to let us know what you think.</p>
+]]></description>
+				<pubDate>Thu, 01 May 2014 00:00:00 +0100</pubDate>
+				<link>http://abemedia.co.uk/blog/announcements/abemedia-has-evolved</link>
+				<author>Adam Bouqdib</author>
+				<category>Announcements</category>
+				<guid isPermaLink="true">http://abemedia.co.uk/blog/announcements/abemedia-has-evolved</guid>
+			</item>
+		
+			<item>
+				<title><![CDATA[Web design for charity AudioActive Youth Music Project]]></title>
+				<description><![CDATA[<img src="http://abemedia.co.uk/images/blog/audioactive.jpg" style="width:100%;"><p>Local Brighton charity AudioActive needed a new website designed to promote their youth music project and reach more funders. They have done great work helping underprivileged kids in Brighton nurture their creative talents and give them an opportunity to make it as performing artists, their most recent success story being the urban music duo Rizzle Kicks.</p>
+
+<p>Coming from a music background we at ABE Media were thrilled to help them by setting up a content management system to their specifications free of charge.</p>
+
+<p>For more information on how to get involved visit <a href="http://www.audioactive.org.uk">http://www.audioactive.org.uk</a> or to donate visit <a href="https://secure.thebiggive.org.uk/donate/donate.php?charity_id=8255">https://secure.thebiggive.org.uk/donate/donate.php?charity_id=8255</a></p>
+]]></description>
+				<pubDate>Wed, 30 Nov 2011 00:00:00 +0000</pubDate>
+				<link>http://abemedia.co.uk/blog/announcements/web-design-for-charity-audioactive-youth-music-project</link>
+				<author>Adam Bouqdib</author>
+				<category>Announcements</category>
+				<guid isPermaLink="true">http://abemedia.co.uk/blog/announcements/web-design-for-charity-audioactive-youth-music-project</guid>
+			</item>
+		
+			<item>
+				<title><![CDATA[Create pay-on-demand content in Joomla! using Virtuemart & Chameleon]]></title>
+				<description><![CDATA[<img src="http://abemedia.co.uk/images/blog/pay-per-view.jpg" style="width:100%;"><p>Although <a href="http://www.virtuemart.net/">Virtuemart</a> offers downloadable goods out-the-box this isn’t always ideal. Say for example you run a premium (paid) video or article service and you don’t just want your visitors to be able to download the content they have bought but want them to be able to view it directly on your site whilst displaying a teaser to those who haven’t paid yet.</p>
+
+<p>This would normally be quite a task but using a library called JomGenius that comes with <a href="http://www.metamodpro.com/">Metamod &amp; Chameleon</a> it’s actually pretty simple!</p>
+
+<div class="alert alert-warning alert-dismissable">
+  <strong>NOTE:</strong> This tutorial was written for Joomla! 1.5 &amp; VirtueMart 1.19.
+</div>
+
+<h2 id="create-custom-fields-in-virtuemart">1. Create custom fields in Virtuemart</h2>
+
+<p>First of all we need to create custom fields in Virtuemart to hold the premium content.
+If you’re using phpMyAdmin, open your database with it and find the jos_vm_products table.
+Create 2 new fields, for this example I’m going to call them product_premium_content and product_premium_teaser.</p>
+
+<p>Alternatively you can create them with the following SQL command:</p>
+
+<div class="highlight"><pre><code class="language-sql" data-lang="sql"><span class="k">alter</span> <span class="k">table</span> <span class="n">jos_vm_product</span> <span class="k">add</span> <span class="p">(</span>
+    <span class="n">product_premium_content</span> <span class="nb">varchar</span><span class="p">(</span><span class="mi">200</span><span class="p">)</span> <span class="k">null</span>
+<span class="p">);</span>
+<span class="k">alter</span> <span class="k">table</span> <span class="n">jos_vm_product</span> <span class="k">add</span> <span class="p">(</span>
+    <span class="n">product_premium_teaser</span> <span class="nb">varchar</span><span class="p">(</span><span class="mi">200</span><span class="p">)</span> <span class="k">null</span>
+<span class="p">);</span></code></pre></div>
+
+<h2 id="include-custom-fields-in-virtuemart-admin-template">2. Include custom fields in Virtuemart admin template</h2>
+
+<p>Now that we have our new custom fields in the Virtuemart database we need to be able to edit their contents from within Virtuemart. To do so open administrator/components/com_virtuemart/html/product.product_form.php and around line 233 find:</p>
+
+<div class="highlight"><pre><code class="language-html-php" data-lang="html+php"><span class="nt">&lt;tr</span> <span class="na">class=</span><span class="s">&quot;row1&quot;</span><span class="nt">&gt;</span> 
+      <span class="nt">&lt;td</span> <span class="na">width=</span><span class="s">&quot;21%&quot;</span><span class="nt">&gt;&lt;div</span> <span class="na">style=</span><span class="s">&quot;text-align:right;font-weight:bold;&quot;</span><span class="nt">&gt;</span>
+          <span class="cp">&lt;?php</span> <span class="k">echo</span> <span class="nv">$VM_LANG</span><span class="o">-&gt;</span><span class="na">_</span><span class="p">(</span><span class="s1">&#39;PHPSHOP_PRODUCT_FORM_URL&#39;</span><span class="p">)</span> <span class="cp">?&gt;</span>:<span class="nt">&lt;/div&gt;</span>
+         <span class="nt">&lt;/td&gt;</span>
+         <span class="nt">&lt;td</span> <span class="na">width=</span><span class="s">&quot;79%&quot;</span><span class="nt">&gt;</span> 
+           <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;text&quot;</span> <span class="na">class=</span><span class="s">&quot;inputbox&quot;</span>  <span class="na">name=</span><span class="s">&quot;product_url&quot;</span> <span class="na">value=</span><span class="s">&quot;</span><span class="cp">&lt;?php</span> <span class="nv">$db</span><span class="o">-&gt;</span><span class="na">sp</span><span class="p">(</span><span class="s2">&quot;product_url&quot;</span><span class="p">);</span> <span class="cp">?&gt;</span><span class="s">&quot;</span> <span class="na">size=</span><span class="s">&quot;32&quot;</span> <span class="na">maxlength=</span><span class="s">&quot;255&quot;</span> <span class="nt">/&gt;</span>
+         <span class="nt">&lt;/td&gt;</span>
+   <span class="nt">&lt;/tr&gt;</span></code></pre></div>
+
+<p>Insert the following straight below:</p>
+
+<div class="highlight"><pre><code class="language-html-php" data-lang="html+php"><span class="nt">&lt;tr</span> <span class="na">class=</span><span class="s">&quot;row2&quot;</span><span class="nt">&gt;</span> 
+      <span class="nt">&lt;td</span> <span class="na">width=</span><span class="s">&quot;21%&quot;</span><span class="nt">&gt;&lt;div</span> <span class="na">style=</span><span class="s">&quot;text-align:right;font-weight:bold;&quot;</span><span class="nt">&gt;</span>
+        <span class="cp">&lt;?php</span> <span class="k">echo</span> <span class="nv">$VM_LANG</span><span class="o">-&gt;</span><span class="na">_</span><span class="p">(</span><span class="s1">&#39;PHPSHOP_PRODUCT_PREMIUM_CONTENT&#39;</span><span class="p">)</span> <span class="cp">?&gt;</span>:<span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">width=</span><span class="s">&quot;79%&quot;</span><span class="nt">&gt;</span> 
+        <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;text&quot;</span> <span class="na">class=</span><span class="s">&quot;inputbox&quot;</span>  <span class="na">name=</span><span class="s">&quot;product_premium_content&quot;</span> <span class="na">value=</span><span class="s">&quot;</span><span class="cp">&lt;?php</span> <span class="nv">$db</span><span class="o">-&gt;</span><span class="na">sp</span><span class="p">(</span><span class="s2">&quot;product_url&quot;</span><span class="p">);</span> <span class="cp">?&gt;</span><span class="s">&quot;</span> <span class="na">size=</span><span class="s">&quot;32&quot;</span> <span class="na">maxlength=</span><span class="s">&quot;255&quot;</span> <span class="nt">/&gt;</span>
+      <span class="nt">&lt;/td&gt;</span>
+  <span class="nt">&lt;/tr&gt;</span>
+  <span class="nt">&lt;tr</span> <span class="na">class=</span><span class="s">&quot;row1&quot;</span><span class="nt">&gt;</span> 
+      <span class="nt">&lt;td</span> <span class="na">width=</span><span class="s">&quot;21%&quot;</span><span class="nt">&gt;&lt;div</span> <span class="na">style=</span><span class="s">&quot;text-align:right;font-weight:bold;&quot;</span><span class="nt">&gt;</span>
+        <span class="cp">&lt;?php</span> <span class="k">echo</span> <span class="nv">$VM_LANG</span><span class="o">-&gt;</span><span class="na">_</span><span class="p">(</span><span class="s1">&#39;PHPSHOP_PRODUCT_PREMIUM_TEASER&#39;</span><span class="p">)</span> <span class="cp">?&gt;</span>:<span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">width=</span><span class="s">&quot;79%&quot;</span><span class="nt">&gt;</span> 
+        <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;text&quot;</span> <span class="na">class=</span><span class="s">&quot;inputbox&quot;</span>  <span class="na">name=</span><span class="s">&quot;product_premium_teaser&quot;</span> <span class="na">value=</span><span class="s">&quot;</span><span class="cp">&lt;?php</span> <span class="nv">$db</span><span class="o">-&gt;</span><span class="na">sp</span><span class="p">(</span><span class="s2">&quot;product_url&quot;</span><span class="p">);</span> <span class="cp">?&gt;</span><span class="s">&quot;</span> <span class="na">size=</span><span class="s">&quot;32&quot;</span> <span class="na">maxlength=</span><span class="s">&quot;255&quot;</span> <span class="nt">/&gt;</span>
+      <span class="nt">&lt;/td&gt;</span>
+  <span class="nt">&lt;/tr&gt;</span></code></pre></div>
+
+<p>To include the new fields in Virtuemart’s SQL statements when creating or updating products open /administrator/components/com_virtuemart/classes/ps_product.php and find the following command (twice) around line 310 and line 513:</p>
+
+<div class="highlight"><pre><code class="language-php" data-lang="php"><span class="nv">$fields</span> <span class="o">=</span> <span class="k">array</span> <span class="p">(</span> <span class="s1">&#39;vendor_id&#39;</span> <span class="o">=&gt;</span> <span class="nv">$vendor_id</span><span class="p">,</span></code></pre></div>
+
+<p>insert this code below it, making sure you do so for both the add() and update() function</p>
+
+<div class="highlight"><pre><code class="language-php" data-lang="php"><span class="s1">&#39;product_premium_content&#39;</span> <span class="o">=&gt;</span> <span class="nx">vmGet</span><span class="p">(</span><span class="nv">$d</span><span class="p">,</span><span class="s1">&#39;product_premium_content&#39;</span><span class="p">),</span>
+<span class="s1">&#39;product_premium_teaser&#39;</span> <span class="o">=&gt;</span> <span class="nx">vmGet</span><span class="p">(</span><span class="nv">$d</span><span class="p">,</span><span class="s1">&#39;product_premium_teaser&#39;</span><span class="p">),</span></code></pre></div>
+
+<p>Now it’s already possible to start populating Virtuemart with your products from the back-end, they just wont appear on the front-end of your website yet.</p>
+
+<h2 id="modify-virtuemart-product-details-template">3. Modify Virtuemart product details template</h2>
+<p>Next insert the premium content where you want it displayed on your product details page, in my case /components/com_virtuemart/themes/default/templates/product_details/flypage.tpl.php</p>
+
+<div class="highlight"><pre><code class="language-php" data-lang="php"><span class="cp">&lt;?php</span> <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nb">defined</span><span class="p">(</span><span class="s2">&quot;ALREADY_PURCHASED&quot;</span><span class="p">))</span> <span class="k">echo</span> <span class="nv">$product_premium_teaser</span><span class="p">;</span> <span class="cp">?&gt;</span><span class="x"></span>
+<span class="cp">&lt;?php</span> <span class="k">if</span> <span class="p">(</span><span class="nb">defined</span><span class="p">(</span><span class="s2">&quot;ALREADY_PURCHASED&quot;</span><span class="p">))</span> <span class="k">echo</span> <span class="nv">$product_premium_content</span><span class="p">;</span> <span class="cp">?&gt;</span><span class="x"></span></code></pre></div>
+
+<p>The following example displays how you could use this for a pay-on-demand video site:</p>
+
+<div class="highlight"><pre><code class="language-html-php" data-lang="html+php"><span class="nt">&lt;video</span> <span class="na">width=</span><span class="s">&quot;640&quot;</span> <span class="na">height=</span><span class="s">&quot;480&quot;</span> <span class="na">controls=</span><span class="s">&quot;controls&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;source</span> <span class="na">src=</span><span class="s">&quot;/</span><span class="cp">&lt;?php</span> <span class="k">echo</span> <span class="p">(</span><span class="o">!</span><span class="nb">defined</span><span class="p">(</span><span class="s2">&quot;ALREADY_PURCHASED&quot;</span><span class="p">))</span> <span class="o">?</span> <span class="nv">$product_premium_teaser</span> <span class="o">:</span> <span class="nv">$product_premium_content</span><span class="p">;</span> <span class="cp">?&gt;</span><span class="s">.mp4&quot;</span> <span class="na">type=</span><span class="s">&quot;video/mp4&quot;</span> <span class="nt">/&gt;</span>
+  <span class="nt">&lt;source</span> <span class="na">src=</span><span class="s">&quot;/</span><span class="cp">&lt;?php</span> <span class="k">echo</span> <span class="p">(</span><span class="o">!</span><span class="nb">defined</span><span class="p">(</span><span class="s2">&quot;ALREADY_PURCHASED&quot;</span><span class="p">))</span> <span class="o">?</span> <span class="nv">$product_premium_teaser</span> <span class="o">:</span> <span class="nv">$product_premium_content</span><span class="p">;</span> <span class="cp">?&gt;</span><span class="s">.ogg&quot;</span> <span class="na">type=</span><span class="s">&quot;video/ogg&quot;</span> <span class="nt">/&gt;</span>
+  <span class="nt">&lt;source</span> <span class="na">src=</span><span class="s">&quot;/</span><span class="cp">&lt;?php</span> <span class="k">echo</span> <span class="p">(</span><span class="o">!</span><span class="nb">defined</span><span class="p">(</span><span class="s2">&quot;ALREADY_PURCHASED&quot;</span><span class="p">))</span> <span class="o">?</span> <span class="nv">$product_premium_teaser</span> <span class="o">:</span> <span class="nv">$product_premium_content</span><span class="p">;</span> <span class="cp">?&gt;</span><span class="s">.webm&quot;</span> <span class="na">type=</span><span class="s">&quot;video/webm&quot;</span> <span class="nt">/&gt;</span>
+  <span class="nt">&lt;object</span> <span class="na">data=</span><span class="s">&quot;</span><span class="cp">&lt;?php</span> <span class="k">echo</span> <span class="p">(</span><span class="o">!</span><span class="nb">defined</span><span class="p">(</span><span class="s2">&quot;ALREADY_PURCHASED&quot;</span><span class="p">))</span> <span class="o">?</span> <span class="nv">$product_premium_teaser</span> <span class="o">:</span> <span class="nv">$product_premium_content</span><span class="p">;</span> <span class="cp">?&gt;</span><span class="s">.mp4&quot;</span> <span class="na">width=</span><span class="s">&quot;640&quot;</span> <span class="na">height=</span><span class="s">&quot;480&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;embed</span> <span class="na">src=</span><span class="s">&quot;/</span><span class="cp">&lt;?php</span> <span class="k">echo</span> <span class="p">(</span><span class="o">!</span><span class="nb">defined</span><span class="p">(</span><span class="s2">&quot;ALREADY_PURCHASED&quot;</span><span class="p">))</span> <span class="o">?</span> <span class="nv">$product_premium_teaser</span> <span class="o">:</span> <span class="nv">$product_premium_content</span><span class="p">;</span> <span class="cp">?&gt;</span><span class="s">.swf&quot;</span> <span class="na">width=</span><span class="s">&quot;640&quot;</span> <span class="na">height=</span><span class="s">&quot;480&quot;</span><span class="nt">&gt;</span>
+Your browser does not support video
+  <span class="nt">&lt;/object&gt;</span> 
+<span class="nt">&lt;/video&gt;</span></code></pre></div>
+
+<p>As you can see in my example I’m embedding a video using if (defined(“ALREADY_PURCHASED”)) to determine the URL of the flash file I’m displaying, depending on if the current user has bought the item or not.</p>
+
+<p>Feel free to adapt it to your needs as you could use the same method to display any other type of media such as a audio or video playlist or even an app (by including a php file). The possibilities are endless…</p>
+
+<h2 id="use-chameleon-to-check-if-user-has-purchased">4. Use Chameleon to check if user has purchased</h2>
+<p>This is the magical part. We need to set the variable which decides if the current user is allowed to see our premium content or not.
+This part is actually suprisingly easy! Just <a href="http://www.metamodpro.com/chameleon/download">download ChameleonLite</a> and install it in your Joomla! backend.</p>
+
+<p>Now navigate to Components -&gt; ChameleonLite -&gt; Rules and create a new Rule with the following content:</p>
+
+<div class="highlight"><pre><code class="language-php" data-lang="php"><span class="nv">$vm</span> <span class="o">=</span> <span class="nx">JomGenius</span><span class="p">(</span><span class="s2">&quot;virtuemart&quot;</span><span class="p">);</span>
+<span class="nv">$product_id</span> <span class="o">=</span> <span class="nv">$vm</span><span class="o">-&gt;</span><span class="na">info</span><span class="p">(</span><span class="s2">&quot;product_id&quot;</span><span class="p">);</span>
+<span class="k">if</span> <span class="p">(</span><span class="nv">$product_id</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nv">$vm</span><span class="o">-&gt;</span><span class="na">check</span><span class="p">(</span><span class="s2">&quot;previous_purchase_product_ids  = &quot;</span><span class="p">,</span><span class="nv">$product_id</span><span class="p">))</span> <span class="nb">define</span><span class="p">(</span><span class="s2">&quot;ALREADY_PURCHASED&quot;</span><span class="p">,</span> <span class="k">true</span><span class="p">);</span>
+<span class="p">}</span></code></pre></div>
+
+<p>Job done. We have a catalog of premium content which only displays a teaser until the content has been unlocked by the customer. A great thanks to Stephen from <a href="http://www.metamodpro.com/">metamodpro.com</a> for integrating this feature in JomGenius!</p>
+
+<p><strong>A note to sh404sef users:</strong> make sure the Chameleon plugin executes AFTER sh404sef.</p>
+]]></description>
+				<pubDate>Sat, 15 Oct 2011 00:00:00 +0100</pubDate>
+				<link>http://abemedia.co.uk/blog/tutorials/create-pay-on-demand-content-in-joomla-using-virtuemart-chameleon</link>
+				<author>Adam Bouqdib</author>
+				<category>Tutorials</category>
+				<guid isPermaLink="true">http://abemedia.co.uk/blog/tutorials/create-pay-on-demand-content-in-joomla-using-virtuemart-chameleon</guid>
+			</item>
+		
+			<item>
+				<title><![CDATA[New website online]]></title>
+				<description><![CDATA[<img src="http://abemedia.co.uk/images/blog/abemedia-trinity.jpg" style="width:100%;"><p>We have finally launched our new site with a fresh website design. 
+As you might have noticed we have stripped out quite a bit of clutter to make our website clearer and simpler to navigate.</p>
+
+<p>There’s still more to come so it’s still not 100% done but since we’re really busy with client work at the moment it might still take a while so we didn’t want to hold back any longer!</p>
+
+<h3 id="so-whats-new">So what’s new?</h3>
+
+<p>Not only have we completely redesigned our site to make it faster &amp; improve usability, we have also added a few new bits.</p>
+
+<ul>
+  <li><strong>Portfolio</strong> - After stripping a lot of our older projects out of the portfolio, we’ve given the layout a makeover featuring nice big images, a couple of testimonials (more to come) and a cool jQuery sliding effect. Visit our website design portfolio and click on the little “Next” button on the right hand side to check it out.</li>
+  <li><strong>Our Team</strong> - We figured you’d probably like to know who designs the websites at ABE Media, so we’ve removed all the technical blurb about server structures etc. from the about us page and replaced it with a little photo and introduction about ourselves.</li>
+  <li><strong>Blog</strong> - To keep you up to date with what’s happening at ABE Media and share occasional tutorials or website design &amp; SEO tips we’ve created this very blog you’re reading. Watch this space!</li>
+</ul>
+
+<h3 id="whats-next">What’s next?</h3>
+
+<ul>
+  <li><strong>Resources / Downloads</strong> - From being in the web design &amp; development trade for over 7 years now we’ve accumulated a fair number of PHP scripts, in particular Joomla extensions, which we’ve written for our clients. Where am I getting with this you ask? Exactly! As soon as we have a little more time on our hands we will be cleaning them up and sharing them right here on www.abemedia.co.uk.</li>
+  <li><strong>Ticket Support</strong> - You might have noticed a slightly slower turnaround on support requests lately. This is due to the sheer amount of emails we’re getting these days so to ensure we can provide top notch support for you - our valued customer we’re currently implementing a support system which will be launched in July.</li>
+</ul>
+
+<p>All in all ABE Media has come a long way and as you can imagine we’re busier than ever right now so this is all I have time for but be sure to check back soon as there’s more exciting developments to come!</p>
+]]></description>
+				<pubDate>Mon, 02 May 2011 00:00:00 +0100</pubDate>
+				<link>http://abemedia.co.uk/blog/announcements/new-website-online</link>
+				<author>Adam Bouqdib</author>
+				<category>Announcements</category>
+				<guid isPermaLink="true">http://abemedia.co.uk/blog/announcements/new-website-online</guid>
+			</item>
+		
+	</channel>
+</rss>

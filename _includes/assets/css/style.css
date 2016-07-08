@@ -504,20 +504,6 @@ figure:hover img {
 	transform: scale(1.2) rotate(-3deg);
 }
 }
-/* Blog
--------------------------------------------------- */
-.post h3 {
-	margin:0 0 15px;
-}
-.post .thumbnail {
-	margin: 0 15px 10px 0;
-}
-.post .post_meta {
-	background:#f3f3f3;
-	background: rgba(243, 243, 243, 0.5);
-	padding:10px 15px;
-	margin:15px -15px -15px;
-}
 /* Icons
 -------------------------------------------------- */
 @font-face {
@@ -816,6 +802,20 @@ figure:hover img {
 }
 
 /* Blog
+-------------------------------------------------- */
+.post h3 {
+	margin:0 0 15px;
+}
+.post .thumbnail {
+	margin: 0 15px 10px 0;
+}
+.post .post_meta {
+	background:#f3f3f3;
+	background: rgba(243, 243, 243, 0.5);
+	padding:10px 15px;
+	margin:15px -15px -15px;
+}
+/* Blog Post
 -------------------------------------------------- */
 .article-header {
 	padding-bottom: 15px;

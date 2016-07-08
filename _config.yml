@@ -15,7 +15,7 @@ gems:
   - jekyll-sitemap
 exclude:
   - Gemfile
-  - "Gemfile.lock"
+  - Gemfile.lock
 relative_permalinks: false
 
 facebook_app: 276049565908648

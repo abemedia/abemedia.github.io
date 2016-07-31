@@ -2,8 +2,8 @@
 layout: post
 title: "Web design for charity AudioActive Youth Music Project"
 categories:
-- Blog
-- Announcements
+- blog
+- announcements
 image: /images/blog/audioactive.jpg
 published: true
 author: Adam Bouqdib

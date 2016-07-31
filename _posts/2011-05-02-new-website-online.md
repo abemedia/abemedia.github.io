@@ -2,14 +2,14 @@
 layout: post
 title: "New website online"
 categories:
-- Blog
-- Announcements
+- blog
+- announcements
 image: "/images/blog/abemedia-trinity.jpg"
 published: true
 author: Adam Bouqdib
 ---
 
-We have finally launched our new site with a fresh website design. 
+We have finally launched our new site with a fresh website design.
 As you might have noticed we have stripped out quite a bit of clutter to make our website clearer and simpler to navigate.
 
 There's still more to come so it's still not 100% done but since we're really busy with client work at the moment it might still take a while so we didn't want to hold back any longer!

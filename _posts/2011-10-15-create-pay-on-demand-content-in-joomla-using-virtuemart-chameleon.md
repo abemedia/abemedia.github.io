@@ -2,8 +2,8 @@
 layout: post
 title: "Create pay-on-demand content in Joomla! using Virtuemart & Chameleon"
 categories:
-- Blog
-- Tutorials
+- blog
+- tutorials
 tags:
 - joomla
 - virtuemart
@@ -44,11 +44,11 @@ alter table jos_vm_product add (
 Now that we have our new custom fields in the Virtuemart database we need to be able to edit their contents from within Virtuemart. To do so open administrator/components/com_virtuemart/html/product.product_form.php and around line 233 find:
 
 {% highlight html+php %}
-   <tr class="row1"> 
+   <tr class="row1">
       <td width="21%"><div style="text-align:right;font-weight:bold;">
           <?php echo $VM_LANG->_('PHPSHOP_PRODUCT_FORM_URL') ?>:</div>
          </td>
-         <td width="79%"> 
+         <td width="79%">
            <input type="text" class="inputbox"  name="product_url" value="<?php $db->sp("product_url"); ?>" size="32" maxlength="255" />
          </td>
    </tr>
@@ -57,19 +57,19 @@ Now that we have our new custom fields in the Virtuemart database we need to be 
 Insert the following straight below:
 
 {% highlight html+php %}
-  <tr class="row2"> 
+  <tr class="row2">
       <td width="21%"><div style="text-align:right;font-weight:bold;">
         <?php echo $VM_LANG->_('PHPSHOP_PRODUCT_PREMIUM_CONTENT') ?>:</div>
       </td>
-      <td width="79%"> 
+      <td width="79%">
         <input type="text" class="inputbox"  name="product_premium_content" value="<?php $db->sp("product_url"); ?>" size="32" maxlength="255" />
       </td>
   </tr>
-  <tr class="row1"> 
+  <tr class="row1">
       <td width="21%"><div style="text-align:right;font-weight:bold;">
         <?php echo $VM_LANG->_('PHPSHOP_PRODUCT_PREMIUM_TEASER') ?>:</div>
       </td>
-      <td width="79%"> 
+      <td width="79%">
         <input type="text" class="inputbox"  name="product_premium_teaser" value="<?php $db->sp("product_url"); ?>" size="32" maxlength="255" />
       </td>
   </tr>
@@ -109,7 +109,7 @@ The following example displays how you could use this for a pay-on-demand video 
   <object data="<?php echo (!defined("ALREADY_PURCHASED")) ? $product_premium_teaser : $product_premium_content; ?>.mp4" width="640" height="480">
     <embed src="/<?php echo (!defined("ALREADY_PURCHASED")) ? $product_premium_teaser : $product_premium_content; ?>.swf" width="640" height="480">
 Your browser does not support video
-  </object> 
+  </object>
 </video>
 {% endhighlight %}
 

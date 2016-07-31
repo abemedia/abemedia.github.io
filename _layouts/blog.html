@@ -5,25 +5,25 @@ class: grey
 <h1 class="page-header">{{ page.title }}</h1>
 <ul class="box-list equal blog">
 {% for post in site.categories.blog %}
-  {% if post.categories contains {{page.slug}} %}
-    <li>
-          <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-            <a class="flipper" href="{{ post.url | remove:".html" }}">
-              <div class="front">
-                <div class="img"><img src="{{ post.image }}" alt="{{ post.title }}"></div>
-                <h3 class="media-heading h4">{{ post.title }}</h3>
-              </div>
-              <div class="back">
-                <div class="h4 hidden-xs">{{ post.title }}</div>
-                <small class="text-muted">{{ post.date | date: "%A, %-d %B %Y" }} in {{ post.categories | last | capitalize  }}</small>
-                <hr>{{ post.excerpt | strip_html }}
-              </div>
-            </a>
-          </div>
-      <!--a class="box" href="{{ post.url | remove:".html" }}">
-        <div class="img"><img src="{{ post.image }}" alt="{{ post.title }}"></div>
-        <h3 class="h4 media-heading">{{ post.title }}</h3>
-      </a-->
-    {% endif %} 
+{% if post.categories contains {{page.slug}} %}
+  <li>
+    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+      <a class="flipper" href="{{ post.url | remove:".html" }}">
+        <div class="front">
+          <div class="img"><img src="{{ post.image }}" alt="{{ post.title }}"></div>
+          <h3 class="media-heading h4">{{ post.title }}</h3>
+        </div>
+        <div class="back">
+          <div class="h4 hidden-xs">{{ post.title }}</div>
+          <small class="text-muted">{{ post.date | date: "%A, %-d %B %Y" }} in {{ post.categories | last | capitalize  }}</small>
+          <hr>{{ post.excerpt | strip_html }}
+        </div>
+      </a>
+    </div>
+    <!--a class="box" href="{{ post.url | remove:".html" }}">
+      <div class="img"><img src="{{ post.image }}" alt="{{ post.title }}"></div>
+      <h3 class="h4 media-heading">{{ post.title }}</h3>
+    </a-->
+{% endif %}
 {% endfor %}
 </ul>

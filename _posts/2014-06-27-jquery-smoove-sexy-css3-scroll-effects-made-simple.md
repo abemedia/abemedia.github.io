@@ -2,8 +2,8 @@
 layout: post
 title: "jQuery Smoove - Sexy CSS3 scroll effects made simple"
 categories:
-- Blog
-- Announcements
+- blog
+- announcements
 tags:
 - css
 - javascript
@@ -28,7 +28,7 @@ Smoove was built with [responsive web design](/responsive-web-design) in mind an
 
 ### Free & Open Source
 
-Yep that's right, it doesn't cost a penny and is licensed under GNU GPLv2.  
+Yep that's right, it doesn't cost a penny and is licensed under GNU GPLv2.
 Feel free to [fork it on GitHub](https://github.com/abeMedia/jquery-smoove){:target="_blank"}.
 
 ## Usage
@@ -59,7 +59,7 @@ $(".foo").smoove({moveY : '100px'});
 
 ### Using HTML5 data-attributes
 
-Alternatively you can also set the options using data-attributes. Doing so will override any parameters set in the JavaScript. 
+Alternatively you can also set the options using data-attributes. Doing so will override any parameters set in the JavaScript.
 
 **Note:** When defining options via data-attributes, CamelCase names are split with hyphens e.g. `moveY` becomes `data-move-y`.
 {: .alert .alert-warning}

@@ -19,6 +19,10 @@ bottom:
 #    title: Meet the team
 #    class: grey
 -
+    type: open-source
+    title: Open Source Projects
+    class: blue
+-
     type: testimonials
     title: What our clients say
     class: grey

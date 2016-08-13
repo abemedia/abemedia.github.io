@@ -1,0 +1,50 @@
+-
+  name: Jekyll PDF
+  homepage: http://abemedia.co.uk/jekyll-pdf/
+  repo: https://github.com/abeMedia/jekyll-pdf
+  description: Generate PDFs from Jekyll pages, posts & documents.
+  tags:
+    - ruby
+    - jekyll
+-
+  name: jQuery Smoove
+  homepage: http://smoove.js.org/
+  repo: https://github.com/abeMedia/jquery-smoove
+  description: A simple jQuery plugin for super sexy scrolling effects using CSS3.
+  tags:
+    - javascript
+    - jquery
+-
+  name: jQuery Contextify
+  homepage: http://contextify.js.org/
+  repo: https://github.com/abeMedia/jquery-contextify
+  description: A lightweight jQuery plugin for creating Bootstrap powered context menus.
+  tags:
+    - javascript
+    - jquery
+    - bootstrap
+-
+  name: jQuery Google CSE
+  homepage: https://github.com/abeMedia/jquery-gcse
+  repo: https://github.com/abeMedia/jquery-gcse
+  description: A lightweight wrapper around Google's Custom Search Engine featuring a Bootstrap theme.
+  tags:
+    - javascript
+    - jquery
+    - bootstrap
+-
+  name: jForms Module
+  homepage: http://donjoomla.com/extensions/jforms
+  repo: https://github.com/donJoomla/jforms
+  description: A Joomla module for creating AJAX forms from Joomla Forms XML specifications.
+  tags:
+    - php
+    - joomla
+-
+  name: Timeline Component
+  homepage: http://donjoomla.com/extensions/timeline
+  repo: https://github.com/donJoomla/com_timeline
+  description: A Joomla Component for creating beautiful interactive timelines.
+  tags:
+    - php
+    - joomla

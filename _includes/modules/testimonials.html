@@ -1,21 +1,17 @@
-  <div id="testimonials" class="carousel slide" data-ride="carousel" data-interval="7000">
-    <ol class="carousel-indicators">
-      {% capture i %}0{% endcapture %}
-      {% for item in site.data.testimonials %}
-      <li data-target="#testimonials" data-slide-to="{{i}}" class="{% if {{i}} == "0" %}active{% endif %}"></li>
-      {% capture i %}{{ i | plus:1 }}{% endcapture %}
-      {% endfor %}
-    </ol>
-    <div class="carousel-inner">
-      {% capture i %}0{% endcapture %}
-      {% for item in site.data.testimonials %}
-      <div class="item {% if {{i}} == "0" %}active{% endif %}">
-        <blockquote>
-          <p>{{ item.text }}</p>
-          <footer>{{ item.author }}</footer>
-        </blockquote>
-      </div>
-      {% capture i %}{{ i | plus:1 }}{% endcapture %}
-      {% endfor %}
+<div id="testimonials" class="carousel slide" data-ride="carousel" data-interval="7000">
+  <ol class="carousel-indicators">
+    {% for item in site.data.testimonials %}
+    <li data-target="#testimonials" data-slide-to="{{ forloop.index0 }}" class="{% if forloop.first %}active{% endif %}"></li>
+    {% endfor %}
+  </ol>
+  <div class="carousel-inner">
+    {% for item in site.data.testimonials %}
+    <div class="item {% if forloop.first %}active{% endif %}">
+      <blockquote>
+        <p>{{ item.text }}</p>
+        <footer>{{ item.author }}</footer>
+      </blockquote>
     </div>
+    {% endfor %}
   </div>
+</div>

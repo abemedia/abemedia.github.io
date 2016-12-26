@@ -1,22 +1,24 @@
-<div class="inner" style="padding-top:60px">{% capture i %}0{% endcapture %}
-<ul class="box-list equal">{% for post in include.params %}{% capture i %}{{ i | plus:1 }}{% endcapture %}
-  <li>
-    <div class="box">
-	  <div class="ribbon {% if {{i}} == "2" %}orange{% else %}blue{% endif %}"{% if {{i}} == "2" %} style="margin-top:-32px;"{% endif %}>
-	    <div class="ribbon-circle"><i class="fa fa-{{post.icon}} fa-3x"></i></div>
-	    <h3 class="media-heading {% if {{i}} == "2" %}h2{% endif %}">{{post.title}}</h3>
-	    <span class="h4">{% if post.price %}From &pound;{{ post.price }}{% else %}On Quotation{% endif %}</span>
+<div class="inner" style="padding-top:60px">
+  <ul class="box-list equal">
+    {% for post in include.params %}
+    <li>
+      <div class="box">
+        <div class="ribbon {% if forloop.index == 2 %}orange{% else %}blue{% endif %}"{% if forloop.index == 2 %} style="margin-top:-32px;"{% endif %}>
+          <div class="ribbon-circle"><i class="fa fa-{{ post.icon }} fa-3x"></i></div>
+          <h3 class="media-heading {% if forloop.index == 2 %}h2{% endif %}">{{ post.title }}</h3>
+          <span class="h4">{% if post.price %}From &pound;{{ post.price }}{% else %}On Quotation{% endif %}</span>
+        </div>
+        {% if post.desc %}<p>{{ post.desc }}</p>{% endif %}
+        <ul class="feature-list tip">{% for item in post.features %}{% assign feature = item | split: "|" %}
+          <li>{% if feature[1] %}<span title="{{ feature[1] }}" data-toggle="tooltip">{{ feature[0] }}</span>{% else %}{{feature[0]}}{% endif %}</li>{% endfor %}
+        </ul><br>
+        {% if post.link %}
+        <a href="{{ post.link }}" class="btn btn-info btn-lg btn-block h4">More info</a>
+        {% else %}
+        <a href="/contact" class="btn btn-danger btn-lg btn-block h4">Enquire now</a>
+        {% endif %}
       </div>
-	  {% if post.desc %}<p>{{ post.desc }}</p>{% endif %}
-	  <ul class="feature-list tip">{% for item in post.features %}{% assign feature = {{item}} | split: "|" %}
-	    <li>{% if feature[1] %}<span title="{{feature[1]}}" data-toggle="tooltip">{{feature[0]}}</span>{% else %}{{feature[0]}}{% endif %}</li>{% endfor %}
-	  </ul><br>
-	  {% if post.link %}
-	  <a href="{{ post.link }}" class="btn btn-info btn-lg btn-block h4">More info</a>
-      {% else %}
-	  <a href="/contact" class="btn btn-danger btn-lg btn-block h4">Enquire now</a>
-      {% endif %}
-	</div>{% endfor %}
-</ul>
-<div class="text-cto text-xl">Do you have any questions? <a href="/contact">Contact us now!</a></div>
+    {% endfor %}
+  </ul>
+  <div class="text-cto text-xl">Do you have any questions? <a href="/contact">Contact us now!</a></div>
 </div>

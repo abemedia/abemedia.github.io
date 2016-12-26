@@ -1,8 +1,11 @@
 <div class="inner text-center">
-  <div class="row">{% for post in include.params %}    
+  <div class="row">
+    {% for post in include.params %}
     <div class="col-md-4 col-sm-6">
-	  <i class="fa fa-{{post.icon}} fa-fw"></i>
-	  <h3>{{post.title}}</h3>
-	  {{post.content}}</div>{% endfor %}
+      <i class="fa fa-{{post.icon}} fa-fw"></i>
+      <h3>{{ post.title }}</h3>
+      {{ post.content }}
+    </div>
+    {% endfor %}
   </div>
 </div>

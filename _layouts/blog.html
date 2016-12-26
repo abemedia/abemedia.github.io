@@ -4,8 +4,8 @@ class: grey
 ---
 <h1 class="page-header">{{ page.title }}</h1>
 <ul class="box-list equal blog">
-{% for post in site.categories.blog %}
-{% if post.categories contains {{page.slug}} %}
+{% assign items = site.categories.blog | where_exp: "item", "item.categories contains page.slug" %}
+{% for post in items %}
   <li>
     <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
       <a class="flipper" href="{{ post.url | remove:".html" }}">
@@ -24,6 +24,5 @@ class: grey
       <div class="img"><img src="{{ post.image }}" alt="{{ post.title }}"></div>
       <h3 class="h4 media-heading">{{ post.title }}</h3>
     </a-->
-{% endif %}
 {% endfor %}
 </ul>

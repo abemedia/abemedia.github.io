@@ -1,12 +1,12 @@
-  <ul class="box-list">
-    {% for item in site.data.open_source %}  
-    <li><div class="box">
-      <h3>{{ item.name }}<br></h3>
-      <p>{{ item.description | newline_to_br }}</p>
-      <p class="lead">
-        <a target="_blank" class="btn btn-info" href="{{ item.homepage }}"><i class="fa fa-globe"></i> Website</a>
-        <a target="_blank" class="btn btn-info" href="{{ item.repo }}"><i class="fa fa-github"></i> Repository</a>
-      </p>
-      </div>
-    {% endfor %}
-  </ul>
+<ul class="box-list">
+  {% for item in site.data.open_source %}
+  <li><div class="box">
+    <h3>{{ item.name }}<br></h3>
+    <p>{{ item.description | newline_to_br }}</p>
+    <p class="lead">
+      <a target="_blank" class="btn btn-info" href="{{ item.homepage }}"><i class="fa fa-globe"></i> Website</a>
+      <a target="_blank" class="btn btn-info" href="{{ item.repo }}"><i class="fa fa-github"></i> Repository</a>
+    </p>
+    </div>
+  {% endfor %}
+</ul>

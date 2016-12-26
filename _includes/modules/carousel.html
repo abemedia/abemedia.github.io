@@ -1,22 +1,24 @@
   <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="7000">
     <ol class="carousel-indicators">
-      {% capture i %}0{% endcapture %}
       {% for item in site.data.slide %}
-      <li data-target="#carousel" data-slide-to="{{i}}" class="{% if {{i}} == "0" %}active{% endif %}"></li>
-      {% capture i %}{{ i | plus:1 }}{% endcapture %}
+      <li data-target="#carousel" data-slide-to="{{ forloop.index0 }}" class="{% forloop.first %}active{% endif %}"></li>
       {% endfor %}
     </ol>
     <div class="carousel-inner">
-      {% capture i %}0{% endcapture %}
       {% for item in site.data.slide %}
-      <div class="item {% if {{i}} == "0" %}active{% endif %}">
+      <div class="item {% if forloop.first %}active{% endif %}">
         <div class="row">
           <div class="col-lg-7 col-md-6 col-sm-5"><br>
-            {% if {{i}} == "0" %}<h1>{% else %}<div class="h1">{% endif %}{{ item.title }}{% if {{i}} == "0" %}</h1>{% else %}</div>{% endif %}
+            {% if forloop.first %}
+            <h1>{{ item.title }}</h1>
+            {% else %}
+            <div class="h1">{{ item.title }}</div>
+            {% endif %}
             <p class="lead">{{ item.desc }}</p>
             <p>
-			  <a class="btn btn-primary btn-lg h4" href="{{ site.baseurl }}{{ item.url }}" role="button">Read more</a>&nbsp; 
-			  <a class="btn btn-danger btn-lg h4" href="{{ site.baseurl }}contact">Get a quote</a></p>
+              <a class="btn btn-primary btn-lg h4" href="{{ site.baseurl }}{{ item.url }}" role="button">Read more</a>&nbsp;
+              <a class="btn btn-danger btn-lg h4" href="{{ site.baseurl }}contact">Get a quote</a>
+            </p>
           </div>
           <div class="col-lg-5 col-md-6 col-sm-7 hidden-xs">
             <div class="device-mockup macbook">
@@ -27,8 +29,7 @@
           </div>
         </div>
       </div>
-      {% capture i %}{{ i | plus:1 }}{% endcapture %}
       {% endfor %}
     </div>
-    <!--a class="left carousel-control" href="#carousel" data-slide="prev"><span class="icon-prev"></span></a> <a class="right carousel-control" href="#carousel" data-slide="next"><span class="icon-next"></span></a--> 
+    <!--a class="left carousel-control" href="#carousel" data-slide="prev"><span class="icon-prev"></span></a> <a class="right carousel-control" href="#carousel" data-slide="next"><span class="icon-next"></span></a-->
   </div>

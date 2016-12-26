@@ -1,4 +1,4 @@
-<a class="sr-only" href="#content">Skip to main content</a> 
+<a class="sr-only" href="#content">Skip to main content</a>
 <header class="navbar navbar-inverse navbar-fixed-top" id="navbar">
   <div class="container">
     <div class="navbar-header">
@@ -10,13 +10,15 @@
         <li{% if page.slug == "home" %} class="active"{% endif %}><a href="{{ site.baseurl }}">Home</a></li>
         <li{% if page.category == "services" %} class="active"{% endif %} class="dropdown"> <a href="{{ site.baseurl }}services" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
           <ul class="dropdown-menu">
-            {% capture i %}0{% endcapture %}{% for item in site.data.services %}{% if {{i}} < '5' %}{% capture i %}{{ i | plus:1 }}{% endcapture %}
-            <li{% if page.slug == {{item.url}} %} class="active"{% endif %}><a href="{{ site.baseurl }}{{ item.url }}">
+            {% for item in site.data.services limit:5 %}
+            <li{% if page.slug == item.url %} class="active"{% endif %}><a href="{{ site.baseurl }}{{ item.url }}">
               <img class="hidden-xs img-responsive" src="{{ item.image }}" alt="{{ item.title }}">{{ item.title }}</a>
-            {% endif %}{% endfor %}
+            </li>
+            {% endfor %}
             <li{% if page.slug == 'services' %} class="active"{% endif %}><a href="{{ site.baseurl }}services">
               <img class="hidden-xs img-responsive" src="/images/services/services.png" alt="All our services">More...</a>
-        </ul>
+            </li>
+          </ul>
         </li>
         <li{% if page.slug == "portfolio" or page.categories contains "portfolio" %} class="active"{% endif %}><a href="{{ site.baseurl }}portfolio/">Portfolio</a></li>
         <li{% if page.slug == "about" %} class="active"{% endif %}> <a href="{{ site.baseurl }}about">About</a></li>

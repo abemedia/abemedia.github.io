@@ -1,10 +1,10 @@
-        <ul class="box-list box-list-md equal">
-          {% for item in site.data.products %}
-          <li>
-          <a class="box" href="{{ site.baseurl }}{{ item.url }}">
-            <img src="{{ item.image }}" alt="{{ item.title }}">
-            <h3 class="media-heading">{{ item.title }}</h3>
-            <span class="text-muted">{{ item.desc }}</span>
-          </a>
-          {% endfor %}
-        </ul>
+<ul class="box-list box-list-md equal">
+  {% for item in site.data.products %}
+  <li>
+  <a class="box" href="{{ site.baseurl }}{{ item.url }}">
+    <img src="{{ item.image }}" alt="{{ item.title }}">
+    <h3 class="media-heading">{{ item.title }}</h3>
+    <span class="text-muted">{{ item.desc }}</span>
+  </a>
+  {% endfor %}
+</ul>

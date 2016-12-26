@@ -13,23 +13,21 @@ bottom:
     <h3>What the client said</h3>
     <blockquote>
       <p>{{ page.testimonial }}</p>
-      <small>{{ page.client }}, {{ page.title }}</small></blockquote>
-    {% endif %} 
+      <small>{{ page.client }}, {{ page.title }}</small>
+    </blockquote>
+    {% endif %}
   </div>
   <div class="col-md-7">
     {% if page.previews %}
     <div id="previews" class="carousel slide carousel-fade" data-interval="1000">
       <ol class="carousel-indicators">
-        {% capture i %}0{% endcapture %}
         {% for item in page.previews %}
-        <li data-target="#previews" data-slide-to="{{i}}" class="{% if {{i}} == "0" %}active{% endif %}"></li>
-        {% capture i %}{{ i | plus:1 }}{% endcapture %}
+        <li data-target="#previews" data-slide-to="{{ forloop.index0 }}" class="{% if forloop.first %}active{% endif %}"></li>
         {% endfor %}
       </ol>
-      <div class="carousel-inner"> 
-        {% capture i %}0{% endcapture %}
+      <div class="carousel-inner">
         {% for item in page.previews %}
-        <div class="item {% if {{i}} == "0" %}active{% endif %}">
+        <div class="item {% if forloop.first %}active{% endif %}">
           <div class="device-mockup macbook preview">
             <div class="device">
               <div class="screen"><div class="preview-img"><img src="{{ item.xl }}" alt="" draggable="false" unselectable="on"></div></div>
@@ -45,18 +43,17 @@ bottom:
           </div>
           {% endif %}
         </div>
-        {% capture i %}{{ i | plus:1 }}{% endcapture %}
-        {% endfor %} 
+        {% endfor %}
       </div>
       <!--a class="left carousel-control" href="#photoslide" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#photoslide" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a-->
     </div>
-    {% else %} 
+    {% else %}
     <div class="device-mockup macbook">
       <div class="device">
         <div class="screen"><img src="{{ page.image }}" alt=""></div>
       </div>
     </div>
-    {% endif %} 
+    {% endif %}
     <div class="text-center"><a class="btn btn-primary btn-lg btn-wide h4" href="http://{{ page.link }}" target="_blank" rel="nofollow">Visit Website</a>&nbsp; <p class="visible-xs"></p><a class="btn btn-danger btn-wide btn-lg h4" href="/contact">Get a quote</a></div>
   </div>
 </div>

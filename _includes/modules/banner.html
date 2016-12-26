@@ -1,29 +1,27 @@
-  {% if include.params.title %}{% capture title %}{{ include.params.title }}{% endcapture %}
-  {% elsif page.heading %}{% capture title %}{{ page.heading }}{% endcapture %}
-  {% else %}{% capture title %}{{ page.title }}{% endcapture %}{% endif %}
-  <div class="jumbotron {{ include.params.class }}">
-    <div class="inner">
-      <div class="row">
-        <div class="col-md-8">
-		<h1>{{ title }}</h1>
-		<p>{{ page.lead }}</p>
-	    </div>
-        <div class="col-md-4 text-center">
-		  <div class="jumbo-icon"><img class="img-responsive" src="{{page.image}}"></div>
-		  <div class="sunburst">
-		    <div class="outer">
-			  <span></span>
-			  <span></span>
-			  <span></span>
-			  <span></span>
-			  <span></span>
-			  <span></span>
-			  <span></span>
-			  <span></span>
-			  <span></span>
-			</div>
-		  </div>
-	    </div>
-	  </div>
-	</div>
+{% assign title = include.params.title | default: page.heading | default: page.title %}
+<div class="jumbotron {{ include.params.class }}">
+  <div class="inner">
+    <div class="row">
+      <div class="col-md-8">
+      <h1>{{ title }}</h1>
+      <p>{{ page.lead }}</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="jumbo-icon"><img class="img-responsive" src="{{ page.image }}"></div>
+        <div class="sunburst">
+          <div class="outer">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+</div>

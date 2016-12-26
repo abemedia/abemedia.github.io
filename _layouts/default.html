@@ -6,6 +6,7 @@
   <script data-cfasync="false">document.body.className = document.body.className + 'js';</script>
   {% include navbar.html %}
   <div id="content" class="{{ page.class }}">
+    {% if layout.top %}{% include modules.html module=layout.top %}{% endif %}
     {% if page.top %}{% include modules.html module=page.top %}{% endif %}
     <div class="container">
     {% if page.left or page.right %}
@@ -27,6 +28,7 @@
     {% else %}<div class="fullrow">{{ content }}</div>{% endif %}
     </div>
     {% if page.bottom %}{% include modules.html module=page.bottom style="container" %}{% endif %}
+    {% if layout.bottom %}{% include modules.html module=layout.bottom style="container" %}{% endif %}
   </div>
   {% include footer.html %}
   </body>

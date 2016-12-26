@@ -2,41 +2,40 @@
 layout: default
 ---
 <div class="post-inner">
-<article>
-  <header class="article-header">
-    <h1 class="page-header">{{ page.title }}</h1>
-    <div class="don-share" data-limit="3">
-      <div class="don-share-total"></div>
-      <div class="don-share-facebook"></div>
-      <div class="don-share-twitter"></div>
-      <div class="don-share-google"></div>
-      <div class="don-share-linkedin"></div>
-      <div class="don-share-pinterest"></div>
-      <div class="don-share-stumbleupon"></div>
+  <article>
+    <header class="article-header">
+      <h1 class="page-header">{{ page.title }}</h1>
+      <div class="don-share" data-limit="3">
+        <div class="don-share-total"></div>
+        <div class="don-share-facebook"></div>
+        <div class="don-share-twitter"></div>
+        <div class="don-share-google"></div>
+        <div class="don-share-linkedin"></div>
+        <div class="don-share-pinterest"></div>
+        <div class="don-share-stumbleupon"></div>
+      </div>
+      <script type="text/javascript">
+        (function() {
+          var dr = document.createElement('script');
+          dr.type = 'text/javascript'; dr.async = true;
+          dr.src = 'http://share.donreach.com/buttons.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dr);
+        })();
+      </script>
+      <img alt="{{ page.title }}" src="{{ page.image }}">
+      <div class="article-info">
+        <a href="/author/{{ page.author | replace: " ","-" | downcase  }}" rel="author" class="avatar">
+          <img class="img-thumbnail" alt="{{ page.author }}" src="/images/people/{{ page.author | replace: " ","-" | downcase  }}.jpg">
+          <span class="h5">By {{ page.author }}</span>
+        </a>
+        <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
+      </div>
+    </header>
+    <div class="article-content">{{ content }}
+      <small>Posted in <a href="{{ site.baseurl }}{{ page.categories | join: "/" }}">{{ page.categories | last | capitalize }}</a></small>
     </div>
-    <script type="text/javascript"> 
-      (function() {
-        var dr = document.createElement('script');
-        dr.type = 'text/javascript'; dr.async = true;
-        dr.src = 'http://share.donreach.com/buttons.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dr);
-      })();
-    </script>
-    <img alt="{{ page.title }}" src="{{ page.image }}">
-    <div class="article-info">
-      <a href="/author/{{ page.author | replace: " ","-" | downcase  }}" rel="author" class="avatar">
-        <img class="img-thumbnail" alt="{{ page.author }}" src="/images/people/{{ page.author | replace: " ","-" | downcase  }}.jpg">
-        <span class="h5">By {{ page.author }}</span>
-      </a>
-	<time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
-    </div>
-  </header>
-  <div class="article-content">{{ content }}
-    <small>Posted in <a href="{{ site.baseurl }}{{ page.categories | join: "/" }}">{{ page.categories | last | capitalize  }}</a></small>
-  </div>
-  
-</article>
-<hr>
-<div id="disqus_thread"></div>
+  </article>
+  <hr>
+  <div id="disqus_thread"></div>
 </div>
 <br><br>

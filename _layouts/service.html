@@ -1,66 +1,60 @@
 ---
-layout: default 
-top: 
-    type: banner 
+layout: default
+top:
+    type: banner
     style: raw
     params:
         class: blue
 ---
-  <div class="inner">
-    <div class="row">
-      <div class="col-md-5">
-        {{ content }}
-      </div>
-      <div class="col-md-7">
-        {% if page.previews %}
-        <div id="previews" class="carousel slide carousel-fade" data-interval="1000">
-          <ol class="carousel-indicators">
-            {% capture i %}0{% endcapture %}
-            {% for item in page.previews %}
-            <li data-target="#previews" data-slide-to="{{i}}" class="{% if {{i}} == "0" %}active{% endif %}"></li>
-            {% capture i %}{{ i | plus:1 }}{% endcapture %}
-            {% endfor %}
-          </ol>
-          <div class="carousel-inner"> 
-            {% capture i %}0{% endcapture %}
-            {% for item in page.previews %}
-            <div class="item {% if {{i}} == "0" %}active{% endif %}">
-              <div class="device-mockup macbook preview">
+<div class="inner">
+  <div class="row">
+    <div class="col-md-5">
+      {{ content }}
+    </div>
+    <div class="col-md-7">
+      {% if page.previews %}
+      <div id="previews" class="carousel slide carousel-fade" data-interval="1000">
+        <ol class="carousel-indicators">
+          {% for item in page.previews %}
+          <li data-target="#previews" data-slide-to="{{ forloop.index0 }}" class="{% if forloop.first %}active{% endif %}"></li>
+          {% endfor %}
+        </ol>
+        <div class="carousel-inner">
+          {% for item in page.previews %}
+          <div class="item {% if forloop.first %}active{% endif %}">
+            <div class="device-mockup macbook preview">
+              <div class="device">
+                <div class="screen"><div class="preview-img"><img src="{{ item.xl }}" alt="" draggable="false" unselectable="on"></div></div>
+              </div>
+            </div>
+            {% if item.xs %}
+            <div class="preview-phone">
+              <div class="device-mockup iphone5 preview">
                 <div class="device">
-                  <div class="screen"><div class="preview-img"><img src="{{ item.xl }}" alt="" draggable="false" unselectable="on"></div></div>
+                  <div class="screen"><div class="preview-img"><img src="{{ item.xs }}" alt="" draggable="false" unselectable="on"></div></div>
                 </div>
               </div>
-              {% if item.xs %}
-              <div class="preview-phone">
-                <div class="device-mockup iphone5 preview">
-                  <div class="device">
-                    <div class="screen"><div class="preview-img"><img src="{{ item.xs }}" alt="" draggable="false" unselectable="on"></div></div>
-                  </div>
-                </div>
-              </div>
-              {% endif %}
             </div>
-            {% capture i %}{{ i | plus:1 }}{% endcapture %}
-            {% endfor %} 
+            {% endif %}
           </div>
+          {% endfor %}
         </div>
-        {% elsif page.slides %}
-        <div id="slides" class="carousel slide" data-interval="7000" data-ride="carousel">
-          <div class="carousel-inner"> 
-            {% capture i %}0{% endcapture %}
-            {% for item in page.slides %}
-            <div class="item {% if {{i}} == "0" %}active{% endif %}">
-              <img src="{{ item }}" alt="">
-            </div>
-            {% capture i %}{{ i | plus:1 }}{% endcapture %}
-            {% endfor %} 
-          </div>
-          <a class="left carousel-control" href="#slides" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#slides" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-        </div>
-        {% else %} 
-        <img src="{{ page.slide }}" alt="{{ page.title }}" class="center-block">
-        {% endif %} 
-        <div class="text-center"><a href="{{site.baseurl}}contact" class="btn btn-danger btn-wide btn-lg h4">Find out more!</a></div>
       </div>
+      {% elsif page.slides %}
+      <div id="slides" class="carousel slide" data-interval="7000" data-ride="carousel">
+        <div class="carousel-inner">
+          {% for item in page.slides %}
+          <div class="item {% if forloop.first %}active{% endif %}">
+            <img src="{{ item }}" alt="">
+          </div>
+          {% endfor %}
+        </div>
+        <a class="left carousel-control" href="#slides" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#slides" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+      </div>
+      {% else %}
+      <img src="{{ page.slide }}" alt="{{ page.title }}" class="center-block">
+      {% endif %}
+      <div class="text-center"><a href="{{site.baseurl}}contact" class="btn btn-danger btn-wide btn-lg h4">Find out more!</a></div>
     </div>
   </div>
+</div>

@@ -1,7 +1,10 @@
-  {% if include.params.count %}{% capture count %}{{ include.params.count }}{% endcapture %}
-  {% else %}{% capture count %}3{% endcapture %}{% endif %}
-  <ul class="box-list folio">{% capture i %}0{% endcapture %}{% for post in site.categories.portfolio %}{% if {{i}} < {{count}} %}
-    {% if include.params.filter == nil or post.tags contains include.params.filter %}     
+  {% assign count = include.params.count | default: 3 %}
+  {% assign items = site.categories.portfolio %}
+  {% if include.params.filter %}
+  {% assign items = items | where_exp: "item", "item.tags contains include.params.filter" %}
+  {% endif %}
+  <ul class="box-list folio">
+    {% for post in items limit:count %}
     <li><a class="box" href="{{ post.url | remove:".html" }}">
       <figure><img alt="{{ post.name }}" src="{{ post.image }}" class="img-responsive">
         <figcaption>
@@ -10,6 +13,7 @@
             <i class="icon-{{ tag }}" data-toggle="tooltip" title="{% for service in site.data.services %}{% if tag == service.alias %}{{ service.title }}{% endif %}{% endfor %}"></i>{% endfor %}</span>
           {{ post.link }}
         </figcaption>
-      </figure></a>{% capture i %}{{ i | plus:1 }}{% endcapture %}{% endif %}{% endif %}{% endfor %}
+      </figure></a>
+    {% endfor %}
   </ul>
   <p class="text-cto">Want to see more? <a href="/portfolio">Visit our portfolio.</a></p>

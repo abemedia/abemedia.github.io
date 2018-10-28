@@ -1,8 +1,8 @@
 <ul class="box-list">
   {% for item in site.data.team %}
   <li><div class="box">
-    <a href="{{ site.baseurl }}author/{{ item.alias }}" class="avatar">
-      <img src="{{ site.baseurl }}images/people/{{ item.alias }}-xl.jpg" alt="" class="img-thumbnail" />
+    <a href="{{ site.baseurl }}/author/{{ item.alias }}" class="avatar">
+      <img src="{{ site.baseurl }}/images/people/{{ item.alias }}-xl.jpg" alt="" class="img-thumbnail" />
       <h4>{{ item.name }}<br><small>{{ item.role }}</small></h4>
     </a>
     <p class="lead">{% if item.links.twitter %}

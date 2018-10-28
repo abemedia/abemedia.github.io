@@ -1,9 +1,9 @@
 <section class="box">
   <h3 class="box-header">Filter Category</h3>
   <ul class="nav nav-list">
-    <li{% if page.slug == 'blog' %} class="active"{% endif %}><a href="{{ site.baseurl }}blog">All</a></li>
-    <li{% if page.slug == 'announcements' %} class="active"{% endif %}><a href="{{ site.baseurl }}blog/announcements">Announcements</a></li>
-    <li{% if page.slug == 'tutorials' %} class="active"{% endif %}><a href="{{ site.baseurl }}blog/tutorials">Tutorials</a></li>
+    <li{% if page.slug == 'blog' %} class="active"{% endif %}><a href="{{ site.baseurl }}/blog">All</a></li>
+    <li{% if page.slug == 'announcements' %} class="active"{% endif %}><a href="{{ site.baseurl }}/blog/announcements">Announcements</a></li>
+    <li{% if page.slug == 'tutorials' %} class="active"{% endif %}><a href="{{ site.baseurl }}/blog/tutorials">Tutorials</a></li>
   </ul>
 </section>
 <section class="box">
@@ -13,7 +13,7 @@
     {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
     {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
     {% if month != nmonth %}
-    <li><a href="{{ site.baseurl }}blog/archive/#{{ post.date | date: "%B'%y" }}">{{ post.date | date: "%B %Y" }}</a></li>
+    <li><a href="{{ site.baseurl }}/blog/archive/#{{ post.date | date: "%B'%y" }}">{{ post.date | date: "%B %Y" }}</a></li>
     {% endif %}
     {% endfor %}
   </ul>

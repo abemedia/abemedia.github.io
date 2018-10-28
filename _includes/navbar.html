@@ -3,27 +3,27 @@
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
-      <a class="navbar-brand" href="{{ site.baseurl }}"><img src="{{ site.baseurl }}images/logo.png" alt="{{ site.title }}"/></a>
+      <a class="navbar-brand" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/logo.png" alt="{{ site.title }}"/></a>
     </div>
     <nav class="navbar-collapse collapse" role="navigation">
       <ul class="nav navbar-nav">
-        <li{% if page.slug == "home" %} class="active"{% endif %}><a href="{{ site.baseurl }}">Home</a></li>
-        <li{% if page.category == "services" %} class="active"{% endif %} class="dropdown"> <a href="{{ site.baseurl }}services" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
+        <li{% if page.slug == "home" %} class="active"{% endif %}><a href="{{ site.baseurl }}/">Home</a></li>
+        <li{% if page.category == "services" %} class="active"{% endif %} class="dropdown"> <a href="{{ site.baseurl }}/services" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
           <ul class="dropdown-menu">
             {% for item in site.data.services limit:5 %}
             <li{% if page.slug == item.url %} class="active"{% endif %}><a href="{{ site.baseurl }}{{ item.url }}">
               <img class="hidden-xs img-responsive" src="{{ item.image }}" alt="{{ item.title }}">{{ item.title }}</a>
             </li>
             {% endfor %}
-            <li{% if page.slug == 'services' %} class="active"{% endif %}><a href="{{ site.baseurl }}services">
+            <li{% if page.slug == 'services' %} class="active"{% endif %}><a href="{{ site.baseurl }}/services">
               <img class="hidden-xs img-responsive" src="/images/services/services.png" alt="All our services">More...</a>
             </li>
           </ul>
         </li>
-        <li{% if page.slug == "portfolio" or page.categories contains "portfolio" %} class="active"{% endif %}><a href="{{ site.baseurl }}portfolio/">Portfolio</a></li>
-        <li{% if page.slug == "about" %} class="active"{% endif %}> <a href="{{ site.baseurl }}about">About</a></li>
-        <li{% if page.category == "blog" or page.categories contains "blog" %} class="active"{% endif %}> <a href="{{ site.baseurl }}blog/">Blog</a></li>
-        <li{% if page.slug == "contact" %} class="active"{% endif %}> <a href="{{ site.baseurl }}contact">Contact</a></li>
+        <li{% if page.slug == "portfolio" or page.categories contains "portfolio" %} class="active"{% endif %}><a href="{{ site.baseurl }}/portfolio/">Portfolio</a></li>
+        <li{% if page.slug == "about" %} class="active"{% endif %}> <a href="{{ site.baseurl }}/about">About</a></li>
+        <li{% if page.category == "blog" or page.categories contains "blog" %} class="active"{% endif %}> <a href="{{ site.baseurl }}/blog/">Blog</a></li>
+        <li{% if page.slug == "contact" %} class="active"{% endif %}> <a href="{{ site.baseurl }}/contact">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li class="hidden-sm hidden-xs"><a href="tel:+441273906909">01273 906 909</a></li>

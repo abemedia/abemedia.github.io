@@ -12,19 +12,19 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>{{ page.title }} &bull; {{ site.title }}</title>
     <meta name="description" content="{{ description }}">
     <meta name="keywords" content="{{ keywords }}">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon-precomposed" href="/images/touch-icon-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/images/touch-icon-76x76-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/touch-icon-120x120-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/touch-icon-152x152-precomposed.png">
+    <link rel="icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon-precomposed" href="{{ site.baseurl }}/images/touch-icon-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="{{ site.baseurl }}/images/touch-icon-76x76-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ site.baseurl }}/images/touch-icon-120x120-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ site.baseurl }}/images/touch-icon-152x152-precomposed.png">
     <meta name="author" content="{{ author }}">
     <link rel="canonical" href="{{ site.url }}{{ page.url | remove:"index" | remove:".html" }}" />
-    
+
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="og:description" content="{{ description }}" />
     <meta property="og:image" content="{{ image }}" />
@@ -33,16 +33,16 @@
     <meta property="og:locale" content="{{ site.locale }}"/>
     <meta property="og:url" content="{{ site.url }}{{ page.url | remove:"index" | remove:".html" }}" />
     {% if site.facebook_app %}<meta property="fb:app_id" content="{{ site.facebook_app }}" />{% endif %}
-    
+
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="@{{ site.twitter }}"/>
     <meta name="twitter:domain" content="{{ site.url }}"/>
     <meta name="twitter:creator" content="@{{ site.twitter }}"/>
-    
-    <link rel='stylesheet' href="{{ site.baseurl }}assets/style.css?{{ site.v }}" />
+
+    <link rel='stylesheet' href="{{ site.baseurl }}/assets/style.css?{{ site.v }}" />
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="http://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl }}feed.xml">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl }}/feed.xml">

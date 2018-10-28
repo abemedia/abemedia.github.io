@@ -1,48 +1,48 @@
 -
     title: Web Development
     alias: web-design
-    url: web-design-brighton
+    url: /web-design-brighton
     image: /images/services/web-development.png
     desc: "We offer professional, innovative web design &amp; development, creating accessible, web standards-compliant and SEO-friendly websites."
 -
     title: Ecommerce
     alias: ecommerce
-    url: ecommerce-web-design
+    url: /ecommerce-web-design
     image: /images/services/ecommerce.png
     desc: "No two online businesses are the same; that's why our online shops are fully customised to support your specific ecommerce strategy."
 -
     title: CMS
     alias: cms
-    url: content-management-systems-cms
+    url: /content-management-systems-cms
     image: /images/services/joomla-development.png
     desc: "Our CMS solutions are designed to simplify the publication of your content to your website without requiring any technical knowledge."
 -
     title: Mobile Web Design
     alias: mobile
-    url: responsive-web-design
+    url: /responsive-web-design
     image: /images/services/mobile-websites.png
     desc: "Dedicated mobile sites and responsive web design for mobile phones &amp; tablets. Never miss out on a sale, regardless of the users' device."
 -
     title: Digital Marketing
     alias: seo
-    url: seo
+    url: /seo
     image: /images/services/seo.png
     desc: "Effective SEO & PPC campaigns to increase your traffic, coupled with conversion optimisation to turn visitors into returning customers."
 -
     title: Joomla! Extensions
     alias: joomla-extensions
-    url: joomla-extensions
+    url: /joomla-extensions
     image: /images/services/joomla-development.png
     desc: "Having worked with Joomla! since 2007, we're experts in creating innovative & easy-to-use Joomla components, modules, plugins & templates."
 -
     title: Illustration & 3D
     alias: illustration
-    url: illustration
+    url: /illustration
     image: /images/services/illustration.png
     desc: "Make your website stand out with beautiful hand drawn or digital artworks and unique animations tailored to your specific requirements."
 -
     title: Graphic design
     alias: graphic
-    url: graphic-design
+    url: /graphic-design
     image: /images/services/graphic-design.png
     desc: "From simple logos and promotional material such as leaflets &amp; business cards to full brand identities.<br>We love graphic design!"

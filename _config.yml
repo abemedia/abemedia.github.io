@@ -20,7 +20,7 @@ relative_permalinks: false
 
 facebook_app: 276049565908648
 twitter: abemedia
-v: 40
+v: 41
 jekyll_tidy:
   exclude:
     - assets/**.*

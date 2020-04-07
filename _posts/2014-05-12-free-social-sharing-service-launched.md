@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Free social sharing service launched"
+title: Free social sharing service launched
 categories:
-- blog
-- announcements
+  - blog
+  - announcements
 tags:
-- social
-- api
-image: "/images/blog/simple-social-share-buttons.jpg"
+  - social
+  - api
+image: /images/blog/simple-social-share-buttons.jpg
 author: Adam Bouqdib
 ---
 
@@ -15,7 +15,7 @@ You might have noticed the gorgeous social sharing buttons we have on some of ou
 Well, here's the good news: You can have them for free on your site right now!
 That's right, we've just launched our very own [free social sharing service](http://share.donreach.com/)!
 
-To get them now just visit [share.donreach.com](http://share.donreach.com/), customise them using our simple form, click on *Get the code* and paste it where you want the buttons to appear on your website.
+To get them now just visit [share.donreach.com](http://share.donreach.com/), customise them using our simple form, click on _Get the code_ and paste it where you want the buttons to appear on your website.
 
 You will need a very basic understanding HTML, however simple plugins for Joomla! & WordPress are already in the works and will follow soon.
 

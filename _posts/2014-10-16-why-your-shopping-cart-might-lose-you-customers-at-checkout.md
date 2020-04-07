@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Why Your Shopping Cart Might Lose You Customers at Checkout"
+title: Why Your Shopping Cart Might Lose You Customers at Checkout
 categories:
-- blog
+  - blog
 tags:
-- ecommerce
-image: "/images/blog/cart-losing-customers.jpg"
+  - ecommerce
+image: /images/blog/cart-losing-customers.jpg
 author: Owen Andrew
 ---
 

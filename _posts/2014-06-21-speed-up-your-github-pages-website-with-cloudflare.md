@@ -1,18 +1,19 @@
 ---
 layout: post
-title: "Speed up your GitHub Pages website with CloudFlare"
+title: Speed up your GitHub Pages website with CloudFlare
 categories:
-- blog
-- tutorials
+  - blog
+  - tutorials
 tags:
-- cdn
-- website performance
-- security
-- github
-- cloudflare
-image: "/images/blog/cloudflare.jpg"
+  - cdn
+  - website performance
+  - security
+  - github
+  - cloudflare
+image: /images/blog/cloudflare.jpg
 author: Adam Bouqdib
 ---
+
 GitHub Pages is an awesome service, no doubt about that! It became even more awesome when they [rolled out updates](https://github.com/blog/1715-faster-more-awesome-github-pages){:target="_blank"} at the beginning of the year, serving all sites through a [CDN](http://en.wikipedia.org/wiki/Content_delivery_network){:target="_blank"}.
 Especially being based in the UK it would have meant a great performance boost, as up until then the websites were being loaded all the way from California and, being heavily OCD when it comes to website performance, this was costing me sleep for months. Needless to say I was thrilled about the news!
 
@@ -38,7 +39,8 @@ Once you've completed the DNS setup, hitting the big green button at the bottom 
 
 ![CloudFlare DNS Settings](/images/blog/2014-06-21-speeding-up-your-github-pages-website-with-cloudflare/cloudflare-performance-and-security-settings.jpg)
 
-<div class="alert alert-warning">The <b>full optimisations</b> setting can cause issues with some JavaScript resources &amp; plugins. If you experience problems try using the <b>basic optimisations</b> setting.</div>
+The **full optimisations** setting can cause issues with some JavaScript resources & plugins. If you experience problems try using the **basic optimisations** setting.
+{: .alert .alert-warning}
 
 Once you're happy with the settings click through to the next page and keep it open while you open your registrar's website in a new tab. You'll need the name server addresses in a moment.
 

@@ -5,10 +5,8 @@ name: Bioenergetics UK
 link: bodyflow.uk.com
 image: /images/portfolio/bioenergetics/bioenergetics.jpg
 previews:
--
-    xl: /images/portfolio/bioenergetics/bioenergetics-homepage_xl.jpg
--
-    xl: /images/portfolio/bioenergetics/what-is-bioenergetics_xl.jpg
+  - xl: /images/portfolio/bioenergetics/bioenergetics-homepage_xl.jpg
+  - xl: /images/portfolio/bioenergetics/what-is-bioenergetics_xl.jpg
 tags:
   - web-design
   - cms

@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Biggest Web Hosting & Migration Mistakes and How to Avoid Them"
+title: Biggest Web Hosting & Migration Mistakes and How to Avoid Them
 categories:
-- blog
+  - blog
 tags:
-- web hosting
-image: "/images/blog/web-hosting.jpg"
+  - web hosting
+image: /images/blog/web-hosting.jpg
 author: Owen Andrew
 ---
 
@@ -28,7 +28,7 @@ Web hosting is not a service where you can wing it on your own, and in which the
 
 ## Making the Move to a New Host
 
-So you've identified some of the [key failures with your own web host](http://www.hostt.com/3-signs-its-time-to-switch-web-hosts/){:rel=nofollow} and have decided to make the move to a new one. You now have a whole new set of potential landmines to avoid in transferring your service over to greener hosting pastures.
+So you've identified some of the [key failures with your own web host](http://www.hostt.com/3-signs-its-time-to-switch-web-hosts/){: rel="nofollow" target="_blank"} and have decided to make the move to a new one. You now have a whole new set of potential landmines to avoid in transferring your service over to greener hosting pastures.
 
 ### Downtime
 

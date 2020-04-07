@@ -5,20 +5,15 @@ name: Intergalactic Music
 link: intergalactic-music.co.uk
 image: /images/portfolio/intergalactic-music/intergalactic-music.jpg
 previews:
--
-    xl: /images/portfolio/intergalactic-music/intergalactic-music-homepage_xl.jpg
+  - xl: /images/portfolio/intergalactic-music/intergalactic-music-homepage_xl.jpg
     xs: /images/portfolio/intergalactic-music/intergalactic-music-homepage_xs.jpg
--
-    xl: /images/portfolio/intergalactic-music/event_xl.jpg
+  - xl: /images/portfolio/intergalactic-music/event_xl.jpg
     xs: /images/portfolio/intergalactic-music/event_xs.jpg
--
-    xl: /images/portfolio/intergalactic-music/basket_xl.jpg
+  - xl: /images/portfolio/intergalactic-music/basket_xl.jpg
     xs: /images/portfolio/intergalactic-music/basket_xs.jpg
--
-    xl: /images/portfolio/intergalactic-music/artists_xl.jpg
+  - xl: /images/portfolio/intergalactic-music/artists_xl.jpg
     xs: /images/portfolio/intergalactic-music/artists_xs.jpg
--
-    xl: /images/portfolio/intergalactic-music/artist-profile_xl.jpg
+  - xl: /images/portfolio/intergalactic-music/artist-profile_xl.jpg
     xs: /images/portfolio/intergalactic-music/artist-profile_xs.jpg
 tags:
   - web-design
@@ -39,4 +34,4 @@ ABE Media created a bespoke event listing & ticket sales ecommerce application w
 To effectively showcase the artists we developed a system which pulls in content from numerous feeds including YouTube, SoundCloud, Facebook & Twitter and updates the profiles automatically with fresh & up-to-date content.  
 We didn't stop there though and developed an image gallery which feeds from their Facebook page and a videos page which grabs their latest videos off YouTube.
 
-The result is a socially super-charged website which is a breeze to update and renders beautifully on any device, making it probably one of the most user-friendly ticket sales websites in the UK. 
+The result is a socially super-charged website which is a breeze to update and renders beautifully on any device, making it probably one of the most user-friendly ticket sales websites in the UK.

@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "ABE Media has evolved"
+title: ABE Media has evolved
 categories:
-- blog
-- announcements
-image: "/images/blog/new-abemedia-website.jpg"
+  - blog
+  - announcements
+image: /images/blog/new-abemedia-website.jpg
 author: Adam Bouqdib
 ---
 

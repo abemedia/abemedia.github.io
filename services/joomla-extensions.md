@@ -8,22 +8,17 @@ permalink: joomla-extensions.html
 image: /images/services/joomla-development.png
 lead: Having worked with Joomla! since 2007, we're experts in creating innovative & easy-to-use Joomla components, modules, plugins & templates.
 previews:
--
-    xl: /images/portfolio/callaways-estate-agents/callaways-estate-agents-homepage_xl.jpg
--
-    xl: /images/portfolio/callaways-estate-agents/callaways_xl_property.jpg
--
-    xl: /images/portfolio/callaways-estate-agents/callaways_xl_newhomes.jpg
--
-    xl: /images/portfolio/callaways-estate-agents/callaways_xl_blog.jpg
--
-    xl: /images/portfolio/callaways-estate-agents/callaways_xl_sell.jpg
+  - xl: /images/portfolio/callaways-estate-agents/callaways-estate-agents-homepage_xl.jpg
+  - xl: /images/portfolio/callaways-estate-agents/callaways_xl_property.jpg
+  - xl: /images/portfolio/callaways-estate-agents/callaways_xl_newhomes.jpg
+  - xl: /images/portfolio/callaways-estate-agents/callaways_xl_blog.jpg
+  - xl: /images/portfolio/callaways-estate-agents/callaways_xl_sell.jpg
 bottom:
--
-    type: services
+  - type: services
     title: Our Services
     class: grey
 ---
+
 ## Joomla Extensions
 
 At ABE Media our main focus has been Joomla! ever since we first came across it in 2007, making Joomla! our preferred choice for CMS sites and creating custom Joomla Extensions for nearly every single one.

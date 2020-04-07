@@ -3,6 +3,7 @@ layout: page
 title: Privacy Policy
 sitemap: false
 ---
+
 # Privacy Policy
 
 This privacy policy sets out how "abemedia.co.uk" uses and protects any information that you give "abemedia.co.uk" when you use this website.
@@ -24,7 +25,7 @@ We require this information to understand your needs and provide you with a bett
 
 - Internal record keeping.
 - We may use the information to improve our products and services.
-- We may periodically send promotional email about new products, special offers or other information which we think you may find interesting using the email address which you have provided. 
+- We may periodically send promotional email about new products, special offers or other information which we think you may find interesting using the email address which you have provided.
 - From time to time, we may also use your information to contact you for market research purposes. We may contact you by email, phone, fax or mail.
 - We may use the information to customise the website according to your interests.
 

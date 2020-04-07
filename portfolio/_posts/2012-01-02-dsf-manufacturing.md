@@ -5,16 +5,11 @@ name: DSF Manufacturing
 link: dsfmanufacturing.co.uk
 image: /images/portfolio/dsf-manufacturing/dsfmanufacturing.jpg
 previews:
--
-    xl: /images/portfolio/dsf-manufacturing/dsfmanufacturing-homepage_xl.jpg
--
-    xl: /images/portfolio/dsf-manufacturing/jewel-case_xl.jpg
--
-    xl: /images/portfolio/dsf-manufacturing/digipak-dvd_xl.jpg
--
-    xl: /images/portfolio/dsf-manufacturing/dvd-case_xl.jpg
--
-    xl: /images/portfolio/dsf-manufacturing/cardboard-wallet_xl.jpg
+  - xl: /images/portfolio/dsf-manufacturing/dsfmanufacturing-homepage_xl.jpg
+  - xl: /images/portfolio/dsf-manufacturing/jewel-case_xl.jpg
+  - xl: /images/portfolio/dsf-manufacturing/digipak-dvd_xl.jpg
+  - xl: /images/portfolio/dsf-manufacturing/dvd-case_xl.jpg
+  - xl: /images/portfolio/dsf-manufacturing/cardboard-wallet_xl.jpg
 tags:
   - web-design
   - ecommerce
